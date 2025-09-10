@@ -215,6 +215,68 @@ Con miras al futuro, proyectamos la integración de tecnología IoT para conecta
 
 #### 1.2.1. Antecedentes y problemática
 
+**1. What / ¿QUÉ?**
+- ¿Cuál es el problema que se está presentando?
+
+El problema es la falta de transparencia y comunicación efectiva entre los asilos y los familiares sobre el estado de salud y bienestar de los adultos mayores.
+
+**2. When / ¿CUÁNDO?**
+- ¿Cuándo estamos viendo el problema?
+
+El problema se presenta de manera continua y cotidiana, en distintos momentos del cuidado
+
+- ¿En qué momento del día o del proceso en cuestión?
+
+Ocurre principalmente durante visitas esporádicas, llamadas ocasionales o en situaciones críticas de salud cuando la información no llega a tiempo.
+
+**3. Where / ¿DÓNDE?**
+
+- ¿Dónde estamos viendo los problemas?
+
+Estamos observando los problemas tanto en centros geriátricos como en los hogares donde adultos mayores reciben cuidado por parte de familiares o cuidadores informales.
+
+- ¿En qué parte del proceso estamos viendo el problema?
+
+El problema aparece en la etapa de organización y seguimiento del trabajo colaborativo, ya que las herramientas actuales no facilitan una coordinación efectiva entre los estudiantes.
+
+**4. Who / ¿QUIÉN?**
+
+- ¿A quién le sucede?
+
+El problema afecta principalmente a los adultos mayores, a sus familiares que necesitan información clara y oportuna, y a los cuidadores (formales e informales) que enfrentan dificultades para dar un seguimiento continuo y de calidad.
+
+- ¿El problema está relacionado con las habilidades de las personas?
+
+No, está relacionado con la falta de herramientas tecnológicas, no con las capacidades de los cuidadores o familiares.
+
+**5. Why / ¿POR QUÉ?**
+
+- ¿Por qué sucede el problema?
+
+Porque no existen herramientas tecnológicas accesibles que permitan un monitoreo constante y una comunicación efectiva entre adultos mayores, cuidadores, personal médico y familiares.
+
+**6. How / ¿CÓMO?**
+
+- ¿Cómo se diferencia el problema del estado normal (óptimo)?
+
+En el problema actual, el cuidado se da con información limitada, comunicación tardía y sin monitoreo continuo.
+
+Y en el estado óptimo, el adulto mayor recibe un seguimiento constante y personalizado, los cuidadores cuentan con apoyo tecnológico y las familias tienen información clara y en tiempo real.
+
+- ¿La tendencia en la que aparece el problema es aleatoria o sigue un patrón?
+
+Sigue un patrón, ya que ocurre de forma recurrente en el cuidado diario de los adultos mayores: falta de monitoreo continuo, comunicación limitada y ausencia de alertas oportunas.
+
+**7. How Much / ¿CUÁNTO?**
+
+- ¿Cuántos problemas se dan en un día, una semana o un mes?
+
+Cada grupo puede enfrentar dificultades de coordinación varias veces por semana, especialmente en etapas críticas del curso.
+
+- ¿Cuánto dinero están implicando?
+
+Aunque no hay un gasto directo, las instituciones podrían ahorrar hasta un 30% del tiempo de gestión docente si existiera una solución automatizada que facilite el seguimiento y organización de los grupos de estudio.
+
 #### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
