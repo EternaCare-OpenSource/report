@@ -297,6 +297,130 @@ El Lean UX process es una metodología de diseño iterativa que coloca al usuari
 
 ##### 1.2.2.2. Lean UX Assumptions
 
+### User Assumptions (Suposiciones de Usuario)
+
+**¿Quiénes son nuestros usuarios?**<br>
+Nuestros usuarios son los familiares de adultos mayores, el personal de cuidado (enfermeros, cuidadores formales e informales) y los administradores de centros geriátricos. También consideramos a los profesionales de la salud que buscan mejorar la atención a través de la tecnología. La solución está pensada tanto para el cuidado institucional como para el cuidado en el hogar.
+
+**¿Dónde encaja muestro producto en su trabajo o vida?**<br>
+CareLink se integra de manera natural en las rutinas de cuidado. Para los familiares, representa una fuente confiable de información y tranquilidad sobre sus seres queridos, ya sea que estén en un asilo o en casa. Para el personal de cuidado, facilita el registro y análisis de datos de salud. Y para los administradores o familiares responsables en el hogar, permite supervisar mejor la calidad de la atención y mantener una comunicación más clara con quienes participan en el cuidado.
+
+**¿Qué problema podría afrontar nuestro producto y cómo podemos resolverlo?**<br>
+* **Problema:** Actualmente, los familiares suelen sentirse desconectados o preocupados por la falta de información sobre la salud y el bienestar de los adultos mayores. A la par, el personal enfrenta sobrecarga administrativa debido a registros manuales y comunicación dispersa. 
+* **Solución:** CareLink soluciona esto al centralizar la información clínica y emocional, brindar actualizaciones en tiempo real a las familias y optimizar el trabajo de cuidadores y responsables mediante registros intuitivos, alertas inteligentes y canales de comunicación directos.
+
+**¿Cuándo y cómo se utiliza?** <br>
+CareLink puede usarse en cualquier momento desde un dispositivo móvil o computadora. El personal lo emplea en su rutina de cuidado para registrar observaciones, los familiares acceden para consultar información y comunicarse con los cuidadores, y los administradores o responsables del hogar lo utilizan para generar reportes, evaluar la calidad del cuidado y dar seguimiento preventivo.
+
+**¿Qué características son importantes?** <br>
+
+* Registro ágil y sencillo del estado físico y emocional de los adultos mayores.
+
+* Actualizaciones en tiempo real accesibles para familiares.
+
+* Alertas automáticas ante riesgos o cambios significativos.
+
+* Panel de control con reportes visuales para administradores o familiares responsables.
+
+* Canal de comunicación directo entre familias y cuidadores.
+
+**¿Cómo debe verse nuestro producto y cómo comportarse?** <br>
+La plataforma debe tener un diseño cálido, humano y profesional, con una interfaz clara y accesible tanto para cuidadores en asilos como para familiares en el hogar. Debe transmitir confianza, mostrar la información de manera visual y fácil de entender, y funcionar de forma fluida, segura y confiable, siempre centrada en el bienestar del adulto mayor y en fortalecer la conexión emocional con sus familias.
+
+### Business Assumptions (Suposiciones de Negocio)
+
+**Necesidades y problemas**
+- **Familiares:** falta de información clara y en tiempo real sobre el estado de sus seres queridos.
+- **Cuidadores:** carga administrativa elevada por registros manuales y comunicación dispersa.
+- **Administradores/responsables en hogar:** ausencia de datos confiables para la toma de decisiones.
+
+
+**Plataforma**
+- Aplicación web y móvil que centraliza información clínica y emocional.
+- Actualizaciones en tiempo real, paneles visuales y canales de comunicación seguros.
+- Diseñada tanto para centros geriátricos como para el cuidado en el hogar.
+
+
+**Segmentación**
+- Familiares de adultos mayores (visitantes remotos y responsables en hogar).
+- Cuidadores formales: enfermeros, asistentes en centros geriátricos.
+- Cuidadores informales: familiares que cuidan en casa.
+- Administradores y profesionales de la salud interesados en datos.
+
+
+**Comportamientos**
+- Consultas frecuentes por tranquilidad y seguimiento.
+- Registros rutinarios durante las actividades de cuidado.
+- Administradores revisando reportes y tendencias para tomar decisiones.
+
+**Beneficios:**
+- **Familiares:** mayor confianza, conexión y reducción de ansiedad.
+- **Cuidadores:** menos carga administrativa y más tiempo para atención directa.
+- **Administradores:** decisiones basadas en datos y supervisión clara del servicio.
+
+
+**Captación de clientes:**
+- Marketing digital y redes sociales orientado a familiares y cuidadores.
+- Alianzas con centros geriátricos, aseguradoras y asociaciones de adultos mayores.
+- Programas piloto y recomendaciones por boca a boca.
+
+
+**Modelo de ingresos:**
+- Suscripciones mensuales para familias y centros.
+- Licencias institucionales y planes empresariales para asilos.
+- Servicios premium: integración IoT, reportes avanzados y soporte priorizado.
+
+
+**Competencia:**
+- Apps de gestión de salud y comunicación similares.
+- Diferenciador: enfoque integral para centros y hogares, información en tiempo real y conexión emocional.
+
+
+### Technical Assumptions (Suposiciones Técnicas)
+
+**Tecnología utilizada:**
+- **Frontend:** React/Angular/Vue o frameworks multiplataforma (Flutter) para web y móvil.
+- **Backend:** API REST/GraphQL en la nube, base de datos con cifrado.
+- **Notificaciones en tiempo real:** WebSockets o servicios push.
+
+**Integraciones:**
+Dispositivos IoT (wearables, sensores ambientales), pasarelas de pago y sistemas de mensajería.
+
+**Escalabilidad:**
+Arquitectura de microservicios o servidores escalables, colas para eventos y particionado de datos.
+
+### Market Assumptions (Suposiciones de Mercado)
+
+**Tamaño del mercado:**
+Mercado en expansión por el envejecimiento poblacional y demanda de soluciones remotas.
+
+**Competencia:**
+Presencia de apps de salud y plataformas locales; oportunidad en la integración hogar-centro.
+
+**Tendencias:**
+Telemedicina, monitoreo remoto y adopción de IoT en salud.
+
+### Design Assumptions (Suposiciones de Diseño)
+
+**Interacción del usuario:**
+Filtros por residente, tipo de alerta y rol de usuario (familiar, cuidador, admin).
+
+
+**Experiencia del usuario:**
+Flujos simples, accesibilidad y accesos diferenciados según perfil.
+
+
+**Colores y tipografía:**
+Paleta cálida y profesional; tipografías legibles y tamaños adecuados para lectura rápida.
+
+
+**Preferencias visuales:**
+Diseño minimalista, enfoque en visualizaciones (gráficos, timelines) y mensajes claros.
+
+
+**Prototipos y pruebas:**
+Pruebas de usabilidad con familiares, cuidadores y administradores; iteración rápida según feedback.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 ##### 1.2.2.4. Lean UX Canvas
