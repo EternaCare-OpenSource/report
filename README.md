@@ -178,6 +178,39 @@ Con miras al futuro, proyectamos la integración de tecnología IoT para conecta
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+  <tr>
+    <th colspan="2">Integrante 1</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Integrante 2 </th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <th colspan="2">Mauricio Muñoz</th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/Mauricio.png" alt="Muñoz Vilcapoma Mauricio" style="width: 500px; height: auto;"> </td>
+    <td> Soy Muñoz Vilcapoma Mauricio, estudiante de Ingeniería de Software, con el objetivo de aportar de manera significativa al mundo tecnológico a través del desarrollo de soluciones innovadoras y de alto impacto. Estoy comprometido con mi crecimiento profesional y con generar un aporte real en el campo de la ingeniería de software.
+    
+ </td>
+  </tr>
+  <tr>
+    <th colspan="2">Josue Flores Apaico</th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/JosueFlores.png" alt="Josue Flores Apaico" style="width: 500px; height: auto;"> </td>
+    <td> Soy Josue Flores es una persona creativa, perseverante y empática, con interés en áreas como la Inteligencia Artificial, ciberseguridad y ciencia de datos. Busca aplicar sus conocimientos en C++, Python, C# y Java dentro de una startup tecnológica, impulsando la innovación y la mejora continua. Cuenta con experiencia práctica en proyectos y participación en conferencias de ciberseguridad. </td>
+  </tr>
+</table>
+
 ### 1.2. Solution Profile
 
 #### 1.2.1. Antecedentes y problemática
