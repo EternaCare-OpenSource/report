@@ -423,6 +423,126 @@ Pruebas de usabilidad con familiares, cuidadores y administradores; iteración r
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
+### Hypothesis Statement 01:
+
+- **Creemos que** al optimizar el registro y la organización de datos por parte del personal de cuidado, se reducirá la carga administrativa y podrán dedicar más tiempo a la atención directa. 
+- **Sabremos que** hemos tenido éxito cuando los cuidadores reporten un ahorro considerable en tareas administrativas y mayor satisfacción laboral. 
+- **Sabremos que** esto es verdad porque se evidenciará un incremento en la cantidad de observaciones clínicas completas y registradas oportunamente.
+
+### Hypothesis Statement 02:
+
+- **Creemos que** al proporcionar a los administradores información clara y confiable sobre el estado de los residentes, se reforzará la capacidad de tomar decisiones orientadas a mejorar la calidad del servicio. 
+- **Sabremos que** tenido éxito cuando los directivos utilicen estos datos para implementar mejoras y expresen mayor confianza en sus decisiones. 
+- **Sabremos que** esto es verdad porque se verá un incremento en la aplicación de políticas basadas en evidencia y mayor satisfacción en las familias.
+
+### Hypothesis Statement 03:
+
+- **Creemos que** al ofrecer un acceso ágil y confiable a la información sobre la salud de los residentes, los familiares disminuirán su nivel de ansiedad y tendrán una percepción más positiva del cuidado recibido. 
+- **Sabremos que** hemos tenido éxito cuando más del 70% de ellos manifiesten sentirse mejor informados y tranquilos en las encuestas periódicas. 
+- **Sabremos que** esto es verdad porque aumentará la frecuencia y duración de las consultas realizadas por los familiares en la plataforma.
+
+### Hypothesis Statement 04:
+
+- **Creemos que** al ofrecer a los familiares acceso remoto y disponible en todo momento, aumentará su percepción de acompañamiento y participación en el cuidado de sus seres queridos. 
+- **Sabremos que** hemos tenido éxito cuando crezca la frecuencia de accesos y consultas fuera del horario de visitas. 
+- **Sabremos que** esto es verdad porque los familiares expresarán una mayor conexión emocional y compromiso con el proceso de cuidado.
+
+### Hypothesis Statement 05:
+
+- **Creemos que** al reducir la dependencia de canales de comunicación informales y dispersos, se minimizarán los errores y malentendidos en la atención a los residentes. 
+- **Sabremos que** hemos tenido éxito cuando disminuya el número de incidentes relacionados con falta de información o errores comunicativos. 
+- **Sabremos que** esto es verdad porque se presentarán menos quejas formales y reclamaciones tanto de familiares como del personal.
+
+### Hypothesis Statement 06:
+
+- **Creemos que** al facilitar la interpretación de tendencias y variaciones en el bienestar físico y emocional de los residentes, el personal podrá anticipar complicaciones y mejorar el seguimiento individualizado. 
+- **Sabremos que** hemos tenido éxito cuando los cuidadores reporten un uso constante de estas herramientas y mayor efectividad en intervenciones preventivas. 
+- **Sabremos que** esto es verdad porque se reducirá la aparición de complicaciones derivadas de deterioros no detectados a tiempo.
+
+### Hypothesis Statement 07:
+
+- **Creemos que** al integrar recordatorios automáticos de medicamentos y citas médicas, los familiares tendrán mayor tranquilidad al saber que no se olvidan tareas críticas.
+- **Sabremos que** hemos tenido éxito cuando se reduzcan los reportes de dosis omitidas. 
+- **Sabremos que** esto es verdad porque aumentará la puntualidad en la administración de tratamientos.
+
+### Hypothesis Statement 08:
+
+- **Creemos que** al ofrecer un historial clínico digital centralizado, se facilitará la continuidad de atención entre distintos médicos y cuidadores. 
+- **Sabremos que** hemos tenido éxito cuando los profesionales reporten menos pérdida de información. 
+- **Sabremos que** esto es verdad porque los historiales estarán completos y actualizados en todo momento.
+
+### Hypothesis Statement 09:
+
+- **Creemos que** al permitir el seguimiento de la actividad física y movilidad, se promoverá un estilo de vida más activo en los adultos mayores. 
+- **Sabremos que** hemos tenido éxito cuando aumente la cantidad de registros de actividad en la plataforma. 
+- **Sabremos que** esto es verdad porque mejorarán indicadores de movilidad y bienestar físico.
+
+### Hypothesis Statement 10:
+
+- **Creemos que** al incluir herramientas para monitorear el estado emocional (ánimo, interacciones sociales), se logrará detectar aislamiento o depresión de manera temprana. S
+- **Sabremos que** hemos tenido éxito cuando los cuidadores reporten intervenciones oportunas. 
+- **Sabremos que** esto es verdad porque se reducirán los casos de deterioro emocional no atendidos.
+
+### Hypothesis Statement 11:
+
+- **Creemos que** al permitir que los familiares dejen mensajes de apoyo o notas motivacionales, se reforzará la conexión emocional con los residentes. 
+- **Sabremos que** hemos tenido éxito cuando aumente la interacción dentro de la plataforma. 
+- **Sabremos que** esto es verdad porque los residentes se sentirán más acompañados y valorados.
+
+### Hypothesis Statement 12:
+
+- **Creemos que** al ofrecer un módulo de seguimiento nutricional, se podrá identificar deficiencias alimenticias y prevenir complicaciones de salud.
+- **Sabremos que** hemos tenido éxito cuando aumente el control y registro de dietas personalizadas para los residentes.
+- **Sabremos que** esto es verdad porque se reducirá la incidencia de problemas relacionados con la nutrición y se observarán mejoras en los indicadores de salud alimentaria.
+
+### Hypothesis Statement 13:
+
+- **Creemos que** al automatizar la generación de reportes semanales para los familiares, se incrementará la transparencia y la confianza en el cuidado de los adultos mayores.
+- **Sabremos que** hemos tenido éxito cuando los familiares expresen mayor satisfacción en las encuestas de seguimiento.
+- **Sabremos que** esto es verdad porque disminuirá la frecuencia de reclamos relacionados con la falta de información sobre el estado de los residentes.
+
+### Hypothesis Statement 14:
+
+- **Creemos que** al integrar videollamadas dentro de la plataforma, se facilitará el contacto directo sin depender de herramientas externas.
+- **Sabremos que** hemos tenido éxito cuando aumente la frecuencia de interacciones virtuales.
+- **Sabremos que** esto es verdad porque los familiares manifestarán sentirse más presentes en la vida del residente.
+
+### Hypothesis Statement 15:
+
+- **Creemos que** al incluir un sistema de calificación y retroalimentación del servicio, se incentivará la mejora continua en el cuidado.
+- **Sabremos que** hemos tenido éxito cuando los administradores utilicen los resultados para implementar cambios en los procesos y servicios.
+- **Sabremos que** esto es verdad porque se observará un aumento en la satisfacción general de las familias y una mejora en los indicadores de calidad del cuidado.
+
+### Hypothesis Statement 16:
+
+- **Creemos que** al permitir la exportación de datos clínicos y emocionales en formatos estándar, se facilitará el acceso para médicos externos o nuevas instituciones.
+- **Sabremos que** hemos tenido éxito cuando los profesionales externos reporten menos barreras para acceder a la información.
+- **Sabremos que** esto es verdad porque disminuirá la duplicidad de exámenes y diagnósticos.
+
+### Hypothesis Statement 17:
+- **Creemos que** al integrar sensores o dispositivos wearables, se obtendrá información más precisa y continua sobre la salud de los residentes.
+- **Sabremos que** hemos tenido éxito cuando aumente la cantidad de datos capturados automáticamente.
+- **Sabremos que** esto es verdad porque se reducirá la dependencia del registro manual.
+
+### Hypothesis Statement 18:
+
+- **Creemos que** al habilitar un sistema de permisos personalizados, se garantizará la seguridad y privacidad de la información sensible.
+- **Sabremos que** hemos tenido éxito cuando no se registren incidentes de accesos indebidos.
+- **Sabremos que** esto es verdad porque los usuarios confiarán más en la plataforma.
+
+### Hypothesis Statement 19:
+
+- **Creemos que** al contar con un módulo de alertas ante caídas o emergencias, se podrá actuar con mayor rapidez en situaciones críticas.
+- **Sabremos que** hemos tenido éxito cuando el tiempo de respuesta ante emergencias se reduzca significativamente.
+- **Sabremos que** esto es verdad porque habrá menos consecuencias graves por falta de atención inmediata.
+
+### Hypothesis Statement 20:
+
+- **Creemos que** al ofrecer un sistema de agenda compartida para actividades y visitas, se coordinará mejor la participación de familiares y cuidadores.  
+- **Sabremos que** hemos tenido éxito cuando aumente la asistencia a actividades programadas.  
+- **Sabremos que** esto es verdad porque los residentes tendrán mayor interacción social y emocional.
+
+
 ##### 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos Objetivo
