@@ -279,7 +279,21 @@ Aunque no hay un gasto directo, las instituciones podrían ahorrar hasta un 30% 
 
 #### 1.2.2. Lean UX Process
 
+El Lean UX process es una metodología de diseño iterativa que coloca al usuario como eje central, fomentando la colaboración constante del equipo y el trabajo en ciclos cortos. Su enfoque se basa en la investigación, las pruebas rápidas y la validación continua de las ideas para confirmar su efectividad. A diferencia de los enfoques tradicionales, minimiza la documentación extensa y prioriza la retroalimentación temprana, lo que permite validar o descartar hipótesis de forma ágil y asegurar que las soluciones respondan a las necesidades reales de los usuarios.
+
 ##### 1.2.2.1. Lean UX Problem Statements
+
+**Problem Statment 1:**
+* **Usuarios**: Familiares de adultos mayores que viven en asilos o reciben cuidado en casa.
+* **Necesidad**: Requieren mantenerse informados sobre la salud y el bienestar de sus seres queridos, pero actualmente no cuentan con acceso a información en tiempo real ni con canales de comunicación confiables y efectivos.
+
+**Problem Statment 2:**
+* **Usuarios**: Cuidadores formales en asilos y cuidadores informales en el hogar.
+* **Necesidad**: Necesitan una manera práctica y eficiente de registrar, organizar y compartir información sobre el estado físico y emocional de los adultos mayores, sin que esto interfiera con sus tareas de cuidado diarias.
+
+**Problem Statment 3:**
+* **Usuarios**: Directores y administradores de centros geriátricos, así como familiares responsables de la gestión del cuidado en casa.
+* **Necesidad**: Buscan garantizar una atención de calidad y mantener la confianza de las familias, pero carecen de herramientas basadas en datos que respalden decisiones informadas y permitan un seguimiento integral del cuidado.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
