@@ -383,42 +383,42 @@ La plataforma debe tener un diseño cálido, humano y profesional, con una inter
 - **Backend:** API REST/GraphQL en la nube, base de datos con cifrado.
 - **Notificaciones en tiempo real:** WebSockets o servicios push.
 
-**Integraciones:**
+**Integraciones:** <br>
 Dispositivos IoT (wearables, sensores ambientales), pasarelas de pago y sistemas de mensajería.
 
-**Escalabilidad:**
+**Escalabilidad:**<br>
 Arquitectura de microservicios o servidores escalables, colas para eventos y particionado de datos.
 
 ### Market Assumptions (Suposiciones de Mercado)
 
-**Tamaño del mercado:**
+**Tamaño del mercado:**<br>
 Mercado en expansión por el envejecimiento poblacional y demanda de soluciones remotas.
 
-**Competencia:**
+**Competencia:**<br>
 Presencia de apps de salud y plataformas locales; oportunidad en la integración hogar-centro.
 
-**Tendencias:**
+**Tendencias:**<br>
 Telemedicina, monitoreo remoto y adopción de IoT en salud.
 
 ### Design Assumptions (Suposiciones de Diseño)
 
-**Interacción del usuario:**
+**Interacción del usuario:**<br>
 Filtros por residente, tipo de alerta y rol de usuario (familiar, cuidador, admin).
 
 
-**Experiencia del usuario:**
+**Experiencia del usuario:**<br>
 Flujos simples, accesibilidad y accesos diferenciados según perfil.
 
 
-**Colores y tipografía:**
+**Colores y tipografía:**<br>
 Paleta cálida y profesional; tipografías legibles y tamaños adecuados para lectura rápida.
 
 
-**Preferencias visuales:**
+**Preferencias visuales:**<br>
 Diseño minimalista, enfoque en visualizaciones (gráficos, timelines) y mensajes claros.
 
 
-**Prototipos y pruebas:**
+**Prototipos y pruebas:**<br>
 Pruebas de usabilidad con familiares, cuidadores y administradores; iteración rápida según feedback.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
