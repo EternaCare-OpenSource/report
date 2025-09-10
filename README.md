@@ -164,6 +164,18 @@ Agost 2025
 
 #### 1.1.1. Descripción de la Startup
 
+Somos **EternaCare**, una startup fundada por estudiantes comprometidos con el bienestar social, con la visión de transformar la experiencia de vida de los adultos mayores mediante soluciones tecnológicas innovadoras que eleven la calidad del cuidado, tanto en centros geriátricos como en el hogar.
+
+Hemos desarrollado **CareLink**, una plataforma digital que permite monitorear en tiempo real el estado físico, emocional y mental de las personas mayores. La solución ofrece reportes detallados, alertas personalizadas y herramientas de comunicación que facilitan la coordinación entre cuidadores, familiares y personal de salud, sin importar si el cuidado se brinda en un centro especializado o en casa.
+
+De esta forma, no solo fortalecemos la atención y el acompañamiento, sino que también brindamos tranquilidad y confianza a las familias, asegurando que sus seres queridos estén bien atendidos y conectados.
+
+Con miras al futuro, proyectamos la integración de tecnología IoT para conectar dispositivos inteligentes como wearables de salud, sensores de movimiento y sistemas de monitoreo ambiental. Esto permitirá un seguimiento más preciso, preventivo y personalizado, anticipando necesidades y mejorando la seguridad y bienestar de los adultos mayores.
+
+**Misión**: Empoderar a los adultos mayores y a sus familias a través de herramientas digitales que mejoren la comunicación, el monitoreo de la salud y la calidad de vida, en el hogar y en centros de cuidado.
+
+**Visión**: En EternaCare, aspiramos a ser la plataforma líder en el cuidado integral de adultos mayores, impulsando conexiones más significativas y apoyándonos en tecnologías emergentes como el IoT para ofrecer soluciones innovadoras de bienestar.
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 ### 1.2. Solution Profile
