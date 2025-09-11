@@ -577,7 +577,7 @@ Para el desarrollo de la solución, se han identificado dos grupos de usuarios p
 
 * **Sustento Estadístico:**
     * El mercado potencial es significativo; según cifras del **Minsa**, en Lima operan más de 1,300 instituciones dedicadas al cuidado de personas de la tercera edad.
-    * La pertinencia de la herramienta es confirmada por el **Observatorio de Salud Pública del Perú**, que reporta que un 81% del personal que trabaja en estos centros considera necesaria la implementación de herramientas digitales para optimizar la calidad de la atención ofrecida.
+    * La pertinencia de la herramienta es confirmada por el **Observatorio de Salud Pública del Perú**, que reporta que un 81% del personal que trabaja en estos centros considera necesaria la implementación de herramientas digitales para optimizar la calidad de la atención ofrecida. 
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
