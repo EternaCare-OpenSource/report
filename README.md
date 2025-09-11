@@ -1,3 +1,5 @@
+<div align="center">
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150" alt="UPC Logo">
 
 # Universidad Peruana de Ciencias Aplicadas
@@ -15,9 +17,9 @@
 ## Informe de Trabajo Final
 
 
-### **Nombre del startup:* EternaCare* 
+### **Nombre del startup:* EternaCare*
 
-### **Nombre del producto:* Carlink* 
+### **Nombre del producto:* Carlink*
 
 
 ## **Integrantes**
@@ -35,8 +37,6 @@ Agosto 2025
 
 ## Registro de Versiones del Informe
 
-
-
 <table>
   <thead>
     <tr>
@@ -47,12 +47,10 @@ Agosto 2025
     </tr>
   </thead>
   <tbody>
-
   </tbody>
 </table>
 
-
-
+</div>
 
 ## Project Report Collaboration Insights
 
@@ -65,7 +63,7 @@ Agosto 2025
     - [**Profesor:** Hugo Allan Mori Paiva](#profesor-hugo-allan-mori-paiva)
     - [**Ingeniería de software**](#ingeniería-de-software)
   - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - [**Nombre del startup:** EternaCare](#nombre-del-startup-apx-01)
+    - [**Nombre de la startup:** EternaCare](#nombre-del-startup-apx-01)
     - [**Nombre del producto:** Carlink](#nombre-del-producto-eduhive)
   - [**Integrantes**](#integrantes)
   - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
@@ -316,4 +314,5 @@ Agosto 2025
 ## Bibliografía
 
 ## Anexos
+
 
