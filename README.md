@@ -190,27 +190,123 @@ Los competidores directos de EternaCare son plataformas con modelos de negocio s
 
 * **Quimun:** Startup chilena que se especializa en la gestión integral de residencias de adultos mayores. Su plataforma digitaliza procesos administrativos y médicos, y facilita la comunicación entre familiares y el personal de cuidado. Compite directamente en la región (Chile, Ecuador y con planes de expansión en Perú y Colombia) y ofrece funcionalidades muy parecidas a las de EternaCare, lo que la convierte en una rival clave.
 
-    - ![QUIMUN.png](images/chapter-2/QUIMUN.png)
+    <div align="center">![QUIMUN.png](images/chapter-2/QUIMUN.png)</div>
 
 * **Safe365:** Esta aplicación española se centra en el **monitoreo y localización** de personas mayores. Si bien su principal función es la seguridad y la asistencia en emergencias (botón de pánico, localización en tiempo real), también incorpora comunicación familiar. Su enfoque en la seguridad se alinea con una parte importante de la propuesta de valor de CareLink.
 
-    - ![Safe365.png](images/chapter-2/Safe365.png)
+  <div align="center">![Safe365.png](images/chapter-2/Safe365.png)</div>
 
 * **MiCuidum (Cuidum):** Una plataforma que se enfoca en la **gestión del cuidado a domicilio**. Permite a las familias monitorear y coordinar la atención del adulto mayor, facilitando la comunicación entre familiares, cuidadores y profesionales de la salud. Su modelo de asistencia domiciliaria la posiciona como una competidora directa, aunque con un enfoque específico en el hogar.
 
-    - ![Cuidum.png](images/chapter-2/Cuidum.png)
+    <div align="center">![Cuidum.png](images/chapter-2/Cuidum.png)</div>
 
 - **Competidores Indirectos**
 
 Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algunas de las necesidades de su público objetivo, pero con un modelo de negocio o un enfoque diferente, lo que las hace menos una amenaza directa.
 
 * **Mon Ami:** Esta plataforma se orienta al **bienestar social y emocional**, conectando a adultos mayores con estudiantes universitarios para compañía y asistencia en actividades diarias. A diferencia de EternaCare, su enfoque no es clínico ni de monitoreo de salud, sino de acompañamiento, cubriendo una necesidad que CareLink podría considerar secundaria pero importante.
-    - ![monami.png](images/chapter-2/monami.png)
+    <div align="center">![monami.png](images/chapter-2/monami.png)</div>
 * **Dispositivos Inteligentes y Asistentes de Voz:** Soluciones de IoT como **Blipcare** (monitores de salud) o asistentes como **Amazon Echo Show** compiten en el espacio de la gestión de salud desde el hogar. Ofrecen recordatorios de medicación y facilitan el día a día, pero carecen de la profundidad en el monitoreo integral y las funciones de comunicación familiar que son el núcleo de la plataforma CareLink.
 
-    - ![asistentes-de-voz-cover.jpg](images/chapter-2/asistentes-de-voz-cover.jpg)
+    <div align="center">![asistentes-de-voz-cover.jpg](images/chapter-2/asistentes-de-voz-cover.jpg)</div>
 
 #### 2.1.1. Análisis competitivo
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th colspan="2" style="font-size: 20px; text-align:left;">Competitive Analysis Landscape</th>
+    <th colspan="4"></th>
+  </tr>
+  <tr>
+    <td><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="5">Este análisis permite identificar fortalezas y debilidades de la startup frente a los principales competidores, así como oportunidades y amenazas del entorno, mejorando la estrategia y la propuesta de valor.</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th>CareLink<br>(EternaCare)<br><!--<img src="URL_DEL_LOGO" height="30">--></th>
+    <th>Quimun<br><img src="./images/chapter-2/QUIMUN.png" height="30"></th>
+    <th>Safe365<br><img src="./images/chapter-2/Safe365.png" height="30"></th>
+    <th>MiCuidum<br><img src="./images/chapter-2/Cuidum.png" height="30"></th>
+  </tr>
+  <tr>
+    <th>Overview</th>
+    <td>Plataforma integral para monitoreo de salud física, emocional y mental de adultos mayores; reportes, alertas, comunicación y futura integración IoT. Centrada en hogares y centros geriátricos.</td>
+    <td>Plataforma SaaS que gestiona residencias de adultos mayores, con módulos administrativos, clínicos y canal directo con familias.</td>
+    <td>App de localización y alertas, con botón de emergencia, notificaciones y localización en tiempo real para familiares.</td>
+    <td>Plataforma para la gestión y monitoreo personalizado a domicilio, red de cuidadores y acceso a profesionales de la salud.</td>
+  </tr>
+  <tr>
+    <th>Ventaja competitiva / valor</th>
+    <td>Integración hogar-centro, reportes en tiempo real, comunicación multicanal, visión tecnológica e integración IoT futura.</td>
+    <td>Gestión y digitalización avanzada institucional, optimización administrativa, alianzas en LatAm.</td>
+    <td>Líder en localización, simplicidad, foco en seguridad y tranquilidad familiar.</td>
+    <td>Personalización, red profesional de cuidadores, gestión de salud domiciliaria y comunicación familiar.</td>
+  </tr>
+  <tr>
+    <th>Mercado objetivo</th>
+    <td>Familias, cuidadores y centros geriátricos en Perú/LatAm.</td>
+    <td>Residencias y centros geriátricos.</td>
+    <td>Familias con adultos mayores autónomos/semi-independientes.</td>
+    <td>Familias que cuidan a mayores en casa.</td>
+  </tr>
+  <tr>
+    <th>Estrategias de marketing</th>
+    <td>Marketing digital, alianzas institucionales, pilotos y recomendaciones.</td>
+    <td>Venta institucional, alianzas y demos directas.</td>
+    <td>Marketing en tiendas de apps, digital.</td>
+    <td>Marketing digital, partnerships médicos y asociaciones.</td>
+  </tr>
+  <tr>
+    <th>Productos & Servicios</th>
+    <td>Web/app móvil, alertas inteligentes, reportes visuales, integración wearable/IoT, comunicación en tiempo real.</td>
+    <td>Gestión administrativa, módulos clínicos, reportes, comunicación.</td>
+    <td>App móvil, localización GPS, botón SOS.</td>
+    <td>App/web, red de cuidadores, reportes familiares, acceso médico remoto.</td>
+  </tr>
+  <tr>
+    <th>Precios & Costos</th>
+    <td>Suscripción mensual (familia/usuario), licencias institucionales/packs.</td>
+    <td>Licencias por centro/residencia (institucional).</td>
+    <td>Gratuito/premium.</td>
+    <td>Suscripciones mensuales según nivel de servicio.</td>
+  </tr>
+  <tr>
+    <th>Canales de distribución (Web y/o Móvil)</th>
+    <td>Web, App móvil (iOS y Android).</td>
+    <td>Web/SaaS para instituciones.</td>
+    <td>App móvil (iOS/Android).</td>
+    <td>Web, app móvil.</td>
+  </tr>
+  <tr>
+    <th>Fortalezas</th>
+    <td>Enfoque integral hogar-centro, comunicación en tiempo real, proyección IoT, diseño centrado en usuario latino.</td>
+    <td>Experiencia institucional, digitalización profunda, presencia regional.</td>
+    <td>Simplicidad, liderazgo en localización y respuesta rápida.</td>
+    <td>Red de cuidadores profesionales, seguimiento y personalización diaria.</td>
+  </tr>
+  <tr>
+    <th>Debilidades</th>
+    <td>Penetración baja, dependencia de aliados, nueva en el mercado, difícil adopción inicial en segmento sénior.</td>
+    <td>Útil solo para instituciones, poca flexibilidad doméstica.</td>
+    <td>Funcionalidad limitada (localización/alertas), sin módulo clínico.</td>
+    <td>Costos altos, depende de cuidador externo, enfoque solo domiciliario.</td>
+  </tr>
+  <tr>
+    <th>Oportunidades</th>
+    <td>Ampliar a nuevas regiones LatAm, alianzas con aseguradoras, integración avanzada IoT, crecimiento mercado cuidado remoto.</td>
+    <td>Expansión regional/con nuevos módulos tecnológicos.</td>
+    <td>Incluir nuevos módulos de salud, integrar con telemedicina.</td>
+    <td>Asociaciones médicas, integración IoT y generación de datos.</td>
+  </tr>
+  <tr>
+    <th>Amenazas</th>
+    <td>Nuevos actores internacionales, regulación sanitaria, adopción digital lenta.</td>
+    <td>Competidores flexibles o con visión híbrida.</td>
+    <td>Cambio en preferencia hacia plataformas clínicas integrales.</td>
+    <td>Competencia de soluciones más económicas/escalables.</td>
+  </tr>
+</table>
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
