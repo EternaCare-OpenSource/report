@@ -547,6 +547,38 @@ Pruebas de usabilidad con familiares, cuidadores y administradores; iteración r
 
 ### 1.3. Segmentos Objetivo
 
+Para el desarrollo de la solución, se han identificado dos grupos de usuarios principales cuyo perfil y necesidades son fundamentales para el dominio del problema. A continuación, se detalla cada uno, incluyendo sus características demográficas y datos estadísticos que validan su relevancia.
+
+#### a) Red de Apoyo Familiar
+
+* **Descripción del Perfil:**
+  Este grupo está compuesto por los parientes adultos (hijos, nietos, etc.) de las personas de la tercera edad que residen en centros geriátricos. Su principal motivación es la tranquilidad y la certeza de que sus seres queridos reciben una atención de calidad, especialmente cuando la distancia o las ocupaciones les impiden realizar visitas frecuentes. Buscan un canal de comunicación y seguimiento fiable sobre el estado de salud y bienestar de sus familiares.
+
+* **Características Demográficas:**
+    * **Rango de Edad:** A partir de los 18 años.
+    * **Procedencia Geográfica:** Concentrados mayormente en Lima Metropolitana, aunque también se incluyen residentes de otras regiones del Perú e incluso del extranjero que necesitan monitorear a sus familiares a distancia.
+    * **Nivel Académico:** Predomina la educación secundaria completa, técnica o superior.
+    * **Competencia Digital:** Son usuarios habituales de dispositivos móviles inteligentes y plataformas sociales, lo que indica una alta familiaridad con la tecnología digital.
+
+* **Sustento Estadístico:**
+    * La viabilidad de una solución digital se ve respaldada por datos del **INEI (2022)**, que indican que casi 7 de cada 10 hogares en Lima Metropolitana (69.7%) cuentan con conexión a Internet, facilitando el acceso a plataformas de seguimiento remoto.
+    * Adicionalmente, información del **MIMP** sugiere que existe una considerable red de apoyo, estimando que cada adulto mayor cuenta con un promedio de al menos dos familiares directamente implicados o interesados en su supervisión y cuidado.
+
+#### b) Personal Sanitario y de Cuidado
+
+* **Descripción del Perfil:**
+  Este segmento engloba a los profesionales que interactúan directamente con los residentes en los asilos, como personal de enfermería, médicos geriatras y cuidadores calificados. Dentro del sistema, ellos son los usuarios primarios encargados de la alimentación y actualización de los datos, registrando la información vital del día a día de los adultos mayores.
+
+* **Características Demográficas:**
+    * **Rango de Edad:** Generalmente entre 25 y 60 años.
+    * **Formación Profesional:** Cuentan con estudios técnicos o universitarios en áreas de la salud.
+    * **Entorno Laboral:** Desempeñan sus funciones en residencias para adultos mayores, tanto del sector público como privado, ubicadas en Lima.
+    * **Competencia Digital:** Poseen experiencia en el manejo de registros electrónicos o el uso de dispositivos móviles como parte de sus herramientas de trabajo.
+
+* **Sustento Estadístico:**
+    * El mercado potencial es significativo; según cifras del **Minsa**, en Lima operan más de 1,300 instituciones dedicadas al cuidado de personas de la tercera edad.
+    * La pertinencia de la herramienta es confirmada por el **Observatorio de Salud Pública del Perú**, que reporta que un 81% del personal que trabaja en estos centros considera necesaria la implementación de herramientas digitales para optimizar la calidad de la atención ofrecida.
+
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
