@@ -349,6 +349,60 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.2.1. Diseño de entrevistas
 
+- **Segmento A: Red de Apoyo Familiar**
+
+**Preguntas principales:**
+1. ¿Podrías contarme brevemente sobre ti? (edad, profesión, situación familiar, etc.)
+2. ¿Cuál es tu relación con el adulto mayor al que apoyas?
+3. ¿Dónde vive actualmente tu familiar adulto mayor?
+4. ¿Con qué frecuencia lo visitas o te comunicas con su cuidador/institución?
+5. ¿Qué tan importante es para ti estar informado/a sobre su salud y bienestar?
+6. ¿Qué canales usas actualmente para mantenerte informado sobre él/ella?
+7. ¿Qué tan satisfecho/a estás con la comunicación e información que recibes?
+8. ¿Cuál ha sido tu principal frustración o preocupación relacionada al seguimiento del cuidado?
+9. ¿Qué tipo de tecnología/plataforma digital preferirías o te resulta cómoda de usar?
+10. ¿Has usado alguna plataforma/app de monitoreo para adultos mayores? ¿Cuál y cómo fue tu experiencia?
+
+**Preguntas complementarias:**
+
+- ¿Qué dispositivos usas con más frecuencia para comunicarte? (celular, tablet, laptop)
+- ¿Qué apps/marcas asocias con el cuidado o bienestar de adultos mayores?
+- ¿Prefieres reportes, notificaciones, o alertas en tiempo real? ¿Por qué?
+- ¿Qué importancia das a la privacidad y seguridad de los datos familiares?
+- ¿Con qué frecuencia revisarías una plataforma/app de monitoreo?
+- ¿Qué mejorarías en el sistema de información/comunicación actual?
+- ¿Qué expectativas tienes sobre el trato humano en un sistema digital?
+- ¿Alguna experiencia positiva o negativa que recuerdes particularmente?
+
+---
+
+**Segmento B: Personal Sanitario y de Cuidado**
+
+**Preguntas principales:**
+
+1. ¿Podrías presentarte y contarnos sobre tu experiencia profesional en el cuidado de adultos mayores?
+2. ¿Cuál es tu rol actual y dónde trabajas?
+3. ¿Qué herramientas o sistemas usas para registrar y monitorear el estado de los residentes?
+4. ¿Cuáles son las principales dificultades o retos en tu trabajo diario?
+5. ¿Cómo te comunicas con las familias de los residentes y con qué frecuencia?
+6. ¿Qué importancia le das a la digitalización y automatización de registros/reportes?
+7. ¿Has usado plataformas digitales/apps para manejo de pacientes? ¿Qué te gustó y qué mejorarías?
+8. ¿Crees que la coordinación con las familias podría mejorar? ¿Cómo?
+9. ¿Qué tan sencillo te resulta adaptarte a nuevas herramientas digitales?
+10. Si imaginaras la plataforma digital ideal, ¿qué características tendría para facilitar tu trabajo?
+
+
+**Preguntas complementarias:**
+
+- ¿Qué dispositivos prefieres para el registro (PC, tablet, smartphone)?
+- ¿Qué nivel de confianza tienes usando nuevas tecnologías?
+- ¿Cómo sería un “día ideal” usando una plataforma digital?
+- ¿Te resulta útil la capacitación tecnológica? ¿La requieres?
+- ¿Qué recursos o marcas han contribuido a facilitar tu labor?
+- ¿Participas con frecuencia en capacitaciones tecnológicas?
+- ¿Te gustaría que las familias puedan interactuar más directamente desde una app?
+- ¿Sueles comentar tus experiencias digitales con colegas? ¿Influye en tu adopción tecnológica?
+
 #### 2.2.2. Registro de entrevistas
 
 #### 2.2.3. Análisis de entrevistas
