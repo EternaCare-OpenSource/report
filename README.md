@@ -198,7 +198,7 @@ Los competidores directos de EternaCare son plataformas con modelos de negocio s
 
 * **MiCuidum (Cuidum):** Una plataforma que se enfoca en la **gestión del cuidado a domicilio**. Permite a las familias monitorear y coordinar la atención del adulto mayor, facilitando la comunicación entre familiares, cuidadores y profesionales de la salud. Su modelo de asistencia domiciliaria la posiciona como una competidora directa, aunque con un enfoque específico en el hogar.
 
-
+![Cuidum.png](images/chapter-2/Cuidum.png)
 
 - **Competidores Indirectos**
 
