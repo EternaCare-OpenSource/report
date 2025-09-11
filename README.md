@@ -190,25 +190,40 @@ Los competidores directos de EternaCare son plataformas con modelos de negocio s
 
 * **Quimun:** Startup chilena que se especializa en la gestión integral de residencias de adultos mayores. Su plataforma digitaliza procesos administrativos y médicos, y facilita la comunicación entre familiares y el personal de cuidado. Compite directamente en la región (Chile, Ecuador y con planes de expansión en Perú y Colombia) y ofrece funcionalidades muy parecidas a las de EternaCare, lo que la convierte en una rival clave.
 
-    <div align="center">![QUIMUN.png](images/chapter-2/QUIMUN.png)</div>
+  <div align="center">
+  
+    ![QUIMUN.png](images/chapter-2/QUIMUN.png)
+  </div>
 
 * **Safe365:** Esta aplicación española se centra en el **monitoreo y localización** de personas mayores. Si bien su principal función es la seguridad y la asistencia en emergencias (botón de pánico, localización en tiempo real), también incorpora comunicación familiar. Su enfoque en la seguridad se alinea con una parte importante de la propuesta de valor de CareLink.
 
-  <div align="center">![Safe365.png](images/chapter-2/Safe365.png)</div>
+  <div align="center">
+  
+    ![Safe365.png](images/chapter-2/Safe365.png)
+* </div>
 
 * **MiCuidum (Cuidum):** Una plataforma que se enfoca en la **gestión del cuidado a domicilio**. Permite a las familias monitorear y coordinar la atención del adulto mayor, facilitando la comunicación entre familiares, cuidadores y profesionales de la salud. Su modelo de asistencia domiciliaria la posiciona como una competidora directa, aunque con un enfoque específico en el hogar.
 
-    <div align="center">![Cuidum.png](images/chapter-2/Cuidum.png)</div>
+  <div align="center">
+  
+    ![Cuidum.png](images/chapter-2/Cuidum.png) 
+  </div>
 
 - **Competidores Indirectos**
 
 Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algunas de las necesidades de su público objetivo, pero con un modelo de negocio o un enfoque diferente, lo que las hace menos una amenaza directa.
 
 * **Mon Ami:** Esta plataforma se orienta al **bienestar social y emocional**, conectando a adultos mayores con estudiantes universitarios para compañía y asistencia en actividades diarias. A diferencia de EternaCare, su enfoque no es clínico ni de monitoreo de salud, sino de acompañamiento, cubriendo una necesidad que CareLink podría considerar secundaria pero importante.
-    <div align="center">![monami.png](images/chapter-2/monami.png)</div>
+  <div align="center">
+
+    ![monami.png](images/chapter-2/monami.png)
+  </div>
 * **Dispositivos Inteligentes y Asistentes de Voz:** Soluciones de IoT como **Blipcare** (monitores de salud) o asistentes como **Amazon Echo Show** compiten en el espacio de la gestión de salud desde el hogar. Ofrecen recordatorios de medicación y facilitan el día a día, pero carecen de la profundidad en el monitoreo integral y las funciones de comunicación familiar que son el núcleo de la plataforma CareLink.
 
-    <div align="center">![asistentes-de-voz-cover.jpg](images/chapter-2/asistentes-de-voz-cover.jpg)</div>
+  <div align="center">
+  
+    ![asistentes-de-voz-cover.jpg](images/chapter-2/asistentes-de-voz-cover.jpg)
+  </div>
 
 #### 2.1.1. Análisis competitivo
 
@@ -309,6 +324,26 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
+1. Estrategias para afrontar fortalezas de competidores
+    - **Personalización e integración IoT**: Desarrollar alianzas tecnológicas para integrar rápidamente dispositivos IoT y wearables, superando la oferta de monitoreo tradicional de otros competidores.
+    - **Plataforma híbrida (hogar y centro)**: Enfatizar el enfoque transversal de CareLink (centros y domicilios) en campañas y demostraciones, destacando la flexibilidad frente a soluciones exclusivas para residencias o solo para el hogar.
+    - **Enfoque en experiencia de usuario latino**: Mantener una interfaz simple, local y amigable, diferenciándose de soluciones extranjeras menos adaptadas a necesidades regionales.
+
+2. Tácticas para aprovechar debilidades de competidores
+    - **Comunicación multi-canal y en tiempo real**: Publicitar las limitaciones de comunicación en competidores como Safe365 (orientado solo a alertas) y Quimun (institucional), resaltando la bidireccionalidad y personalización que ofrece CareLink para familias y cuidadores.
+    - **Ampliar servicios a segmento doméstico**: Ofrecer versiones de entrada o pilotos gratuitos para el cuidado domiciliario aprovechando que Quimun y MiCuidum no abarcan ambos segmentos de manera integral.
+    - **Servicios de valor agregado**: Proveer reportes avanzados, herramientas predictivas de salud y soporte familiar, atributos poco presentes en competidores enfocados solo en monitoreo o gestión administrativa.
+
+3. Estrategias frente a oportunidades
+    - **Alianzas estratégicas**: Buscar convenios con aseguradoras, asociaciones de adultos mayores y centros geriátricos para escalar la adopción y mejorar el reconocimiento de marca, captando oportunidades de mercado en crecimiento.
+    - **Expansión regional**: Priorizar expansión piloto en mercados vecinos (LatAm) aprovechando que varias plataformas extranjeras aún no tienen presencia física en la región.
+    - **Educación digital**: Implementar talleres y campañas para reducir las barreras de adopción tecnológica entre adultos mayores y cuidadores.
+
+4. Estrategias frente a amenazas
+    - **Cumplimiento regulatorio y privacidad**: Mantener estrictos estándares de seguridad de datos y ajustarse a la regulación sanitaria local para reducir el riesgo frente a la entrada de actores internacionales.
+    - **Innovación continua**: Desarrollar un roadmap ágil para iterar nuevas funciones basadas en feedback real de usuarios, anticipando movimientos de la competencia.
+    - **Diferenciación por costo/beneficio**: Flexibilizar planes de precios y ofrecer más valor (reportes, comunicación, soporte) por el mismo o menor costo en comparación con competidores.
 
 ### 2.2. Entrevistas
 
