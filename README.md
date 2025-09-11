@@ -23,15 +23,15 @@
 ## **Integrantes**
 
 
-| **Nombre**                             | **Codigo** |
-| -------------------------------------- | ---------- |
-| ** **        |  |
-| ** **                |  |
-| ** **     |  |
-| **Flores Apaico Josue Antonio**        | U20201F773 |
+| **Nombre**                        | **Codigo** |
+|-----------------------------------|------------|
+| **Verona Flores Italo Sebastian** | U20221E617 |
+| ** **                             |            |
+| ** **                             |            |
+| **Flores Apaico Josue Antonio**   | U20201F773 |
 
 
-Agost 2025
+Agosto 2025
 
 ## Registro de Versiones del Informe
 
