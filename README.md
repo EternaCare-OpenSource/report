@@ -349,7 +349,7 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.2.1. Diseño de entrevistas
 
-- **Segmento A: Red de Apoyo Familiar**
+**Segmento A: Red de Apoyo Familiar**
 
 **Preguntas principales:**
 1. ¿Podrías contarme brevemente sobre ti? (edad, profesión, situación familiar, etc.)
