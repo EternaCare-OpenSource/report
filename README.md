@@ -545,6 +545,9 @@ Pruebas de usabilidad con familiares, cuidadores y administradores; iteración r
 
 ##### 1.2.2.4. Lean UX Canvas
 
+<img src="./images/chapter-1/Lean-UX-Canvas.png" alt="Lean UX Canvas">
+
+
 ### 1.3. Segmentos Objetivo
 
 Para el desarrollo de la solución, se han identificado dos grupos de usuarios principales cuyo perfil y necesidades son fundamentales para el dominio del problema. A continuación, se detalla cada uno, incluyendo sus características demográficas y datos estadísticos que validan su relevancia.
