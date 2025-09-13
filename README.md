@@ -423,6 +423,64 @@ Presentamos a continuación los User Persona de cada segmento objetivo, construi
 
 #### 2.3.2. User Task Matrix
 
+
+En este apartado se detallan las actividades principales que llevan a cabo los dos **User Personas**:  
+1. **Diego Ramírez** (Enfermero y profesional de la salud que brinda atención tanto en un centro geriátrico como en hogares particulares).  
+2. **Luis Cabanillas** (Familiar de un adulto mayor que busca mantenerse informado y participar de manera activa en el cuidado de su ser querido, ya sea en un asilo o en casa).
+
+Cada fila muestra una tarea clave y su frecuencia e importancia para cada persona.
+
+
+
+| **Tareas**                                                                                  | **Diego Ramírez (Profesional de la salud)** |           | **Luis Cabanillas (Familiar)**        |           |
+|---------------------------------------------------------------------------------------------|-------------------|------------|-------------------|------------|
+|                                                                                             | **Frecuencia**    | **Importancia** | **Frecuencia**    | **Importancia** |
+| Registrar datos clínicos y observaciones diarias de los adultos mayores                     | Alta              | Alta       | Baja              | Baja       |
+| Informar a los familiares sobre el estado físico y anímico de los residentes                 | Media             | Alta       | Alta              | Alta       |
+| Ajustar y actualizar los planes de atención de acuerdo a las necesidades de cada persona    | Alta              | Alta       | Baja              | Baja       |
+| Responder consultas o dudas de los familiares                                               | Alta              | Alta       | Alta              | Alta       |
+| Acceder al historial médico completo de cada residente                                      | Alta              | Alta       | Baja              | Baja       |
+| Participar en la toma de decisiones relacionadas con tratamientos o cuidados especiales     | Alta              | Alta       | Baja              | Baja       |
+| Coordinar la comunicación entre el equipo de salud                                          | Alta              | Alta       | Baja              | Baja       |
+| Supervisar la correcta administración de medicamentos                                       | Alta              | Alta       | Baja              | Baja       |
+| Solicitar o generar reportes sobre la evolución de los residentes                           | Baja              | Alta       | Alta              | Alta       |
+| Revisar notificaciones críticas de salud (ej. caídas, cambios en signos vitales)            | Alta              | Alta       | Baja              | Baja       |
+| Coordinar con el personal para organizar visitas o cuidados adicionales                     | Baja              | Media      | Alta              | Alta       |
+| Evaluar y registrar el estado emocional de los adultos mayores                              | Media             | Alta       | Baja              | Baja       |
+| Decidir, junto a los familiares, sobre traslados o cambios en el cuidado del residente      | Baja              | Media      | Alta              | Alta       |
+| Consultar información sobre actividades sociales y recreativas disponibles                  | Baja              | Baja       | Alta              | Alta       |
+| Recibir orientación y sugerencias del personal sobre el bienestar del residente             | Baja              | Alta       | Alta              | Alta       |
+
+
+### Explicación de las Tareas con Mayor Frecuencia e Importancia  
+
+**Diego Ramírez (Profesional de la salud y cuidador):**  
+- **Registrar datos clínicos y observaciones diarias de los adultos mayores:** Alta frecuencia e importancia. Diego debe asegurarse de documentar correctamente la información médica para ofrecer un cuidado seguro.  
+- **Actualizar y ajustar los planes de atención individual:** Es una tarea constante y prioritaria, ya que debe adaptar los cuidados de acuerdo con la evolución de cada residente.  
+- **Atender dudas y consultas de los familiares:** Alta frecuencia e importancia, porque la comunicación con las familias es clave para generar confianza y transparencia.  
+
+**Luis Cabanillas (Familiar):**  
+- **Recibir información sobre el estado físico y emocional de su ser querido:** Luis le da un alto valor a esta tarea, ya que le permite mantenerse tranquilo y seguro sobre el cuidado brindado.  
+- **Solicitar reportes detallados del estado de salud:** Tiene alta importancia, pues busca información objetiva y confiable para seguir de cerca la evolución de su padre.  
+- **Coordinar visitas o cuidados adicionales con el personal:** Alta frecuencia, porque Luis desea participar activamente en las decisiones relacionadas con la atención.  
+
+---
+
+### Principales Diferencias  
+
+- **Enfoque de las tareas:** Diego se concentra en las actividades clínicas y operativas, como registros médicos y planes de cuidado. En cambio, Luis se enfoca en recibir información clara y mantener comunicación con el personal.  
+- **Toma de decisiones:** Para Diego, las decisiones son clínicas y de gestión del cuidado; para Luis, están orientadas a garantizar la calidad de vida y la tranquilidad de su familiar.  
+
+---
+
+### Coincidencias  
+
+- Ambos comparten la importancia de la **comunicación sobre el estado del residente**, aunque con roles diferentes: Diego entrega la información y Luis la recibe.  
+- La **atención a consultas o preguntas** también es una tarea en común: Diego responde como parte de su labor profesional y Luis pregunta para asegurar que el cuidado sea el adecuado.  
+
+
+
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
