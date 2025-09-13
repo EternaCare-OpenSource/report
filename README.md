@@ -411,6 +411,16 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.3.1. User Personas
 
+Presentamos a continuación los User Persona de cada segmento objetivo, construidos a partir de las características representativas de sus usuarios ideales.
+
+**Segmento 1: Red de Apoyo Familiar**
+
+<img src="./images/chapter-2/UserStorie-Familiar.png" alt="Canvas" width="400"/>
+
+**Segmento 2: Personal Sanitario y de Cuidado**
+
+<img src="./images/chapter-2/UserStorie-Profesional.png" alt="Canvas" width="400"/>
+
 #### 2.3.2. User Task Matrix
 
 #### 2.3.3. User Journey Mapping
