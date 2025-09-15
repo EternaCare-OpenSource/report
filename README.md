@@ -504,6 +504,78 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 ### 2.4. Ubiquitous Language
 
+
+El Lenguaje Ubicuo de Tempo define un conjunto de términos compartidos entre desarrolladores, profesionales de la salud y usuarios, facilitando una comunicación precisa y uniforme durante el desarrollo del sistema. Este glosario recoge los conceptos esenciales del dominio y se emplea de manera consistente en la plataforma, la documentación y las interacciones con los stakeholders.
+
+<table>
+  <tr>
+    <td>Term</td>
+    <td>Definition</td>
+  </tr>
+  <tr>
+    <td>Resident (Residente)</td>
+    <td>Persona mayor que habita en un asilo y es usuaria directa del sistema de cuidado.</td> 
+  </tr>
+  <tr>
+    <td>Family Member (Familiar)</td>
+    <td>Pariente cercano o tutor legal del residente que puede consultar, mediante la plataforma, información sobre su bienestar.</td>
+  </tr>
+  <tr>
+    <td>Caregiver (Cuidador)</td>
+    <td>Trabajador del asilo encargado de atender al residente en sus necesidades físicas, emocionales y sociales diarias.</td>
+  </tr>
+  <tr>
+    <td>Nurse (Enfermera)</td>
+    <td>Profesional de la salud responsable de realizar controles médicos y dar seguimiento al estado clínico del residente.</td>
+  </tr>
+  <tr>
+    <td>Asylum (Asilo)</td>
+    <td>Centro o institución donde los adultos mayores viven y reciben cuidados; considerado cliente directo de AgeCareDB.</td>
+  </tr>    
+  <tr>
+    <td>Medical Report (Informe Médico)</td>
+    <td>Archivo digital preparado por personal de salud que recopila el historial clínico y actualizaciones médicas del residente.</td>
+  </tr>
+  <tr>
+    <td>Daily Activity Log (Registro de Actividades Diarias)</td>
+    <td>Registro cotidiano de las actividades físicas, recreativas y sociales en las que participa el residente.</td>
+  </tr>
+</table>
+  <tr>
+    <td>Term</td>
+    <td >Definition</td>
+  </tr>
+  <tr>
+    <td >Resident (Residente)</td>
+    <td >Persona adulta mayor que vive en un asilo y es usuaria directa del sistema de atención.</td> 
+  </tr>
+  <tr>
+    <td >Family Member(Familiar)</td>
+    <td >Pariente o tutor legal del residente que tiene acceso a la información sobre su bienestar a través de la plataforma.</td>
+    <tr>
+      <td >Caregiver(Cuidador)</td>
+      <td >Personal del asilo encargado del cuidado directo del residente, incluyendo tareas físicas, emocionales y sociales.</td>
+    </tr>
+    <tr>>
+    <td >Nurse (Enfermera)</td>
+    <td >Profesional de salud que realiza evaluaciones médicas y seguimiento clínico del residente.</td>
+    </tr>
+   <tr>
+     <td >Asylum (Asilo)</td>
+     <td >Institución donde residen y reciben atención adultos mayores; cliente directo de AgeCareDB.</td>
+   </tr>    
+    <tr>
+      <td >Medical Report (Informe Médico)</td>
+      <td >Documento digital generado por el personal de salud con el historial clínico y reportes actuales del residente.</td>
+    </tr>
+    <tr>
+      <td >Daily Activity Log (Registro de Actividades Diarias)</td>
+      <td >Bitácora de las actividades físicas, sociales y recreativas en las que participa un residente cada día.</td>
+    </tr>
+</table>
+
+
+
 ## Capítulo III: Requirements specification
 
 ### 3.1. To-Be Scenario Mapping
