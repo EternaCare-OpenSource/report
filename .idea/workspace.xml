@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="Add: Interview questions for family support network and healthcare personnel">
-      <changelist_data name="Italo Verona" email="verona.flores.italo@gmail.com" automatic="false" />
+    <list default="true" id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="feat: add user journey and empathy maps images to chapter 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,6 +76,7 @@
       <updated>1757553693439</updated>
       <workItem from="1757553696169" duration="4556000" />
       <workItem from="1757616491162" duration="2840000" />
+      <workItem from="1757899457228" duration="2918000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Interview questions for family support network and healthcare personnel">
       <option name="closed" value="true" />
@@ -85,7 +86,47 @@
       <option name="project" value="LOCAL" />
       <updated>1757617912384</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: add segment one">
+      <option name="closed" value="true" />
+      <created>1757900391983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757900391983</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add segment two image">
+      <option name="closed" value="true" />
+      <created>1757900408786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757900408786</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add healthcare personnel care image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902015404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902015404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add family support network image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902029412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902029412</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add user journey and empathy maps images to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902168339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902168339</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +145,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: Interview questions for family support network and healthcare personnel" />
+    <MESSAGE value="feat: add segment one" />
+    <MESSAGE value="feat: add segment two image" />
+    <MESSAGE value="feat: add healthcare personnel care image to chapter 2" />
+    <MESSAGE value="feat: add family support network image to chapter 2" />
+    <MESSAGE value="feat: add user journey and empathy maps images to chapter 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add user journey and empathy maps images to chapter 2" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

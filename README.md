@@ -498,7 +498,9 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 ![Red-de-Apoyo-Familiar.png](images/chapter-2/Red-de-Apoyo-Familiar.png)
 
-#### 2.3.5. As-is Scenario Mapping
+#### 2.3.5. Big Picture Event Storming
+
+![Big-Picture-Event-Storming.jpg](images/chapter-2/Big-Picture-Event-Storming.jpg)
 
 ### 2.4. Ubiquitous Language
 
