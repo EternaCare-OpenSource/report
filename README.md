@@ -476,14 +476,27 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 ### Coincidencias  
 
 - Ambos comparten la importancia de la **comunicación sobre el estado del residente**, aunque con roles diferentes: Diego entrega la información y Luis la recibe.  
-- La **atención a consultas o preguntas** también es una tarea en común: Diego responde como parte de su labor profesional y Luis pregunta para asegurar que el cuidado sea el adecuado.  
-
-
-
+- La **atención a consultas o preguntas** también es una tarea en común: Diego responde como parte de su labor profesional y Luis pregunta para asegurar que el cuidado sea el adecuado.
 
 #### 2.3.3. User Journey Mapping
 
+- Segmento 1: Red de Apoyo Familiar
+
+![Red-de-Apoyo-Familiar.png](images/chapter-2/Red-de-Apoyo-Familiar.png)
+
+- Segmento 2: Personal Sanitario y de Cuidado
+
+![Personal-Sanitario-y-de-Cuidado.png](images/chapter-2/Personal-Sanitario-y-de-Cuidado.png)
+
 #### 2.3.4. Empathy Mapping
+
+- Segmento 1: Red de Apoyo Familiar
+
+![Personal-Sanitario-de-Cuidado.png](images/chapter-2/Personal-Sanitario-de-Cuidado.png)
+
+- Segmento 2: Personal Sanitario y de Cuidado
+
+![Red-de-Apoyo-Familiar.png](images/chapter-2/Red-de-Apoyo-Familiar.png)
 
 #### 2.3.5. As-is Scenario Mapping
 
