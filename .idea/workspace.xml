@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="feat: add user journey and empathy maps images to chapter 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="feat: update README with Big Picture Event Storming image and adjust related content">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <updated>1757553693439</updated>
       <workItem from="1757553696169" duration="4556000" />
       <workItem from="1757616491162" duration="2840000" />
-      <workItem from="1757899457228" duration="2918000" />
+      <workItem from="1757899457228" duration="3218000" />
     </task>
     <task id="LOCAL-00001" summary="Add: Interview questions for family support network and healthcare personnel">
       <option name="closed" value="true" />
@@ -126,7 +125,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757902168339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add Big Picture Event Storming image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757903147654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903147654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: update README with Big Picture Event Storming image and adjust related content">
+      <option name="closed" value="true" />
+      <created>1757903214411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903214411</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +165,10 @@
     <MESSAGE value="feat: add healthcare personnel care image to chapter 2" />
     <MESSAGE value="feat: add family support network image to chapter 2" />
     <MESSAGE value="feat: add user journey and empathy maps images to chapter 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add user journey and empathy maps images to chapter 2" />
+    <MESSAGE value="feat: add Big Picture Event Storming image to chapter 2" />
+    <MESSAGE value="feat: update README to include Big Picture Event Storming image and update section title in chapter 2" />
+    <MESSAGE value="feat: update README with Big Picture Event Storming image and adjust related content" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update README with Big Picture Event Storming image and adjust related content" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

@@ -492,11 +492,11 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 - Segmento 1: Red de Apoyo Familiar
 
-![Personal-Sanitario-de-Cuidado.png](images/chapter-2/Personal-Sanitario-de-Cuidado.png)
+![Red-Apoyo-Familiar.png](images/chapter-2/Red-Apoyo-Familiar.png)
 
 - Segmento 2: Personal Sanitario y de Cuidado
 
-![Red-de-Apoyo-Familiar.png](images/chapter-2/Red-de-Apoyo-Familiar.png)
+![Personal-Sanitario-de-Cuidado.png](images/chapter-2/Personal-Sanitario-de-Cuidado.png)
 
 #### 2.3.5. Big Picture Event Storming
 
