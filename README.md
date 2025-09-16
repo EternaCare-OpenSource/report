@@ -23,12 +23,13 @@
 ## **Integrantes**
 
 
-| **Nombre**                             | **Codigo** |
-| -------------------------------------- | ---------- |
-| ** **        |  |
-| ** **                |  |
-| ** **     |  |
-| **Flores Apaico Josue Antonio**        | U20201F773 |
+| **Nombre**                             | **Código**   |
+| -------------------------------------- | ------------ |
+| **Fiorella Angela Vilca Valverde**     | U20211E417   |
+| **Italo Sebastian Verona Flores**      | U20221E617   |
+| **Josue Antonio Flores Apaico**        | U20201F773   |
+| **Mauricio Rigoberto Muñoz Vilcapoma** | U202217212   |
+
 
 
 Agost 2025
