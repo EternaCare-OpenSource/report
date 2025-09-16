@@ -407,6 +407,34 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.2.3. Análisis de entrevistas
 
+**Segmento A: Red de Apoyo Familiar**
+
+Entrevista 1
+
+Nombres y Apellidos: Jorge Linares
+
+Edad: 28 años
+
+Distrito: San Miguel, Lima 
+
+Screenshot de la entrevista:
+
+<img src="./images/chapter-2/Entrevista-Jorge.png" alt="Canvas" width="600"/>
+
+URL del Video: [Jorge Linares - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/EYD8BIQme7dFq6eU1xBo3gwB1_UAachH_97qWv3bFt5ACQ?e=IMHS8n)
+
+Timing: Inicio: 0:03, Duración: aprox. 6 min 37 seg.
+
+Resumen de la Entrevista
+Jorge Linares es un nieto comprometido que asume un rol activo en el cuidado de su abuelo, a pesar de no vivir con él. Su principal motivación es la "tranquilidad" que le brinda estar constantemente informado sobre el estado de salud y bienestar general de su familiar, un aspecto que considera "muy importante". Actualmente, su interacción y seguimiento se basan en canales tradicionales como llamadas telefónicas y WhatsApp, los cuales, aunque funcionales, le generan una considerable frustración por la falta de inmediatez. Su principal punto de dolor es no recibir "información al momento, al instante", lo que deriva en sentimientos de "preocupación" e "incertidumbre".
+
+Digitalmente, Jorge es un usuario competente que utiliza con "mucha más frecuencia" su celular, pero también maneja fluidamente la laptop y navegadores web para sus estudios. No tiene experiencia previa con aplicaciones de monitoreo para adultos mayores, pero se muestra muy receptivo e interesado en probar una "aplicación práctica y sencilla". Al ser consultado sobre marcas, su mente asocia el cuidado más con herramientas de comunicación como WhatsApp que con marcas de salud específicas, lo que subraya la importancia que le da a la conexión. La funcionalidad que más valora a futuro son las "alertas en tiempo real", ya que las considera de "gran utilidad" para actuar de inmediato ante cualquier emergencia. Finalmente, demuestra una personalidad responsable y pragmática, otorgando una "mucha importancia" a la privacidad y transparencia en el manejo de los datos personales y familiares.
+
+
+
+**Segmento B: Personal Sanitario y de Cuidado**
+
+
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
