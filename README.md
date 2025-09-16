@@ -405,8 +405,6 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.2.2. Registro de entrevistas
 
-#### 2.2.3. Análisis de entrevistas
-
 **Segmento A: Red de Apoyo Familiar**
 
 Entrevista 1
@@ -415,7 +413,7 @@ Nombres y Apellidos: Jorge Linares
 
 Edad: 28 años
 
-Distrito: San Miguel, Lima 
+Distrito: San Miguel, Lima
 
 Screenshot de la entrevista:
 
@@ -434,6 +432,8 @@ Digitalmente, Jorge es un usuario competente que utiliza con "mucha más frecuen
 
 **Segmento B: Personal Sanitario y de Cuidado**
 
+
+#### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
 
