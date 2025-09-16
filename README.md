@@ -157,6 +157,18 @@ Agost 2025
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+ABET – EAC - Student Outcome 3
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. | En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. | El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. |
+
 
 ## Capitulo I
 
