@@ -226,6 +226,14 @@ Agost 2025
 
 ### 4.1. Style Guidelines
 
+#### Branding
+
+Queremos transmitir confianza, cercanía y una tecnología con enfoque humano. Para representar protección, bienestar y unión familiar, se propone incorporar íconos discretos como corazones, casas o figuras de personas mayores, acompañados de una tipografía limpia y contemporánea. La identidad de marca se fundamenta en:
+
+- **Misión:** Proporcionar soluciones tecnológicas que prioricen el bienestar de los adultos mayores, fortaleciendo la conexión con sus familias y optimizando el trabajo de los cuidadores. 
+- **Visión:** Crear entornos dignos, seguros y conectados para los adultos mayores, integrando tecnología humana que potencie la calidad del cuidado y la confianza familiar.
+
+
 #### 4.1.1. General Style Guidelines
 
 #### 4.1.2. Web Style Guidelines
