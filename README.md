@@ -234,13 +234,118 @@ Agost 2025
 
 #### 4.2.1. Organization Systems
 
+Nuestro propósito es garantizar una experiencia de usuario simple y coherente, tanto en el sitio web como en la aplicación móvil de **Carlink**. La arquitectura visual fue diseñada estratégicamente para cubrir las necesidades de los dos segmentos principales de nuestra audiencia.  
+
+Ambos perfiles cuentan con acceso a las mismas secciones, pero con diferentes niveles de permisos. Los profesionales de la salud pueden generar y gestionar reportes médicos o programar citas, mientras que los familiares tienen acceso únicamente a la visualización de estadísticas y reportes, además de contar con un canal de comunicación restringido a emergencias o consultas puntuales.  
+
+![Diagrama](./assets/Diagrama-Carlink.png)
+
+Tal como muestra el diagrama, el flujo sigue una secuencia estructurada que facilita la gestión de la salud de los pacientes y permite la interacción fluida entre médicos y familiares. A continuación, se detallan las etapas del proceso y sus funciones:
+
+1. **Landing Page**: Página de bienvenida donde los usuarios conocen los beneficios de Carlink.  
+2. **Inicio**: Permite a los usuarios ingresar con una cuenta existente o crear una nueva.  
+3. **Registro**:  
+   - **Crear Cuenta**: Ingreso manual de datos.  
+   - **Google Sign-Up**: Registro simplificado mediante una cuenta de Google.  
+   - **Completar Datos**: Formulario con información personal básica.  
+4. **Inicio de Sesión**: Acceso con credenciales previamente registradas.  
+5. **Página Principal**: Centro de navegación hacia las funciones clave de la plataforma.  
+6. **Stats**: Visualización de estadísticas médicas del paciente.  
+7. **Reports**: Generación de reportes detallados sobre evolución y estado de salud.  
+8. **Messages**: Comunicación directa entre médicos y familiares.  
+9. **Appointments**: Gestión de citas médicas, incluyendo programación y seguimiento.  
+10. **Account**: Configuración y actualización de la información del usuario.  
+
+Este flujo asegura que los médicos puedan tomar decisiones informadas, mientras que los familiares se mantienen al tanto del estado de salud del paciente en todo momento.  
+
 #### 4.2.2. Labeling Systems
+
+El sistema de etiquetado seguirá la misma lógica que la arquitectura organizacional. Cada encabezado redirige al usuario de manera intuitiva a la sección correspondiente dentro de la plataforma.  
+
+##### Secciones y contenido de la Landing Page
+
+| **Sección**  | **Contenido** |
+|-------------|---------------|
+| **Página Principal** | Punto de entrada a **Carlink**, donde se introduce la aplicación y se destacan su misión, visión y beneficios en la gestión de la salud. |
+| **About** | Explica en detalle las principales funcionalidades de Carlink, el rol de médicos y familiares y las ventajas de utilizar la plataforma. |
+| **Premium** | Presenta las características exclusivas de la versión premium, como reportes avanzados, integración con sistemas externos y mayor personalización. |
+| **Contacto** | Información de contacto con el equipo de soporte: correo técnico, canales de negocio y redes sociales. |
+| **Log In** | Permite el acceso a cuentas registradas y ofrece la opción de crear un nuevo perfil para aprovechar todas las funciones. |
+
+##### Secciones y contenido de Carlink
+
+| **Sección**  | **Contenido** |
+|-------------|---------------|
+| **Home** | Muestra las funciones principales y acceso rápido a los módulos. |
+| **Stats** | Datos estadísticos y evolución del estado de salud del paciente. |
+| **Reports** | Generación de informes médicos con registros históricos y gráficos. |
+| **Messages** | Canal de comunicación directa entre médicos y familiares. |
+| **Appointments** | Agenda médica con programación y recordatorios de consultas. |
+| **Account** | Configuración de perfil y ajustes personalizados. |
+
 
 #### 4.2.3. SEO Tags and Meta Tags
 
+La **Landing Page** busca atraer nuevos usuarios, transmitir confianza y posicionar la propuesta de valor de **EternaCare**. Las etiquetas SEO y meta están optimizadas para captar búsquedas relacionadas con tecnología de salud y bienestar de adultos mayores.  
+
+**Título de la página (Title)**
+
+```html
+<title>Carlink – Tecnología para el bienestar de adultos mayores</title>
+
+<meta name="description" content="Carlink, la solución digital de EternaCare, conecta a médicos y familias para mejorar la calidad de vida de adultos mayores mediante información confiable en tiempo real.">
+
+<meta name="keywords" content="EternaCare, Carlink, cuidado de adultos mayores, salud digital, bienestar, monitoreo, comunicación familiar, citas médicas, reportes de salud">
+
+<meta name="author" content="Equipo EternaCare">
+
+```
+
+
 #### 4.2.4. Searching Systems
 
+Para garantizar que los usuarios (médicos y familiares) puedan acceder fácilmente a la información sin perder tiempo, **Carlink** integra un sistema de búsqueda robusto y eficiente:
+
+- **Búsqueda Global**: Permite localizar cualquier dato dentro de la plataforma a través de palabras clave.  
+- **Búsqueda en Reportes**: Ofrece filtros por paciente, historial clínico o fecha, facilitando la localización de registros médicos específicos.  
+- **Búsqueda en Mensajes**: Posibilita encontrar conversaciones relevantes entre médicos y familiares, evitando la pérdida de información crítica.  
+- **Búsqueda en Citas Médicas**: Permite localizar consultas programadas según la fecha, tipo de cita o médico a cargo.  
+
+Este sistema de búsqueda contribuye a la accesibilidad, ahorra tiempo y mejora la interacción entre los usuarios, asegurando que la información esté siempre disponible de forma rápida e intuitiva.
+
+---
+
 #### 4.2.5. Navigation Systems
+
+La navegación en **Carlink** se ha estructurado para que los usuarios se desplacen con facilidad entre las distintas secciones de la plataforma. Se emplea una barra de menú principal, accesos rápidos y un diseño jerárquico que guía la experiencia paso a paso.
+
+##### **Estructura de Navegación en la Landing Page**
+
+| **Sección**  | **Descripción** |
+|-------------|-----------------|
+| **Página Principal** | Presenta a Carlink y la propuesta de valor de EternaCare. Desde aquí se introducen misión, visión y principales beneficios. |
+| **About** | Explica las herramientas clave de la plataforma, el rol de médicos y familiares, y cómo se logra una gestión eficiente de la salud. |
+| **Premium** | Describe las ventajas de la versión premium, con funciones avanzadas de reportes, integración con otros sistemas y mayor personalización. |
+| **Contacto** | Ofrece medios de comunicación con el equipo de EternaCare: correo técnico, redes sociales y contacto para negocios. |
+| **Log In** | Espacio para acceder a cuentas existentes o registrarse y comenzar a usar Carlink. |
+
+##### **Estructura de Navegación en Carlink**
+
+| **Sección**  | **Descripción** |
+|-------------|-----------------|
+| **Home** | Página de inicio dentro de la aplicación con acceso directo a las funciones más utilizadas. |
+| **Stats** | Visualización de datos estadísticos sobre la evolución de la salud del paciente. |
+| **Reports** | Generación de reportes médicos con gráficos y registros históricos organizados. |
+| **Messages** | Canal de comunicación en tiempo real entre médicos y familiares. |
+| **Appointments** | Agenda de citas médicas, con programación y recordatorios automáticos. |
+| **Account** | Configuración del perfil de usuario y personalización de la cuenta. |
+
+---
+
+#### Accesibilidad y navegación predictiva
+
+**Carlink** integra accesos rápidos para las funciones esenciales y un sistema de navegación predictiva que recomienda secciones según los hábitos del usuario. Esto permite una experiencia intuitiva y adaptada a las necesidades, mejorando la eficiencia del uso tanto para médicos como para familiares.  
+
 
 ### 4.3. Landing Page UI Design
 
