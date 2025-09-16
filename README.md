@@ -233,6 +233,12 @@ Queremos transmitir confianza, cercanía y una tecnología con enfoque humano. P
 - **Misión:** Proporcionar soluciones tecnológicas que prioricen el bienestar de los adultos mayores, fortaleciendo la conexión con sus familias y optimizando el trabajo de los cuidadores. 
 - **Visión:** Crear entornos dignos, seguros y conectados para los adultos mayores, integrando tecnología humana que potencie la calidad del cuidado y la confianza familiar.
 
+#### Logo
+
+Buscamos proyectar una imagen moderna mediante un diseño minimalista, empleando un logotipo en tonos azules que refuerce este enfoque contemporáneo.
+
+<img src="./images/chapter-4/Logo-CareLink.png" alt="Canvas" width="400"/>
+
 
 #### 4.1.1. General Style Guidelines
 
