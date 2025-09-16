@@ -193,11 +193,11 @@ Con miras al futuro, proyectamos la integración de tecnología IoT para conecta
 
 <table>
   <tr>
-    <th colspan="2">Integrante 1</th>
+    <th colspan="2">Verona Flores Italo Sebastian</th>
   </tr>
   <tr>
-    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
-    <td> </td>
+    <td> <img src="images/chapter-1/italo-verona.jpg" alt="" style="width: 500px; height: auto;"> </td>
+    <td>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. </td>
   </tr>
   <tr>
     <th colspan="2"> Integrante 2 </th>
