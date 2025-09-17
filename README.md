@@ -253,6 +253,99 @@ La paleta de colores incluye seis tonos principales, elegidos estratégicamente 
 
 <img src="./images/chapter-4/Color.png" alt="Moodle" width="400"/><br>
 
+<p align="justify">
+<strong>Color Primario:</strong><br>
+Azul fuerte (#0056A6): Este color es el más predominante en el diseño y se usa para el logo y los títulos principales. Aporta confianza y autoridad visual, además de mantener la sensación de calma que transmite la marca.
+</p>
+
+<p align="justify">
+<strong>Colores Secundarios:</strong><br>
+<ul>
+  <li>Azul fuerte (#0056A6): Utilizado en el logo y en títulos  principales para transmitir confianza, profesionalismo y dar   solidez visual a la marca.</li>
+  <li>Azul claro degradado (#A9E3F4 → #D6F5FA): Utilizado como fondo hero y en secciones para generar una atmósfera ligera y acogedora.</li>
+  <li>Verde botón principal (#1DB954): Empleado en el CTA principal para atraer la atención y favorecer la conversión. Es vibrante y destaca frente al azul.</li>
+  <li>Blanco de fondo (#FFFFFF): Color base para áreas de contenido, tarjetas y formularios, que asegura buena legibilidad.</li>
+  <li>Gris muy claro (background secciones) (#F5F7FA): Usado en secciones alternas o zonas de descanso visual para separar bloques sin romper la armonía.</li>
+  <li>Negro/gris oscuro para texto secundario (#333333): Color para textos secundarios, descripciones y elementos UI que requieren buena legibilidad sobre fondos claros.</li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Texto</strong><br>
+Todos los textos principales (títulos y subtítulos) emplean el color #0056A6 (Azul fuerte) para reforzar la identidad. Los textos de cuerpo y secundarios utilizan #333333 (Gris oscuro) para asegurar un alto contraste y una lectura fluida sobre fondos claros.
+La tipografía recomendada para toda la interfaz es <em>Open Sans</em> o una sans-serif similar por su legibilidad y aspecto moderno.
+</p>
+
+<p align="justify">
+<strong>Botones</strong><br>
+Los botones siguen un sistema de color funcional diseñado para claridad y accesibilidad:
+<ul>
+  <li>Botones de Acción Principal (CTA):
+    <ul>
+      <li>Fondo: #1DB954 (Verde botón principal)</li>
+      <li>Texto: #FFFFFF (Blanco)</li>
+      <li>Hover: Oscurecer levemente el fondo (ej. aplicar un 10% más de oscuridad o usar #17A644) para reforzar la retroalimentación visual.</li>
+      <li>Disabled: Fondo: #AFCFB8 (verde desaturado), Texto: #FFFFFF con opacidad 0.7.</li>
+    </ul>
+  </li>
+
+  <li>Botones de Acción Secundaria:
+    <ul>
+      <li>Fondo: #FFFFFF con borde 1.5px en #0056A6 (Azul fuerte) y texto en #0056A6.</li>
+      <li>Hover: Invertir colores (Fondo: #0056A6, Texto: #FFFFFF) o intensificar el borde para marcar la interacción.</li>
+    </ul>
+  </li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Formularios</strong><br>
+<ul>
+  <li>Los campos de texto siguen un diseño limpio con líneas delimitadoras delgadas (borde: 1px #E0E7EE o ligeramente más oscuro que #F5F7FA).</li>
+  <li>Placeholder: #9AA6B2 (gris suave). Texto de ayuda/errores: #D32F2F (rojo para errores) o #333333 para textos normales.</li>
+  <li>Indicadores como iconos de estado, tiempo y conectividad utilizan #0056A6 o variantes más suaves del azul para mantener coherencia.</li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Íconos y Sistema Visual</strong><br>
+<ul>
+  <li>Los íconos siguen un estilo de línea simple y claro, usando #333333 para versiones primarias y #0056A6 para íconos destacados o interactivos.</li>
+  <li>Se recomienda un set de íconos consistente (p. ej. estilo outline) para mantener la armonía visual y facilitar la comprensión sin sobrecargar la interfaz.</li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Estados de Hover y Feedback</strong><br>
+Cuando el usuario interactúa con botones o íconos, los colores de fondo se intensifican levemente para confirmar la acción:
+<ul>
+  <li>CTA (verde): hover = fondo ligeramente más oscuro (ej. reducción de luminosidad ~8–12%).</li>
+  <li>Botón secundario (outline azul): hover = fondo azul #0056A6 con texto blanco.</li>
+  <li>Sombras suaves y transiciones (0.12s–0.18s) ayudan a aumentar la percepción de interacción sin distraer.</li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Accesibilidad</strong><br>
+Se recomienda verificar contraste de color (AA/AAA) especialmente entre textos y fondos. Ejemplos:
+<ul>
+  <li>#333333 sobre #FFFFFF cumple contraste alto para textos.</li>
+  <li>#FFFFFF sobre #1DB954 debe probarse; si no alcanza contraste suficiente, considerar oscurecer el verde del CTA o usar un borde/halo para mejorar legibilidad.</li>
+</ul>
+</p>
+
+<p align="justify">
+<strong>Espaciado y Distribución</strong><br>
+El diseño se basa en un sistema modular de 8px, asegurando alineación precisa y consistencia visual entre todos los elementos. Márgenes y paddings principales:
+<ul>
+  <li>Spacing base: 8px</li>
+  <li>Padding de tarjetas: 24px (3×8)</li>
+  <li>Altura de botones: 40px–48px según prioridad</li>
+  <li>Gutter entre columnas: 24px–32px</li>
+</ul>
+</p>
+
+
 
 
 
