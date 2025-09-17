@@ -286,6 +286,10 @@ Agost 2025
 
 ### 3.2. Impact Mapping
 
+<img src="./images/chapter-3/Impact mapping-1.jpeg" alt="Canvas" width="900"/>
+<img src="./images/chapter-3/Impact mapping-2.jpeg" alt="Canvas" width="900
+"/>
+
 ### 3.3. Product Backlog
 
 ## Capítulo IV: Product Design
