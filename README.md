@@ -292,6 +292,67 @@ Agost 2025
 
 ### 3.3. Product Backlog
 
+El Product Backlog representa la lista priorizada de funcionalidades, mejoras y requerimientos técnicos que forman parte del alcance del sistema EternaCare/CareLink. Cada ítem del backlog responde a una necesidad identificada en los dos segmentos de usuarios principales (Red de Apoyo Familiar y Personal Sanitario y de Cuidado), así como en actores secundarios relevantes (desarrolladores, personal médico, administradores y visitantes).
+
+Este backlog ha sido construido a partir de las 50 historias de usuario previamente definidas, organizadas en 8 épicas funcionales, y está estructurado de forma que permita una gestión iterativa e incremental del desarrollo del sistema, conforme a los principios de metodologías ágiles. La priorización considera tanto el valor de negocio como la complejidad técnica, priorizando especialmente las funcionalidades críticas de seguridad del adulto mayor, las capacidades core de monitoreo y cuidado, y el diferenciador clave del sistema: la coordinación integral del cuidado domiciliario.
+
+## Product Backlog - 50 User Stories
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+|---------|---------------|--------|-------------|---------------------------|
+| 1 | US003 | Recibir alertas críticas | Como familiar quiero recibir una alerta cuando la salud del residente esté en riesgo para tomar acciones inmediatas | 8 |
+| 2 | US008 | Alertas de emergencia por sensores | Como personal sanitario quiero recibir alertas automáticas cuando los sensores detecten caídas o emergencias para responder rápidamente a situaciones críticas | 8 |
+| 3 | US020 | Gestión de emergencias domiciliarias | Como cuidador familiar quiero activar protocolos de emergencia desde la aplicación para recibir asistencia rápida en situaciones críticas | 5 |
+| 4 | US001 | Ver estado de salud del residente | Como familiar quiero ver el estado de salud actualizado del residente para estar informado sobre su condición actual | 5 |
+| 5 | US002 | Registrar signos vitales | Como cuidador quiero registrar los signos vitales del residente para llevar un control de su salud | 3 |
+| 6 | US037 | Consultar API de residentes (GET) | Como developer quiero consultar el listado de residentes mediante la API para integrarlo al frontend | 3 |
+| 7 | US038 | Validar credenciales del API | Como developer quiero autenticarme con token para acceder a los servicios protegidos del API para asegurar la seguridad de los datos | 5 |
+| 8 | US039 | Registrar nuevo residente (API) | Como developer quiero registrar un nuevo residente en la base de datos a través del API para crear nuevos perfiles desde la aplicación | 3 |
+| 9 | US043 | Conocer los servicios | Como visitante quiero conocer los servicios que ofrece EternaCare para evaluar si es adecuado para mis necesidades | 2 |
+| 10 | US044 | Leer la misión y visión del proyecto | Como visitante quiero saber la misión y visión del proyecto para entender su propósito | 1 |
+| 11 | US046 | Solicitar información personalizada | Como visitante quiero llenar un formulario de contacto para recibir más información personalizada sobre los servicios | 2 |
+| 12 | US007 | Monitoreo con dispositivos IoT | Como cuidador quiero que los dispositivos wearables registren automáticamente los datos vitales para reducir el trabajo manual y tener información continua | 8 |
+| 13 | US042 | Integración con dispositivos IoT | Como developer quiero recibir datos de dispositivos IoT a través de endpoints específicos para procesar información de sensores automáticamente | 8 |
+| 14 | US018 | Monitoreo ambiental del hogar | Como familiar responsable quiero monitorear las condiciones ambientales del hogar para asegurar un entorno saludable | 5 |
+| 15 | US009 | Enviar mensajes al personal | Como familiar quiero enviar mensajes al personal para consultar sobre el residente para obtener información específica cuando la necesite | 3 |
+| 16 | US010 | Ver respuestas del personal | Como familiar quiero leer las respuestas a mis consultas para mantenerme informado | 2 |
+| 17 | US029 | Recordatorios de medicación | Como cuidador quiero recibir recordatorios automáticos de medicamentos para evitar olvidos en la administración | 5 |
+| 18 | US031 | Alertas de medicamentos faltantes | Como administrador quiero recibir alertas cuando se agoten medicamentos críticos para asegurar continuidad del tratamiento | 3 |
+| 19 | US027 | Registrar medicamento | Como cuidador quiero registrar una nueva medicina para llevar control del tratamiento de los residentes | 3 |
+| 20 | US030 | Registro de administración | Como cuidador quiero registrar cuando administro un medicamento para mantener un historial preciso de tratamientos | 2 |
+| 21 | US004 | Ver actividades diarias | Como familiar quiero ver las actividades realizadas por mi ser querido para saber si participa y está activo | 3 |
+| 22 | US005 | Registrar actividad del residente | Como cuidador quiero registrar las actividades del residente para tener un seguimiento de su rutina diaria | 2 |
+| 23 | US006 | Evaluar estado emocional del residente | Como cuidador quiero registrar una evaluación emocional diaria para dar seguimiento a su bienestar psicológico | 3 |
+| 24 | US021 | Ver reporte semanal de estado del residente | Como familiar quiero ver un reporte semanal de salud para entender la evolución general | 5 |
+| 25 | US023 | Ver tendencias de salud por categoría | Como cuidador quiero ver tendencias por categorías para ajustar planes de cuidado | 5 |
+| 26 | US040 | Actualizar datos del residente (API) | Como developer quiero actualizar los datos personales o médicos de un residente vía API para mantener la información actualizada | 3 |
+| 27 | US041 | Obtener historial de actividades (API) | Como developer quiero obtener el historial de actividades de un residente para mostrarlo en su perfil | 3 |
+| 28 | US032 | Registrar doctor | Como administrador quiero registrar un nuevo doctor para asignarlo a los residentes y que pueda hacer seguimiento médico | 3 |
+| 29 | US034 | Registrar enfermero | Como administrador quiero registrar un nuevo enfermero para gestionar sus funciones dentro del sistema | 3 |
+| 30 | US035 | Asignar personal a turnos | Como administrador quiero asignar personal médico a turnos específicos para asegurar cobertura médica 24/7 | 5 |
+| 31 | US016 | Coordinar cuidadores informales | Como familiar responsable quiero coordinar las tareas entre diferentes cuidadores familiares para asegurar continuidad en la atención domiciliaria | 5 |
+| 32 | US017 | Registro de cuidado domiciliario | Como cuidador familiar quiero registrar las actividades de cuidado realizadas en casa para mantener un historial completo del cuidado | 3 |
+| 33 | US019 | Coordinar con servicios médicos externos | Como familiar responsable quiero coordinar citas médicas y compartir el historial con profesionales externos para mantener continuidad en la atención médica | 8 |
+| 34 | US011 | Programar visitas | Como familiar quiero programar visitas a través de la plataforma para coordinar horarios con el centro o cuidadores en casa | 3 |
+| 35 | US012 | Videollamadas integradas | Como familiar quiero realizar videollamadas con mi ser querido desde la plataforma para mantener contacto visual regular | 8 |
+| 36 | US014 | Recibir notificaciones de cambios | Como familiar quiero recibir notificaciones cuando hay cambios importantes en el estado de mi familiar para estar siempre informado | 5 |
+| 37 | US015 | Compartir fotos y mensajes motivacionales | Como familiar quiero enviar fotos y mensajes de apoyo a mi ser querido para mantener la conexión emocional | 3 |
+| 38 | US022 | Descargar reporte en PDF | Como familiar quiero descargar el reporte semanal en formato PDF para archivarlo o compartirlo | 3 |
+| 39 | US024 | Recibir recordatorios para revisar informes | Como familiar quiero recibir recordatorios semanales para revisar los reportes para estar al tanto del estado del residente | 2 |
+| 40 | US025 | Generar reportes personalizados | Como médico quiero generar reportes personalizados con métricas específicas para análisis clínicos detallados | 5 |
+| 41 | US026 | Comparar períodos de tiempo | Como familiar quiero comparar el estado actual con períodos anteriores para evaluar el progreso o deterioro | 5 |
+| 42 | US028 | Eliminar medicina caducada | Como cuidador quiero eliminar medicinas vencidas del sistema para mantener el stock actualizado y evitar errores de medicación | 2 |
+| 43 | US033 | Editar doctor existente | Como administrador quiero editar la información de un doctor ya registrado para mantener sus datos actualizados | 2 |
+| 44 | US036 | Ver disponibilidad del personal | Como administrador quiero ver la disponibilidad del personal médico para optimizar la planificación de turnos | 3 |
+| 45 | US013 | Evaluar la calidad del servicio | Como familiar quiero dejar una evaluación de la atención brindada para contribuir con la mejora del servicio | 3 |
+| 46 | US045 | Ver testimonios y casos de éxito | Como visitante quiero leer experiencias reales para sentir confianza en el servicio | 2 |
+| 47 | US047 | Ver precios y planes | Como visitante quiero conocer los precios de los diferentes planes para evaluar la inversión requerida | 2 |
+| 48 | US048 | Registrarse para demo gratuita | Como visitante interesado quiero solicitar una demostración gratuita del servicio para probar la plataforma antes de contratarla | 3 |
+| 49 | US049 | Acceder a recursos educativos | Como visitante quiero acceder a guías y recursos sobre cuidado de adultos mayores para obtener información valiosa independientemente del servicio | 3 |
+| 50 | US050 | Comparar con competidores | Como visitante quiero ver una comparación con otras soluciones del mercado para tomar una decisión informada | 2 |
+
+
+
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines
