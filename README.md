@@ -493,7 +493,7 @@ La navegación en **Carlink** se ha estructurado para que los usuarios se despla
 
 #### 4.6.1. Software Architecture Context Diagram
 
-![structurizr-106226-SystemContext (3).png](images/chapter-4/structurizr-106226-SystemContext%20%283%29.png)
+![structurizr-106226-SystemContext.png](images/chapter-4/structurizr-106226-SystemContext.png)
 
 #### 4.6.2. Software Architecture Container Diagrams
 
@@ -501,9 +501,11 @@ La navegación en **Carlink** se ha estructurado para que los usuarios se despla
 
 #### 4.6.3. Software Architecture Components Diagrams
 Diagrama de Componentes de la API RESTful
-![structurizr-106226-Components.png](images/chapter-4/structurizr-106226-Components.png)
+
+![structurizr-106226-ComponentsAPI.png](images/chapter-4/structurizr-106226-ComponentsAPI.png)
 
 Diagrama de Componentes de la Aplicación Web (SPA)
+
 ![structurizr-106226-ComponentsSPA.png](images/chapter-4/structurizr-106226-ComponentsSPA.png)
 
 ### 4.7. Software Object-Oriented Design
