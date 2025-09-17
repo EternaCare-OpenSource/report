@@ -239,13 +239,23 @@ Buscamos proyectar una imagen moderna mediante un diseño minimalista, empleando
 
 <img src="./images/chapter-4/Logo-CareLink.png" alt="Canvas" width="400"/>
 
-#### Colors
+#### Typography
 
 Se ha elegido Open Sans como la tipografía principal para todos los textos de la aplicación, debido a su claridad y estilo contemporáneo. Esta fuente facilita la lectura en cualquier dispositivo, proporcionando una experiencia visual cómoda y accesible.
 
 El tamaño de la fuente se adapta automáticamente al tipo de pantalla, garantizando una presentación adecuada tanto en dispositivos móviles como en computadoras.
 
 <img src="./images/chapter-4/Typography.png" alt="Canvas" width="400"/>
+
+#### Colors
+
+La paleta de colores incluye seis tonos principales, elegidos estratégicamente para aportar una imagen moderna, profesional y visualmente limpia en todas las áreas de la aplicación.
+
+<img src="./images/chapter-4/Color.png" alt="Moodle" width="400"/><br>
+
+
+
+
 
 #### 4.1.1. General Style Guidelines
 
