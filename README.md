@@ -346,13 +346,71 @@ El diseño se basa en un sistema modular de 8px, asegurando alineación precisa 
 </p>
 
 
-
-
-
-
 #### 4.1.1. General Style Guidelines
 
 #### 4.1.2. Web Style Guidelines
+
+
+<p align="justify">
+1. <strong>Diseño:</strong> 
+El diseño debe ser intuitivo, moderno y flexible, garantizando una visualización óptima y un funcionamiento adecuado en todo tipo de dispositivos.
+</p>
+
+<div align="center">
+  <td colspan="1" rowspan="6">
+    <img src="./images/chapter-4/diseño.png" alt="design" width="300" height="320">
+  </td>
+</div>
+
+<p align="justify">
+
+2. <strong>Botones:</strong>
+   Los botones, tanto principales como secundarios, deben resaltar de forma clara utilizando una paleta de colores uniforme y coherente.
+
+</p>
+
+<div align="center">
+  <td colspan="1" rowspan="6">
+    <img src="./images/chapter-4/Asset.png" alt="Buttons" width="350" height="300">
+  </td>
+</div>
+
+<p align="justify">
+
+3. <strong>Tema:</strong>
+   La apariencia visual debe alinearse con la identidad de la aplicación, haciendo uso de los colores previamente definidos.
+
+</p>
+
+* **mode-light**
+
+<div align="center">
+  <td colspan="1" rowspan="6">
+    <img src="./images/chapter-4/tema-light.png" alt="light-mode" width="300" height="250">
+  </td>
+</div><br>
+
+* **mode-black**
+
+<div align="center">
+  <td colspan="1" rowspan="6">
+    <img src="./images/chapter-4/tema-dark.png" alt="light-mode" width="300" height="250">
+  </td>
+</div><br>
+
+<p align="justify">
+
+4. <strong>Logo:</strong>
+   El logotipo debe ser claro y fácilmente visible en todo el sitio, conservando siempre sus proporciones originales.
+
+</p>
+
+<div align="center">
+  <td colspan="1" rowspan="6">
+    <img src="./images/chapter-4/Logo-CareLink.png" alt="logo" width="300" height="220">
+  </td>
+</div>
+
 
 ### 4.2. Information Architecture
 
