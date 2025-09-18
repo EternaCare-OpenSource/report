@@ -512,7 +512,33 @@ Diagrama de Componentes de la Aplicación Web (SPA)
 
 #### 4.7.1. Class Diagrams
 
-#### 4.7.2. Class Dictionary
+En esta sección se presenta el diseño de la base de datos que dará soporte a la plataforma "CareLink". Para la persistencia de los datos, se ha optado por un modelo de base de datos relacional, que será implementado utilizando MySQL.
+
+Esta decisión se fundamenta en varias características clave del dominio del problema. La naturaleza de los datos, como los historiales clínicos, las suscripciones y los perfiles de usuario, es altamente estructurada y transaccional. Un sistema de gestión de bases de datos relacionales (RDBMS) garantiza la integridad, consistencia y atomicidad (propiedades ACID) de las operaciones, lo cual es crítico para una aplicación que maneja información sensible de salud y pagos.
+
+1. **Esquema: Identity & Access Context**
+
+Este esquema almacena toda la información sobre los usuarios, sus perfiles, roles y permisos. La tabla users es el eje central, mientras que una tabla de unión user_roles maneja la relación de muchos a muchos entre usuarios y roles.
+
+![class-diagram-indentity-access-Identity___Access_Context.png](images/chapter-4/class-diagram-indentity-access-Identity___Access_Context.png)
+
+2. **Esquema: Billing & Subscriptions Context**
+
+Diseñado para manejar el modelo de negocio SaaS. La tabla subscriptions es la más importante y conecta a un customer (que a su vez está vinculado a un usuario) con un plan específico. La tabla invoices guarda un historial de todos los pagos realizados.
+
+![class-diagram-billing-subscriptions-Billing___Subscriptions_Context.png](images/chapter-4/class-diagram-billing-subscriptions-Billing___Subscriptions_Context.png)
+
+3. **Esquema: Communication Context**
+
+Este diagrama detalla las clases responsables de todas las interacciones entre usuarios, incluyendo la mensajería asíncrona y las notificaciones generadas por el sistema. ConversationThread (Hilo de Conversación) actúa como un Aggregate Root para los mensajes, mientras que Notification (Notificación) es una entidad independiente. Una Alert (Alerta) es un tipo especializado de Notification.
+
+![class-diagram-Communication-Context-Communication_Context.png](images/chapter-4/class-diagram-Communication-Context-Communication_Context.png)
+
+4. **Esquema: Analytics  Context**
+
+Este diagrama muestra la estructura para las funcionalidades de reportería y análisis. Este contexto se compone principalmente de clases de servicio que leen datos de otros contextos para generar información de valor. ReportGenerator (Generador de Reportes) es un servicio, no una entidad, y produce objetos de tipo Report (Reporte).
+
+![diagram-class-Analytics-Context-Analytics_Context.png](images/chapter-4/diagram-class-Analytics-Context-Analytics_Context.png)
 
 ### 4.8. Database Design
 
