@@ -542,7 +542,13 @@ Este diagrama muestra la estructura para las funcionalidades de reportería y an
 
 ### 4.8. Database Design
 
+Para la persistencia de los datos de la plataforma CareLink, se ha optado por un modelo de base de datos relacional, implementado en MySQL. Esta decisión se basa en la naturaleza estructurada y transaccional de los datos del dominio (perfiles, registros médicos, suscripciones), lo que garantiza la integridad y consistencia de la información.
+
+El diseño del esquema refleja directamente la separación lógica de los Bounded Contexts definidos en la arquitectura, agrupando las tablas por su área de responsabilidad para facilitar el entendimiento y el mantenimiento.
+
 #### 4.8.1. Database Diagram
+
+![Plataforma CareLink.png](images/chapter-4/Plataforma%20CareLink.png)
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
