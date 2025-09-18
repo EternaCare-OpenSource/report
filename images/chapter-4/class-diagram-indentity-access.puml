@@ -1,0 +1,45 @@
+@startuml
+' --- Diagram Title ---
+title Identity & Access Context
+
+' --- Skin Parameters for better visualization ---
+skinparam classAttributeIconSize 0
+hide empty members
+skinparam style strictuml
+
+' --- Classes and Enums ---
+class User {
+  - id: UUID
+  - email: String
+  - hashedPassword: String
+  --
+  + changePassword(newPassword: String): void
+  + updateProfile(profile: Profile): void
+  + assignRole(role: Role): void
+  + hasPermission(permission: Permission): boolean
+}
+note top of User : Aggregate Root
+
+class Profile {
+  - fullName: String
+  - contactPhone: String
+  - address: String
+}
+
+class Role {
+  - id: UUID
+  - name: String
+}
+
+class Permission {
+  - id: UUID
+  - name: String
+  - description: String
+}
+
+' --- Relationships ---
+User "1" *-- "1" Profile : contains
+User "1..*" -- "1..*" Role : has
+Role "1" -- "0..*" Permission : includes
+
+@enduml

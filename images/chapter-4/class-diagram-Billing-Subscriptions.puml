@@ -1,0 +1,60 @@
+@startuml
+' --- Diagram Title ---
+title Billing & Subscriptions Context
+
+' --- Skin Parameters ---
+skinparam classAttributeIconSize 0
+hide empty members
+skinparam style strictuml
+
+' --- Classes and Enums ---
+class Subscription {
+  - id: UUID
+  - status: SubscriptionStatus
+  - startDate: Date
+  - nextBillingDate: Date
+  --
+  + activate(): void
+  + cancel(): void
+  + pause(): void
+  + changePlan(newPlan: Plan): void
+}
+note top of Subscription : Aggregate Root
+
+class Customer {
+  - id: UUID
+  - externalPaymentGatewayId: String
+  --
+  + updatePaymentMethod(paymentToken: String): void
+}
+
+class Plan {
+  - id: UUID
+  - name: String
+  - price: Money
+  - featureList: String[]
+}
+
+class Invoice {
+  - id: UUID
+  - amount: Money
+  - issueDate: Date
+  - dueDate: Date
+  - status: String
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  PAUSED
+  CANCELED
+  TRIAL
+}
+
+' --- Relationships ---
+Customer "1" -- "1" Subscription : has >
+Subscription "1" -- "1" Plan : follows >
+Customer "1" -- "0..*" Invoice : receives >
+
+Subscription ..> SubscriptionStatus : uses
+
+@enduml

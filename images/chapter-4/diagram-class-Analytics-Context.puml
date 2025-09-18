@@ -1,0 +1,56 @@
+@startuml
+' --- Diagram Title ---
+title Analytics Context
+
+' --- Skin Parameters ---
+skinparam classAttributeIconSize 0
+hide empty members
+skinparam style strictuml
+
+' --- Classes and Enums ---
+
+class ReportGenerator {
+  --
+  + generateWeeklySummary(residentId: UUID): Report
+  + generateTrendAnalysis(residentId: UUID, metric: Metric, period: DateRange): Report
+  + exportReportToPdf(reportId: UUID): File
+}
+note top of ReportGenerator : Service Class
+
+class Report {
+  - id: UUID
+  - title: String
+  - generatedAt: DateTime
+  - data: DataSet[]
+}
+
+class DataSet {
+  - metricName: String
+  - dataPoints: AnalyticsDataPoint[]
+}
+
+class AnalyticsDataPoint {
+  - timestamp: DateTime
+  - value: Number
+}
+
+enum Metric {
+  HEART_RATE
+  MOBILITY
+  MOOD_STATUS
+}
+
+' --- Representing a repository from another context ---
+interface IMonitoringRepository <<(I,lightgreen)>> {
+  ' Interface representing a data source
+  ' from the Clinical Monitoring Context
+  + findResidentData(residentId, period): DataSet[]
+}
+
+' --- Relationships ---
+ReportGenerator ..> IMonitoringRepository : uses >
+ReportGenerator ..> Metric : uses
+Report "1" -- "1..*" DataSet : contains
+DataSet "1" -- "1..*" AnalyticsDataPoint : contains
+
+@enduml
