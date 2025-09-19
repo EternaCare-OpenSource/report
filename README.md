@@ -200,10 +200,10 @@ Con miras al futuro, proyectamos la integración de tecnología IoT para conecta
     <td>Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Apasionado por la tecnología y el desarrollo de software, con habilidades en programación web, bases de datos y diseño de interfaces. Experiencia en proyectos académicos y personales que demuestran su capacidad para trabajar en equipo y resolver problemas técnicos. </td>
   </tr>
   <tr>
-    <th colspan="2"> Integrante 2 </th>
+    <th colspan="2"> Fiorella Vilca Valverde</th>
   </tr>
   <tr>
-    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td> <img src="images/chapter-1/Fiorella_Vilca.jpeg" alt="" style="width: 500px; height: auto;"> </td>
     <td>  </td>
   </tr>
   <tr>
