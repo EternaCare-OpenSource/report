@@ -204,7 +204,7 @@ Con miras al futuro, proyectamos la integración de tecnología IoT para conecta
   </tr>
   <tr>
     <td> <img src="images/chapter-1/Fiorella_Vilca.jpeg" alt="" style="width: 500px; height: auto;"> </td>
-    <td>  </td>
+    <td> Soy Fiorella Angela Vilca Valverde, tengo 23 años y actualmente estoy cursando 7mo ciclo de la carrera Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (U.P.C). Elegí esta carrera porque siempre quería saber de las funcionalidades de la computadora y aprender cada día más sobre los lenguajes de programación. Me considero una persona muy sociable, perseverante, responsable, trabajar en equipo y sobre todo leal. Tengo conocimientos en lenguaje de programación C++, Python y Matlab Básico. </td>
   </tr>
   <tr>
     <th colspan="2">Mauricio Muñoz</th>
