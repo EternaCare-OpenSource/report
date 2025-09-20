@@ -533,6 +533,10 @@ La navegación en **Carlink** se ha estructurado para que los usuarios se despla
 
 #### 4.3.1. Landing Page Wireframe
 
+Estos wireframes ofrecen una perspectiva más detallada del aspecto definitivo que tendrá la página de aterrizaje. Mediante estos esquemas visuales, será posible examinar la estructura de la página, identificar las características que estarán presentes y comprender de qué manera los usuarios navegarán e interactuarán con el sitio.
+
+ <img src="./images/chapter-4/Wireframes-EternaCare.png" alt="logo" width="" height="">
+
 #### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design
