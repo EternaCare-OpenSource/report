@@ -284,6 +284,71 @@ Agost 2025
 
 #### 5.1.1. Software Development Environment Configuration
 
+##### Project Management
+
+Para asegurar una gestión efectiva del proyecto, fue indispensable incorporar un conjunto de herramientas enfocadas en la asignación de responsabilidades, la organización de reuniones y la cooperación entre los integrantes del equipo. Además, se utilizó un repositorio centralizado que permitió integrar los avances de manera ordenada. A continuación, se detallan las plataformas seleccionadas y el propósito que cumplieron en el proyecto:
+- **Gestión de trabajo colaborativo:** GitHub  
+- **Organización y seguimiento de tareas:** Trello  
+- **Reuniones virtuales:** Google Meet  
+- **Comunicación inmediata del grupo:** WhatsApp  
+
+##### Requirement Management
+
+En el proceso de definición y análisis de los requerimientos, se emplearon distintas herramientas que facilitaron tanto la planificación como la representación visual de los aspectos técnicos y funcionales. Estas plataformas contribuyeron a una mejor claridad en el diseño conceptual del sistema:
+
+| Herramienta   | Descripción                                                                                                     | Enlace                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Trello**        | Aplicación basada en tableros y tarjetas para asignar tareas, distribuir responsabilidades y dar seguimiento al progreso en cada etapa del desarrollo. | [trello.com](https://trello.com/)           |
+| **Uxpressia**     | Herramienta digital para la elaboración de mapas estratégicos (*Impact Mapping*), que permitió conectar los objetivos del negocio con las funcionalidades del producto de manera visual. | [uxpressia.com](https://uxpressia.com/)     |
+| **Structurizr**   | Plataforma especializada en modelado arquitectónico que facilita la creación de diagramas C4, representando la estructura lógica del sistema y las interacciones entre sus componentes. | [structurizr.com](https://www.structurizr.com/) |
+| **Lucidchart**    | Entorno colaborativo de diagramación empleado para diseñar diagramas técnicos, como modelos de clases o esquemas de bases de datos, clave en la definición arquitectónica. | [lucidchart.com](https://www.lucidchart.com/) |
+
+---
+
+##### Product UX/UI Design
+
+El diseño de la experiencia de usuario y de la interfaz gráfica se abordó mediante plataformas que facilitaron la creación de prototipos y flujos de navegación. Gracias a esto, se validó la estructura de la aplicación antes de su implementación:
+
+| Herramienta | Descripción                                                                                          | Enlace                              |
+|-------------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Figma**   | Herramienta colaborativa en línea que permitió a los integrantes trabajar en tiempo real sobre wireframes y mockups, garantizando la consistencia visual y funcional del sistema. | [figma.com](https://www.figma.com/) |
+
+---
+
+##### Software Development
+
+Para la implementación de la página web se recurrió a lenguajes de programación y marcado esenciales que posibilitaron dar forma a la estructura, diseño y funcionalidades del sistema. A continuación, se describen los principales recursos empleados:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **HTML**       | Lenguaje de marcado que permite estructurar el contenido y definir la disposición de los elementos en la web. | [HTML](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de estilos utilizado para mejorar la presentación de los elementos HTML, dotando a la web de diseño visual. | [CSS](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos que añade interactividad y funcionalidades dinámicas al sitio web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+
+---
+
+##### Software Documentation
+
+La documentación y gestión de la información técnica del proyecto se realizaron con el apoyo de herramientas que aseguraron claridad, accesibilidad y trazabilidad en todo el proceso de desarrollo:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub**     | Plataforma de colaboración en desarrollo que también sirvió para centralizar y alojar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Lenguaje ligero de marcado empleado para redactar y estructurar la documentación de manera simple y comprensible. | [markdown.es](https://markdown.es/)                          |
+
+---
+
+##### Software Deployment
+
+Para el despliegue de la landing page se seleccionó un servicio de hosting que permite publicar directamente desde un repositorio de GitHub, lo que facilitó la gestión del ciclo de vida de la aplicación:
+
+| Herramienta     | Descripción                                                                                              | Enlace                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub Pages** | Servicio que ofrece GitHub para publicar aplicaciones directamente desde el repositorio, permitiendo la visualización pública de la página. | [GitHub Pages](https://pages.github.com/)                   |
+
+---
+
+
 #### 5.1.2. Source Code Management
 
 #### 5.1.3. Source Code Style Guide & Conventions
