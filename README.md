@@ -400,6 +400,8 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 #### 2.2.2. Registro de entrevistas
 
+#### 2.2.2. Registro de entrevistas
+
 **Segmento A: Red de Apoyo Familiar**
 
 Entrevista 1
@@ -422,6 +424,73 @@ Resumen de la Entrevista
 Jorge Linares es un nieto comprometido que asume un rol activo en el cuidado de su abuelo, a pesar de no vivir con él. Su principal motivación es la "tranquilidad" que le brinda estar constantemente informado sobre el estado de salud y bienestar general de su familiar, un aspecto que considera "muy importante". Actualmente, su interacción y seguimiento se basan en canales tradicionales como llamadas telefónicas y WhatsApp, los cuales, aunque funcionales, le generan una considerable frustración por la falta de inmediatez. Su principal punto de dolor es no recibir "información al momento, al instante", lo que deriva en sentimientos de "preocupación" e "incertidumbre".
 
 Digitalmente, Jorge es un usuario competente que utiliza con "mucha más frecuencia" su celular, pero también maneja fluidamente la laptop y navegadores web para sus estudios. No tiene experiencia previa con aplicaciones de monitoreo para adultos mayores, pero se muestra muy receptivo e interesado en probar una "aplicación práctica y sencilla". Al ser consultado sobre marcas, su mente asocia el cuidado más con herramientas de comunicación como WhatsApp que con marcas de salud específicas, lo que subraya la importancia que le da a la conexión. La funcionalidad que más valora a futuro son las "alertas en tiempo real", ya que las considera de "gran utilidad" para actuar de inmediato ante cualquier emergencia. Finalmente, demuestra una personalidad responsable y pragmática, otorgando una "mucha importancia" a la privacidad y transparencia en el manejo de los datos personales y familiares.
+
+
+Entrevista 2
+
+Nombres y Apellidos: Joaquín Pérez Abandonado
+
+Edad: 20 años
+
+Distrito: Lima
+
+Screenshot de la entrevista:
+
+<img src="./images/chapter-2/Entrevista-Joaquin.png" alt="Canvas" width="600"/>
+
+URL del Video: [Joaquín Pérez - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217212_upc_edu_pe/EQFUpDVUJFtNnvJkwlHUnVIB0ZSgnA3pUhHaE4SY9qTsLQ?e=xCNdhX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Timing: Inicio: 0:00, Duración: aprox. 4 min 46 seg
+
+Resumen de la Entrevista
+Joaquín es estudiante de ingeniería de software y visita a su familiar adulto mayor entre una y dos veces por semana, dependiendo de su disponibilidad. Su principal preocupación es que el personal encargado, debido a la alta carga de pacientes, no pueda brindar la atención adecuada y personalizada. Manifiesta el deseo de que exista un cuidador exclusivo o, en su defecto, la posibilidad de monitorear el estado de su familiar desde casa.
+Actualmente recibe información a través de los enfermeros de turno, quienes le proporcionan reportes verbales. Sin embargo, considera que un sistema digital que ofrezca actualizaciones diarias sobre estado de ánimo, alimentación o descanso sería mucho más útil y accesible. Aunque percibe que el trato del personal hacia los residentes es positivo, recalca la necesidad de contar con un informe diario y un canal de contacto directo con los responsables del cuidado.
+
+
+**Segmento B: Personal Sanitario y de Cuidado**
+
+Entrevista 1
+
+Nombres y Apellidos: Jhon Gálvez
+
+Edad: 27 años
+
+Distrito: Lima
+
+Screenshot de la entrevista:
+
+<img src="./images/chapter-2/Entrevista-Jhon.png" alt="Canvas" width="600"/>
+
+URL del Video: [Jhon Gálvez - Entrevista](https://upcedupe-my.sharepoint.com/personal/u202217212_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217212%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo3730031451%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef319941d%2D2e55%2D4b85%2Dbc97%2D183188c9e1de)
+
+Timing: Inicio: 0:02, Duración: aprox. 9 min 18 seg
+
+Resumen de la Entrevista
+Jhon es enfermero con 2 años de experiencia en el cuidado de adultos mayores y actualmente trabaja en el Centro Médico Maison de Santiago, en Lima. Su labor incluye la supervisión de tratamientos, monitoreo del estado físico y emocional de los pacientes y coordinación con médicos y otros profesionales.
+Utiliza un sistema de gestión digital de pacientes, así como dispositivos como oxímetros y termómetros, que permiten registrar datos en tiempo real. Señala como principales dificultades la sobrecarga de trabajo, la coordinación con familiares y las altas expectativas de estos últimos.
+En cuanto a comunicación, recurre a llamadas, videollamadas y reuniones trimestrales, aunque reconoce que un portal digital centralizado con actualizaciones y mensajes directos sería ideal. Valora enormemente la digitalización, pues reduce errores, agiliza decisiones y mejora la eficiencia. Considera que una plataforma óptima debe ser intuitiva, accesible desde cualquier dispositivo, centralizar la información clínica y ofrecer alertas automáticas y mensajería directa con las familias.
+
+Entrevista 2
+
+Nombres y Apellidos: Farid Briceño
+
+Edad: 26 años
+
+Distrito: Lima
+
+Screenshot de la entrevista:
+
+<img src="./images/chapter-2/Entrevista-Farid.png" alt="Canvas" width="600"/>
+
+URL del Video: [Farid Briceño - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217212_upc_edu_pe/EfqzLfJVEBpLlnJa3VAPrnYBREKG6TxFOCIJNv-MQItqgg?e=F28cbg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Timing: Inicio: 0:00, Duración: aprox. 6 min
+
+Resumen de la Entrevista
+Farid cuenta con 3 años de experiencia en el cuidado de adultos mayores, desempeñándose en centros geriátricos y atención domiciliaria. Actualmente trabaja en un centro privado de Lima, donde supervisa las rutinas médicas, apoya en las actividades diarias de los residentes y mantiene comunicación con familias y equipo de salud.
+Su trabajo se basa en registros en papel y hojas de Excel, aunque en ocasiones emplea un sistema interno básico para medicamentos. Identifica como principales retos la gestión de emergencias sin historial digital consolidado y la coordinación con familias que tienen distintas expectativas.
+La comunicación se da mediante llamadas semanales o quincenales y reuniones programadas, aunque reconoce que las familias demandan reportes más constantes. Otorga gran valor a la digitalización, pues permitiría reducir errores y ahorrar tiempo. Ha usado aplicaciones básicas para control de signos vitales, que aprecia por su rapidez, pero critica por su falta de personalización.
+Imagina una plataforma ideal con panel simple para registrar datos, alertas automáticas, reportes compartibles, acceso multiplataforma y un canal seguro de comunicación con familiares y médicos.
 
 
 
