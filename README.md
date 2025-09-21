@@ -629,7 +629,57 @@ Para este sprint, las tareas de diseño, implementación y documentación de la 
 
 ## Conclusiones
 
+* **Conclusiones:**
+1. **Problema vigente y relevante:**  
+   La falta de comunicación efectiva y de acceso inmediato a la información entre familiares y centros geriátricos constituye una dificultad crítica en Lima, considerando el aumento constante de adultos mayores y la creciente demanda de servicios de cuidado.  
+
+2. **Solución centrada en los usuarios:**  
+   La propuesta responde de manera precisa a los requerimientos de los tres actores principales: familiares, profesionales de la salud y administradores. Cada uno cuenta con funcionalidades específicas que atienden directamente sus necesidades y puntos de dolor.  
+
+3. **Alta factibilidad tecnológica:**  
+   El acceso a Internet y el uso cotidiano de herramientas digitales en Lima son lo suficientemente amplios como para garantizar la adopción temprana de la plataforma, tanto por parte de las familias como del personal de atención.  
+
+4. **Alto impacto esperado:**  
+   La aplicación tiene el potencial de elevar la calidad de vida de los residentes, disminuir la incertidumbre de los familiares y optimizar el desempeño del personal, promoviendo mejoras significativas en la gestión geriátrica.  
+
+5. **Fundamentos para escalabilidad futura:**  
+   La implementación de los CRUDs establece una arquitectura sólida que permite conectar el backend con interfaces web y móviles, habilitando integraciones posteriores con módulos de notificaciones, mensajería y análisis de datos.  
+
+6. **Gestión responsable de datos sensibles:**  
+   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.  
+
+---
+
+* **Recomendaciones:**
+1. **Incorporar un módulo de accesibilidad y soporte:**  
+   Se debe prever que algunos usuarios enfrenten barreras tecnológicas o limitaciones físicas. Por ello, resulta conveniente añadir opciones como lectura simplificada, notificaciones vía WhatsApp y un canal básico de asistencia.  
+
+2. **Fomentar el uso por parte del personal:**  
+   Integrar incentivos, logros o reconocimientos internos puede aumentar la motivación del personal para utilizar la plataforma de forma continua y contribuir a mantener la calidad de los datos registrados.  
+
+3. **Escalar de manera gradual:**  
+   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.  
+
+
 ## Bibliografía
+
+Tenorio Mucha, J. M., Romero, Z., & Cuba Fuentes, S. (2021). Telesalud para el cuidado socio-emocional de adultos mayores de los Centros del Adulto Mayor durante los 6 primeros meses de funcionamiento. EsSalud. https://repositorio.essalud.gob.pe/handle/20.500.12959/2763
+ 
+Repositorio Essalud
+
+Romero-Albino, Z., Tenorio-Mucha, J., & Cuba-Fuentes, M. S. (2022). Telemonitoreo y teleorientación psicosocial para adultos mayores del Seguro Social de Salud (EsSalud) durante los primeros seis meses de la pandemia por COVID-19 en el Perú. Revista del Cuerpo Médico Hospital Nacional Almanzor Aguinaga Asenjo, 15(3), 392-396. https://doi.org/10.35434/rcmhnaaa.2022.153.1386
+ 
+cmhnaaa.org.pe
+
+Alva-Arroyo, L. L., et al. (2021). Experiencias de telesalud en un hospital especializado en salud mental en Lima, Perú durante la pandemia. SciELO Perú. https://www.scielo.org.pe/scielo.php?pid=S1726-46342021000400653&script=sci_arttext
+ 
+SciELO
+
+Arana Morales, G. A., et al. (2023). Intervención de la telemedicina en pacientes peruanos con insuficiencia cardíaca en tiempos de COVID-19. Scielo. https://scielo.sld.cu/scielo.php?pid=S0864-21252023000200010&script=sci_arttext
+ 
+SciELO
+
+Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older Adults' Interaction with E-Health Interface Based on Explainable Artificial Intelligence. arXiv. https://arxiv.org/abs/2402.07915
 
 ## Anexos
 
