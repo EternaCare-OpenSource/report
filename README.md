@@ -556,12 +556,53 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
 
-| Team Member (Last Name, First Name)       | GitHub Username   | Aspect Name 1 (L/C) 
-|------------------------------------------|-------------------|---------------------|
-| Mauricio Muñoz Vilcapoma | MauricioMVilcapoma  | C  | 
-| Josue Antonio Flores Apaico   |  JosueFloresAp    | C         |  
-| Fiorella Angela Vilca Valverde   | FiorellaVilca    | L         | 
-| Italo Sebastian Verona Flores       | atomdragon1318     | C         |  
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Hero Section</th>
+      <th>Contact section</th>
+      <th>Testimonials section</th>
+      <th>Premium section</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ##### 5.2.1.3. Sprint Backlog 1
 
