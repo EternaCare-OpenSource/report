@@ -569,9 +569,6 @@ Mediante estos wireframes, será posible comprender la distribución de la infor
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
-<img src="./images/chapter-4/Web Applications Wireflow Diagrams -1.jpeg" alt="logo" width="" height="">
-<img src="./images/chapter-4/Web Applications Wireflow Diagrams-2.jpeg" alt="logo" width="" height="">
-
 #### 4.4.2. Web Applications Mock-ups
 
 Los mockups que se muestran a continuación ofrecen una perspectiva detallada del aspecto visual definitivo de EternaCare, nuestra plataforma tecnológica dedicada a optimizar la calidad de vida en centros de cuidado para adultos mayores. Cada interfaz fue meticulosamente desarrollada para presentar un diseño contemporáneo, accesible y de fácil navegación, adaptado para satisfacer las necesidades de diversos tipos de usuarios: desde familiares que requieren acceso inmediato a información relevante, hasta profesionales de la salud que deben documentar información de manera ágil y precisa.
