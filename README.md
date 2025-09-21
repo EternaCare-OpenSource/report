@@ -606,7 +606,6 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 
 ##### 5.2.1.3. Sprint Backlog 1
 
-Sprint Backlog
 En el primer sprint backlog, priorizamos las historias de usuario vinculadas al desarrollo de la Landing Page (Epic EP-008), con el objetivo de tener una primera versión funcional y atractiva para los visitantes. Para gestionar el trabajo, utilizamos Trello, lo que nos permitió descomponer cada historia en tareas más pequeñas y asignarlas de manera eficiente entre los miembros del equipo.
 
 Durante este sprint, el enfoque estuvo en completar estas historias para lograr una landing page funcional, atractiva y fácil de navegar. Gracias a la excelente coordinación, el equipo no solo cumplió con el objetivo principal, sino que también adelantó el trabajo en dos historias de usuario del backlog (US-005 y US-006), superando la velocidad planificada y completando un total de 22 Story Points. El uso de Trello facilitó el seguimiento del progreso y la coordinación, permitiendo que todas las historias planificadas fueran resueltas con éxito.
