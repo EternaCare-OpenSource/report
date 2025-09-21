@@ -569,6 +569,9 @@ Mediante estos wireframes, será posible comprender la distribución de la infor
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
+<img src="./images/chapter-4/Web Applications Wireflow Diagrams -1.jpeg" alt="logo" width="" height="">
+<img src="./images/chapter-4/Web Applications Wireflow Diagrams-2.jpeg" alt="logo" width="" height="">
+
 #### 4.4.2. Web Applications Mock-ups
 
 #### 4.4.3. Web Applications User Flow Diagrams
