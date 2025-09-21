@@ -515,6 +515,23 @@ Su trabajo se basa en registros en papel y hojas de Excel, aunque en ocasiones e
 La comunicación se da mediante llamadas semanales o quincenales y reuniones programadas, aunque reconoce que las familias demandan reportes más constantes. Otorga gran valor a la digitalización, pues permitiría reducir errores y ahorrar tiempo. Ha usado aplicaciones básicas para control de signos vitales, que aprecia por su rapidez, pero critica por su falta de personalización.
 Imagina una plataforma ideal con panel simple para registrar datos, alertas automáticas, reportes compartibles, acceso multiplataforma y un canal seguro de comunicación con familiares y médicos.
 
+Entrevista 3
+
+Nombres y Apellidos: Joseph Herrera Del Pino
+
+Edad: 24 años
+
+Distrito: San Miguel
+
+Screenshot de la entrevista:
+
+<img width="" height="" alt="image" src="images/chapter-2/Entrevista-Joseph.jpeg" />
+
+Timing: Inicio: 0:00, Duración: aprox. 9 min
+
+Resumen de entrevista:
+
+Joseph Herrera es coordinador de enfermería en la Residencia San José de Lima, con 6 años de experiencia en cuidado de adultos mayores, habiendo progresado desde auxiliar hasta su rol actual supervisando 45 residentes. Actualmente utiliza un sistema mixto de expedientes físicos y la plataforma digital "GeriCare" para registrar signos vitales, medicamentos e incidencias, además de WhatsApp Business para comunicarse con familias, aunque reconoce que no es la herramienta ideal. Sus principales desafíos incluyen la falta de tiempo para completar todas las tareas administrativas, la resistencia tecnológica de algunos colegas mayores que requiere que registre información por ellos, y la necesidad de duplicar registros entre sistemas físicos y digitales. Con un nivel de confianza tecnológica de 7/10, Joseph se considera adaptable y ha trabajado previamente con plataformas como ElderTrack, prefiriendo tablets como dispositivo principal por su equilibrio entre funcionalidad y portabilidad. Actualmente envía reportes semanales a las familias por WhatsApp y se comunica inmediatamente en emergencias, pero aspira a una comunicación diaria y acceso familiar en tiempo real al estado de los residentes. Su plataforma digital ideal sería súper fácil de usar (2-3 toques para registros básicos), con acceso móvil, comunicación integrada que envíe updates automáticos a familias, alertas inteligentes para anomalías y generación automática de reportes. Requiere capacitación práctica con casos reales, participa en formaciones cada 3-4 meses utilizando recursos como YouTube y cursos del MINSA, y mantiene intercambio activo de conocimientos con colegas. Visualiza funcionalidades para familias como acceso a fotos de actividades, menú diario y videollamadas programadas con controles de privacidad adecuados. Su día ideal incluiría comenzar con un resumen nocturno automático en tablet, registro rápido durante rondas, updates automáticos a familias y reportes generados sin intervención manual al final del día.
 
 
 #### 2.2.3. Análisis de entrevistas
