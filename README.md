@@ -117,8 +117,8 @@ Para esta primera entrega se desarollaron los capítulos del 1 al 5 y el sprint 
 Distribución de commits:
 
 * Fiorella Angela Vilca Valverde: 21 commits
-* Italo Sebastian Verona Flores: 50 commits
-* Flores Apaico Josue Antonio: 42 commits
+* Italo Sebastian Verona Flores: 52 commits
+* Flores Apaico Josue Antonio: 46 commits
 * Mauricio Rigoberto Muñoz Vilcapoma: 11 commits
 
 ## Contenido
