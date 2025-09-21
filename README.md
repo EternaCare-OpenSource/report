@@ -593,21 +593,22 @@ Se llevó a cabo el despliegue de la **landing page** del proyecto *Carlink*, re
   * Se creó un repositorio público dentro de la organización para alojar la landing page.  
   * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
 
-* Implementación del flujo de trabajo con Git Flow, manteniendo los cambios en la rama *develop*.  
-  * Desde la terminal, se realizó un primer push en la rama remota *main* utilizando `git push origin main`, acompañado de un mensaje de commit descriptivo (`initial-commit-landing`).  
-  * Luego se creó la rama local *develop* con `git checkout -b develop`, y se subió al repositorio remoto con `git push origin develop`. Las ramas `feature/*` se generaron de la misma forma, asegurándose siempre de partir desde *develop* (`git checkout develop`).  
+<img width="1048" height="749" alt="image" src="https://github.com/user-attachments/assets/5f5ca98e-7f1f-4c4a-9595-4a8b959104ac" />
 
-* Realización de un merge desde *develop* hacia *main*, en conformidad con las convenciones de la sección 5.1.2.  
-  * Antes del merge, se validaron los cambios mediante un *pull request* en GitHub, garantizando que no hubiera conflictos y que el código cumpliera con los estándares establecidos.  
-  * Además, se realizaron pruebas manuales utilizando la extensión **Live Server**, verificando el correcto funcionamiento de la landing page antes de la integración.  
+ 
 
 * Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
   * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
-  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+ 
+  <img width="976" height="787" alt="image" src="https://github.com/user-attachments/assets/02b86157-3528-4361-8cd6-a3fb79e124da" />
+
 
 * Publicación exitosa de la **landing page**.  
 
+<img width="1307" height="979" alt="image" src="https://github.com/user-attachments/assets/c4373093-2056-43a1-aa6f-835467b0932a" />
 
+<img width="1318" height="994" alt="image" src="https://github.com/user-attachments/assets/f06c216f-712f-4cc4-8d2c-e844198595b2" />
 
 
 
