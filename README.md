@@ -574,6 +574,21 @@ Mediante estos wireframes, será posible comprender la distribución de la infor
 
 #### 4.4.2. Web Applications Mock-ups
 
+Los mockups que se muestran a continuación ofrecen una perspectiva detallada del aspecto visual definitivo de EternaCare, nuestra plataforma tecnológica dedicada a optimizar la calidad de vida en centros de cuidado para adultos mayores. Cada interfaz fue meticulosamente desarrollada para presentar un diseño contemporáneo, accesible y de fácil navegación, adaptado para satisfacer las necesidades de diversos tipos de usuarios: desde familiares que requieren acceso inmediato a información relevante, hasta profesionales de la salud que deben documentar información de manera ágil y precisa.
+
+Estos mockups ilustran cómo lucirá la experiencia final del usuario, mostrando los elementos visuales, la distribución de contenidos y la interacción que caracterizarán a EternaCare en su implementación completa.
+
+<img src="./images/chapter-4/Mock-up-Sign in -1.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Create account - 2.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Apply - 3.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Landing page - 4.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Report - 5.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Generate Appointment - 6.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Report List - 7.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Status - 8.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Messages - 9.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Mock-up-Profile - 10.png" alt="logo" width="" height="">
+
 #### 4.4.3. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
