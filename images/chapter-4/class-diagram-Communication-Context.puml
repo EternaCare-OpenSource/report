@@ -1,0 +1,60 @@
+@startuml
+' --- Diagram Title ---
+title Communication Context
+
+' --- Skin Parameters ---
+skinparam classAttributeIconSize 0
+hide empty members
+skinparam style strictuml
+
+' --- Classes, Enums and Interfaces ---
+class ConversationThread {
+  - id: UUID
+  - subject: String
+  --
+  + addMessage(message: Message): void
+  + markAsRead(byUser: User): void
+}
+note top of ConversationThread : Aggregate Root
+
+class Message {
+  - id: UUID
+  - content: String
+  - timestamp: DateTime
+}
+
+class Notification {
+  - id: UUID
+  - content: String
+  - isRead: boolean
+  --
+  + send(): void
+  + markAsRead(): void
+}
+
+class Alert extends Notification {
+  - severity: AlertSeverity
+}
+
+enum AlertSeverity {
+  INFO
+  WARNING
+  CRITICAL
+}
+
+' --- Representing an entity from another context ---
+class User <<(E,orchid)>> {
+  ' External Entity from
+  ' Identity & Access Context
+}
+
+' --- Relationships ---
+ConversationThread "1" -- "1..*" Message : contains
+ConversationThread "1" -- "2..*" User : (participants)
+Message "1" -- "1" User : (sender)
+Notification "0..*" -- "1" User : (recipient)
+
+Alert ..|> Notification : inherits
+Notification ..> AlertSeverity : uses (for Alerts)
+
+@enduml
