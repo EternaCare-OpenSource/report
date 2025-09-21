@@ -577,45 +577,36 @@ La creación de la documentación de Web Services mediante OpenAPI/Swagger se pr
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcando el primer paso hacia la publicación progresiva de los productos del sistema. Este trabajo tuvo como objetivo validar visualmente los avances en diseño e interacción con el cliente y el equipo docente.
+Se llevó a cabo el despliegue de la **landing page** del proyecto *Carlink*, representando el primer avance hacia la publicación progresiva de los distintos componentes del sistema. El propósito principal de este trabajo fue validar, tanto a nivel visual como funcional, los progresos en el diseño y la interacción, tanto con los usuarios como con el equipo docente.
 
 ##### Actividades Realizadas
 
-- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
-- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
-- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.1.2*.
-- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
-- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+- Configuración del repositorio en **GitHub** y definición de una estructura inicial de directorios.  
+- Adopción del flujo de trabajo **Git Flow**, centralizando los cambios en la rama *develop*.  
+- Ejecución de un **merge** desde *develop* hacia *main*, siguiendo las convenciones descritas en la sección *5.1.2*.  
+- Habilitación de **GitHub Pages** como servicio de despliegue estático, vinculado a la rama *main*.  
+- Publicación correcta de la **landing page**, accesible mediante una URL pública.  
 
 ##### Evidencias Visuales
 
-* Configuración del repositorio GitHub y estructura inicial de carpetas.
-  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico
+* Configuración del repositorio GitHub y estructura inicial de carpetas.  
+  * Se creó un repositorio público dentro de la organización para alojar la landing page.  
+  * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
 
-  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina
-    
-* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+* Implementación del flujo de trabajo con Git Flow, manteniendo los cambios en la rama *develop*.  
+  * Desde la terminal, se realizó un primer push en la rama remota *main* utilizando `git push origin main`, acompañado de un mensaje de commit descriptivo (`initial-commit-landing`).  
+  * Luego se creó la rama local *develop* con `git checkout -b develop`, y se subió al repositorio remoto con `git push origin develop`. Las ramas `feature/*` se generaron de la misma forma, asegurándose siempre de partir desde *develop* (`git checkout develop`).  
 
-  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
-  initial-commit-landing
+* Realización de un merge desde *develop* hacia *main*, en conformidad con las convenciones de la sección 5.1.2.  
+  * Antes del merge, se validaron los cambios mediante un *pull request* en GitHub, garantizando que no hubiera conflictos y que el código cumpliera con los estándares establecidos.  
+  * Además, se realizaron pruebas manuales utilizando la extensión **Live Server**, verificando el correcto funcionamiento de la landing page antes de la integración.  
 
-  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+* Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
+  * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.  
 
-* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+* Publicación exitosa de la **landing page**.  
 
-  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
-
-  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
-
-* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
-
-  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
-
-  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
-
-
-
-* Publicacion exitosa de la Landing Page
 
 
 
