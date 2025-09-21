@@ -539,6 +539,15 @@ Estos wireframes ofrecen una perspectiva más detallada del aspecto definitivo q
 
 #### 4.3.2. Landing Page Mock-up
 
+Los siguientes mockups representan una visión más cercana a la landing Page de EternaCare:
+
+<img src="./images/chapter-4/mockup-1.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/mockup-2.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/mockup-3.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/mockup-4.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/mockup-5.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/mockup-6.png" alt="logo" width="" height="">
+
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
