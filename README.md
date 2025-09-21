@@ -588,6 +588,10 @@ Estos mockups ilustran cómo lucirá la experiencia final del usuario, mostrando
 
 #### 4.4.3. Web Applications User Flow Diagrams
 
+<img src="./images/chapter-4/Web Applications User Flow Diagrams.jpg" alt="logo" width="" height="">
+
+Link: <a href="https://ejemplo.com" style="color: blue;"> https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426 </a>
+
 ### 4.5. Web Applications Prototyping
 
 <img src="./images/chapter-4/Web Applications Prototyping-1.jpeg" alt="logo" width="" height="">
