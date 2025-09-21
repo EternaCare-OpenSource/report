@@ -97,8 +97,6 @@ Agost 2025
 | Tipo de Enlace                      | URL                                                                                   |
 |------------------------------------|----------------------------------------------------------------------------------------|
 | **Landing Page**                   | ``     |
-| **Frontend desplegado (Vercel)**   |  |
-| **Backend desplegado (Render)**    |  |
 | **Repositorio de la organización** | `https://github.com/EternaCare-OpenSource`                                |
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 
