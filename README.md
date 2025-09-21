@@ -349,11 +349,187 @@ Para el despliegue de la landing page se seleccionó un servicio de hosting que 
 ---
 
 
-#### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management
 
-#### 5.1.3. Source Code Style Guide & Conventions
+#### Product and Repository
+
+| Product              | Repository            | URL                                                                 |
+|----------------------|-----------------------|---------------------------------------------------------------------|
+| Landing Page         | EternaCare-Landing    | [LandingPage](https://github.com/EternaCare-OpenSource/landing-page)   |
+| Web Services         | Carlink-Web Services  |    |
+| Front Web Application| Carlink-Frontend      | |
+
+#### Repository Structure
+
+El repositorio se encuentra organizado en ramas diseñadas para diferentes fases del desarrollo, lo que garantiza un flujo de trabajo consistente y ordenado:
+
+- **Main branch**: Contiene la versión estable y lista para producción.  
+- **Develop branch**: Alberga el código en desarrollo, probado antes de integrarse en `main`.  
+
+Para la implementación de nuevas características, se crean ramas siguiendo una convención clara:
+
+- **Feature branches**: Orientadas a nuevas funcionalidades con la nomenclatura `feature/nueva-funcionalidad`.  
+
+Se adoptó el modelo **GitFlow**, propuesto por Vincent Driessen, que incluye los siguientes tipos de ramas:  
+
+- **Main branch**: Rama de producción con código estable.  
+- **Develop branch**: Rama de integración y pruebas antes de pasar a `main`.  
+- **Chapter**: Derivadas de `develop` para nuevas características.  
+- **Release branches**: Para estabilización y pruebas finales antes del despliegue.  
+- **Hotfix branches**: Para corregir errores críticos en producción (`hotfix/correccion-critica`).  
+
+
+#### Commit Messages
+
+Se emplea el estándar **Conventional Commits**, lo que facilita la trazabilidad de cambios y la generación automatizada de versiones. Ejemplos:
+
+- `feat`: Nueva funcionalidad. Ej: `feat: agregar módulo de notificaciones`.  
+- `fix`: Corrección de errores. Ej: `fix: resolver bug en validación de datos`.  
+- `docs`: Actualización de documentación. Ej: `docs: actualizar manual de instalación`.  
+- `style`: Cambios de formato. Ej: `style: aplicar convenciones de estilo de código`.  
+- `refactor`: Optimización sin alterar funcionalidad. Ej: `refactor: mejorar performance del módulo de usuario`.  
+- `test`: Creación o ajuste de pruebas. Ej: `test: añadir pruebas unitarias de autenticación`.  
+
+#### Documentation
+
+La documentación principal se encuentra en el archivo `README.md` de cada repositorio, donde se incluyen detalles de configuración, instrucciones de uso y guías de contribución.  
+
+---
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+#### HTML
+
+Para asegurar accesibilidad y mantener el orden en la estructura del sitio se aplicaron las siguientes prácticas:
+
+- Etiquetas escritas en minúscula.  
+- Cierre correcto de todos los elementos.  
+- Atributos en minúscula.  
+- Inclusión de `alt`, `width` y `height` en imágenes.  
+- Evitar espacios innecesarios en las etiquetas.  
+
+**Ejemplo de imagen:**
+
+```html
+<img src="html5.gif" alt="HTML5" style="width:128px;height:128px">
+
+```
+
+
+#### CSS
+
+Para mantener consistencia en el diseño y facilitar la lectura del código, se aplicaron las siguientes reglas:
+
+- Usar nombres de clases e IDs que sean descriptivos y semánticos.
+- Elegir nombres breves pero comprensibles.
+
+```css
+#gallery {}
+.video {}
+```
+
+- Usar propiedades abreviadas siempre que sea posible para mantener el código compacto.
+
+```css
+padding: 0 1em 2em;
+```
+
+- No utilizar unidades en valores cero.
+
+```css
+margin: 0;
+padding: 0;
+```
+
+- Ordenar las propiedades alfabéticamente para facilitar el escaneo visual.
+
+```css
+background: fuchsia;
+border: 1px solid;
+border-radius: 4px;
+color: black;
+text-align: center;
+text-indent: 2em;
+```
+
+---
+
+#### JavaScript
+
+Para lograr un código más claro y mantenible, se establecieron las siguientes prácticas de codificación:
+
+- Utilizar funciones con llaves bien estructuradas.
+
+```js
+function myFunc() {
+  console.log('Hello!');
+}
+```
+
+- Usar `lowerCamelCase` para declarar variables.
+
+```js
+let playerScore = 0;
+```
+
+- Preferir el uso de `let` y `const` sobre `var`.
+
+```js
+const myName = 'Chris';
+let myAge = 40;
+myAge++;
+console.log(myAge);
+```
+
+- Nombrar las funciones también siguiendo la convención `lowerCamelCase`.
+
+```js
+function sayHello() {
+  alert('Hello!');
+}
+```
+
+---
+
 
 #### 5.1.4. Software Deployment Configuration
+
+#### Landing Page
+
+**Consideraciones previas al despliegue:**
+
+1. Archivos en formato HTML, CSS y JS.
+2. Publicación en un repositorio de GitHub.
+3. Realización de pruebas de funcionamiento (internas y externas).
+
+**Requisitos:**
+
+- Repositorio en GitHub (público).
+- Código fuente completo de la landing page.
+
+**Pasos para realizar el despliegue:**
+
+A continuación, se detallan los pasos para desplegar nuestro sitio web utilizando GitHub Pages.
+
+
+
+1. **Despliegue con GitHub Pages**: Primero, accedemos al repositorio en GitHub donde se encuentra el proyecto y luego nos dirigimos a la configuración del repositorio.
+
+
+
+3. Dentro del menú de ajustes, seleccionamos la opción "Pages".
+
+   
+---
+
+#### Control de Versiones
+
+**Uso de Git**: Es importante mantener un historial completo de los cambios para gestionar las diferentes versiones del código de manera eficiente.
+
+En la sección de **GitHub Pages**, elegimos la rama principal (`main`) en el menú desplegable de la opción "Branch" y luego hacemos clic en "Save" para guardar los cambios. Después de un breve periodo de espera, obtendremos el enlace a nuestro sitio web, ahora publicado en GitHub Pages.
+
+---
+
 
 ### 5.2. Landing Page, Services & Applications Implementation.
 
@@ -361,7 +537,31 @@ Para el despliegue de la landing page se seleccionó un servicio de hosting que 
 
 ##### 5.2.1.1. Sprint Planning 1
 
+El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.
+
+| Sprint #                             | Sprint 1                                                                                               |
+|--------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Date**       |     2025-09-14        |
+| Time           | 1:00 PM                      |
+| Location       | Virtual - Meet               |
+| Prepared By    | Mauricio Muñoz               |
+| Attendees (to planning meeting)| Todo el equipo                    |
+| Sprint n - 1 Review Summary    | Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Mauricio Rigoberto Muñoz Vilcapoma                                            |
+| Sprint n - 1 Retrospective Summary | Este es el primer Sprint, por lo que este campo no aplica.                                       |
+| Sprint 1 Goal                  | Nuestra prioridad en este sprint es implementar la landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Esto se confirmará cuando las visitas a nuestra landing page superen un cierto índice. |
+| Sprint 1 Velocity              | Nuestro equipo puede aceptar hasta 17 Story Points.                                                  |
+| Sum of Story Points            | La suma de Story Points atendidos es de  22.                                            |
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
+
+| Team Member (Last Name, First Name)       | GitHub Username   | Aspect Name 1 (L/C) 
+|------------------------------------------|-------------------|---------------------|
+| Mauricio Muñoz Vilcapoma | MauricioMVilcapoma  | C  | 
+| Josue Antonio Flores Apaico   |  JosueFloresAp    | C         |  
+| Fiorella Angela Vilca Valverde   | FiorellaVilca    | L         | 
+| Italo Sebastian Verona Flores       | atomdragon1318     | C         |  
 
 ##### 5.2.1.3. Sprint Backlog 1
 
@@ -371,9 +571,60 @@ Para el despliegue de la landing page se seleccionó un servicio de hosting que 
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante este Sprint, nos enfocamos exclusivamente en el desarrollo del frontend estático de la Landing Page del proyecto Carlink. En consecuencia, no se implementaron endpoints ni funcionalidades relacionadas con servicios web o APIs RESTful.
+
+La creación de la documentación de Web Services mediante OpenAPI/Swagger se programará para Sprints futuros, una vez que comience la implementación del backend del sistema.
+
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcando el primer paso hacia la publicación progresiva de los productos del sistema. Este trabajo tuvo como objetivo validar visualmente los avances en diseño e interacción con el cliente y el equipo docente.
+
+##### Actividades Realizadas
+
+- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
+- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
+- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.1.2*.
+- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
+- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+
+##### Evidencias Visuales
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.
+  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico
+
+  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina
+    
+* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
+  initial-commit-landing
+
+  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+
+* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+
+  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
+
+  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
+
+* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
+
+  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+
+
+
+* Publicacion exitosa de la Landing Page
+
+
+
+
+
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo principalmente por Fiorella Angela Vilca Valverde
 
 
 ## Conclusiones
