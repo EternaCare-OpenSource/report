@@ -589,7 +589,21 @@ La implementación final es adaptable a dispositivos móviles (responsive) e inc
 
 A continuación, se presentan capturas de pantalla de las principales vistas de la Landing Page desarrolladas durante este Sprint.
 
+Figura 1: Vista principal (Hero Section) de la Landing Page, mostrando el eslogan, la propuesta de valor y los llamados a la acción principales.
 
+![hero-section.png](images/chapter-5/hero-section.png)
+
+Figura 2: Sección de características que detalla los beneficios clave de la plataforma, como el monitoreo en tiempo real y las alertas personalizadas.
+
+![benefits.png](images/chapter-5/benefits.png)
+
+Figura 3: Implementación del carrusel de testimonios, una de las funcionalidades interactivas clave desarrolladas en el Sprint para aportar prueba social.
+
+![carrusel.png](images/chapter-5/carrusel.png)
+
+**Video de Demostración**
+
+A continuación, se presenta un video que ilustra la navegación fluida, el diseño adaptable (responsive design), el carrusel interactivo y la funcionalidad de cambio de idioma de la Landing Page implementada en este Sprint.
 
 
 
