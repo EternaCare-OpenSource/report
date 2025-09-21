@@ -565,6 +565,167 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 
 ##### 5.2.1.3. Sprint Backlog 1
 
+Sprint Backlog
+En el primer sprint backlog, priorizamos las historias de usuario vinculadas al desarrollo de la Landing Page (Epic EP-008), con el objetivo de tener una primera versión funcional y atractiva para los visitantes. Para gestionar el trabajo, utilizamos Trello, lo que nos permitió descomponer cada historia en tareas más pequeñas y asignarlas de manera eficiente entre los miembros del equipo.
+
+Durante este sprint, el enfoque estuvo en completar estas historias para lograr una landing page funcional, atractiva y fácil de navegar. Gracias a la excelente coordinación, el equipo no solo cumplió con el objetivo principal, sino que también adelantó el trabajo en dos historias de usuario del backlog (US-005 y US-006), superando la velocidad planificada y completando un total de 22 Story Points. El uso de Trello facilitó el seguimiento del progreso y la coordinación, permitiendo que todas las historias planificadas fueran resueltas con éxito.
+
+Trello Sprint 1: https://trello.com/invite/b/6852dc22be4d268f2cb60058/ATTI4257219223d8e8d494dd27cb2c6c36e9748B3CD5/sprint-1
+
+<table>
+<tr>
+<th colspan="8">Sprint #1</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="6">Work-Item / Task</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+<tr>
+<td rowspan="2">US-043</td>
+<td rowspan="2">Conocer los servicios</td>
+<td>T01</td>
+<td>Diseño UI/UX de la sección de Servicios</td>
+<td>Crear el wireframe y mock-up para la sección que detalla las funcionalidades de CareLink.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T02</td>
+<td>Implementación Frontend de la sección Servicios</td>
+<td>Maquetar la sección de servicios en HTML y CSS, asegurando que sea responsive.</td>
+<td>4</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US-044</td>
+<td rowspan="2">Leer la misión y visión del proyecto</td>
+<td>T03</td>
+<td>Diseño UI de la sección 'Nosotros'</td>
+<td>Diseñar la interfaz para la sección que presenta la misión y visión de EternaCare.</td>
+<td>2</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T04</td>
+<td>Implementación Frontend de Misión y Visión</td>
+<td>Desarrollar la sección de la landing page con el contenido de misión y visión.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="3">US-045</td>
+<td rowspan="3">Ver testimonios y casos de éxito</td>
+<td>T05</td>
+<td>Diseño del carrusel de testimonios</td>
+<td>Crear el componente visual deslizable con testimonios (texto, nombre, rol).</td>
+<td>3</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T06</td>
+<td>Implementar lógica del carrusel</td>
+<td>Añadir la funcionalidad de navegación con flechas y puntos en JavaScript.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T07</td>
+<td>Integrar contenido de testimonios</td>
+<td>Añadir los textos e imágenes de los testimonios al componente y a los archivos de internacionalización.</td>
+<td>2</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US-046</td>
+<td rowspan="2">Solicitar información personalizada</td>
+<td>T08</td>
+<td>Diseñar formulario de contacto</td>
+<td>Crear los campos para nombre, email y mensaje en la sección de contacto.</td>
+<td>2</td>
+<td>Mauricio Muñoz</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T09</td>
+<td>Implementar formulario y validaciones</td>
+<td>Maquetar el formulario y añadir validaciones básicas de campos en JavaScript.</td>
+<td>3</td>
+<td>Mauricio Muñoz</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US-047</td>
+<td rowspan="2">Ver precios y planes</td>
+<td>T10</td>
+<td>Diseño UI de la sección de Planes</td>
+<td>Diseñar las tarjetas de precios para los diferentes planes de suscripción.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T11</td>
+<td>Implementación Frontend de Planes</td>
+<td>Desarrollar la sección de precios, asegurando que el plan recomendado destaque.</td>
+<td>4</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US-006</td>
+<td rowspan="2">Evaluar estado emocional del residente</td>
+<td>T12</td>
+<td>Diseño UI para registro emocional (Prototipo)</td>
+<td>Diseñar la interfaz para registrar el estado anímico y comentarios del residente.</td>
+<td>3</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T13</td>
+<td>Crear endpoint POST /api/emotions (scaffold)</td>
+<td>Definir la estructura inicial del endpoint en el backend para futuras implementaciones.</td>
+<td>2</td>
+<td>Mauricio Muñoz</td>
+<td>Done</td>
+</tr>
+<tr>
+<td rowspan="2">US-005</td>
+<td rowspan="2">Registrar actividad del residente</td>
+<td>T14</td>
+<td>Diseño UI para registro de actividad (Prototipo)</td>
+<td>Crear el wireframe y mock-up para la vista de registro de actividades diarias.</td>
+<td>2</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T15</td>
+<td>Crear endpoint POST /api/activities (scaffold)</td>
+<td>Implementar la estructura base del endpoint en la API para el registro de actividades.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+</table>
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
 En este Sprint, el equipo de desarrollo ha logrado avances significativos en la implementación de la Landing Page para la plataforma CareLink. El trabajo abarcó desde la configuración inicial del proyecto y la estructura HTML base, hasta la implementación de los estilos visuales y las funcionalidades interactivas clave, como el carrusel de testimonios y el selector de idioma (internacionalización).
