@@ -103,9 +103,9 @@ Agosto 2025
 Entrega TB1 (27/04/2025):
 
 <img src="./images/chapter-1/Commit1.png" alt="Insights Report Collaboration Insights TB1" />
-<img src="./images/chapter-1/Commit2.png" alt="Insights Report Collaboration Insights TB1" />
-<img src="./images/chapter-1/Commit3.png" alt="Insights Report Collaboration Insights TB1" />
-<img src="./images/chapter-1/Commit4.png" alt="Insights Report Collaboration Insights TB1" />
+<img src="./images/chapter-1/Coomits2.png" alt="Insights Report Collaboration Insights TB1" />
+<img src="./images/chapter-1/Coomits3.png" alt="Insights Report Collaboration Insights TB1" />
+<img src="./images/chapter-1/Coomits4.png" alt="Insights Report Collaboration Insights TB1" />
 <img src="./images/chapter-1/Commit5.png" alt="Insights Report Collaboration Insights TB1" />
 <img src="./images/chapter-1/Commit6.png" alt="Insights Report Collaboration Insights TB1" />
 <img src="./images/chapter-1/Commit7.png" alt="Insights Report Collaboration Insights TB1" />
