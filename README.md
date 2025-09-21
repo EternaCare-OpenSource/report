@@ -2119,6 +2119,8 @@ En el primer sprint backlog, priorizamos las historias de usuario vinculadas al 
 
 Durante este sprint, el enfoque estuvo en completar estas historias para lograr una landing page funcional, atractiva y fácil de navegar. Gracias a la excelente coordinación, el equipo no solo cumplió con el objetivo principal, sino que también adelantó el trabajo en dos historias de usuario del backlog (US-005 y US-006), superando la velocidad planificada y completando un total de 22 Story Points. El uso de Trello facilitó el seguimiento del progreso y la coordinación, permitiendo que todas las historias planificadas fueran resueltas con éxito.
 
+<img src="./images/chapter-5/Trello-Sprint1.png" alt="Trello-Sprint1">
+
 Trello Sprint 1: https://trello.com/invite/b/6852dc22be4d268f2cb60058/ATTI4257219223d8e8d494dd27cb2c6c36e9748B3CD5/sprint-1
 
 <table>
