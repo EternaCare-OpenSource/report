@@ -579,20 +579,21 @@ Mediante estos wireframes, será posible comprender la distribución de la infor
 
 #### 4.6.1. Software Architecture Context Diagram
 
-![structurizr-106226-SystemContext.png](images/chapter-4/structurizr-106226-SystemContext.png)
+<img src="./images/chapter-4/structurizr-106226-SystemContext.png" alt="structurizr-106226-SystemContext">
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-![structurizr-106226-Containers.png](images/chapter-4/structurizr-106226-Containers.png)
+<img src="./images/chapter-4/structurizr-106226-Containers.png" alt="structurizr-106226-Containers">
 
 #### 4.6.3. Software Architecture Components Diagrams
 Diagrama de Componentes de la API RESTful
 
-![structurizr-106226-ComponentsAPI.png](images/chapter-4/structurizr-106226-ComponentsAPI.png)
+<img src="./images/chapter-4/structurizr-106226-ComponentsAPI.png" alt="structurizr-106226-ComponentsAPI">
 
 Diagrama de Componentes de la Aplicación Web (SPA)
 
-![structurizr-106226-ComponentsSPA.png](images/chapter-4/structurizr-106226-ComponentsSPA.png)
+<img src="./images/chapter-4/structurizr-106226-ComponentsSPA.png" alt="structurizr-106226-ComponentsSPA">
+
 
 ### 4.7. Software Object-Oriented Design
 
