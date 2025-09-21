@@ -605,6 +605,10 @@ Figura 3: Implementación del carrusel de testimonios, una de las funcionalidade
 
 A continuación, se presenta un video que ilustra la navegación fluida, el diseño adaptable (responsive design), el carrusel interactivo y la funcionalidad de cambio de idioma de la Landing Page implementada en este Sprint.
 
+<video width="640" controls>
+  <source src="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/EaC-QnuiB4RIuv5wG4E8e34BONjsoNnhSxh0R4kRRPZNLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YladD7" type="video/mp4">
+  Tu navegador no soporta la reproducción de video.
+</video>
 
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
