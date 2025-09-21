@@ -436,7 +436,8 @@ Distrito: Lima
 
 Screenshot de la entrevista:
 
-<img src="./images/chapter-2/Entrevista-Joaquin.png" alt="Canvas" width="600"/>
+<img width="184" height="252" alt="image" src="https://github.com/user-attachments/assets/33609e35-aeb7-4de5-9b03-57f6d3a01e4a" />
+
 
 URL del Video: [Joaquín Pérez - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217212_upc_edu_pe/EQFUpDVUJFtNnvJkwlHUnVIB0ZSgnA3pUhHaE4SY9qTsLQ?e=xCNdhX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -459,7 +460,7 @@ Distrito: Lima
 
 Screenshot de la entrevista:
 
-<img src="./images/chapter-2/Entrevista-Jhon.png" alt="Canvas" width="600"/>
+<img width="260" height="231" alt="image" src="https://github.com/user-attachments/assets/418f0812-1976-4223-b633-b12dc650ddef" />
 
 URL del Video: [Jhon Gálvez - Entrevista](https://upcedupe-my.sharepoint.com/personal/u202217212_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202217212%5Fupc%5Fedu%5Fpe%2FDocuments%2Fvideo3730031451%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef319941d%2D2e55%2D4b85%2Dbc97%2D183188c9e1de)
 
@@ -480,7 +481,7 @@ Distrito: Lima
 
 Screenshot de la entrevista:
 
-<img src="./images/chapter-2/Entrevista-Farid.png" alt="Canvas" width="600"/>
+<img width="372" height="312" alt="image" src="https://github.com/user-attachments/assets/3cefe504-6bfa-4731-8bc8-8c95f28e8c34" />
 
 URL del Video: [Farid Briceño - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217212_upc_edu_pe/EfqzLfJVEBpLlnJa3VAPrnYBREKG6TxFOCIJNv-MQItqgg?e=F28cbg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
