@@ -447,6 +447,28 @@ Resumen de la Entrevista
 Joaquín es estudiante de ingeniería de software y visita a su familiar adulto mayor entre una y dos veces por semana, dependiendo de su disponibilidad. Su principal preocupación es que el personal encargado, debido a la alta carga de pacientes, no pueda brindar la atención adecuada y personalizada. Manifiesta el deseo de que exista un cuidador exclusivo o, en su defecto, la posibilidad de monitorear el estado de su familiar desde casa.
 Actualmente recibe información a través de los enfermeros de turno, quienes le proporcionan reportes verbales. Sin embargo, considera que un sistema digital que ofrezca actualizaciones diarias sobre estado de ánimo, alimentación o descanso sería mucho más útil y accesible. Aunque percibe que el trato del personal hacia los residentes es positivo, recalca la necesidad de contar con un informe diario y un canal de contacto directo con los responsables del cuidado.
 
+Entrevista 3
+
+Nombres y Apellidos: Melina Orderique Castro
+
+Edad: 21 años
+
+Distrito: Lima
+
+Screenshot de la entrevista:
+
+<img src="./images/chapter-2/Entrevista-Melina.png" alt="Canvas" width="600"/>
+
+URL del Video: [Melina Orderique - Entrevista](https://youtu.be/GSClW7QrVfQ)
+
+Timing: Inicio: 0:00, Duración: aprox. 7 min 13 seg
+
+Melina es una estudiante universitaria que, debido a la carga académica de sus clases, trabajos y demás responsabilidades, encontraba complicado dedicar el tiempo necesario al cuidado de su abuela. Para evitar que ella quedara sola, su familia había establecido un sistema de rotación en el que distintos integrantes se turnaban para acompañarla, ya que resultaba imposible que una sola persona pudiera estar presente las 24 horas del día.
+
+Aunque este método aseguraba que su abuela no permaneciera sin compañía, también implicaba ciertas limitaciones. Los familiares, incluidos Melina, no siempre podían interactuar de manera constante o dedicarle la atención personalizada que merecía, ya que sus ocupaciones cotidianas reducían el tiempo de convivencia y cuidado activo.
+
+En ese contexto, el producto que se le presentó le pareció especialmente innovador y útil. Ella valoró que la propuesta no solo buscaba facilitar la supervisión diaria de su abuela, sino también ofrecer un acompañamiento más cercano y seguro, compensando las limitaciones que tenían como familia. Para Melina, la solución representaba una forma práctica de garantizar el bienestar de su abuela sin descuidar sus estudios, lo cual generó en ella una percepción positiva y de confianza hacia el producto.
+
 
 **Segmento B: Personal Sanitario y de Cuidado**
 
