@@ -552,6 +552,21 @@ Los siguientes mockups representan una visión más cercana a la landing Page de
 
 #### 4.4.1. Web Applications Wireframes
 
+Los wireframes que se presentan a continuación muestran el diseño estructural y las funciones principales de EternaCare, una plataforma digital innovadora creada para elevar la calidad de vida de los adultos mayores que residen en centros de cuidado y reforzar los vínculos con sus seres queridos. Estas interfaces han sido desarrolladas con el objetivo de ofrecer una experiencia de usuario clara y accesible. Cada elemento fue cuidadosamente diseñado para permitir el monitoreo integral del bienestar físico y emocional de los residentes, mejorar la eficiencia de los procesos administrativos del centro y facilitar una comunicación efectiva entre todas las partes interesadas.
+
+Mediante estos wireframes, será posible comprender la distribución de la información, identificar las herramientas disponibles en cada sección, y visualizar la manera en que los usuarios navegarán por la plataforma para alcanzar nuestro objetivo principal: garantizar el cuidado óptimo de los residentes y ofrecer paz mental a sus familias a través de soluciones tecnológicas de vanguardia.
+
+<img src="./images/chapter-4/Wireframe-Log In-1.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Sign up-2.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Apply-3.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Landing page-4.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Reports-5.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Generate Appointment-6.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Report List-7.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wirerame-Stats-8.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Messages-9.png" alt="logo" width="" height="">
+<img src="./images/chapter-4/Wireframe-Profile-10.png" alt="logo" width="" height="">
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 #### 4.4.2. Web Applications Mock-ups
