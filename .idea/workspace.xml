@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="feat: update README with Big Picture Event Storming image and adjust related content">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Italo Verona &lt;verona.flores.italo@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;atomdragon1318&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EternaCare-OpenSource/report.git&quot;,
+    &quot;accountId&quot;: &quot;98163e73-7927-4fba-87f3-e9b6e602f606&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="32X4fpi36uaL8gPuGjn3cebIwl4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "chapter-2",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88d7ad2b-0589-42fd-a84c-309db80d0d73" name="Changes" comment="" />
+      <created>1757553693439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757553693439</updated>
+      <workItem from="1757553696169" duration="4556000" />
+      <workItem from="1757616491162" duration="2840000" />
+      <workItem from="1757899457228" duration="3218000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add: Interview questions for family support network and healthcare personnel">
+      <option name="closed" value="true" />
+      <created>1757617912384</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757617912384</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add segment one">
+      <option name="closed" value="true" />
+      <created>1757900391983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757900391983</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add segment two image">
+      <option name="closed" value="true" />
+      <created>1757900408786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757900408786</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add healthcare personnel care image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902015404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902015404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add family support network image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902029412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902029412</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add user journey and empathy maps images to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757902168339</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902168339</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add Big Picture Event Storming image to chapter 2">
+      <option name="closed" value="true" />
+      <created>1757903147654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903147654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: update README with Big Picture Event Storming image and adjust related content">
+      <option name="closed" value="true" />
+      <created>1757903214411</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757903214411</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="feat: add segment one" />
+    <MESSAGE value="feat: add segment two image" />
+    <MESSAGE value="feat: add healthcare personnel care image to chapter 2" />
+    <MESSAGE value="feat: add family support network image to chapter 2" />
+    <MESSAGE value="feat: add user journey and empathy maps images to chapter 2" />
+    <MESSAGE value="feat: add Big Picture Event Storming image to chapter 2" />
+    <MESSAGE value="feat: update README to include Big Picture Event Storming image and update section title in chapter 2" />
+    <MESSAGE value="feat: update README with Big Picture Event Storming image and adjust related content" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update README with Big Picture Event Storming image and adjust related content" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
