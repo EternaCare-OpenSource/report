@@ -567,7 +567,31 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
+En este Sprint, el equipo de desarrollo ha logrado avances significativos en la implementación de la Landing Page para la plataforma CareLink. El trabajo abarcó desde la configuración inicial del proyecto y la estructura HTML base, hasta la implementación de los estilos visuales y las funcionalidades interactivas clave, como el carrusel de testimonios y el selector de idioma (internacionalización).
+
+A continuación, se presenta la evidencia de desarrollo a través de una tabla que detalla los commits más relevantes realizados en el repositorio durante el período del Sprint.
+
+| Repository                       | Branch                | Commit Id | Commit Message                                                                       | Commit Message Body (Ejemplo Ilustrativo)                                                                                                                            | Commited on (Date) |
+|:---------------------------------|:----------------------|:----------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
+| EternaCare/carelink-landing-page | feature/i18n          | `37a148e` | Create es.js                                                                         | Añade el archivo de traducciones para el idioma español (es.js), siguiendo la estructura de claves definida. Separa las traducciones para mejorar la mantenibilidad. | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/i18n          | `288092f` | Create en.js                                                                         | Crea el archivo de traducciones para el idioma inglés (en.js) que servirá como idioma por defecto para la internacionalización de la página.                         | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/interactivity | `91246d5` | feat(landing-page): add interactive features to landing page                         | Implementa la lógica JavaScript para el carrusel de testimonios, el menú de navegación móvil y el selector de idioma. Añade los scripts al archivo HTML.             | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/styles        | `2ad9e35` | feat(landing-page): Landing page styles folder added                                 | Añade el archivo `styles.css` con todas las guías de estilo, paleta de colores, tipografía y diseño responsivo para la landing page, siguiendo el diseño de Figma.   | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | main                  | `e1d905e` | chore: initialize landing page project with HTML structure and package configuration | Configura el proyecto inicial con el archivo `index.html` base, `package.json` y las dependencias de desarrollo necesarias como linters y formateadores de código.   | Sep 20, 2025       |
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el Sprint 1, el equipo ha cumplido y superado el objetivo principal: la implementación completa y funcional de la Landing Page de la plataforma CareLink. Se desarrollaron todas las secciones clave definidas en el Epic EP-008, incluyendo la presentación de servicios (US-043), la misión y visión (US-044), la estructura de planes y precios (US-047), y la sección de testimonios (US-045) con funcionalidad de carrusel interactivo.
+
+La implementación final es adaptable a dispositivos móviles (responsive) e incluye un selector de idioma (inglés/español) para una mayor accesibilidad. Es destacable que el equipo superó su velocidad planificada de 17 puntos, completando un total de 22 Story Points, lo que demuestra un alto nivel de productividad y compromiso en esta primera iteración.
+
+**Vistas Implementadas (Screenshots)**
+
+A continuación, se presentan capturas de pantalla de las principales vistas de la Landing Page desarrolladas durante este Sprint.
+
+
+
+
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
