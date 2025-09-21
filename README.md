@@ -96,7 +96,7 @@ Agost 2025
 
 | Tipo de Enlace                      | URL                                                                                   |
 |------------------------------------|----------------------------------------------------------------------------------------|
-| **Landing Page**                   | ``     |
+| **Landing Page**                   | `https://eternacare-opensource.github.io/landing-page/`     |
 | **Repositorio de la organización** | `https://github.com/EternaCare-OpenSource`                                |
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 
