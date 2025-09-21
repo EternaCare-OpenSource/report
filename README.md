@@ -420,7 +420,7 @@ Nuestro propósito es garantizar una experiencia de usuario simple y coherente, 
 
 Ambos perfiles cuentan con acceso a las mismas secciones, pero con diferentes niveles de permisos. Los profesionales de la salud pueden generar y gestionar reportes médicos o programar citas, mientras que los familiares tienen acceso únicamente a la visualización de estadísticas y reportes, además de contar con un canal de comunicación restringido a emergencias o consultas puntuales.  
 
-![Diagrama](./assets/Diagrama-Carlink.png)
+<img src="./images/chapter-4/Diagrama-Carlink.jpg" alt="logo">
 
 Tal como muestra el diagrama, el flujo sigue una secuencia estructurada que facilita la gestión de la salud de los pacientes y permite la interacción fluida entre médicos y familiares. A continuación, se detallan las etapas del proceso y sus funciones:
 
