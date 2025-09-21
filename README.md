@@ -2426,4 +2426,36 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 
 ## Anexos
 
+**Anexo A:**  
+[Deployment Landing Page](https://eternacare-opensource.github.io/landing-page/)  
+
+**Anexo B:**  
+[Wireframe Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+
+**Anexo C:**  
+[Mock-ups Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=1-1518&t=wJLnuHin59MbfCfY-1)  
+
+**Anexo D:**  
+[Web Applications Wireframes](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+
+**Anexo E:**  
+[Web Applications Mock-up](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=1-2&t=wJLnuHin59MbfCfY-1)  
+
+**Anexo F:**  
+[Actividades en Trello](https://trello.com/b/v1O6kRjA/sprint-1)  
+
+**Anexo G:**  
+[User Flow Diagrams en Miro](https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426)  
+
+**Anexo H:**  
+[Repositorio Report](https://github.com/EternaCare-OpenSource/report.git)  
+
+**Anexo I:**  
+[Organización GitHub EternaCare](https://github.com/EternaCare-OpenSource)  
+
+**Anexo J:**  
+[Repositorio Landing Page](https://github.com/EternaCare-OpenSource/landing-page.git)  
+
+**Anexo K:**  
+[Deploymento Landing Page (GitHub Pages)](https://eternacare-opensource.github.io/landing-page/)  
 
