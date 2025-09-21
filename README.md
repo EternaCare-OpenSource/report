@@ -590,6 +590,11 @@ Estos mockups ilustran cómo lucirá la experiencia final del usuario, mostrando
 
 ### 4.5. Web Applications Prototyping
 
+<img src="./images/chapter-4/Web Applications Prototyping-1.jpeg" alt="logo" width="" height="">
+<img src="./images/chapter-4/Web Applications Prototyping-2.jpeg" alt="logo" width="" height="">
+
+Link de video: <a href="https://ejemplo.com" style="color: blue;"> https://drive.google.com/drive/folders/1Ellq9PdW43kTtMkvNCNpDS8KM3i4qsq8?usp=sharing </a>
+
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Software Architecture Context Diagram
