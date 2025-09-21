@@ -607,25 +607,29 @@ Esta decisión se fundamenta en varias características clave del dominio del pr
 
 Este esquema almacena toda la información sobre los usuarios, sus perfiles, roles y permisos. La tabla users es el eje central, mientras que una tabla de unión user_roles maneja la relación de muchos a muchos entre usuarios y roles.
 
-![class-diagram-indentity-access-Identity___Access_Context.png](images/chapter-4/class-diagram-indentity-access-Identity___Access_Context.png)
+
+<img src="./images/chapter-4/class-diagram-indentity-access-Identity___Access_Context.png" alt="class-diagram-indentity-access-Identity___Access_Context">
 
 2. **Esquema: Billing & Subscriptions Context**
 
 Diseñado para manejar el modelo de negocio SaaS. La tabla subscriptions es la más importante y conecta a un customer (que a su vez está vinculado a un usuario) con un plan específico. La tabla invoices guarda un historial de todos los pagos realizados.
 
-![class-diagram-billing-subscriptions-Billing___Subscriptions_Context.png](images/chapter-4/class-diagram-billing-subscriptions-Billing___Subscriptions_Context.png)
+<img src="./images/chapter-4/class-diagram-indentity-access-Identity___Access_Context.png" alt="class-diagram-indentity-access-Identity___Access_Context">
+
 
 3. **Esquema: Communication Context**
 
 Este diagrama detalla las clases responsables de todas las interacciones entre usuarios, incluyendo la mensajería asíncrona y las notificaciones generadas por el sistema. ConversationThread (Hilo de Conversación) actúa como un Aggregate Root para los mensajes, mientras que Notification (Notificación) es una entidad independiente. Una Alert (Alerta) es un tipo especializado de Notification.
 
-![class-diagram-Communication-Context-Communication_Context.png](images/chapter-4/class-diagram-Communication-Context-Communication_Context.png)
+<img src="./images/chapter-4/class-diagram-Communication-Context-Communication_Context.png" alt="class-diagram-Communication-Context-Communication_Context">
+
 
 4. **Esquema: Analytics  Context**
 
 Este diagrama muestra la estructura para las funcionalidades de reportería y análisis. Este contexto se compone principalmente de clases de servicio que leen datos de otros contextos para generar información de valor. ReportGenerator (Generador de Reportes) es un servicio, no una entidad, y produce objetos de tipo Report (Reporte).
 
-![diagram-class-Analytics-Context-Analytics_Context.png](images/chapter-4/diagram-class-Analytics-Context-Analytics_Context.png)
+<img src="./images/chapter-4/diagram-class-Analytics-Context-Analytics_Context.png" alt="diagram-class-Analytics-Context-Analytics_Context">
+
 
 ### 4.8. Database Design
 
@@ -635,7 +639,8 @@ El diseño del esquema refleja directamente la separación lógica de los Bounde
 
 #### 4.8.1. Database Diagram
 
-![Plataforma CareLink.png](images/chapter-4/Plataforma%20CareLink.png)
+<img src="./images/chapter-4/Plataforma%20CareLink.png" alt="Plataforma%20CareLink">
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
