@@ -527,6 +527,8 @@ Screenshot de la entrevista:
 
 <img width="" height="" alt="image" src="images/chapter-2/Entrevista-Joseph.jpeg" />
 
+URL del Video: [Joseph Herrera - Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211e417_upc_edu_pe/EUX5Mi9vT-dHhiq1LtyHNY4BAvRqMbasA3SYnAZkJ_C9bA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Iypdv7)
+
 Timing: Inicio: 0:00, Duración: aprox. 9 min
 
 Resumen de entrevista:
