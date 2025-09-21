@@ -510,25 +510,27 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 - Segmento 1: Red de Apoyo Familiar
 
-![Red-de-Apoyo-Familiar.png](images/chapter-2/Red-de-Apoyo-Familiar.png)
+<img src="./images/chapter-2/Red-de-Apoyo-Familiar.png" alt="Red-de-Apoyo-Familiar" />
 
 - Segmento 2: Personal Sanitario y de Cuidado
 
-![Personal-Sanitario-y-de-Cuidado.png](images/chapter-2/Personal-Sanitario-y-de-Cuidado.png)
+<img src="./images/chapter-2/Personal-Sanitario-y-de-Cuidado.png" alt="Personal-Sanitario-y-de-Cuidado" />
+
 
 #### 2.3.4. Empathy Mapping
 
 - Segmento 1: Red de Apoyo Familiar
 
-![Red-Apoyo-Familiar.png](images/chapter-2/Red-Apoyo-Familiar.png)
+<img src="./images/chapter-2/Red-Apoyo-Familiar.png" alt="Red-Apoyo-Familiar" />
 
 - Segmento 2: Personal Sanitario y de Cuidado
 
-![Personal-Sanitario-de-Cuidado.png](images/chapter-2/Personal-Sanitario-de-Cuidado.png)
+<img src="./images/chapter-2/Personal-Sanitario-de-Cuidado.png" alt="Personal-Sanitario-de-Cuidado" />
 
 #### 2.3.5. Big Picture Event Storming
 
-![Big-Picture-Event-Storming.jpg](images/chapter-2/Big-Picture-Event-Storming.jpg)
+<img src="./images/chapter-2/Big-Picture-Event-Storming.jpg" alt="Big-Picture-Event-Storming" />
+
 
 ### 2.4. Ubiquitous Language
 
