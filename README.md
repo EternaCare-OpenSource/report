@@ -191,22 +191,19 @@ Los competidores directos de EternaCare son plataformas con modelos de negocio s
 * **Quimun:** Startup chilena que se especializa en la gestión integral de residencias de adultos mayores. Su plataforma digitaliza procesos administrativos y médicos, y facilita la comunicación entre familiares y el personal de cuidado. Compite directamente en la región (Chile, Ecuador y con planes de expansión en Perú y Colombia) y ofrece funcionalidades muy parecidas a las de EternaCare, lo que la convierte en una rival clave.
 
   <div align="center">
-  
-    ![QUIMUN.png](images/chapter-2/QUIMUN.png)
+    <img src="./images/chapter-2/QUIMUN.png" alt="QUIMUN" />
   </div>
 
 * **Safe365:** Esta aplicación española se centra en el **monitoreo y localización** de personas mayores. Si bien su principal función es la seguridad y la asistencia en emergencias (botón de pánico, localización en tiempo real), también incorpora comunicación familiar. Su enfoque en la seguridad se alinea con una parte importante de la propuesta de valor de CareLink.
 
   <div align="center">
-  
-    ![Safe365.png](images/chapter-2/Safe365.png)
+    <img src="./images/chapter-2/Safe365.png" alt="Safe365" />
 * </div>
 
 * **MiCuidum (Cuidum):** Una plataforma que se enfoca en la **gestión del cuidado a domicilio**. Permite a las familias monitorear y coordinar la atención del adulto mayor, facilitando la comunicación entre familiares, cuidadores y profesionales de la salud. Su modelo de asistencia domiciliaria la posiciona como una competidora directa, aunque con un enfoque específico en el hogar.
 
   <div align="center">
-  
-    ![Cuidum.png](images/chapter-2/Cuidum.png) 
+    <img src="./images/chapter-2/Cuidum.png" alt="Cuidum" />
   </div>
 
 - **Competidores Indirectos**
@@ -215,14 +212,12 @@ Los competidores indirectos de EternaCare ofrecen soluciones que satisfacen algu
 
 * **Mon Ami:** Esta plataforma se orienta al **bienestar social y emocional**, conectando a adultos mayores con estudiantes universitarios para compañía y asistencia en actividades diarias. A diferencia de EternaCare, su enfoque no es clínico ni de monitoreo de salud, sino de acompañamiento, cubriendo una necesidad que CareLink podría considerar secundaria pero importante.
   <div align="center">
-
-    ![monami.png](images/chapter-2/monami.png)
+  <img src="./images/chapter-2/monami.png" alt="monami" />
   </div>
 * **Dispositivos Inteligentes y Asistentes de Voz:** Soluciones de IoT como **Blipcare** (monitores de salud) o asistentes como **Amazon Echo Show** compiten en el espacio de la gestión de salud desde el hogar. Ofrecen recordatorios de medicación y facilitan el día a día, pero carecen de la profundidad en el monitoreo integral y las funciones de comunicación familiar que son el núcleo de la plataforma CareLink.
 
   <div align="center">
-  
-    ![asistentes-de-voz-cover.jpg](images/chapter-2/asistentes-de-voz-cover.jpg)
+  <img src="./images/chapter-2/asistentes-de-voz-cover.jpg" alt="asistentes-de-voz-cover.jpg" />
   </div>
 
 #### 2.1.1. Análisis competitivo
