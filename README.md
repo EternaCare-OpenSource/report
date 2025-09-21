@@ -495,10 +495,19 @@ Imagina una plataforma ideal con panel simple para registrar datos, alertas auto
 
 
 
-**Segmento B: Personal Sanitario y de Cuidado**
-
-
 #### 2.2.3. Análisis de entrevistas
+
+**Entrevista 1 – Jhon Gálvez**
+
+Jhon tiene 27 años y trabaja como enfermero en un centro médico en Lima. Cuenta que una de sus mayores dificultades es la sobrecarga de trabajo, porque muchos residentes requieren atención constante, y al mismo tiempo debe coordinar con los familiares, quienes suelen tener expectativas muy altas. A pesar de estas complicaciones, reconoce que la digitalización ha sido de gran ayuda, ya que permite registrar la información médica en tiempo real y reduce errores. Sin embargo, señala que las plataformas actuales no siempre son fáciles de usar. Para él, lo ideal sería contar con una herramienta simple, accesible desde cualquier dispositivo y con comunicación directa hacia los familiares, que además envíe alertas automáticas sobre cambios importantes en la salud de los pacientes.
+
+**Entrevista 2 – Joaquín Pérez**
+
+Joaquín tiene 20 años, estudia ingeniería de software y visita a su familiar una o dos veces por semana. Lo que más le preocupa es la falta de información constante, ya que depende de los reportes verbales que recibe cuando va al centro. Nota también que, por la gran cantidad de pacientes, el personal a veces no puede dar un cuidado tan personalizado como él quisiera. Por eso cree que sería muy útil tener un sistema que le envíe informes diarios sobre el estado de ánimo, la alimentación y el descanso de su familiar, además de un canal de comunicación más directo con los cuidadores. Para Joaquín, la tecnología representaría una forma de sentirse más tranquilo y conectado, incluso cuando no puede estar presente físicamente.
+
+**Entrevista 3 – Farid Briceño**
+
+Farid tiene 26 años y trabaja como cuidador en un centro geriátrico. Explica que todavía dependen mucho de registros en papel y hojas de Excel, lo cual hace más difícil reaccionar rápido en casos de emergencia, porque la información no está digitalizada ni centralizada. También comenta que la comunicación con las familias suele ser limitada a llamadas o reuniones programadas, cuando en realidad muchas quisieran tener informes más frecuentes y en tiempo real. Farid imagina una plataforma que le permita registrar datos de manera rápida, generar reportes automáticos, enviar alertas de medicación y, sobre todo, que tenga un canal seguro y directo con los familiares y médicos. Está convencido de que una herramienta así le facilitaría el trabajo y al mismo tiempo daría más confianza a las familias.
 
 ### 2.3. Needfinding
 
