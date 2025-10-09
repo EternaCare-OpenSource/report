@@ -1107,11 +1107,11 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 - Segmento 1: Red de Apoyo Familiar
 
-<img src="./images/chapter-2/Red-de-Apoyo-Familiar.png" alt="Red-de-Apoyo-Familiar" />
+<img src="./images/chapter-2/User-Journey-Segmento1.png" alt="Red-de-Apoyo-Familiar" />
 
 - Segmento 2: Personal Sanitario y de Cuidado
 
-<img src="./images/chapter-2/Personal-Sanitario-y-de-Cuidado.png" alt="Personal-Sanitario-y-de-Cuidado" />
+<img src="./images/chapter-2/User-Journey-Segmento2.png" alt="Personal-Sanitario-y-de-Cuidado" />
 
 
 #### 2.3.4. Empathy Mapping
