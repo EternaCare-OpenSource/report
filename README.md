@@ -2782,9 +2782,27 @@ En el Sprint 2, el equipo completó exitosamente la implementación de los bound
 
 <img src="images/chapter-5/dashboard.jpeg" alt="" width=""/>
 
-*Figura 3:* Reportes con mas detalles
+*Figura 3:*  Panel de estadísticas del paciente, incluyendo monitoreo de signos vitales en tiempo real, lista de actividades médicas y control de medicación. 
+
+<img src="images/chapter-5/stats.jpeg" alt="" width=""/>
+
+*Figura 4:* Reportes con mas detalles
 
 <img src="images/chapter-5/reports.jpeg" alt="" width=""/>
+
+*Figura 5:* Sistema de mensajería entre paciente y profesionales de salud mostrando conversaciones activas y chat en tiempo real.
+
+<img src="images/chapter-5/messages.jpeg" alt="" width=""/>
+
+*Figura 6:*  Calendario de citas médicas mostrando programación mensual y lista de próximas consultas agendadas.
+
+<img src="images/chapter-5/appointments-calendar.jpeg" alt="" width=""/>
+
+*Figura 7:* Perfil del paciente mostrando resumen de actividad y configuración de información personal.
+
+<img src="images/chapter-5/profile.jpeg" alt="" width=""/>
+
+
 
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -2792,18 +2810,16 @@ Durante el Sprint 2, se documentaron los endpoints desarrollados para el fronten
 
 **Endpoints Documentados:**
 
-| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta |
-|:---------|:------------|:------------|:-----------|:----------|
-| /api/auth/login | POST | Autenticación de usuario | email, password | 200 OK: Token JWT<br>401 Unauthorized: Credenciales inválidas |
-| /api/auth/register | POST | Registro de nuevo usuario | name, email, password, role | 201 Created: Usuario creado<br>400 Bad Request: Datos inválidos |
-| /api/residents | GET | Listar todos los residentes | page, limit, search | 200 OK: Array de residentes |
-| /api/residents/{id} | GET | Obtener detalles de residente | id (path) | 200 OK: Datos del residente<br>404 Not Found: Residente no existe |
-| /api/residents | POST | Crear nuevo residente | Objeto residente completo | 201 Created: Residente creado |
-| /api/residents/{id} | PUT | Actualizar datos de residente | id (path), datos actualizados | 200 OK: Residente actualizado |
-| /api/residents/{id} | DELETE | Eliminar residente | id (path) | 204 No Content: Eliminado exitosamente |
-| /api/health-records | POST | Registrar signos vitales | residentId, bloodPressure, heartRate, temperature | 201 Created: Registro creado |
-| /api/medications | GET | Listar medicamentos de residente | residentId | 200 OK: Array de medicamentos |
-| /api/reports/weekly | GET | Generar reporte semanal | residentId, startDate, endDate | 200 OK: Datos del reporte |
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|:---------|:------------|:------------|:-----------|:----------|:-----------------|
+| /api/auth/login | POST | Autenticación de usuario | email, password | 200 OK: Token JWT<br>401 Unauthorized: Credenciales inválidas | Figura 1 - Pantalla de inicio de sesión |
+| /api/residents/{id} | GET | Obtener detalles de residente | id (path) | 200 OK: Datos del residente<br>404 Not Found: Residente no existe | Figura 3 - Dashboard de estadísticas del paciente |
+| /api/health-records | GET | Obtener signos vitales del residente | residentId | 200 OK: Signos vitales actuales | Figura 3 - Panel de signos vitales |
+| /api/medications | GET | Listar medicamentos de residente | residentId | 200 OK: Array de medicamentos | Figura 3 - Lista de medicamentos |
+| /api/appointments | GET | Listar citas médicas del residente | residentId, month, year | 200 OK: Array de citas programadas | Figura 6 - Calendario de citas |
+| /api/messages | GET | Obtener conversaciones del paciente | userId | 200 OK: Array de mensajes y conversaciones | Figura 5 - Sistema de mensajería |
+| /api/reports | GET | Listar reportes médicos disponibles | residentId | 200 OK: Array de reportes con metadata | Figura 4 - Reportes médicos del paciente |
+| /api/profile | GET | Obtener información del perfil de usuario | userId | 200 OK: Datos de perfil y estadísticas | Figura 2 y 7 - Perfil del usuario |
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
