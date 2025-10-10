@@ -2884,6 +2884,13 @@ A continuación, se desplegó el proyecto ejecutando los siguientes comandos en 
 **firebase deploy**
 <img width="" height="" alt="image" src="./images/chapter-5/deploy.jpeg" />
 
+**Api-fake deplo**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake3.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake4.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake5.jpeg" />
+
 Por último, el frontend de *CareLink* fue desplegada exitosamente:
 <img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
 Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
