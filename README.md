@@ -1735,20 +1735,20 @@ Link de video: <a href="https://ejemplo.com" style="color: blue;"> https://drive
 
 #### 4.6.1. Software Architecture Context Diagram
 
-<img src="./images/chapter-4/structurizr-106226-SystemContext.png" alt="structurizr-106226-SystemContext">
+<img src="./images/chapter-4/SystemContext.png" alt="SystemContext">
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-<img src="./images/chapter-4/structurizr-106226-Containers.png" alt="structurizr-106226-Containers">
+<img src="./images/chapter-4/Containers.png" alt="Containers">
 
 #### 4.6.3. Software Architecture Components Diagrams
 Diagrama de Componentes de la API RESTful
 
-<img src="./images/chapter-4/structurizr-106226-ComponentsAPI.png" alt="structurizr-106226-ComponentsAPI">
+<img src="./images/chapter-4/ComponentsAPI.png" alt="ComponentsAPI">
 
 Diagrama de Componentes de la Aplicación Web (SPA)
 
-<img src="./images/chapter-4/structurizr-106226-ComponentsSPA.png" alt="structurizr-106226-ComponentsSPA">
+<img src="./images/chapter-4/ComponentsSPA.png" alt="ComponentsSPA">
 
 
 ### 4.7. Software Object-Oriented Design
