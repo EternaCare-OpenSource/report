@@ -2150,7 +2150,7 @@ Durante este sprint, el enfoque estuvo en completar estas historias para lograr 
 
 <img src="./images/chapter-5/Trello-Sprint1.png" alt="Trello-Sprint1">
 
-Trello Sprint 1: https://trello.com/invite/b/6852dc22be4d268f2cb60058/ATTI4257219223d8e8d494dd27cb2c6c36e9748B3CD5/sprint-1
+
 
 <table>
 <tr>
@@ -2519,6 +2519,7 @@ Asimismo, se efectuó una actualización en la **landing page**.
 
 <img src="images/chapter-5/Sprint-Backlog-2.png" alt="" width=""/>
 
+Trello Sprint 2: https://trello.com/invite/b/68e8866039dabe1a99f4d3ec/ATTI9c9751dfca09a7363cc67550cbe6cc8c43BF7008/sprint-2
 
 <table>
 <tr>
