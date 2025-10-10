@@ -2540,6 +2540,34 @@ Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la ap
 | EternaCare/backend | feature/api-endpoints | `g7h8i9j` | feat(api): implement RESTful endpoints for residents | Crea endpoints CRUD para gestión de residentes con validaciones y manejo de errores. | Oct 10, 2025 |
 | EternaCare/backend | feature/api-endpoints | `k0l1m2n` | feat(api): add authentication middleware | Implementa middleware de autenticación JWT para proteger rutas sensibles. | Oct 10, 2025 |
 
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2, el equipo completó exitosamente la implementación de los bounded contexts principales de la aplicación web, superando el objetivo planificado de 33 Story Points. Se desarrollaron interfaces funcionales para los módulos de Identity & Access Management, Group Management, Challenges y Analytics, con sus respectivas integraciones al backend.
+
+*Principales Logros del Sprint:*
+
+- Implementación completa del módulo de autenticación y gestión de usuarios
+- Desarrollo de interfaces para gestión de residentes y cuidadores
+- Creación de dashboard de monitoreo de salud con visualizaciones interactivas
+- Sistema de reportes y analíticas con exportación de datos
+- Integración exitosa de todos los módulos con el backend RESTful
+
+*Vistas Implementadas (Screenshots)*
+
+*Figura 1:* Vista de Login y Registro de usuarios del sistema CareLink.
+
+<img src="images/chapter-5/iniciar-sesion.jpeg" alt="" width=""/>
+<img src="images/chapter-5/crear-cuenta.jpeg" alt="" width=""/>
+
+*Figura 2:* Dashboard principal mostrando resumen de residentes y alertas activas.
+
+<img src="images/chapter-5/dashboard.jpeg" alt="" width=""/>
+
+*Figura 3:* Reportes con mas detalles
+
+<img src="images/chapter-5/reports.jpeg" alt="" width=""/>
+
+
 
 ## Conclusiones
 
