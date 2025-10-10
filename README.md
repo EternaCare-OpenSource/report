@@ -2371,6 +2371,146 @@ Se llevó a cabo el despliegue de la **landing page** del proyecto *Carlink*, re
 
 Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo principalmente por Fiorella Angela Vilca Valverde
 
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Sprint Planning 2
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-09-01</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>18:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td> Reunión virtual en Discord </td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Josue Antonio Flores Apaico</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 2 Goal</th>
+    <td>Nuestro objetivo se centra en asignar de forma individual las tareas a cada integrante según el bounded context que seleccione, y concluir el informe con una descripción detallada del trabajo realizado por cada uno.</td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Velocity</th>
+    <td>33 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33 puntos</td>
+  </tr>
+</table>
+
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo se enfocará en el desarrollo de una aplicación web, priorizando la creación de funcionalidades esenciales que optimicen la experiencia del usuario y contribuyan al cumplimiento de los objetivos del proyecto.  
+Los ejes principales de trabajo abarcarán **funcionalidades centrales**, **módulos operativos** y **elementos de la interfaz**.
+
+Cada uno de estos apartados tendrá un líder encargado de su ejecución, acompañado por colaboradores que apoyarán en tareas específicas. Este enfoque busca garantizar una comunicación fluida, una coordinación efectiva y una asignación transparente de responsabilidades dentro del equipo.
+
+
+A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX)**:
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>IAM BC</th>
+      <th>Group Management BC</th>
+      <th>Challenges BC</th>
+      <th>Analytics BC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 5.2.2.3. Sprint Backlog 2
+
+En el Sprint 2, el propósito principal fue que cada integrante desarrollara un *bounded context* vinculado con la lógica de negocio, garantizando que las secciones de la página web creadas por el equipo presentaran una navegación intuitiva y reflejaran de forma clara el trabajo realizado en clase.  
+Para cumplir con este objetivo, los *bounded contexts* se organizaron en las siguientes categorías: **Tareas**, **Calendarios**, **Miembros**, **Reportes/Comentarios** y **Herramientas**.  
+Asimismo, se efectuó una actualización en la **landing page**.
+
+
+<img src="images/chapter-5/Sprint-Backlog-2.png" alt="Moodle" width="800"/>
+
+| Sprint # | | | | | | | |
+|-----------|--|--|--|--|--|--|--|
+| **Sprint 2 – Funcionalidades de Monitoreo y Comunicación** ||||| |
+| **User<br>Story** |  | **Work-Item / Task** |  |  | **Estimation<br>(Hours)** | **Assigned<br>To** | **Status<br>(To-do / InProcess / To-Review / Done)** |
+| **ID** | **Title** | **ID** | **Title** | **Description** |  |  |  |
+| **US-007** | Monitoreo con dispositivos IoT | **T01** | Integrar sensores IoT en el backend | Conectar dispositivos para registrar signos vitales (temperatura, presión, ritmo cardíaco). | 6h | Josue Flores | InProcess |
+|  |  | **T02** | Diseñar estructura de datos para sensores | Crear modelo en base de datos para almacenar registros de los dispositivos IoT. | 3h | Sebastián Real | Done |
+| **US-008** | Alertas de emergencia por sensores | **T03** | Implementar alertas automáticas | Programar detección de valores críticos y envío de notificaciones inmediatas. | 4h | Josue Flores | InProcess |
+|  |  | **T04** | Configurar panel de alertas | Mostrar alertas activas en dashboard del personal sanitario. | 3h | Alejo Cárdenas | To-Review |
+| **US-009** | Enviar mensajes al personal | **T05** | Crear módulo de mensajería interna | Permitir comunicación directa entre familiares y personal médico. | 5h | Luquillas Asto Omar | Done |
+|  |  | **T06** | Implementar base de datos de conversaciones | Guardar mensajes con timestamps y usuarios asociados. | 3h | Josue Flores | Done |
+| **US-014** | Notificaciones de cambios en el estado | **T07** | Configurar servicio de notificaciones push | Enviar avisos automáticos ante cambios de salud o nuevas actividades. | 4h | Sebastián Real | InProcess |
+|  |  | **T08** | Vincular alertas al panel familiar | Mostrar las notificaciones relevantes en la cuenta del familiar. | 3h | Alejo Cárdenas | To-Review |
+| **US-021** | Reporte semanal de salud | **T09** | Generar reportes automáticos | Automatizar generación de resumen semanal con evolución del residente. | 5h | Josue Flores | Done |
+|  |  | **T10** | Crear visualización de progreso | Gráficos de tendencias de salud y participación en actividades. | 4h | Luquillas Asto Omar | InProcess |
+| **US-030** | Registro de administración de medicamentos | **T11** | Crear formulario de administración | Registrar dosis aplicadas, hora y responsable del cuidado. | 3h | Sebastián Real | Done |
+|  |  | **T12** | Validar alertas de stock | Enviar notificación si la medicina está por agotarse. | 2h | Josue Flores | Done |
+| **US-035** | Asignar personal a turnos | **T13** | Implementar módulo de asignación automática | Calcular turnos según disponibilidad del personal. | 5h | Alejo Cárdenas | Done |
+|  |  | **T14** | Vista de planificación | Mostrar calendario editable con los turnos programados. | 3h | Luquillas Asto Omar | InProcess |
+| **US-012** | Videollamadas integradas | **T15** | Integrar servicio WebRTC | Implementar videollamadas seguras entre familiar y residente. | 6h | Josue Flores | To-Review |
+|  |  | **T16** | Optimizar interfaz de llamadas | Ajustar diseño responsivo para dispositivos móviles. | 3h | Sebastián Real | InProcess |
+
+
+
 
 ## Conclusiones
 
