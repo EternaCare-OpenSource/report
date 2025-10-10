@@ -2567,7 +2567,24 @@ En el Sprint 2, el equipo completó exitosamente la implementación de los bound
 
 <img src="images/chapter-5/reports.jpeg" alt="" width=""/>
 
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 2, se documentaron los endpoints desarrollados para el frontend de la aplicación CareLink. La documentación incluye todos los bounded contexts implementados con sus respectivos métodos HTTP, parámetros y esquemas de respuesta.
+
+**Endpoints Documentados:**
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta |
+|:---------|:------------|:------------|:-----------|:----------|
+| /api/auth/login | POST | Autenticación de usuario | email, password | 200 OK: Token JWT<br>401 Unauthorized: Credenciales inválidas |
+| /api/auth/register | POST | Registro de nuevo usuario | name, email, password, role | 201 Created: Usuario creado<br>400 Bad Request: Datos inválidos |
+| /api/residents | GET | Listar todos los residentes | page, limit, search | 200 OK: Array de residentes |
+| /api/residents/{id} | GET | Obtener detalles de residente | id (path) | 200 OK: Datos del residente<br>404 Not Found: Residente no existe |
+| /api/residents | POST | Crear nuevo residente | Objeto residente completo | 201 Created: Residente creado |
+| /api/residents/{id} | PUT | Actualizar datos de residente | id (path), datos actualizados | 200 OK: Residente actualizado |
+| /api/residents/{id} | DELETE | Eliminar residente | id (path) | 204 No Content: Eliminado exitosamente |
+| /api/health-records | POST | Registrar signos vitales | residentId, bloodPressure, heartRate, temperature | 201 Created: Registro creado |
+| /api/medications | GET | Listar medicamentos de residente | residentId | 200 OK: Array de medicamentos |
+| /api/reports/weekly | GET | Generar reporte semanal | residentId, startDate, endDate | 200 OK: Datos del reporte |
 
 ## Conclusiones
 
