@@ -2895,6 +2895,14 @@ Por último, el frontend de *CareLink* fue desplegada exitosamente:
 <img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
 Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
 
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de EternaCare por integrante.
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
+
 ## Conclusiones
 
 1. **Problema vigente y relevante:**  
