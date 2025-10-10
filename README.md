@@ -1277,9 +1277,8 @@ El Lenguaje Ubicuo de Tempo define un conjunto de términos compartidos entre de
 
 ### 3.2. Impact Mapping
 
-<img src="./images/chapter-3/Impact mapping-1.jpeg" alt="Canvas" width="900"/>
-<img src="./images/chapter-3/Impact mapping-2.jpeg" alt="Canvas" width="900
-"/>
+<img src="./images/chapter-3/Impact-map.png" alt="Impact mapping"/>
+
 
 ### 3.3. Product Backlog
 
