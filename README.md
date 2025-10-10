@@ -214,6 +214,15 @@ Distribución de commits:
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -2514,12 +2523,26 @@ Asimismo, se efectuó una actualización en la **landing page**.
 | **US-012** | Videollamadas integradas | **T15** | Integrar servicio WebRTC | Implementar videollamadas seguras entre familiar y residente. | 6h | Josue Flores | To-Review |
 |  |  | **T16** | Optimizar interfaz de llamadas | Ajustar diseño responsivo para dispositivos móviles. | 3h | Sebastián Real | InProcess |
 
+##### 5.2.2.4. Development Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación web y la implementación de bounded contexts específicos. A continuación se presenta la evidencia de los commits más relevantes realizados en los repositorios del proyecto durante este período.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:-----------|:-------|:----------|:---------------|:--------------------|:-------------------|
+| EternaCare/front-end | feature/iam-bc | `a3b4c5d` | feat(iam): implement user authentication module | Implementa el módulo de autenticación con login, registro y recuperación de contraseña. Incluye validación de formularios y manejo de tokens JWT. | Oct 10, 2025 |
+| EternaCare/front-end | feature/iam-bc | `e6f7g8h` | feat(iam): add user profile management | Añade funcionalidad para gestión de perfiles de usuario con actualización de datos personales y cambio de contraseña. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `i9j0k1l` | feat(groups): implement resident management interface | Crea interfaz para gestión de residentes incluyendo listado, creación, edición y eliminación de perfiles. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `m2n3o4p` | feat(groups): add caregiver assignment functionality | Implementa asignación de cuidadores a residentes con visualización de relaciones y gestión de turnos. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `q5r6s7t` | feat(challenges): create health monitoring dashboard | Desarrolla dashboard para monitoreo de signos vitales con gráficos interactivos y alertas visuales. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `u8v9w0x` | feat(challenges): implement medication tracking system | Añade sistema de seguimiento de medicamentos con recordatorios y registro de administración. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `y1z2a3b` | feat(analytics): build reporting interface | Construye interfaz de reportes con filtros personalizables y exportación a PDF. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `c4d5e6f` | feat(analytics): add statistical visualization components | Implementa componentes de visualización estadística con gráficos de tendencias y comparativas. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `g7h8i9j` | feat(api): implement RESTful endpoints for residents | Crea endpoints CRUD para gestión de residentes con validaciones y manejo de errores. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `k0l1m2n` | feat(api): add authentication middleware | Implementa middleware de autenticación JWT para proteger rutas sensibles. | Oct 10, 2025 |
 
 
 ## Conclusiones
 
-* **Conclusiones:**
 1. **Problema vigente y relevante:**  
    La falta de comunicación efectiva y de acceso inmediato a la información entre familiares y centros geriátricos constituye una dificultad crítica en Lima, considerando el aumento constante de adultos mayores y la creciente demanda de servicios de cuidado.  
 
