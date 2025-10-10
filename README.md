@@ -1866,9 +1866,9 @@ Para el despliegue de la landing page se seleccionó un servicio de hosting que 
 
 | Product              | Repository            | URL                                                                 |
 |----------------------|-----------------------|---------------------------------------------------------------------|
-| Landing Page         | EternaCare-Landing    | [LandingPage](https://github.com/EternaCare-OpenSource/landing-page)   |
-| Web Services         | Carlink-Web Services  |    |
-| Front Web Application| Carlink-Frontend      | |
+| Landing Page         | EternaCare-Landing    | [LandingPage](https://github.com/EternaCare-OpenSource/landing-page.git)   |
+| Web Services         | Carlink-Web Services  |  [WebServices](https://github.com/EternaCare-OpenSource/backend.git) |
+| Front Web Application| Carlink-Frontend      |[Frontend](https://github.com/EternaCare-OpenSource/front-end.git)  |
 
 #### Repository Structure
 
@@ -2369,7 +2369,12 @@ Se llevó a cabo el despliegue de la **landing page** del proyecto *Carlink*, re
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo principalmente por Fiorella Angela Vilca Valverde
+Se adjuntan las evidencias de colaboración del equipo durante el Sprint #1 de EternaCare por integrante.
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.3.jpeg" />
 
 #### 5.2.2. Sprint 2
 
@@ -2485,7 +2490,7 @@ Para cumplir con este objetivo, los *bounded contexts* se organizaron en las sig
 Asimismo, se efectuó una actualización en la **landing page**.
 
 
-<img src="images/chapter-5/Sprint-Backlog-2.png" alt="Moodle" width="800"/>
+<img src="images/chapter-5/Sprint-Backlog-2.png" alt="" width=""/>
 
 | Sprint # | | | | | | | |
 |-----------|--|--|--|--|--|--|--|
