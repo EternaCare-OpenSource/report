@@ -2586,6 +2586,72 @@ Durante el Sprint 2, se documentaron los endpoints desarrollados para el fronten
 | /api/medications | GET | Listar medicamentos de residente | residentId | 200 OK: Array de medicamentos |
 | /api/reports/weekly | GET | Generar reporte semanal | residentId, startDate, endDate | 200 OK: Datos del reporte |
 
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se realizó el despliegue tanto de la **landing page actualizada** como de la **aplicación web frontend** del proyecto *CareLink*. Este avance representa un hito importante en la publicación progresiva de los componentes del sistema, permitiendo validar la integración entre los diferentes bounded contexts y la experiencia de usuario completa.
+
+##### Despliegue de Landing Page (Versión Actualizada)
+
+##### Actividades Realizadas
+
+- Configuración del repositorio en **GitHub** y definición de una estructura inicial de directorios.  
+- Adopción del flujo de trabajo **Git Flow**, centralizando los cambios en la rama *develop*.  
+- Ejecución de un **merge** desde *develop* hacia *main*, siguiendo las convenciones descritas en la sección *5.1.2*.  
+- Habilitación de **GitHub Pages** como servicio de despliegue estático, vinculado a la rama *main*.  
+- Publicación correcta de la **landing page**, accesible mediante una URL pública.  
+
+##### Evidencias Visuales
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.  
+  * Se creó un repositorio público dentro de la organización para alojar la landing page.  
+  * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
+
+<img width="1048" height="749" alt="image" src="https://github.com/user-attachments/assets/5f5ca98e-7f1f-4c4a-9595-4a8b959104ac" />
+
+* Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
+  * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+ 
+  <img width="976" height="787" alt="image" src="https://github.com/user-attachments/assets/02b86157-3528-4361-8cd6-a3fb79e124da" />
+
+
+* Publicación exitosa de la **landing page**.  
+
+<img width="1307" height="979" alt="image" src="https://github.com/user-attachments/assets/c4373093-2056-43a1-aa6f-835467b0932a" />
+
+<img width="1318" height="994" alt="image" src="https://github.com/user-attachments/assets/f06c216f-712f-4cc4-8d2c-e844198595b2" />
+
+Link de nueva version desplegada:
+
+* Para el despliegue de la aplicación frontend, se empleó Firebase Hosting como plataforma de publicación.
+
+<img width="" height="" alt="image" src="./images/chapter-5/firebase.jpeg" />
+
+* Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado CareLink
+
+<img width="" height="" alt="image" src="./images/chapter-5/inicio-sesion-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/crear-proyecto-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink-1.jpeg" />
+
+A continuación, se desplegó el proyecto ejecutando los siguientes comandos en el terminal del entorno de desarrollo:
+
+**npm install -g firebase tools**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-firebase.jpeg" />
+
+**firebase init**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-init.jpeg" />
+
+**firebase deploy**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy.jpeg" />
+
+Por último, el frontend de *CareLink* fue desplegada exitosamente:
+<img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
+Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
+
 ## Conclusiones
 
 1. **Problema vigente y relevante:**  
