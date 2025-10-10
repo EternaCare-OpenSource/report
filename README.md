@@ -86,6 +86,24 @@ Agosto 2025
       <td>Josue Antonio Flores Apaico y Fiorella Angela Vilca Valverde</td>
       <td>Revisión completa hasta el capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>1.1</td>
+      <td>2025-10-05</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>5.2.2. Sprint 2, 5.2.2.1. Sprint Planning 2., 5.2.2.2. Aspect Leaders and Collaborators., 5.2.2.3. Sprint Backlog 2., 5.2.2.4. Development Evidence for Sprint Review., 5.2.2.5. Execution Evidence for Sprint Review., 5.2.2.6. Services Documentation Evidence for Sprint Review., 5.2.2.7. Software Deployment Evidence for Sprint Review., 5.2.2.8. Team Collaboration Insights during Sprint.</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa hasta capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa del capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
   </tbody>
 </table>
 
