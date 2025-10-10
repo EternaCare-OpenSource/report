@@ -86,6 +86,24 @@ Agosto 2025
       <td>Josue Antonio Flores Apaico y Fiorella Angela Vilca Valverde</td>
       <td>Revisión completa hasta el capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>1.1</td>
+      <td>2025-10-05</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>5.2.2. Sprint 2, 5.2.2.1. Sprint Planning 2., 5.2.2.2. Aspect Leaders and Collaborators., 5.2.2.3. Sprint Backlog 2., 5.2.2.4. Development Evidence for Sprint Review., 5.2.2.5. Execution Evidence for Sprint Review., 5.2.2.6. Services Documentation Evidence for Sprint Review., 5.2.2.7. Software Deployment Evidence for Sprint Review., 5.2.2.8. Team Collaboration Insights during Sprint.</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa hasta capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa del capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -239,8 +257,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. | En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. | El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.|
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. <br><br>**Fiorella Angela Vilca Valverde (TP):** Redacté la documentación correspondiente a la sección de diseño UI/UX de la plataforma web, explicando las decisiones visuales y su impacto en la experiencia del usuario. Además, participé en la revisión ortográfica y en la redacción del capítulo de implementación de la interfaz.<br><br>**Italo Sebastian Verona Flores (TP):** Elaboré el apartado técnico sobre la estructura y componentes del frontend, detallando el proceso de maquetación y validando la coherencia entre los módulos de navegación y presentación. También revisé la redacción del informe técnico y las secciones de desarrollo del Sprint 2.<br><br>**Josue Antonio Flores Apaico (TP):** Redacté los apartados relacionados con el desarrollo funcional de la plataforma, los módulos de reportes y monitoreo, y la documentación de la planificación Sprint 2. Participé en la corrección de estilo y en la unificación del formato del documento final.| **TB1**<br>El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. <br><br>**TP**<br>La redacción conjunta permitió generar un informe claro, coherente y estructurado, adaptado tanto a lectores técnicos como a un público académico. El trabajo en equipo se reflejó en un documento bien fundamentado, con lenguaje profesional, ortografía revisada y coherencia global en todos los capítulos del Sprint 2.|
 
 
 ## Capitulo I
@@ -2501,27 +2519,228 @@ Asimismo, se efectuó una actualización en la **landing page**.
 
 <img src="images/chapter-5/Sprint-Backlog-2.png" alt="" width=""/>
 
-| Sprint # | | | | | | | |
-|-----------|--|--|--|--|--|--|--|
-| **Sprint 2 – Funcionalidades de Monitoreo y Comunicación** ||||| |
-| **User<br>Story** |  | **Work-Item / Task** |  |  | **Estimation<br>(Hours)** | **Assigned<br>To** | **Status<br>(To-do / InProcess / To-Review / Done)** |
-| **ID** | **Title** | **ID** | **Title** | **Description** |  |  |  |
-| **US-007** | Monitoreo con dispositivos IoT | **T01** | Integrar sensores IoT en el backend | Conectar dispositivos para registrar signos vitales (temperatura, presión, ritmo cardíaco). | 6h | Josue Flores | InProcess |
-|  |  | **T02** | Diseñar estructura de datos para sensores | Crear modelo en base de datos para almacenar registros de los dispositivos IoT. | 3h | Sebastián Real | Done |
-| **US-008** | Alertas de emergencia por sensores | **T03** | Implementar alertas automáticas | Programar detección de valores críticos y envío de notificaciones inmediatas. | 4h | Josue Flores | InProcess |
-|  |  | **T04** | Configurar panel de alertas | Mostrar alertas activas en dashboard del personal sanitario. | 3h | Alejo Cárdenas | To-Review |
-| **US-009** | Enviar mensajes al personal | **T05** | Crear módulo de mensajería interna | Permitir comunicación directa entre familiares y personal médico. | 5h | Luquillas Asto Omar | Done |
-|  |  | **T06** | Implementar base de datos de conversaciones | Guardar mensajes con timestamps y usuarios asociados. | 3h | Josue Flores | Done |
-| **US-014** | Notificaciones de cambios en el estado | **T07** | Configurar servicio de notificaciones push | Enviar avisos automáticos ante cambios de salud o nuevas actividades. | 4h | Sebastián Real | InProcess |
-|  |  | **T08** | Vincular alertas al panel familiar | Mostrar las notificaciones relevantes en la cuenta del familiar. | 3h | Alejo Cárdenas | To-Review |
-| **US-021** | Reporte semanal de salud | **T09** | Generar reportes automáticos | Automatizar generación de resumen semanal con evolución del residente. | 5h | Josue Flores | Done |
-|  |  | **T10** | Crear visualización de progreso | Gráficos de tendencias de salud y participación en actividades. | 4h | Luquillas Asto Omar | InProcess |
-| **US-030** | Registro de administración de medicamentos | **T11** | Crear formulario de administración | Registrar dosis aplicadas, hora y responsable del cuidado. | 3h | Sebastián Real | Done |
-|  |  | **T12** | Validar alertas de stock | Enviar notificación si la medicina está por agotarse. | 2h | Josue Flores | Done |
-| **US-035** | Asignar personal a turnos | **T13** | Implementar módulo de asignación automática | Calcular turnos según disponibilidad del personal. | 5h | Alejo Cárdenas | Done |
-|  |  | **T14** | Vista de planificación | Mostrar calendario editable con los turnos programados. | 3h | Luquillas Asto Omar | InProcess |
-| **US-012** | Videollamadas integradas | **T15** | Integrar servicio WebRTC | Implementar videollamadas seguras entre familiar y residente. | 6h | Josue Flores | To-Review |
-|  |  | **T16** | Optimizar interfaz de llamadas | Ajustar diseño responsivo para dispositivos móviles. | 3h | Sebastián Real | InProcess |
+
+<table>
+<tr>
+<th colspan="8">Sprint #2 – EternaCare Web Platform</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="6">Work-Item / Task</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+
+<!-- US-001 -->
+<tr>
+<td rowspan="2">US-001</td>
+<td rowspan="2">Ver estado de salud del residente</td>
+<td>T01</td>
+<td>Implementar panel de monitoreo web</td>
+<td>Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T02</td>
+<td>Conectar panel con base de datos</td>
+<td>Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+
+<!-- US-009 -->
+<tr>
+<td rowspan="2">US-009</td>
+<td rowspan="2">Enviar mensajes al personal</td>
+<td>T03</td>
+<td>Desarrollar módulo de mensajería interna</td>
+<td>Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real.</td>
+<td>5</td>
+<td>Luquillas Asto Omar</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T04</td>
+<td>Guardar historial de mensajes</td>
+<td>Registrar los mensajes enviados en la base de datos con fecha, hora y usuario.</td>
+<td>2</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+
+<!-- US-012 -->
+<tr>
+<td rowspan="2">US-012</td>
+<td rowspan="2">Videollamadas integradas</td>
+<td>T05</td>
+<td>Crear interfaz de videollamadas</td>
+<td>Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>To-Review</td>
+</tr>
+<tr>
+<td>T06</td>
+<td>Integrar servicio de videollamada WebRTC</td>
+<td>Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente.</td>
+<td>5</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-014 -->
+<tr>
+<td rowspan="2">US-014</td>
+<td rowspan="2">Recibir notificaciones de cambios</td>
+<td>T07</td>
+<td>Configurar sistema de notificaciones web</td>
+<td>Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente.</td>
+<td>3</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T08</td>
+<td>Crear historial de notificaciones</td>
+<td>Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-021 -->
+<tr>
+<td rowspan="2">US-021</td>
+<td rowspan="2">Ver reporte semanal de estado</td>
+<td>T09</td>
+<td>Generar reportes en PDF</td>
+<td>Compilar los datos del residente y generar un reporte semanal descargable en PDF.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T10</td>
+<td>Visualizar métricas de progreso</td>
+<td>Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>To-Review</td>
+</tr>
+
+<!-- US-025 -->
+<tr>
+<td rowspan="2">US-025</td>
+<td rowspan="2">Reportes personalizados</td>
+<td>T11</td>
+<td>Implementar filtros dinámicos</td>
+<td>Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>To-Do</td>
+</tr>
+<tr>
+<td>T12</td>
+<td>Exportar reportes filtrados</td>
+<td>Permitir la descarga de los reportes personalizados en formato PDF o Excel.</td>
+<td>2</td>
+<td>Italo Verona</td>
+<td>To-Do</td>
+</tr>
+
+<!-- US-045 -->
+<tr>
+<td rowspan="2">US-045</td>
+<td rowspan="2">Ver testimonios y casos de éxito</td>
+<td>T13</td>
+<td>Diseñar sección de testimonios</td>
+<td>Implementar módulo con experiencias reales de usuarios dentro de la página principal.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T14</td>
+<td>Integrar contenido de testimonios</td>
+<td>Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive.</td>
+<td>2</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+
+<!-- US-046 -->
+<tr>
+<td rowspan="2">US-046</td>
+<td rowspan="2">Solicitar información personalizada</td>
+<td>T15</td>
+<td>Diseñar formulario de contacto</td>
+<td>Crear los campos para nombre, correo y mensaje en la sección de contacto.</td>
+<td>2</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T16</td>
+<td>Implementar formulario con validaciones</td>
+<td>Maquetar el formulario e implementar validaciones básicas con JavaScript.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+
+<!-- US-049 -->
+<tr>
+<td rowspan="2">US-049</td>
+<td rowspan="2">Acceder a recursos educativos</td>
+<td>T17</td>
+<td>Crear sección de recursos y guías</td>
+<td>Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>In-Process</td>
+</tr>
+<tr>
+<td>T18</td>
+<td>Integrar material educativo</td>
+<td>Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-050 -->
+<tr>
+<td rowspan="2">US-050</td>
+<td rowspan="2">Comparar con competidores</td>
+<td>T19</td>
+<td>Implementar tabla comparativa</td>
+<td>Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+<tr>
+<td>T20</td>
+<td>Optimizar diseño de la tabla</td>
+<td>Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles.</td>
+<td>2</td>
+<td>Josue Flores</td>
+<td>To-Review</td>
+</tr>
+
+</table>
+
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
 
