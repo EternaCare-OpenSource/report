@@ -86,6 +86,24 @@ Agosto 2025
       <td>Josue Antonio Flores Apaico y Fiorella Angela Vilca Valverde</td>
       <td>Revisión completa hasta el capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>1.1</td>
+      <td>2025-10-05</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>5.2.2. Sprint 2, 5.2.2.1. Sprint Planning 2., 5.2.2.2. Aspect Leaders and Collaborators., 5.2.2.3. Sprint Backlog 2., 5.2.2.4. Development Evidence for Sprint Review., 5.2.2.5. Execution Evidence for Sprint Review., 5.2.2.6. Services Documentation Evidence for Sprint Review., 5.2.2.7. Software Deployment Evidence for Sprint Review., 5.2.2.8. Team Collaboration Insights during Sprint.</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa hasta capitulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>2025-10-10</td>
+      <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
+      <td>Revisión completa del capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -98,6 +116,9 @@ Agosto 2025
 | **Landing Page**                   | `https://eternacare-opensource.github.io/landing-page/`     |
 | **Repositorio de la organización** | `https://github.com/EternaCare-OpenSource`                                |
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
+| **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
+| **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
+
 
 
 Entrega TB1 (27/04/2025):
@@ -214,6 +235,15 @@ Distribución de commits:
         - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -230,8 +260,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. | En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. | El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. |
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico. <br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.|
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. <br><br>**Fiorella Angela Vilca Valverde (TP):** Redacté la documentación correspondiente a la sección de diseño UI/UX de la plataforma web, explicando las decisiones visuales y su impacto en la experiencia del usuario. Además, participé en la revisión ortográfica y en la redacción del capítulo de implementación de la interfaz.<br><br>**Italo Sebastian Verona Flores (TP):** Elaboré el apartado técnico sobre la estructura y componentes del frontend, detallando el proceso de maquetación y validando la coherencia entre los módulos de navegación y presentación. También revisé la redacción del informe técnico y las secciones de desarrollo del Sprint 2.<br><br>**Josue Antonio Flores Apaico (TP):** Redacté los apartados relacionados con el desarrollo funcional de la plataforma, los módulos de reportes y monitoreo, y la documentación de la planificación Sprint 2. Participé en la corrección de estilo y en la unificación del formato del documento final.<br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP):** Me encargué de redactar las secciones técnicas, describiendo la arquitectura, la gestión de datos y la integración de los módulos funcionales. Además, colaboré en la revisión del informe final para mantener la consistencia técnica y el lenguaje profesional en todo el documento.| **TB1**<br>El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. <br><br>**TP**<br>La redacción conjunta permitió generar un informe claro, coherente y estructurado, adaptado tanto a lectores técnicos como a un público académico. El trabajo en equipo se reflejó en un documento bien fundamentado, con lenguaje profesional, ortografía revisada y coherencia global en todos los capítulos del Sprint 2.|
 
 
 ## Capitulo I
@@ -1107,11 +1137,11 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 - Segmento 1: Red de Apoyo Familiar
 
-<img src="./images/chapter-2/Red-de-Apoyo-Familiar.png" alt="Red-de-Apoyo-Familiar" />
+<img src="./images/chapter-2/User-Journey-Segmento1.png" alt="Red-de-Apoyo-Familiar" />
 
 - Segmento 2: Personal Sanitario y de Cuidado
 
-<img src="./images/chapter-2/Personal-Sanitario-y-de-Cuidado.png" alt="Personal-Sanitario-y-de-Cuidado" />
+<img src="./images/chapter-2/User-Journey-Segmento2.png" alt="Personal-Sanitario-y-de-Cuidado" />
 
 
 #### 2.3.4. Empathy Mapping
@@ -1277,9 +1307,8 @@ El Lenguaje Ubicuo de Tempo define un conjunto de términos compartidos entre de
 
 ### 3.2. Impact Mapping
 
-<img src="./images/chapter-3/Impact mapping-1.jpeg" alt="Canvas" width="900"/>
-<img src="./images/chapter-3/Impact mapping-2.jpeg" alt="Canvas" width="900
-"/>
+<img src="./images/chapter-3/Impact-map.png" alt="Impact mapping"/>
+
 
 ### 3.3. Product Backlog
 
@@ -1289,59 +1318,58 @@ Este backlog ha sido construido a partir de las 50 historias de usuario previame
 
 ## Product Backlog - 50 User Stories
 
-| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
-|---------|---------------|--------|-------------|---------------------------|
-| 1 | US003 | Recibir alertas críticas | Como familiar quiero recibir una alerta cuando la salud del residente esté en riesgo para tomar acciones inmediatas | 8 |
-| 2 | US008 | Alertas de emergencia por sensores | Como personal sanitario quiero recibir alertas automáticas cuando los sensores detecten caídas o emergencias para responder rápidamente a situaciones críticas | 8 |
-| 3 | US020 | Gestión de emergencias domiciliarias | Como cuidador familiar quiero activar protocolos de emergencia desde la aplicación para recibir asistencia rápida en situaciones críticas | 5 |
-| 4 | US001 | Ver estado de salud del residente | Como familiar quiero ver el estado de salud actualizado del residente para estar informado sobre su condición actual | 5 |
-| 5 | US002 | Registrar signos vitales | Como cuidador quiero registrar los signos vitales del residente para llevar un control de su salud | 3 |
-| 6 | US037 | Consultar API de residentes (GET) | Como developer quiero consultar el listado de residentes mediante la API para integrarlo al frontend | 3 |
-| 7 | US038 | Validar credenciales del API | Como developer quiero autenticarme con token para acceder a los servicios protegidos del API para asegurar la seguridad de los datos | 5 |
-| 8 | US039 | Registrar nuevo residente (API) | Como developer quiero registrar un nuevo residente en la base de datos a través del API para crear nuevos perfiles desde la aplicación | 3 |
-| 9 | US043 | Conocer los servicios | Como visitante quiero conocer los servicios que ofrece EternaCare para evaluar si es adecuado para mis necesidades | 2 |
-| 10 | US044 | Leer la misión y visión del proyecto | Como visitante quiero saber la misión y visión del proyecto para entender su propósito | 1 |
-| 11 | US046 | Solicitar información personalizada | Como visitante quiero llenar un formulario de contacto para recibir más información personalizada sobre los servicios | 2 |
-| 12 | US007 | Monitoreo con dispositivos IoT | Como cuidador quiero que los dispositivos wearables registren automáticamente los datos vitales para reducir el trabajo manual y tener información continua | 8 |
-| 13 | US042 | Integración con dispositivos IoT | Como developer quiero recibir datos de dispositivos IoT a través de endpoints específicos para procesar información de sensores automáticamente | 8 |
-| 14 | US018 | Monitoreo ambiental del hogar | Como familiar responsable quiero monitorear las condiciones ambientales del hogar para asegurar un entorno saludable | 5 |
-| 15 | US009 | Enviar mensajes al personal | Como familiar quiero enviar mensajes al personal para consultar sobre el residente para obtener información específica cuando la necesite | 3 |
-| 16 | US010 | Ver respuestas del personal | Como familiar quiero leer las respuestas a mis consultas para mantenerme informado | 2 |
-| 17 | US029 | Recordatorios de medicación | Como cuidador quiero recibir recordatorios automáticos de medicamentos para evitar olvidos en la administración | 5 |
-| 18 | US031 | Alertas de medicamentos faltantes | Como administrador quiero recibir alertas cuando se agoten medicamentos críticos para asegurar continuidad del tratamiento | 3 |
-| 19 | US027 | Registrar medicamento | Como cuidador quiero registrar una nueva medicina para llevar control del tratamiento de los residentes | 3 |
-| 20 | US030 | Registro de administración | Como cuidador quiero registrar cuando administro un medicamento para mantener un historial preciso de tratamientos | 2 |
-| 21 | US004 | Ver actividades diarias | Como familiar quiero ver las actividades realizadas por mi ser querido para saber si participa y está activo | 3 |
-| 22 | US005 | Registrar actividad del residente | Como cuidador quiero registrar las actividades del residente para tener un seguimiento de su rutina diaria | 2 |
-| 23 | US006 | Evaluar estado emocional del residente | Como cuidador quiero registrar una evaluación emocional diaria para dar seguimiento a su bienestar psicológico | 3 |
-| 24 | US021 | Ver reporte semanal de estado del residente | Como familiar quiero ver un reporte semanal de salud para entender la evolución general | 5 |
-| 25 | US023 | Ver tendencias de salud por categoría | Como cuidador quiero ver tendencias por categorías para ajustar planes de cuidado | 5 |
-| 26 | US040 | Actualizar datos del residente (API) | Como developer quiero actualizar los datos personales o médicos de un residente vía API para mantener la información actualizada | 3 |
-| 27 | US041 | Obtener historial de actividades (API) | Como developer quiero obtener el historial de actividades de un residente para mostrarlo en su perfil | 3 |
-| 28 | US032 | Registrar doctor | Como administrador quiero registrar un nuevo doctor para asignarlo a los residentes y que pueda hacer seguimiento médico | 3 |
-| 29 | US034 | Registrar enfermero | Como administrador quiero registrar un nuevo enfermero para gestionar sus funciones dentro del sistema | 3 |
-| 30 | US035 | Asignar personal a turnos | Como administrador quiero asignar personal médico a turnos específicos para asegurar cobertura médica 24/7 | 5 |
-| 31 | US016 | Coordinar cuidadores informales | Como familiar responsable quiero coordinar las tareas entre diferentes cuidadores familiares para asegurar continuidad en la atención domiciliaria | 5 |
-| 32 | US017 | Registro de cuidado domiciliario | Como cuidador familiar quiero registrar las actividades de cuidado realizadas en casa para mantener un historial completo del cuidado | 3 |
-| 33 | US019 | Coordinar con servicios médicos externos | Como familiar responsable quiero coordinar citas médicas y compartir el historial con profesionales externos para mantener continuidad en la atención médica | 8 |
-| 34 | US011 | Programar visitas | Como familiar quiero programar visitas a través de la plataforma para coordinar horarios con el centro o cuidadores en casa | 3 |
-| 35 | US012 | Videollamadas integradas | Como familiar quiero realizar videollamadas con mi ser querido desde la plataforma para mantener contacto visual regular | 8 |
-| 36 | US014 | Recibir notificaciones de cambios | Como familiar quiero recibir notificaciones cuando hay cambios importantes en el estado de mi familiar para estar siempre informado | 5 |
-| 37 | US015 | Compartir fotos y mensajes motivacionales | Como familiar quiero enviar fotos y mensajes de apoyo a mi ser querido para mantener la conexión emocional | 3 |
-| 38 | US022 | Descargar reporte en PDF | Como familiar quiero descargar el reporte semanal en formato PDF para archivarlo o compartirlo | 3 |
-| 39 | US024 | Recibir recordatorios para revisar informes | Como familiar quiero recibir recordatorios semanales para revisar los reportes para estar al tanto del estado del residente | 2 |
-| 40 | US025 | Generar reportes personalizados | Como médico quiero generar reportes personalizados con métricas específicas para análisis clínicos detallados | 5 |
-| 41 | US026 | Comparar períodos de tiempo | Como familiar quiero comparar el estado actual con períodos anteriores para evaluar el progreso o deterioro | 5 |
-| 42 | US028 | Eliminar medicina caducada | Como cuidador quiero eliminar medicinas vencidas del sistema para mantener el stock actualizado y evitar errores de medicación | 2 |
-| 43 | US033 | Editar doctor existente | Como administrador quiero editar la información de un doctor ya registrado para mantener sus datos actualizados | 2 |
-| 44 | US036 | Ver disponibilidad del personal | Como administrador quiero ver la disponibilidad del personal médico para optimizar la planificación de turnos | 3 |
-| 45 | US013 | Evaluar la calidad del servicio | Como familiar quiero dejar una evaluación de la atención brindada para contribuir con la mejora del servicio | 3 |
-| 46 | US045 | Ver testimonios y casos de éxito | Como visitante quiero leer experiencias reales para sentir confianza en el servicio | 2 |
-| 47 | US047 | Ver precios y planes | Como visitante quiero conocer los precios de los diferentes planes para evaluar la inversión requerida | 2 |
-| 48 | US048 | Registrarse para demo gratuita | Como visitante interesado quiero solicitar una demostración gratuita del servicio para probar la plataforma antes de contratarla | 3 |
-| 49 | US049 | Acceder a recursos educativos | Como visitante quiero acceder a guías y recursos sobre cuidado de adultos mayores para obtener información valiosa independientemente del servicio | 3 |
-| 50 | US050 | Comparar con competidores | Como visitante quiero ver una comparación con otras soluciones del mercado para tomar una decisión informada | 2 |
-
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|---------|----------------|--------|--------------|--------------|
+| 1 | US003 | Recibir alertas críticas | Como familiar, quiero recibir alertas inteligentes cuando la salud del residente esté en riesgo, para actuar rápidamente y coordinar asistencia médica. | 8 |
+| 2 | US008 | Alertas de emergencia por sensores | Como personal sanitario, quiero recibir alertas automáticas cuando los sensores detecten caídas o anomalías, para responder con rapidez ante emergencias. | 8 |
+| 3 | US020 | Gestión de emergencias domiciliarias | Como cuidador familiar, quiero activar protocolos automáticos de emergencia desde la app, para recibir apoyo inmediato de profesionales o familiares. | 5 |
+| 4 | US001 | Ver estado de salud del residente | Como familiar, quiero visualizar el estado de salud actualizado del residente, para mantenerme informado sobre su condición diaria. | 5 |
+| 5 | US002 | Registrar signos vitales | Como cuidador, quiero registrar los signos vitales del residente, para llevar un control preciso y actualizado de su estado físico. | 3 |
+| 6 | US037 | Consultar API de residentes (GET) | Como developer, quiero consultar la lista de residentes mediante la API, para integrarla al panel de control del sistema. | 3 |
+| 7 | US038 | Validar credenciales del API | Como developer, quiero autenticarme mediante token seguro, para garantizar la privacidad y seguridad de los datos. | 5 |
+| 8 | US039 | Registrar nuevo residente (API) | Como developer, quiero registrar un nuevo residente mediante la API, para crear perfiles automáticamente desde la app. | 3 |
+| 9 | US043 | Conocer los servicios | Como visitante, quiero conocer los servicios de EternaCare, para evaluar si se adaptan a mis necesidades o las de mi familiar. | 2 |
+| 10 | US044 | Leer misión y visión del proyecto | Como visitante, quiero conocer la misión y visión de EternaCare, para entender su propósito social y ético. | 1 |
+| 11 | US046 | Solicitar información personalizada | Como visitante, quiero llenar un formulario de contacto, para recibir información ajustada a mi situación o tipo de cuidado requerido. | 2 |
+| 12 | US007 | Monitoreo con dispositivos IoT | Como cuidador, quiero que los dispositivos IoT registren automáticamente los datos vitales, para reducir tareas manuales y obtener información continua. | 8 |
+| 13 | US042 | Integración con dispositivos IoT | Como developer, quiero recibir datos desde sensores IoT mediante endpoints específicos, para sincronizar lecturas automáticas en el sistema. | 8 |
+| 14 | US018 | Monitoreo ambiental del hogar | Como familiar responsable, quiero monitorear la temperatura, humedad y calidad del aire del hogar, para asegurar un entorno saludable. | 5 |
+| 15 | US009 | Enviar mensajes al personal | Como familiar, quiero enviar mensajes al personal médico, para resolver dudas o recibir actualizaciones del residente. | 3 |
+| 16 | US010 | Ver respuestas del personal | Como familiar, quiero visualizar las respuestas a mis consultas, para mantenerme informado sin depender de llamadas. | 2 |
+| 17 | US029 | Recordatorios de medicación | Como cuidador, quiero recibir recordatorios automáticos de medicamentos, para evitar olvidos en la administración. | 5 |
+| 18 | US031 | Alertas de medicamentos faltantes | Como administrador, quiero recibir alertas cuando haya poco stock, para asegurar la continuidad del tratamiento médico. | 3 |
+| 19 | US027 | Registrar medicamento | Como cuidador, quiero registrar nuevas medicinas en el sistema, para mantener el historial médico actualizado. | 3 |
+| 20 | US030 | Registro de administración | Como cuidador, quiero registrar cada administración de medicación, para garantizar trazabilidad en los tratamientos. | 2 |
+| 21 | US004 | Ver actividades diarias | Como familiar, quiero ver las actividades diarias de mi ser querido, para conocer su nivel de participación y bienestar. | 3 |
+| 22 | US005 | Registrar actividad del residente | Como cuidador, quiero registrar las actividades realizadas por el residente, para dar seguimiento a su rutina diaria. | 2 |
+| 23 | US006 | Evaluar estado emocional del residente | Como cuidador, quiero registrar una evaluación emocional diaria, para detectar cambios de ánimo o riesgo de depresión. | 3 |
+| 24 | US021 | Ver reporte semanal del residente | Como familiar, quiero visualizar un reporte semanal de salud, para conocer su progreso y evolución física y emocional. | 5 |
+| 25 | US023 | Ver tendencias de salud por categoría | Como cuidador, quiero ver tendencias por categorías (sueño, apetito, movilidad), para ajustar los planes de cuidado. | 5 |
+| 26 | US040 | Actualizar datos del residente (API) | Como developer, quiero actualizar datos personales o médicos vía API, para mantener la información sincronizada. | 3 |
+| 27 | US041 | Obtener historial de actividades (API) | Como developer, quiero obtener el historial de actividades de un residente, para mostrarlo en su perfil de usuario. | 3 |
+| 28 | US032 | Registrar doctor | Como administrador, quiero registrar nuevos doctores, para asignarlos a los residentes y facilitar el seguimiento médico. | 3 |
+| 29 | US034 | Registrar enfermero | Como administrador, quiero registrar enfermeros y vincularlos a sus pacientes, para mejorar la organización interna. | 3 |
+| 30 | US035 | Asignar personal a turnos | Como administrador, quiero asignar turnos automáticamente según carga laboral, para asegurar cobertura continua. | 5 |
+| 31 | US016 | Coordinar cuidadores informales | Como familiar responsable, quiero coordinar cuidadores informales mediante la app, para mantener una atención constante en casa. | 5 |
+| 32 | US017 | Registro de cuidado domiciliario | Como cuidador familiar, quiero registrar actividades de cuidado en casa, para mantener un historial del bienestar del residente. | 3 |
+| 33 | US019 | Coordinar con servicios médicos externos | Como familiar responsable, quiero compartir el historial clínico con médicos externos, para garantizar continuidad en la atención. | 8 |
+| 34 | US011 | Programar visitas | Como familiar, quiero agendar visitas mediante la plataforma, para coordinar horarios con el centro o cuidadores. | 3 |
+| 35 | US012 | Videollamadas integradas | Como familiar, quiero realizar videollamadas con mi ser querido, para mantener el vínculo emocional a distancia. | 8 |
+| 36 | US014 | Recibir notificaciones de cambios | Como familiar, quiero recibir notificaciones cuando haya cambios importantes, para estar siempre informado. | 5 |
+| 37 | US015 | Compartir fotos y mensajes motivacionales | Como familiar, quiero enviar fotos y mensajes positivos, para fortalecer el vínculo emocional con mi ser querido. | 3 |
+| 38 | US022 | Descargar reporte en PDF | Como familiar, quiero descargar los reportes semanales en PDF, para archivarlos o compartirlos con especialistas. | 3 |
+| 39 | US024 | Recordatorio para revisar informes | Como familiar, quiero recibir recordatorios semanales para revisar los reportes, y no perder actualizaciones relevantes. | 2 |
+| 40 | US025 | Generar reportes personalizados | Como médico, quiero generar reportes personalizados con métricas específicas, para realizar análisis clínicos detallados. | 5 |
+| 41 | US026 | Comparar períodos de tiempo | Como familiar, quiero comparar el estado actual con periodos anteriores, para evaluar avances o retrocesos. | 5 |
+| 42 | US028 | Eliminar medicina caducada | Como cuidador, quiero eliminar medicinas vencidas y recibir recomendaciones automáticas de reposición. | 2 |
+| 43 | US033 | Editar doctor existente | Como administrador, quiero editar la información de un doctor, para mantener actualizados sus datos en el sistema. | 2 |
+| 44 | US036 | Ver disponibilidad del personal | Como administrador, quiero visualizar la disponibilidad del personal médico, para optimizar la planificación de turnos. | 3 |
+| 45 | US013 | Evaluar calidad del servicio | Como familiar, quiero dejar una evaluación sobre la atención recibida, para contribuir con la mejora continua del servicio. | 3 |
+| 46 | US045 | Ver testimonios y casos de éxito | Como visitante, quiero leer testimonios y experiencias de otros usuarios, para generar confianza en el servicio. | 2 |
+| 47 | US047 | Ver precios y planes | Como visitante, quiero visualizar precios y planes, para comparar opciones antes de contratar. | 2 |
+| 48 | US048 | Solicitar demo gratuita | Como visitante interesado, quiero solicitar una demostración gratuita, para probar las funcionalidades del sistema. | 3 |
+| 49 | US049 | Acceder a recursos educativos | Como visitante, quiero acceder a guías y recursos sobre el cuidado del adulto mayor, para informarme y aprender. | 3 |
+| 50 | US050 | Comparar con competidores | Como visitante, quiero ver una comparación entre EternaCare y otras soluciones del mercado, para tomar una decisión informada. | 2 |
 
 
 ## Capítulo IV: Product Design
@@ -1728,20 +1756,20 @@ Link de video: <a href="https://ejemplo.com" style="color: blue;"> https://drive
 
 #### 4.6.1. Software Architecture Context Diagram
 
-<img src="./images/chapter-4/structurizr-106226-SystemContext.png" alt="structurizr-106226-SystemContext">
+<img src="./images/chapter-4/SystemContext.png" alt="SystemContext">
 
 #### 4.6.2. Software Architecture Container Diagrams
 
-<img src="./images/chapter-4/structurizr-106226-Containers.png" alt="structurizr-106226-Containers">
+<img src="./images/chapter-4/Containers.png" alt="Containers">
 
 #### 4.6.3. Software Architecture Components Diagrams
 Diagrama de Componentes de la API RESTful
 
-<img src="./images/chapter-4/structurizr-106226-ComponentsAPI.png" alt="structurizr-106226-ComponentsAPI">
+<img src="./images/chapter-4/ComponentsAPI.png" alt="ComponentsAPI">
 
 Diagrama de Componentes de la Aplicación Web (SPA)
 
-<img src="./images/chapter-4/structurizr-106226-ComponentsSPA.png" alt="structurizr-106226-ComponentsSPA">
+<img src="./images/chapter-4/ComponentsSPA.png" alt="ComponentsSPA">
 
 
 ### 4.7. Software Object-Oriented Design
@@ -1868,9 +1896,9 @@ Para el despliegue de la landing page se seleccionó un servicio de hosting que 
 
 | Product              | Repository            | URL                                                                 |
 |----------------------|-----------------------|---------------------------------------------------------------------|
-| Landing Page         | EternaCare-Landing    | [LandingPage](https://github.com/EternaCare-OpenSource/landing-page)   |
-| Web Services         | Carlink-Web Services  |    |
-| Front Web Application| Carlink-Frontend      | |
+| Landing Page         | EternaCare-Landing    | [LandingPage](https://github.com/EternaCare-OpenSource/landing-page.git)   |
+| Web Services         | Carlink-Web Services  |  [WebServices](https://github.com/EternaCare-OpenSource/backend.git) |
+| Front Web Application| Carlink-Frontend      |[Frontend](https://github.com/EternaCare-OpenSource/front-end.git)  |
 
 #### Repository Structure
 
@@ -2125,7 +2153,7 @@ Durante este sprint, el enfoque estuvo en completar estas historias para lograr 
 
 <img src="./images/chapter-5/Trello-Sprint1.png" alt="Trello-Sprint1">
 
-Trello Sprint 1: https://trello.com/invite/b/6852dc22be4d268f2cb60058/ATTI4257219223d8e8d494dd27cb2c6c36e9748B3CD5/sprint-1
+
 
 <table>
 <tr>
@@ -2371,12 +2399,515 @@ Se llevó a cabo el despliegue de la **landing page** del proyecto *Carlink*, re
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo principalmente por Fiorella Angela Vilca Valverde
+Se adjuntan las evidencias de colaboración del equipo durante el Sprint #1 de EternaCare por integrante.
 
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.3.jpeg" />
+
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Sprint Planning 2
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-09-01</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>18:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td> Reunión virtual en Discord </td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Josue Antonio Flores Apaico</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 2 Goal</th>
+    <td>Nuestro objetivo se centra en asignar de forma individual las tareas a cada integrante según el bounded context que seleccione, y concluir el informe con una descripción detallada del trabajo realizado por cada uno.</td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Velocity</th>
+    <td>33 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33 puntos</td>
+  </tr>
+</table>
+
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante este Sprint, el equipo se enfocará en el desarrollo de una aplicación web, priorizando la creación de funcionalidades esenciales que optimicen la experiencia del usuario y contribuyan al cumplimiento de los objetivos del proyecto.  
+Los ejes principales de trabajo abarcarán **funcionalidades centrales**, **módulos operativos** y **elementos de la interfaz**.
+
+Cada uno de estos apartados tendrá un líder encargado de su ejecución, acompañado por colaboradores que apoyarán en tareas específicas. Este enfoque busca garantizar una comunicación fluida, una coordinación efectiva y una asignación transparente de responsabilidades dentro del equipo.
+
+
+A continuación, se presenta la **Leadership-and-Collaboration Matrix (LACX)**:
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>IAM BC</th>
+      <th>Group Management BC</th>
+      <th>Challenges BC</th>
+      <th>Analytics BC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 5.2.2.3. Sprint Backlog 2
+
+En el Sprint 2, el propósito principal fue que cada integrante desarrollara un *bounded context* vinculado con la lógica de negocio, garantizando que las secciones de la página web creadas por el equipo presentaran una navegación intuitiva y reflejaran de forma clara el trabajo realizado en clase.  
+Para cumplir con este objetivo, los *bounded contexts* se organizaron en las siguientes categorías: **Tareas**, **Calendarios**, **Miembros**, **Reportes/Comentarios** y **Herramientas**.  
+Asimismo, se efectuó una actualización en la **landing page**.
+
+
+<img src="images/chapter-5/Sprint-Backlog-2.png" alt="" width=""/>
+
+Trello Sprint 2: https://trello.com/invite/b/68e8866039dabe1a99f4d3ec/ATTI9c9751dfca09a7363cc67550cbe6cc8c43BF7008/sprint-2
+
+<table>
+<tr>
+<th colspan="8">Sprint #2 – EternaCare Web Platform</th>
+</tr>
+<tr>
+<th colspan="2">User Story</th>
+<th colspan="6">Work-Item / Task</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status (To-do / In-Process / To-Review / Done)</th>
+</tr>
+
+<!-- US-001 -->
+<tr>
+<td rowspan="2">US-001</td>
+<td rowspan="2">Ver estado de salud del residente</td>
+<td>T01</td>
+<td>Implementar panel de monitoreo web</td>
+<td>Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T02</td>
+<td>Conectar panel con base de datos</td>
+<td>Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+
+<!-- US-009 -->
+<tr>
+<td rowspan="2">US-009</td>
+<td rowspan="2">Enviar mensajes al personal</td>
+<td>T03</td>
+<td>Desarrollar módulo de mensajería interna</td>
+<td>Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real.</td>
+<td>5</td>
+<td>Luquillas Asto Omar</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T04</td>
+<td>Guardar historial de mensajes</td>
+<td>Registrar los mensajes enviados en la base de datos con fecha, hora y usuario.</td>
+<td>2</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+
+<!-- US-012 -->
+<tr>
+<td rowspan="2">US-012</td>
+<td rowspan="2">Videollamadas integradas</td>
+<td>T05</td>
+<td>Crear interfaz de videollamadas</td>
+<td>Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>To-Review</td>
+</tr>
+<tr>
+<td>T06</td>
+<td>Integrar servicio de videollamada WebRTC</td>
+<td>Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente.</td>
+<td>5</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-014 -->
+<tr>
+<td rowspan="2">US-014</td>
+<td rowspan="2">Recibir notificaciones de cambios</td>
+<td>T07</td>
+<td>Configurar sistema de notificaciones web</td>
+<td>Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente.</td>
+<td>3</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T08</td>
+<td>Crear historial de notificaciones</td>
+<td>Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-021 -->
+<tr>
+<td rowspan="2">US-021</td>
+<td rowspan="2">Ver reporte semanal de estado</td>
+<td>T09</td>
+<td>Generar reportes en PDF</td>
+<td>Compilar los datos del residente y generar un reporte semanal descargable en PDF.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T10</td>
+<td>Visualizar métricas de progreso</td>
+<td>Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>To-Review</td>
+</tr>
+
+<!-- US-025 -->
+<tr>
+<td rowspan="2">US-025</td>
+<td rowspan="2">Reportes personalizados</td>
+<td>T11</td>
+<td>Implementar filtros dinámicos</td>
+<td>Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>To-Do</td>
+</tr>
+<tr>
+<td>T12</td>
+<td>Exportar reportes filtrados</td>
+<td>Permitir la descarga de los reportes personalizados en formato PDF o Excel.</td>
+<td>2</td>
+<td>Italo Verona</td>
+<td>To-Do</td>
+</tr>
+
+<!-- US-045 -->
+<tr>
+<td rowspan="2">US-045</td>
+<td rowspan="2">Ver testimonios y casos de éxito</td>
+<td>T13</td>
+<td>Diseñar sección de testimonios</td>
+<td>Implementar módulo con experiencias reales de usuarios dentro de la página principal.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T14</td>
+<td>Integrar contenido de testimonios</td>
+<td>Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive.</td>
+<td>2</td>
+<td>Josue Flores</td>
+<td>Done</td>
+</tr>
+
+<!-- US-046 -->
+<tr>
+<td rowspan="2">US-046</td>
+<td rowspan="2">Solicitar información personalizada</td>
+<td>T15</td>
+<td>Diseñar formulario de contacto</td>
+<td>Crear los campos para nombre, correo y mensaje en la sección de contacto.</td>
+<td>2</td>
+<td>Italo Verona</td>
+<td>Done</td>
+</tr>
+<tr>
+<td>T16</td>
+<td>Implementar formulario con validaciones</td>
+<td>Maquetar el formulario e implementar validaciones básicas con JavaScript.</td>
+<td>3</td>
+<td>Fiorella Vilca</td>
+<td>Done</td>
+</tr>
+
+<!-- US-049 -->
+<tr>
+<td rowspan="2">US-049</td>
+<td rowspan="2">Acceder a recursos educativos</td>
+<td>T17</td>
+<td>Crear sección de recursos y guías</td>
+<td>Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores.</td>
+<td>4</td>
+<td>Josue Flores</td>
+<td>In-Process</td>
+</tr>
+<tr>
+<td>T18</td>
+<td>Integrar material educativo</td>
+<td>Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+
+<!-- US-050 -->
+<tr>
+<td rowspan="2">US-050</td>
+<td rowspan="2">Comparar con competidores</td>
+<td>T19</td>
+<td>Implementar tabla comparativa</td>
+<td>Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas.</td>
+<td>3</td>
+<td>Italo Verona</td>
+<td>In-Process</td>
+</tr>
+<tr>
+<td>T20</td>
+<td>Optimizar diseño de la tabla</td>
+<td>Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles.</td>
+<td>2</td>
+<td>Josue Flores</td>
+<td>To-Review</td>
+</tr>
+
+</table>
+
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo del frontend de la aplicación web y la implementación de bounded contexts específicos. A continuación se presenta la evidencia de los commits más relevantes realizados en los repositorios del proyecto durante este período.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:-----------|:-------|:----------|:---------------|:--------------------|:-------------------|
+| EternaCare/front-end | feature/iam-bc | `a3b4c5d` | feat(iam): implement user authentication module | Implementa el módulo de autenticación con login, registro y recuperación de contraseña. Incluye validación de formularios y manejo de tokens JWT. | Oct 10, 2025 |
+| EternaCare/front-end | feature/iam-bc | `e6f7g8h` | feat(iam): add user profile management | Añade funcionalidad para gestión de perfiles de usuario con actualización de datos personales y cambio de contraseña. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `i9j0k1l` | feat(groups): implement resident management interface | Crea interfaz para gestión de residentes incluyendo listado, creación, edición y eliminación de perfiles. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `m2n3o4p` | feat(groups): add caregiver assignment functionality | Implementa asignación de cuidadores a residentes con visualización de relaciones y gestión de turnos. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `q5r6s7t` | feat(challenges): create health monitoring dashboard | Desarrolla dashboard para monitoreo de signos vitales con gráficos interactivos y alertas visuales. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `u8v9w0x` | feat(challenges): implement medication tracking system | Añade sistema de seguimiento de medicamentos con recordatorios y registro de administración. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `y1z2a3b` | feat(analytics): build reporting interface | Construye interfaz de reportes con filtros personalizables y exportación a PDF. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `c4d5e6f` | feat(analytics): add statistical visualization components | Implementa componentes de visualización estadística con gráficos de tendencias y comparativas. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `g7h8i9j` | feat(api): implement RESTful endpoints for residents | Crea endpoints CRUD para gestión de residentes con validaciones y manejo de errores. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `k0l1m2n` | feat(api): add authentication middleware | Implementa middleware de autenticación JWT para proteger rutas sensibles. | Oct 10, 2025 |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En el Sprint 2, el equipo completó exitosamente la implementación de los bounded contexts principales de la aplicación web, superando el objetivo planificado de 33 Story Points. Se desarrollaron interfaces funcionales para los módulos de Identity & Access Management, Group Management, Challenges y Analytics, con sus respectivas integraciones al backend.
+
+*Principales Logros del Sprint:*
+
+- Implementación completa del módulo de autenticación y gestión de usuarios
+- Desarrollo de interfaces para gestión de residentes y cuidadores
+- Creación de dashboard de monitoreo de salud con visualizaciones interactivas
+- Sistema de reportes y analíticas con exportación de datos
+- Integración exitosa de todos los módulos con el backend RESTful
+
+*Vistas Implementadas (Screenshots)*
+
+*Figura 1:* Vista de Login y Registro de usuarios del sistema CareLink.
+
+<img src="images/chapter-5/iniciar-sesion.jpeg" alt="" width=""/>
+<img src="images/chapter-5/crear-cuenta.jpeg" alt="" width=""/>
+
+*Figura 2:* Dashboard principal mostrando resumen de residentes y alertas activas.
+
+<img src="images/chapter-5/dashboard.jpeg" alt="" width=""/>
+
+*Figura 3:*  Panel de estadísticas del paciente, incluyendo monitoreo de signos vitales en tiempo real, lista de actividades médicas y control de medicación. 
+
+<img src="images/chapter-5/stats.jpeg" alt="" width=""/>
+
+*Figura 4:* Reportes con mas detalles
+
+<img src="images/chapter-5/reports.jpeg" alt="" width=""/>
+
+*Figura 5:* Sistema de mensajería entre paciente y profesionales de salud mostrando conversaciones activas y chat en tiempo real.
+
+<img src="images/chapter-5/messages.jpeg" alt="" width=""/>
+
+*Figura 6:*  Calendario de citas médicas mostrando programación mensual y lista de próximas consultas agendadas.
+
+<img src="images/chapter-5/appointments-calendar.jpeg" alt="" width=""/>
+
+*Figura 7:* Perfil del paciente mostrando resumen de actividad y configuración de información personal.
+
+<img src="images/chapter-5/profile.jpeg" alt="" width=""/>
+
+
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, se documentaron los endpoints desarrollados para el frontend de la aplicación CareLink. La documentación incluye todos los bounded contexts implementados con sus respectivos métodos HTTP, parámetros y esquemas de respuesta.
+
+**Endpoints Documentados:**
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|:---------|:------------|:------------|:-----------|:----------|:-----------------|
+| /api/auth/login | POST | Autenticación de usuario | email, password | 200 OK: Token JWT<br>401 Unauthorized: Credenciales inválidas | Figura 1 - Pantalla de inicio de sesión |
+| /api/residents/{id} | GET | Obtener detalles de residente | id (path) | 200 OK: Datos del residente<br>404 Not Found: Residente no existe | Figura 3 - Dashboard de estadísticas del paciente |
+| /api/health-records | GET | Obtener signos vitales del residente | residentId | 200 OK: Signos vitales actuales | Figura 3 - Panel de signos vitales |
+| /api/medications | GET | Listar medicamentos de residente | residentId | 200 OK: Array de medicamentos | Figura 3 - Lista de medicamentos |
+| /api/appointments | GET | Listar citas médicas del residente | residentId, month, year | 200 OK: Array de citas programadas | Figura 6 - Calendario de citas |
+| /api/messages | GET | Obtener conversaciones del paciente | userId | 200 OK: Array de mensajes y conversaciones | Figura 5 - Sistema de mensajería |
+| /api/reports | GET | Listar reportes médicos disponibles | residentId | 200 OK: Array de reportes con metadata | Figura 4 - Reportes médicos del paciente |
+| /api/profile | GET | Obtener información del perfil de usuario | userId | 200 OK: Datos de perfil y estadísticas | Figura 2 y 7 - Perfil del usuario |
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, se realizó el despliegue tanto de la **landing page actualizada** como de la **aplicación web frontend** del proyecto *CareLink*. Este avance representa un hito importante en la publicación progresiva de los componentes del sistema, permitiendo validar la integración entre los diferentes bounded contexts y la experiencia de usuario completa.
+
+##### Despliegue de Landing Page (Versión Actualizada)
+
+##### Actividades Realizadas
+
+- Configuración del repositorio en **GitHub** y definición de una estructura inicial de directorios.  
+- Adopción del flujo de trabajo **Git Flow**, centralizando los cambios en la rama *develop*.  
+- Ejecución de un **merge** desde *develop* hacia *main*, siguiendo las convenciones descritas en la sección *5.1.2*.  
+- Habilitación de **GitHub Pages** como servicio de despliegue estático, vinculado a la rama *main*.  
+- Publicación correcta de la **landing page**, accesible mediante una URL pública.  
+
+##### Evidencias Visuales
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.  
+  * Se creó un repositorio público dentro de la organización para alojar la landing page.  
+  * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
+
+<img width="1048" height="749" alt="image" src="https://github.com/user-attachments/assets/5f5ca98e-7f1f-4c4a-9595-4a8b959104ac" />
+
+* Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
+  * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+ 
+  <img width="976" height="787" alt="image" src="https://github.com/user-attachments/assets/02b86157-3528-4361-8cd6-a3fb79e124da" />
+
+
+* Publicación exitosa de la **landing page**.  
+
+<img width="1307" height="979" alt="image" src="https://github.com/user-attachments/assets/c4373093-2056-43a1-aa6f-835467b0932a" />
+
+<img width="1318" height="994" alt="image" src="https://github.com/user-attachments/assets/f06c216f-712f-4cc4-8d2c-e844198595b2" />
+
+Link de nueva version desplegada:
+
+* Para el despliegue de la aplicación frontend, se empleó Firebase Hosting como plataforma de publicación.
+
+<img width="" height="" alt="image" src="./images/chapter-5/firebase.jpeg" />
+
+* Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado CareLink
+
+<img width="" height="" alt="image" src="./images/chapter-5/inicio-sesion-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/crear-proyecto-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink-1.jpeg" />
+
+A continuación, se desplegó el proyecto ejecutando los siguientes comandos en el terminal del entorno de desarrollo:
+
+**npm install -g firebase tools**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-firebase.jpeg" />
+
+**firebase init**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-init.jpeg" />
+
+**firebase deploy**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy.jpeg" />
+
+**Api-fake deplo**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake3.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake4.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake5.jpeg" />
+
+Por último, el frontend de *CareLink* fue desplegada exitosamente:
+<img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
+Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de EternaCare por integrante.
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
 
 ## Conclusiones
 
-* **Conclusiones:**
 1. **Problema vigente y relevante:**  
    La falta de comunicación efectiva y de acceso inmediato a la información entre familiares y centros geriátricos constituye una dificultad crítica en Lima, considerando el aumento constante de adultos mayores y la creciente demanda de servicios de cuidado.  
 
@@ -2393,7 +2924,16 @@ Para este sprint, las tareas de diseño, implementación y documentación de la 
    La implementación de los CRUDs establece una arquitectura sólida que permite conectar el backend con interfaces web y móviles, habilitando integraciones posteriores con módulos de notificaciones, mensajería y análisis de datos.  
 
 6. **Gestión responsable de datos sensibles:**  
-   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.  
+   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.
+   
+7. **Impacto positivo en la gestión del cuidado geriátrico:**  
+   EternaCare tiene el potencial de optimizar la coordinación entre familiares, personal médico y administradores, reduciendo errores de comunicación y mejorando el bienestar emocional de los adultos mayores bajo cuidado institucional.
+8. **Implementación modular con visión de crecimiento:**
+   La estructura del proyecto permite añadir nuevas funcionalidades sin afectar las ya existentes. Esto crea un entorno flexible para futuras expansiones como aplicaciones móviles, analítica avanzada y automatización de alertas. 
+9. **Fortalecimiento de competencias profesionales:**  
+   El desarrollo del proyecto permitió a los integrantes aplicar conocimientos técnicos en un contexto real, reforzando habilidades en diseño de interfaces, programación, gestión de bases de datos y documentación técnica, alineadas a los resultados de aprendizaje del programa.
+10. **Contribución al desarrollo tecnológico social:**
+   EternaCare representa un ejemplo de cómo la tecnología puede generar impacto social positivo cuando se diseña con propósito. El sistema no solo ofrece soluciones digitales, sino también esperanza y acompañamiento a las familias y adultos mayores.  
 
 ---
 
@@ -2405,7 +2945,21 @@ Para este sprint, las tareas de diseño, implementación y documentación de la 
    Integrar incentivos, logros o reconocimientos internos puede aumentar la motivación del personal para utilizar la plataforma de forma continua y contribuir a mantener la calidad de los datos registrados.  
 
 3. **Escalar de manera gradual:**  
-   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.  
+   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.
+
+4. **Implementar un módulo de analítica:**
+   Desarrollar un sistema de métricas que permita evaluar el estado general de los residentes, tiempos de respuesta del personal y nivel de interacción familiar. Esta información serviría para optimizar la toma de decisiones y generar reportes automáticos de impacto.
+
+5. **Integrar autenticación avanzada:**
+   Incorporar autenticación de dos factores (2FA) o validación biométrica para fortalecer la seguridad de los usuarios y garantizar el acceso legítimo a información médica sensible.
+6. **Optimizar el flujo de comunicación:**
+   Desarrollar una bandeja centralizada de notificaciones que unifique alertas, mensajes y recordatorios en un solo espacio visual, mejorando la organización del usuario y la interacción con el sistema.
+7. **Validar la experiencia del usuario:**
+   Realizar pruebas de usabilidad con usuarios reales (familiares y cuidadores) para ajustar los flujos de navegación, lenguaje visual y tiempos de respuesta, asegurando una experiencia accesible y empática.
+8. **Escalar hacia un modelo móvil progresivo (PWA):**
+   Adaptar la plataforma web para funcionar como aplicación progresiva (PWA), garantizando un acceso rápido y fluido en dispositivos móviles, incluso con conexión limitada.
+9. **Establecer monitoreo de mantenimiento:**
+   Definir un cronograma de mantenimiento y respaldo de datos, junto con un panel de control interno que muestre el estado del sistema, métricas de uso y reportes de errores en tiempo real.
 
 
 ## Bibliografía
@@ -2462,4 +3016,8 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 
 **Anexo K:**  
 [Deploymento Landing Page (GitHub Pages)](https://eternacare-opensource.github.io/landing-page/)  
+
+**Anexo L:**  
+[Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
+
 
