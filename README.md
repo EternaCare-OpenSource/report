@@ -116,6 +116,9 @@ Agosto 2025
 | **Landing Page**                   | `https://eternacare-opensource.github.io/landing-page/`     |
 | **Repositorio de la organización** | `https://github.com/EternaCare-OpenSource`                                |
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
+| **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
+| **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
+
 
 
 Entrega TB1 (27/04/2025):
@@ -2990,4 +2993,8 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 
 **Anexo K:**  
 [Deploymento Landing Page (GitHub Pages)](https://eternacare-opensource.github.io/landing-page/)  
+
+**Anexo L:**  
+[Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
+
 
