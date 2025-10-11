@@ -2924,7 +2924,16 @@ Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de E
    La implementación de los CRUDs establece una arquitectura sólida que permite conectar el backend con interfaces web y móviles, habilitando integraciones posteriores con módulos de notificaciones, mensajería y análisis de datos.  
 
 6. **Gestión responsable de datos sensibles:**  
-   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.  
+   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.
+   
+7. **Impacto positivo en la gestión del cuidado geriátrico:**  
+   EternaCare tiene el potencial de optimizar la coordinación entre familiares, personal médico y administradores, reduciendo errores de comunicación y mejorando el bienestar emocional de los adultos mayores bajo cuidado institucional.
+8. **Implementación modular con visión de crecimiento:**
+   La estructura del proyecto permite añadir nuevas funcionalidades sin afectar las ya existentes. Esto crea un entorno flexible para futuras expansiones como aplicaciones móviles, analítica avanzada y automatización de alertas. 
+9. **Fortalecimiento de competencias profesionales:**  
+   El desarrollo del proyecto permitió a los integrantes aplicar conocimientos técnicos en un contexto real, reforzando habilidades en diseño de interfaces, programación, gestión de bases de datos y documentación técnica, alineadas a los resultados de aprendizaje del programa.
+10. **Contribución al desarrollo tecnológico social:**
+   EternaCare representa un ejemplo de cómo la tecnología puede generar impacto social positivo cuando se diseña con propósito. El sistema no solo ofrece soluciones digitales, sino también esperanza y acompañamiento a las familias y adultos mayores.  
 
 ---
 
@@ -2936,7 +2945,21 @@ Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de E
    Integrar incentivos, logros o reconocimientos internos puede aumentar la motivación del personal para utilizar la plataforma de forma continua y contribuir a mantener la calidad de los datos registrados.  
 
 3. **Escalar de manera gradual:**  
-   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.  
+   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.
+
+4. **Implementar un módulo de analítica:**
+   Desarrollar un sistema de métricas que permita evaluar el estado general de los residentes, tiempos de respuesta del personal y nivel de interacción familiar. Esta información serviría para optimizar la toma de decisiones y generar reportes automáticos de impacto.
+
+5. **Integrar autenticación avanzada:**
+   Incorporar autenticación de dos factores (2FA) o validación biométrica para fortalecer la seguridad de los usuarios y garantizar el acceso legítimo a información médica sensible.
+6. **Optimizar el flujo de comunicación:**
+   Desarrollar una bandeja centralizada de notificaciones que unifique alertas, mensajes y recordatorios en un solo espacio visual, mejorando la organización del usuario y la interacción con el sistema.
+7. **Validar la experiencia del usuario:**
+   Realizar pruebas de usabilidad con usuarios reales (familiares y cuidadores) para ajustar los flujos de navegación, lenguaje visual y tiempos de respuesta, asegurando una experiencia accesible y empática.
+8. **Escalar hacia un modelo móvil progresivo (PWA):**
+   Adaptar la plataforma web para funcionar como aplicación progresiva (PWA), garantizando un acceso rápido y fluido en dispositivos móviles, incluso con conexión limitada.
+9. **Establecer monitoreo de mantenimiento:**
+   Definir un cronograma de mantenimiento y respaldo de datos, junto con un panel de control interno que muestre el estado del sistema, métricas de uso y reportes de errores en tiempo real.
 
 
 ## Bibliografía
