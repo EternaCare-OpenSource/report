@@ -2906,6 +2906,224 @@ Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de E
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
 
+
+
+
+#### 5.2.3. Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3 
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-11-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>13:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td> Reunión virtual en Discord </td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Josue Antonio Flores Apaico</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 3 Goal</th>
+    <td>El objetivo de este sprint es desarrollar y consolidar las funcionalidades del backend asignando a cada integrante las tareas correspondientes al bounded context que elija, asegurando la correcta implementación de la lógica de negocio y finalizando con un informe técnico que describa detalladamente los aportes y desarrollos realizados por cada miembro.</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Velocity</th>
+    <td>33 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33 puntos</td>
+  </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Esta sección detalla la distribución de responsabilidades técnicas dentro del equipo de desarrollo, enfocada principalmente en los bounded contexts del backend del sistema. Cada integrante asume el rol de leader (L) o collaborator (C) en función de su especialización y del dominio funcional asignado.
+El propósito de esta estructura es garantizar una implementación coherente y eficiente de la lógica de negocio, promover la autonomía técnica y facilitar la integración modular entre los distintos contextos: IAM, Appointments, Messaging y Health Monitoring.
+La siguiente tabla resume los roles y responsabilidades específicas de cada miembro del equipo en relación con estos bounded contexts.
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>IAM BC</th>
+      <th>Appointments BC</th>
+      <th>Messaging BC</th>
+      <th>Health Monitoring BC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+
+
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación completa de los servicios backend implementados durante el sprint.
+El objetivo de esta evidencia es demostrar la integralidad, funcionalidad y accesibilidad de cada endpoint del sistema Vitalia Backend.
+
+Cada servicio se describe detalladamente en función de su propósito, método HTTP, parámetros de entrada y respuestas esperadas, acompañados de evidencia visual obtenida desde Swagger UI y los módulos integrados del frontend.
+
+Los endpoints documentados abarcan los dominios centrales del sistema — IAM (Autenticación y Roles), Citas Médicas (Appointments), Horarios (Schedules), Gestión de Doctores y Pacientes, y Mensajería (Messaging) — garantizando la coherencia entre los servicios desarrollados y los requerimientos funcionales definidos para la revisión del sprint.
+
+##### Endpoints Documentados - Vitalia Backend
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/auth/login` | POST | Autenticación de usuario | `email`, `password` | **200 OK:** Token JWT generado<br>**401 Unauthorized:** Credenciales inválidas | Figura 1 - Pantalla de inicio de sesión |
+| `/api/v1/auth/register` | POST | Registro de nuevo usuario | `email`, `password`, `role`, `firstName`, `lastName` | **201 Created:** Usuario creado<br>**400 Bad Request:** Datos inválidos o usuario existente | Figura 2 - Registro de usuario |
+| `/api/v1/users/profile` | GET | Obtener información del perfil autenticado | Token JWT (header `Authorization`) | **200 OK:** Datos de perfil del usuario logueado | Figura 3 - Perfil de usuario |
+
+---
+
+##### Doctors & Patients
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/doctors` | GET | Listar todos los doctores | - | **200 OK:** Array de doctores registrados | Figura 4 - Lista de doctores |
+| `/api/v1/doctors/{id}` | GET | Obtener doctor por ID | `id` (path) | **200 OK:** Datos del doctor<br>**404 Not Found:** No existe | Figura 5 - Perfil de doctor |
+| `/api/v1/doctors` | POST | Registrar nuevo doctor | `firstName`, `lastName`, `email`, `specialization`, `cmpCode`, `studyCentre`, `phoneNumber` | **201 Created:** Doctor creado | Figura 6 - Formulario de registro |
+| `/api/v1/doctors/{id}` | PUT | Actualizar información del doctor | `id` (path), campos editables | **200 OK:** Doctor actualizado | Figura 7 - Edición de perfil |
+| `/api/v1/doctors/{id}` | DELETE | Eliminar doctor | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/patients` | GET | Listar todos los pacientes | - | **200 OK:** Array de pacientes | Figura 8 - Lista de pacientes |
+| `/api/v1/patients/{id}` | GET | Obtener paciente por ID | `id` (path) | **200 OK:** Datos del paciente | Figura 9 - Perfil del paciente |
+| `/api/v1/patients` | POST | Registrar nuevo paciente | `firstName`, `lastName`, `email`, `age`, `sex`, `bloodType`, `healthInsurance`, etc. | **201 Created:** Paciente creado | Figura 10 - Registro de paciente |
+| `/api/v1/patients/{id}` | PUT | Actualizar datos del paciente | `id` (path), campos editables | **200 OK:** Paciente actualizado | Figura 11 - Edición de paciente |
+| `/api/v1/patients/{id}` | DELETE | Eliminar paciente | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/doctors/assign` | POST | Asignar doctor a paciente | `doctorId`, `patientId` | **200 OK:** Asignación exitosa | Figura 12 - Asignación de doctor |
+| `/api/v1/doctors/assign-multiple` | POST | Asignar múltiples pacientes a un doctor | `doctorId`, `patientIds[]` | **200 OK:** Asignaciones completadas | Figura 13 - Asignaciones múltiples |
+
+---
+
+##### Appointments (Citas Médicas)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/appointments` | GET | Listar todas las citas | - | **200 OK:** Array de citas | Figura 14 - Calendario de citas |
+| `/api/v1/appointments/{id}` | GET | Obtener cita por ID | `id` (path) | **200 OK:** Detalle de cita | Figura 15 - Detalle de cita |
+| `/api/v1/appointments` | POST | Crear nueva cita | `patientId`, `doctorId`, `appointmentDate`, `appointmentTime`, `reason`, `status`, `notes` | **201 Created:** Cita creada | Figura 16 - Creación de cita |
+| `/api/v1/appointments/{id}` | PUT | Actualizar cita | `id` (path) + body editable | **200 OK:** Cita actualizada | Figura 17 - Edición de cita |
+| `/api/v1/appointments/{id}` | DELETE | Eliminar cita | `id` (path) | **204 No Content:** Cita eliminada | - |
+
+---
+
+##### Schedules (Horarios Médicos)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/schedules` | GET | Listar todos los horarios | - | **200 OK:** Array de horarios disponibles | Figura 18 - Lista de horarios |
+| `/api/v1/schedules/{id}` | GET | Obtener horario por ID | `id` (path) | **200 OK:** Datos del horario | Figura 19 - Detalle del horario |
+| `/api/v1/schedules` | POST | Crear nuevo horario | `doctorId`, `dayOfWeek`, `startTime`, `endTime`, `isAvailable` | **201 Created:** Horario creado | Figura 20 - Registro de horario |
+| `/api/v1/schedules/{id}` | PUT | Actualizar horario | `id` (path) + campos editables | **200 OK:** Horario actualizado | Figura 21 - Edición de horario |
+| `/api/v1/schedules/{id}` | DELETE | Eliminar horario | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+
+---
+
+##### Messaging (Mensajes y Conversaciones)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/conversations` | GET | Listar todas las conversaciones | - | **200 OK:** Array de conversaciones | Figura 22 - Bandeja de mensajes |
+| `/api/v1/conversations/{id}` | GET | Obtener conversación por ID | `id` (path) | **200 OK:** Detalle de conversación | Figura 23 - Conversación abierta |
+| `/api/v1/conversations` | POST | Crear nueva conversación entre doctor y paciente | `doctorId`, `patientId` | **201 Created:** Conversación creada | Figura 24 - Nueva conversación |
+| `/api/v1/messages` | GET | Listar todos los mensajes | - | **200 OK:** Array de mensajes | Figura 25 - Historial de mensajes |
+| `/api/v1/messages/{id}` | GET | Obtener mensaje por ID | `id` (path) | **200 OK:** Detalle de mensaje | Figura 26 - Mensaje seleccionado |
+| `/api/v1/messages/conversation/{conversationId}` | GET | Listar mensajes por conversación | `conversationId` (path) | **200 OK:** Array de mensajes filtrados | Figura 27 - Conversación activa |
+| `/api/v1/messages` | POST | Enviar nuevo mensaje | `conversationId`, `senderId`, `receiverId`, `content` | **201 Created:** Mensaje enviado | Figura 28 - Envío de mensaje |
+| `/api/v1/messages/{id}` | PUT | Actualizar mensaje | `id` (path), campos editables | **200 OK:** Mensaje actualizado | Figura 29 - Edición de mensaje |
+| `/api/v1/messages/{id}` | DELETE | Eliminar mensaje | `id` (path) | **204 No Content:** Mensaje eliminado | Figura 30 - Mensaje eliminado |
+| `/api/v1/messages/{id}/mark-as-read` | PATCH | Marcar mensaje como leído | `id` (path) | **200 OK:** Estado actualizado | Figura 31 - Lectura de mensaje |
+
+---
+
+##### Administración
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/users` | GET | Listar todos los usuarios del sistema | - | **200 OK:** Array de usuarios | Figura 32 - Panel de administración |
+| `/api/v1/users/{id}` | DELETE | Eliminar usuario del sistema | `id` (path) | **204 No Content:** Usuario eliminado | - |
+
+
+
+
+
+#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+#### 5.3. Validation Interviews.
+
+#### 5.3.1. Diseño de Entrevistas.
+
+#### 5.3.2. Registro de Entrevistas.
+
+#### 5.3.3. Evaluaciones según heurísticas.
+
+#### 5.4. Video About-the-Product
+
 ## Conclusiones
 
 1. **Problema vigente y relevante:**  
