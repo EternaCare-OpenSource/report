@@ -3013,12 +3013,75 @@ La siguiente tabla resume los roles y responsabilidades específicas de cada mie
 
 #### 5.2.3.3.Sprint Backlog 3.
 
+
+
 #### 5.2.3.4.Development Evidence for Sprint Review.
+
+
+
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
+Esta sección presenta la evidencia de ejecución del sprint correspondiente al backend de **Vitalia**, validada a través del entorno de pruebas de **Swagger UI**.  
+Durante el proceso, se comprobó el correcto funcionamiento de los controladores (controllers) asociados a cada dominio del sistema, garantizando que todas las operaciones CRUD (Create, Read, Update, Delete) y las funciones complementarias se ejecuten conforme a los requerimientos establecidos en el backlog de producto.  
+
+Las siguientes capturas muestran la estructura final de endpoints disponibles por módulo, evidenciando la correcta integración del sistema bajo los principios de arquitectura **DDD (Domain-Driven Design)** y la separación de responsabilidades entre capas de dominio, aplicación e infraestructura.
+
+##### **SchedulesController**
+<img width="1438" height="331" alt="image" src="https://github.com/user-attachments/assets/1fbf0ac0-f7b3-4dec-92f6-9673ddbdd9df" />
+
+El **SchedulesController** maneja la gestión de horarios médicos.  
+Incluye endpoints CRUD que permiten registrar nuevos horarios (`POST`), consultarlos (`GET`), modificarlos (`PUT`) o eliminarlos (`DELETE`).  
+Su implementación garantiza la disponibilidad horaria de los doctores, permitiendo planificar de forma dinámica la asignación de citas.
 
 
+##### **PatientsController**
+<img width="1441" height="429" alt="image" src="https://github.com/user-attachments/assets/2cb7f5b0-4423-44b6-aa3b-ab00a0340b74" />
+
+El **PatientsController** gestiona la información de los pacientes registrados.  
+Incluye endpoints para CRUD completo de pacientes, junto con funciones específicas para la **asignación de doctores**, tanto de manera individual (`/assign-doctor/{doctorId}`) como múltiple (`/assignments`).  
+De esta forma, se facilita la relación médico-paciente y la coordinación de cuidados desde el backend.
+
+
+##### **MessagesController**
+<img width="1436" height="425" alt="image" src="https://github.com/user-attachments/assets/f7882be9-ff8e-41cc-bc6b-8665b5c4b4f5" />
+
+El **MessagesController** centraliza la gestión de mensajes dentro de cada conversación.  
+Permite enviar (`POST`), leer (`GET`), actualizar (`PUT`), eliminar (`DELETE`) y marcar mensajes como leídos (`PATCH /mark-as-read`).  
+Además, cuenta con un endpoint dedicado para obtener todos los mensajes asociados a una conversación (`/conversation/{conversationId}`).  
+Este módulo fue clave para validar la comunicación bidireccional entre doctores y pacientes.
+
+
+##### **DoctorsController**
+<img width="1437" height="324" alt="image" src="https://github.com/user-attachments/assets/8f9a182b-8358-471f-aed1-d28c3cc1c8e1" />
+
+El **DoctorsController** permite la administración de los perfiles de los doctores del sistema.  
+A través de sus endpoints, es posible registrar nuevos doctores (`POST`), consultar su información (`GET`), actualizar sus datos (`PUT`) o eliminarlos (`DELETE`).  
+Este módulo forma parte del núcleo de gestión de personal médico dentro del ecosistema de Vitalia.
+
+
+##### **ConversationsController**
+<img width="1441" height="318" alt="image" src="https://github.com/user-attachments/assets/8d95fab1-17de-4740-a31e-d8a23e21ee20" />
+El **ConversationsController** se encarga de manejar las conversaciones entre pacientes y doctores.  
+Sus endpoints permiten crear (`POST`), listar (`GET`), actualizar (`PUT`) o eliminar (`DELETE`) conversaciones, manteniendo un registro ordenado de las interacciones y vínculos entre usuarios del sistema.
+
+
+##### **AppointmentsController**
+<img width="1439" height="321" alt="image" src="https://github.com/user-attachments/assets/88e43792-6bab-4426-82d1-208e89cc2041" />
+
+El **AppointmentsController** administra las operaciones relacionadas con las citas médicas. Contiene endpoints para listar (`GET`), crear (`POST`), actualizar (`PUT`) y eliminar (`DELETE`) citas.  
+Estas operaciones permiten que doctores y pacientes gestionen sus citas programadas, verificando la disponibilidad y manteniendo un registro histórico dentro del sistema.
+
+
+##### **AuthController**
+<img width="1455" height="165" alt="image" src="https://github.com/user-attachments/assets/ea72dcd3-d7dd-463c-9f63-e1c07a3c9e49" />
+
+El **AuthController** gestiona los procesos de autenticación y registro de usuarios. Incluye los endpoints `/api/v1/auth/register` y `/api/v1/auth/login`, que permiten crear nuevos usuarios e iniciar sesión mediante credenciales válidas, generando tokens JWT para el control de acceso seguro al resto de los servicios del sistema.
+
+##### **Conclusión**
+
+La evidencia de ejecución demuestra que todos los controladores fueron implementados e integrados correctamente dentro del sistema, cumpliendo con los objetivos funcionales del sprint.  
+Cada módulo opera de forma independiente pero coherente dentro del ecosistema, garantizando seguridad (JWT), trazabilidad de datos y disponibilidad de servicios en tiempo real.
 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
@@ -3112,17 +3175,223 @@ Los endpoints documentados abarcan los dominios centrales del sistema — IAM (A
 
 #### 5.2.3.7.Software Deployment Evidence for Sprint Review.
 
+
+
+
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+
+
 
 #### 5.3. Validation Interviews.
 
 #### 5.3.1. Diseño de Entrevistas.
 
+El objetivo de las entrevistas fue validar la facilidad de uso, utilidad y percepción general del sistema **Vitalia**, considerando las experiencias de dos grupos principales de usuarios:  
+la **Red de Apoyo Familiar** y el **Personal Sanitario y de Cuidado**.  
+
+Se realizaron entrevistas semiestructuradas centradas en las tareas que cada grupo realiza con mayor frecuencia, y en cómo la plataforma facilita la comunicación, organización y seguimiento del cuidado del paciente.
+
+---
+
+
+##### **Segmento 1: Red de Apoyo Familiar**
+
+**Objetivo:** Comprender la experiencia de los familiares al acceder a la información del paciente y comunicarse con el personal de salud mediante la plataforma Vitalia.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su relación con el paciente y con qué frecuencia consulta su estado o citas?  
+2. ¿Cómo describiría su experiencia general al usar Vitalia por primera vez?  
+3. ¿Pudo acceder fácilmente a la información del paciente y entender los datos mostrados?  
+4. ¿Le resultó útil la posibilidad de comunicarse con el personal médico a través de mensajes o notificaciones?  
+5. ¿Qué aspectos del sistema le parecen más útiles o qué mejoraría para facilitar su uso?
+
+##### **Segmento 2: Personal Sanitario y de Cuidado**
+
+**Objetivo:** Evaluar la facilidad con la que el personal médico utiliza Vitalia para gestionar pacientes, citas y comunicación con familiares.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su función dentro del centro y cuántos pacientes gestiona habitualmente?  
+2. ¿Qué tan fácil le resultó aprender a usar Vitalia y registrar información médica o citas?  
+3. ¿Ha notado mejoras en la coordinación o comunicación con otros profesionales o familiares gracias al sistema?  
+4. ¿Qué tan útil le resulta la mensajería interna o el calendario para su trabajo diario?  
+5. ¿Qué funcionalidades considera más valiosas y qué mejoraría para optimizar su labor?
+
+---
+
+##### **Síntesis del Enfoque**
+
+Las entrevistas se diseñaron para vincular la experiencia de uso con los principales módulos del backend de Vitalia:
+- **Autenticación y acceso:** registro e inicio de sesión.  
+- **Gestión de pacientes y citas:** consulta y actualización de información médica.  
+- **Comunicación:** mensajería y notificaciones.  
+- **Organización:** planificación de horarios y tareas.  
+
+Este formato permitió recopilar información cualitativa clara y concisa sobre cómo cada usuario percibe la utilidad y eficiencia del sistema.
+
+
 #### 5.3.2. Registro de Entrevistas.
+
 
 #### 5.3.3. Evaluaciones según heurísticas.
 
+
+Esta sección presenta el proceso de evaluación de la experiencia de usuario realizado durante las sesiones de validación, aplicando los principios de **Usabilidad**, **Arquitectura de la Información** e **Inclusive Design** sobre la interfaz y los flujos funcionales de la aplicación **Vitalia**.  
+
+El objetivo de esta evaluación fue identificar posibles mejoras en la interacción del usuario con el sistema, garantizar la accesibilidad de las funciones críticas y validar la coherencia del diseño respecto a los estándares heurísticos de **Nielsen**, **Shneiderman** y principios de diseño inclusivo.  
+
+Las evaluaciones se realizaron siguiendo la estructura del formato oficial indicado en el **Anexo D: Formato para Evaluación de User Experience según Heurísticas**, detallando las tareas críticas a revisar y los criterios aplicados durante la sesión.
+
+---
+
+##### **Formato de Evaluación Heurística Aplicado**
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Profesores:** Todos  
+**Auditor:** Equipo de Vitalia Backend & Frontend Integration  
+**Cliente(s):** Usuarios finales: *Red de Apoyo Familiar* y *Personal Sanitario*  
+
+---
+
+##### **SITE O APP A EVALUAR:**
+**Vitalia – Plataforma Integral de Monitoreo y Gestión del Cuidado del Paciente**
+
+---
+
+##### **TAREAS A EVALUAR:**
+
+El alcance de la evaluación incluyó la revisión de la usabilidad y accesibilidad en las siguientes tareas clave:
+
+1. Registro e inicio de sesión de un usuario (segmentos familiar y médico).  
+2. Visualización de citas médicas y horarios disponibles.  
+3. Registro de una nueva cita médica (por parte del médico).  
+4. Consulta del historial médico y reportes del paciente.  
+5. Comunicación mediante mensajería interna entre médico y paciente.  
+6. Visualización de notificaciones o alertas del sistema.  
+7. Edición de perfil y actualización de datos personales.  
+8. Cierre de sesión y persistencia de autenticación segura.
+
+---
+
+##### **TAREAS NO INCLUIDAS EN ESTA EVALUACIÓN:**
+
+1. Modificación avanzada de configuraciones del sistema (panel administrativo).  
+2. Módulos de monitoreo en tiempo real (en desarrollo).  
+3. Integración con sistemas externos de salud (API externas).  
+4. Análisis estadístico avanzado y reportes dinámicos.  
+5. Funcionalidades de auditoría o administración multiusuario.
+
+---
+
+##### **Escala de Severidad**
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| **Nivel** | **Descripción** |
+|------------|-----------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata. |
+| **2** | Problema menor: ocurre ocasionalmente y puede generar confusión leve. Se recomienda corregir en próximas iteraciones. |
+| **3** | Problema mayor: ocurre con frecuencia o impide completar una tarea sin ayuda. Requiere corrección prioritaria. |
+| **4** | Problema muy grave: bloquea el flujo de uso o impide el funcionamiento correcto del sistema. Debe corregirse antes del despliegue. |
+
+---
+
+##### **Tabla Resumen de Problemas Detectados**
+
+| # | **Problema** | **Escala de Severidad** | **Heurística / Principio Violado** |
+|---|---------------|--------------------------|------------------------------------|
+| 1 | El botón *“Iniciar sesión”* no proporciona retroalimentación visual inmediata al hacer clic. | 2 | **Usabilidad:** Visibilidad del estado del sistema |
+| 2 | Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema. | 3 | **Usabilidad:** Prevención y recuperación de errores |
+| 3 | El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida. | 3 | **Inclusive Design:** Accesibilidad visual y legibilidad |
+| 4 | En el módulo de mensajería, el orden de los mensajes no siempre refleja la hora más reciente. | 2 | **Information Architecture:** Consistencia temporal y jerarquía informativa |
+| 5 | No existe una opción para cancelar la creación de una cita antes de guardarla. | 3 | **Usabilidad:** Control y libertad del usuario |
+| 6 | En la vista de horarios, la información del día no se muestra completa en pantallas pequeñas. | 2 | **Inclusive Design:** Diseño adaptable y responsivo |
+| 7 | El sistema no muestra confirmación al eliminar un mensaje o conversación. | 4 | **Usabilidad:** Prevención de errores graves |
+| 8 | Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla. | 3 | **Inclusive Design:** Proporcionar experiencias comparables |
+| 9 | El campo “Notas” en el registro de cita no cuenta con un límite visual o aviso de caracteres. | 1 | **Usabilidad:** Visibilidad del estado del sistema |
+| 10 | No se muestra un mensaje claro tras la actualización del perfil del paciente. | 2 | **Usabilidad:** Retroalimentación del sistema |
+
+---
+
+##### **Descripción de Problemas**
+
+#### **PROBLEMA #1:**  
+**El botón “Iniciar sesión” no proporciona retroalimentación visual inmediata al hacer clic.**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+
+**Descripción:**  
+Al presionar el botón de inicio de sesión, la interfaz no muestra una animación, carga o confirmación de procesamiento inmediato, lo cual puede generar confusión en usuarios que no saben si la acción fue ejecutada o no.  
+
+**Recomendación:**  
+Implementar un indicador visual o spinner de carga que informe al usuario que el sistema está procesando sus credenciales.
+
+---
+
+#### **PROBLEMA #2:**  
+**Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema.**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención y recuperación de errores  
+
+**Descripción:**  
+Al ingresar datos inválidos durante el registro (por ejemplo, un correo sin formato válido), el sistema muestra un error genérico sin identificar el campo exacto, dificultando la corrección por parte del usuario.  
+
+**Recomendación:**  
+Agregar validaciones específicas en cada campo y mensajes contextuales que indiquen claramente el tipo de error detectado.
+
+---
+
+#### **PROBLEMA #3:**  
+**El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Accesibilidad visual y legibilidad  
+
+**Descripción:**  
+En secciones como el registro o la creación de citas, los campos de texto presentan un contraste insuficiente, dificultando la lectura en pantallas con brillo reducido o para usuarios con baja visión.  
+
+**Recomendación:**  
+Aplicar los estándares WCAG 2.1, nivel AA, garantizando un contraste mínimo de 4.5:1 entre texto y fondo.
+
+---
+
+#### **PROBLEMA #4:**  
+**El sistema no muestra confirmación al eliminar un mensaje o conversación.**  
+**Severidad:** 4  
+**Heurística violada:** Usabilidad – Prevención de errores graves  
+
+**Descripción:**  
+La acción de eliminar un mensaje se ejecuta inmediatamente sin confirmación previa, lo que puede ocasionar pérdidas de información accidental.  
+
+**Recomendación:**  
+Incluir un cuadro de diálogo de confirmación (“¿Desea eliminar este mensaje?”) antes de ejecutar la acción.
+
+---
+
+#### **PROBLEMA #5:**  
+**Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporcionar experiencias comparables  
+
+**Descripción:**  
+Los iconos de acciones principales (como editar o eliminar) no incluyen atributos alternativos (`aria-label` o `alt`), limitando el acceso a usuarios que utilizan tecnologías asistivas.  
+
+**Recomendación:**  
+Añadir etiquetas accesibles en todos los elementos interactivos según las buenas prácticas de accesibilidad WAI-ARIA.
+
+---
+
+##### **Conclusión General**
+
+Los hallazgos obtenidos confirman que la aplicación **Vitalia** mantiene una base sólida de usabilidad y coherencia visual, destacando en la simplicidad de navegación y claridad de información.  
+No obstante, los problemas identificados —principalmente relacionados con accesibilidad, retroalimentación del sistema y confirmaciones de acción— deberán abordarse en la siguiente iteración para optimizar la experiencia inclusiva y segura del usuario final.
+
+
 #### 5.4. Video About-the-Product
+
+
 
 ## Conclusiones
 
