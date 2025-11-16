@@ -3344,8 +3344,52 @@ Con el despliegue completado, se accedió a la URL pública generada: https://ca
 
 #### 5.2.3.8.Team Collaboration Insights during Sprint.
 
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Eterna Care, implementando
+la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el
+frontend, actualizaciones en el reporte y se mejoró la calidad de las User Stories y Technical Stories, eliminando
+referencias a UI y reescribiéndolas con formato API REST (endpoints específicos, códigos HTTP, estructura
+Given-When-Then).
 
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una
+versión estable del backend con los bounded contexts de Schedules, Patients, Messages, Doctors, Conversations,
+Appointments y Auth, optimizar el frontend y fortalecer la calidad general del proyecto.
 
+Acciones de colaboración destacadas
+Se utilizó GitHub como herramienta central para coordinar el trabajo, gestionar versiones y mantener un registro
+ordenado de los avances.
+Se reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y corrección del
+frontend.
+Cada miembro realizó commits documentados detallando la implementación de funcionalidades en el backend, mejoras en el
+frontend y correcciones en el reporte.
+Se realizó una revisión y mejora completa de las User Stories y Technical Stories, eliminando referencias a UI y
+reescribiéndolas con formato API REST según estándares de calidad.
+Se realizaron pull requests y revisiones de código en equipo para validar la lógica del backend, verificar la
+configuración de base de datos y asegurar la corrección del frontend y reporte.
+Se utilizó Trello para la gestión visual de tareas y seguimiento del Sprint Backlog.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando
+un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
+
+##### Evidencia de colaboración
+
+###### Commits realizados durante el Sprint 3:
+
+![commit - 1.png](images/chapter-5/commit%20-%201.png)
+
+![commit - 2.png.png](images/chapter-5/commit%20-%202.png.png)
+
+![commit - 3.png.png](images/chapter-5/commit%20-%203.png.png)
+
+![commit - 4.png](images/chapter-5/commit%20-%204.png)
+
+![commit - 5.png](images/chapter-5/commit%20-%205.png)
+
+![commit - 6.png](images/chapter-5/commit%20-%206.png)
+
+![commit - 7.png](images/chapter-5/commit%20-%207.png)
+
+![commit - 8.png](images/chapter-5/commit%20-%208.png)
+
+![commit - 9.png](images/chapter-5/commit%20-%209.png)
 
 #### 5.3. Validation Interviews.
 
