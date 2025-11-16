@@ -3251,6 +3251,14 @@ Evidencia:
 - URL del
   video: [Red de Apoyo Familiar - Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQAfwpNv0FLxS7QJWjvICWH3AQR-pvEhPePSiFWO9EmmCWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SyMihM)
 
+En la entrevista, Sebastián Real, quien actúa como red de apoyo para su abuela, afirmó que revisa la aplicación web
+diariamente junto a su familia para gestionar citas y el estado de la paciente. Describió la plataforma como "cómoda"
+y "fácil de navegar", destacando que su diseño bien señalizado reduce la preocupación al manejar un tema tan delicado
+como la salud. Identificó la mensajería integrada con los doctores como la característica más útil, permitiéndole un
+intercambio de información constante. Aunque se mostró muy satisfecho con el sistema, sugirió como mejora la inclusión
+de un número de contacto directo para soporte técnico, expresando su preferencia por hablar con un ser humano en lugar
+de interactuar con chatbots al resolver problemas.
+
 ##### Entrevista – Segmento 2: Personal Sanitario y de Cuidado
 
 Entrevista 1
@@ -3267,6 +3275,13 @@ Evidencia:
 
 - URL del
   video: [Personal Sanitario y de Cuidado - Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQCiigRv6g1vTazhX4Eg-kN5AXTz62CLmfBg6ymJ1-_V0Lo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gbRnDw)
+
+En una entrevista con el Dr. Gonzalo Aliaga, quien gestiona la recepción y derivación de un gran volumen de pacientes,
+este evaluó una nueva aplicación web médica. El doctor destacó que la herramienta es extremadamente intuitiva y fácil de
+usar, en claro contraste con sistemas anteriores que requerían una alta curva de aprendizaje. Subrayó que la aplicación
+ha generado mejoras significativas en la comunicación, facilitando el acceso a la información de contacto de pacientes y
+otros doctores, así como la gestión de citas y mensajes, resolviendo la dificultad que antes tenía para rastrear datos o
+recetas de días previos.
 
 #### 5.3.3. Evaluaciones según heurísticas.
 
