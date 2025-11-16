@@ -3234,6 +3234,39 @@ Este formato permitió recopilar información cualitativa clara y concisa sobre 
 
 #### 5.3.2. Registro de Entrevistas.
 
+##### Entrevista – Segmento 1: Red de Apoyo Familiar
+
+###### Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Sebastian Omar Real Calderon
+- Edad: 29
+- Ciudad: Lima, callao
+- Duración: 4:07 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Red%20de%20Apoyo%20Familiar%20-%20Entrevista%201.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQAfwpNv0FLxS7QJWjvICWH3AQR-pvEhPePSiFWO9EmmCWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SyMihM)
+
+##### Entrevista – Segmento 2: Personal Sanitario y de Cuidado
+
+Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Gonzalo Aliaga
+- Edad: 32
+- Ciudad: Lima, pueblo libre
+- Duración: 3:05 minutos
+
+Evidencia:
+
+![Personal Sanitario y de Cuidado - Entrevista 2.png](images/chapter-5/Personal%20Sanitario%20y%20de%20Cuidado%20-%20Entrevista%202.png)
+
+- URL del
+  video: [Personal Sanitario y de Cuidado - Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQCiigRv6g1vTazhX4Eg-kN5AXTz62CLmfBg6ymJ1-_V0Lo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gbRnDw)
 
 #### 5.3.3. Evaluaciones según heurísticas.
 
