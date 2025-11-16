@@ -3173,7 +3173,171 @@ Los endpoints documentados abarcan los dominios centrales del sistema — IAM (A
 
 
 
-#### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En este apartado se presenta la evidencia del despliegue de software realizado durante el sprint, específicamente la creación y configuración del servicio de base de datos PostgreSQL en Microsoft Azure. Este despliegue permitió habilitar la infraestructura necesaria para el funcionamiento del backend del proyecto CareLink, asegurando un entorno estable, seguro y accesible para el equipo de desarrollo.
+
+
+##### **Creación del Servidor Flexible de PostgreSQL en Azure**
+
+Se implementó un nuevo servidor PostgreSQL Flexible Server utilizando la suscripción *Azure for Students* y el grupo de recursos `CareLink_group`.
+
+**Configuración principal:**
+- **Nombre del servidor:** `carelink`
+- **Ubicación:** Central US / Canada Central
+- **Versión de PostgreSQL:** 17 / 17.6
+- **Plan de tarifa:** Standard_B1ms (1 vCore, 2 GiB RAM)
+- **Almacenamiento asignado:** 32 GiB
+- **Redundancia geográfica:** No habilitada
+- **Resistencia zonal:** Deshabilitada
+- **Crecimiento automático del almacenamiento:** Deshabilitado
+- **Periodo de retención de backups:** 7 días
+
+**Autenticación configurada:**
+- Método de autenticación: PostgreSQL
+- Usuario administrador: `admin_carelink`
+
+**Evidencia:**
+
+- Configuración inicial del servidor  
+<img width="881" height="998" alt="image" src="https://github.com/user-attachments/assets/23e4d5d3-d6f4-4daf-89ca-c1610f128bfd" />
+
+- Configuración de redes y firewall  
+  - Acceso público habilitado  
+  - Regla de firewall creada para permitir acceso desde la IP local  
+<img width="986" height="954" alt="image" src="https://github.com/user-attachments/assets/5311bb04-5c66-4eab-96a5-c6c9624f84d1" />
+
+- Configuración de autenticación  
+<img width="912" height="843" alt="image" src="https://github.com/user-attachments/assets/ad5567a0-236e-4459-a2f2-bcba4bda93eb" />
+
+- Pantalla de revisión final antes del despliegue  
+<img width="827" height="957" alt="image" src="https://github.com/user-attachments/assets/9f3cd0d4-8d03-4f06-aa7a-fdca2a87a9be" />
+
+- Evidencia del recurso ya desplegado y operativo  
+<img width="1844" height="750" alt="image" src="https://github.com/user-attachments/assets/905be4b1-1836-48c1-bf06-d24ba0b25314" />
+<img width="716" height="553" alt="image" src="https://github.com/user-attachments/assets/f81a4aba-723e-42e0-8ada-e9b6903c2945" />
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e2c695a0-a2a5-45b9-9e47-549030ce184f" />
+<img width="349" height="201" alt="image" src="https://github.com/user-attachments/assets/056f5f0d-72e7-4a8b-a167-37b482589899" />
+
+---
+
+###### **Resultado del Despliegue**
+
+La base de datos quedó correctamente provisionada, accesible y lista para ser integrada con el backend del proyecto. El despliegue cumple con los requisitos del sprint, proporcionando:
+
+- Un entorno de desarrollo real montado sobre infraestructura cloud.  
+- Configuración segura del acceso mediante reglas de firewall.  
+- Versionamiento actualizado de PostgreSQL (17.x).  
+- Costos optimizados bajo el plan de estudiante.  
+
+Este despliegue representa el primer hito de infraestructura del sistema CareLink para su funcionamiento en producción futura.
+
+
+
+##### **Despliegue del Backend en Azure App Service**
+
+Además del aprovisionamiento de la base de datos, durante este sprint se realizó el despliegue completo del backend del proyecto en **Azure App Service**, utilizando integración continua con GitHub Actions. Este proceso permite que cada cambio realizado en la rama `main` del repositorio oficial se compile, construya y despliegue automáticamente en la aplicación web alojada en Azure.
+
+---
+
+### **Creación del Azure App Service**
+
+El despliegue inició seleccionando la suscripción *Azure for Students* y utilizando el mismo grupo de recursos del proyecto (`CareLink_group`) para mantener una arquitectura organizada.
+
+**Configuración principal del servicio:**
+- **Nombre de la aplicación:** `care-link`
+- **Modelo de publicación:** Código
+- **Lenguaje y runtime:** Java 21  
+- **Servidor web Java:** Java SE (Embedded Web Server)
+- **Sistema operativo:** Windows
+- **Región:** East US 2
+- **Plan de precios:** Gratis F1 (infraestructura compartida)
+- **Plan de App Service creado:** `ASP-CareLinkgroup-aas5d`
+
+*Evidencia:*  
+<img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
+<img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
+
+---
+
+### **Configuración de Implementación Continua**
+
+Con el objetivo de garantizar un flujo de despliegue automatizado y profesional, se habilitó **GitHub Actions** como método de CI/CD.
+
+**Parámetros configurados:**
+- **Cuenta de GitHub:** MauricioMVlicapoma
+- **Organización:** `EternaCare-OpenSource`
+- **Repositorio:** `backend`
+- **Rama:** `main`
+- **Implementación continua:** Habilitada
+- **Autenticación básica:** Deshabilitada
+
+Esta configuración genera automáticamente un archivo de workflow en GitHub Actions que compila el proyecto Java, ejecuta la construcción del artifact y lo despliega hacia Azure App Service.
+
+*Evidencia:*  
+<img width="1465" height="569" alt="image" src="https://github.com/user-attachments/assets/bc6ad233-84d6-4bbe-820c-5609a666733d" />
+<img width="1831" height="642" alt="image" src="https://github.com/user-attachments/assets/f8b13a0f-6eb9-4feb-aa2c-a9c342973bbe" />
+
+---
+
+### **Validación y Revisión Final del Despliegue**
+
+Antes de iniciar el aprovisionamiento, se revisaron los parámetros de creación del servicio. La pantalla de “Revisar y crear” confirmó:
+
+- Selección de suscripción y grupo de recursos correcto  
+- Configuración del runtime Java  
+- Plan de precios gratuito  
+- Integración con GitHub  
+- Sistema operativo Windows  
+
+*Evidencia:*  
+<img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
+
+---
+
+### **Ejecución del Despliegue en Azure**
+
+Una vez iniciado el despliegue, Azure generó múltiples recursos asociados al App Service:
+
+- Identidades administradas  
+- Sitio web principal  
+- Sitio `scm` para herramientas de desarrollo  
+- Configuraciones FTP  
+- Plan de App Service  
+- Registros del flujo de implementación  
+
+El panel mostró todos los recursos como **Created** u **OK**, confirmando una implementación exitosa.
+
+*Evidencia:*  
+<img width="1858" height="548" alt="image" src="https://github.com/user-attachments/assets/f6968360-9295-416f-bc6d-bbc70222a751" />
+
+Posteriormente, Azure notificó:  
+**“Se completó la implementación”**  
+indicando que el backend quedó completamente habilitado.
+
+---
+
+### **Aplicación Web en Ejecución**
+
+Una vez finalizada la implementación, se accedió al recurso `care-link` dentro del portal de Azure.
+
+**Propiedades verificadas:**
+- Dominio predeterminado operativo  
+- Runtime Java 21 activo  
+- Plan gratuito en funcionamiento  
+- Registros de implementación generados por GitHub Actions  
+- Dirección IP pública asignada  
+- Estado del recurso: Running
+
+*Evidencia:*  
+<img width="1857" height="758" alt="image" src="https://github.com/user-attachments/assets/cbec95e1-e01d-451f-af77-e9f5da35cf73" />
+
+---
+
+### **Validación del Backend mediante Swagger (API Running in Azure)**
+
+Con el despliegue completado, se accedió a la URL pública generada: https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+<img width="1854" height="1039" alt="image" src="https://github.com/user-attachments/assets/a2026495-b9a9-40f8-b06d-7e958040e376" />
 
 
 
