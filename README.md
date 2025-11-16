@@ -3018,6 +3018,66 @@ La siguiente tabla resume los roles y responsabilidades específicas de cada mie
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
 
+En esta sección se presenta la evidencia del trabajo de desarrollo realizado durante el sprint, sustentado en los commits del repositorio oficial del proyecto **EternaCare-OpenSource/backend**. La actividad registrada refleja la construcción progresiva de los bounded contexts, la implementación de las capas arquitectónicas, las mejoras de seguridad, el soporte de persistencia y la preparación del backend para su despliegue en Azure.
+
+La evidencia incluye contribuciones provenientes de todos los integrantes que participaron en el desarrollo técnico del sprint.
+
+---
+
+### **Evidencias de Desarrollo (Commits Relevantes)**
+
+A continuación se listan los principales aportes realizados durante el sprint, organizados por fecha:
+
+---
+
+### ** 16 de noviembre de 2025 – Integración final, correcciones y preparación para deployment**
+- **Fix Name** — Ajustes finales de nomenclatura interna para estandarización del proyecto.  
+- **Fix authorize button** — Corrección de flujos de autorización en la UI de Swagger.  
+- **Fix application.properties encoding filter** — Ajuste del encode UTF-8 para compatibilidad con Azure y Postgres.  
+- **Set UTF-8 encoding for build and resources** — Configuración del build system para asegurar codificación uniforme.  
+- **Add or update the Azure App Service build and deployment workflow config** — Adición del workflow de GitHub Actions para CI/CD.  
+- **Fix auth security + added db remote** — Integración con base de datos remota en Azure y correcciones de seguridad.  
+- **feat: add bounded context appointments** — Implementación del bounded context de *Appointments*.  
+- **feat: add bounded context health monitoring** — Implementación del bounded context de *Health Monitoring*.
+
+---
+
+### ** 12 de noviembre de 2025 – Construcción completa de arquitectura hexagonal (layers y BCs)**
+- **feat: add interfaces layer for authentication** — Creación de la capa de interfaces para autenticación y punto de entrada.  
+- **feat: add domain layer** — Implementación del Dominio con entidades, value objects y agregados.  
+- **feat: add Application Layer** — Construcción de la capa de aplicación con casos de uso.  
+- **feat: add functionality of persistence in bc** — Implementación de puertos, adapters, repositorios y persistencia.  
+- **feat: add bounded context IAM** — Desarrollo del bounded context de *Identity and Access Management*.  
+- **feat: add messaging bc** — Adición del bounded context de *Messaging*.
+
+---
+
+### ** 13 de octubre de 2025 – Inicio del proyecto**
+- **Initial commit** — Estructura base del proyecto incluyendo configuración inicial de Gradle/Maven, API skeleton, y archivos básicos.
+
+---
+
+<img width="1094" height="971" alt="image" src="https://github.com/user-attachments/assets/f8b7bf97-e82c-4f72-a50e-a286c8b8d063" />
+
+
+### **Resumen del Trabajo de Desarrollo**
+
+Durante este sprint se logró implementar:
+
+- La estructura completa del backend bajo arquitectura **DDD + Hexagonal Architecture**.  
+- Cuatro bounded contexts íntegramente funcionales:  
+  - Identity and Access Management  
+  - Appointments  
+  - Health Monitoring  
+  - Messaging  
+- Configuración completa de autenticación, casos de uso y lógica de dominio.  
+- Implementación de repositorios, adaptadores y comunicación con la base de datos remota.  
+- Estándar de codificación unificado (UTF-8) para despliegue en Azure.  
+- Preparación del backend para CI/CD mediante GitHub Actions.  
+
+El progreso evidencia que las funcionalidades principales del backend fueron implementadas y estabilizadas durante el sprint, permitiendo su integración directa con la infraestructura cloud del proyecto.
+
+
 
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
