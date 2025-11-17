@@ -118,6 +118,7 @@ Agosto 2025
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 | **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
 | **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
+| **Deploy Backend**        | `https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#/`         |
 
 
 
@@ -4139,6 +4140,8 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 
 **Anexo A:**  
 [Deployment Landing Page](https://eternacare-opensource.github.io/landing-page/)  
+
+[About The Team](https://drive.google.com/file/d/1u4GDkbiPDVXsD26y5VMz8XPCc9fQE7_m/view?usp=sharing)  
 
 **Anexo B:**  
 [Wireframe Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
