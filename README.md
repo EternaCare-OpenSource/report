@@ -3415,7 +3415,7 @@ El progreso evidencia que las funcionalidades principales del backend fueron imp
 
 #### 5.2.3.5.Execution Evidence for Sprint Review.
 
-Esta sección presenta la evidencia de ejecución del sprint correspondiente al backend de **Vitalia**, validada a través del entorno de pruebas de **Swagger UI**.  
+Esta sección presenta la evidencia de ejecución del sprint correspondiente al backend de **CareLink**, validada a través del entorno de pruebas de **Swagger UI**.  
 Durante el proceso, se comprobó el correcto funcionamiento de los controladores (controllers) asociados a cada dominio del sistema, garantizando que todas las operaciones CRUD (Create, Read, Update, Delete) y las funciones complementarias se ejecuten conforme a los requerimientos establecidos en el backlog de producto.  
 
 Las siguientes capturas muestran la estructura final de endpoints disponibles por módulo, evidenciando la correcta integración del sistema bajo los principios de arquitectura **DDD (Domain-Driven Design)** y la separación de responsabilidades entre capas de dominio, aplicación e infraestructura.
@@ -3450,7 +3450,7 @@ Este módulo fue clave para validar la comunicación bidireccional entre doctore
 
 El **DoctorsController** permite la administración de los perfiles de los doctores del sistema.  
 A través de sus endpoints, es posible registrar nuevos doctores (`POST`), consultar su información (`GET`), actualizar sus datos (`PUT`) o eliminarlos (`DELETE`).  
-Este módulo forma parte del núcleo de gestión de personal médico dentro del ecosistema de Vitalia.
+Este módulo forma parte del núcleo de gestión de personal médico dentro del ecosistema de CareLink.
 
 
 ##### **ConversationsController**
@@ -3479,13 +3479,13 @@ Cada módulo opera de forma independiente pero coherente dentro del ecosistema, 
 #### 5.2.3.6.Services Documentation Evidence for Sprint Review.
 
 En esta sección se presenta la documentación completa de los servicios backend implementados durante el sprint.
-El objetivo de esta evidencia es demostrar la integralidad, funcionalidad y accesibilidad de cada endpoint del sistema Vitalia Backend.
+El objetivo de esta evidencia es demostrar la integralidad, funcionalidad y accesibilidad de cada endpoint del sistema CareLink Backend.
 
 Cada servicio se describe detalladamente en función de su propósito, método HTTP, parámetros de entrada y respuestas esperadas, acompañados de evidencia visual obtenida desde Swagger UI y los módulos integrados del frontend.
 
 Los endpoints documentados abarcan los dominios centrales del sistema — IAM (Autenticación y Roles), Citas Médicas (Appointments), Horarios (Schedules), Gestión de Doctores y Pacientes, y Mensajería (Messaging) — garantizando la coherencia entre los servicios desarrollados y los requerimientos funcionales definidos para la revisión del sprint.
 
-##### Endpoints Documentados - Vitalia Backend
+##### Endpoints Documentados - CareLink Backend
 
 | Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
 |-----------|--------------|--------------|-------------|-------------|------------------|
@@ -3788,7 +3788,7 @@ un resultado consistente. La implementación del backend siguiendo DDD permitió
 
 #### 5.3.1. Diseño de Entrevistas.
 
-El objetivo de las entrevistas fue validar la facilidad de uso, utilidad y percepción general del sistema **Vitalia**, considerando las experiencias de dos grupos principales de usuarios:  
+El objetivo de las entrevistas fue validar la facilidad de uso, utilidad y percepción general del sistema **CareLink**, considerando las experiencias de dos grupos principales de usuarios:  
 la **Red de Apoyo Familiar** y el **Personal Sanitario y de Cuidado**.  
 
 Se realizaron entrevistas semiestructuradas centradas en las tareas que cada grupo realiza con mayor frecuencia, y en cómo la plataforma facilita la comunicación, organización y seguimiento del cuidado del paciente.
@@ -3798,24 +3798,24 @@ Se realizaron entrevistas semiestructuradas centradas en las tareas que cada gru
 
 ##### **Segmento 1: Red de Apoyo Familiar**
 
-**Objetivo:** Comprender la experiencia de los familiares al acceder a la información del paciente y comunicarse con el personal de salud mediante la plataforma Vitalia.
+**Objetivo:** Comprender la experiencia de los familiares al acceder a la información del paciente y comunicarse con el personal de salud mediante la plataforma CareLink.
 
 ###### **Preguntas de la Entrevista**
 
 1. ¿Cuál es su relación con el paciente y con qué frecuencia consulta su estado o citas?  
-2. ¿Cómo describiría su experiencia general al usar Vitalia por primera vez?  
+2. ¿Cómo describiría su experiencia general al usar CareLink por primera vez?  
 3. ¿Pudo acceder fácilmente a la información del paciente y entender los datos mostrados?  
 4. ¿Le resultó útil la posibilidad de comunicarse con el personal médico a través de mensajes o notificaciones?  
 5. ¿Qué aspectos del sistema le parecen más útiles o qué mejoraría para facilitar su uso?
 
 ##### **Segmento 2: Personal Sanitario y de Cuidado**
 
-**Objetivo:** Evaluar la facilidad con la que el personal médico utiliza Vitalia para gestionar pacientes, citas y comunicación con familiares.
+**Objetivo:** Evaluar la facilidad con la que el personal médico utiliza CareLink para gestionar pacientes, citas y comunicación con familiares.
 
 ###### **Preguntas de la Entrevista**
 
 1. ¿Cuál es su función dentro del centro y cuántos pacientes gestiona habitualmente?  
-2. ¿Qué tan fácil le resultó aprender a usar Vitalia y registrar información médica o citas?  
+2. ¿Qué tan fácil le resultó aprender a usar CareLink y registrar información médica o citas?  
 3. ¿Ha notado mejoras en la coordinación o comunicación con otros profesionales o familiares gracias al sistema?  
 4. ¿Qué tan útil le resulta la mensajería interna o el calendario para su trabajo diario?  
 5. ¿Qué funcionalidades considera más valiosas y qué mejoraría para optimizar su labor?
@@ -3824,7 +3824,7 @@ Se realizaron entrevistas semiestructuradas centradas en las tareas que cada gru
 
 ##### **Síntesis del Enfoque**
 
-Las entrevistas se diseñaron para vincular la experiencia de uso con los principales módulos del backend de Vitalia:
+Las entrevistas se diseñaron para vincular la experiencia de uso con los principales módulos del backend de CareLink:
 - **Autenticación y acceso:** registro e inicio de sesión.  
 - **Gestión de pacientes y citas:** consulta y actualización de información médica.  
 - **Comunicación:** mensajería y notificaciones.  
@@ -3860,6 +3860,23 @@ intercambio de información constante. Aunque se mostró muy satisfecho con el s
 de un número de contacto directo para soporte técnico, expresando su preferencia por hablar con un ser humano en lugar
 de interactuar con chatbots al resolver problemas.
 
+###### Entrevista 2
+
+- Datos del entrevistado:
+- Nombre completo: Melina Orderique
+- Edad: 22
+- Ciudad: Lima, callao
+- Duración: 5:18 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Melina-Entrevista2.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1](https://drive.google.com/file/d/1QkHY2km7vSFMWlOpcC-HrVBsem9Q03W8/view?usp=sharing)
+
+En la entrevista que realicé a Melina, ella comentó que la página web le resultó bastante interesante y útil, especialmente por las diferentes funcionalidades que ofrece para el cuidado de un adulto mayor en casa. Me explicó que actualmente cuida a su abuela y que varias de las herramientas presentadas podrían ayudarla en su día a día. Una de las funciones que más valoró fue el chat directo con el doctor, ya que considera que tener un canal inmediato para resolver dudas o inquietudes le daría mucha tranquilidad y le permitiría actuar con mayor seguridad ante cualquier situación. Melina destacó que, a diferencia de otras plataformas, esta opción le facilitaría obtener apoyo médico sin necesidad de llevar a su abuela a consulta por cada duda menor, lo cual representa una mejora importante en la calidad del cuidado que puede brindarle. En general, su opinión fue positiva y señaló que la web aporta soluciones prácticas que realmente responden a las necesidades de quienes son responsables del cuidado de un familiar mayor.
+
 ##### Entrevista – Segmento 2: Personal Sanitario y de Cuidado
 
 Entrevista 1
@@ -3887,7 +3904,7 @@ recetas de días previos.
 #### 5.3.3. Evaluaciones según heurísticas.
 
 
-Esta sección presenta el proceso de evaluación de la experiencia de usuario realizado durante las sesiones de validación, aplicando los principios de **Usabilidad**, **Arquitectura de la Información** e **Inclusive Design** sobre la interfaz y los flujos funcionales de la aplicación **Vitalia**.  
+Esta sección presenta el proceso de evaluación de la experiencia de usuario realizado durante las sesiones de validación, aplicando los principios de **Usabilidad**, **Arquitectura de la Información** e **Inclusive Design** sobre la interfaz y los flujos funcionales de la aplicación **CareLink**.  
 
 El objetivo de esta evaluación fue identificar posibles mejoras en la interacción del usuario con el sistema, garantizar la accesibilidad de las funciones críticas y validar la coherencia del diseño respecto a los estándares heurísticos de **Nielsen**, **Shneiderman** y principios de diseño inclusivo.  
 
@@ -3900,13 +3917,13 @@ Las evaluaciones se realizaron siguiendo la estructura del formato oficial indic
 **Carrera:** Ingeniería de Software  
 **Curso:** Desarrollo de Aplicaciones Open Source  
 **Profesores:** Todos  
-**Auditor:** Equipo de Vitalia Backend & Frontend Integration  
+**Auditor:** Equipo de CareLink Backend & Frontend Integration  
 **Cliente(s):** Usuarios finales: *Red de Apoyo Familiar* y *Personal Sanitario*  
 
 ---
 
 ##### **SITE O APP A EVALUAR:**
-**Vitalia – Plataforma Integral de Monitoreo y Gestión del Cuidado del Paciente**
+**CareLink – Plataforma Integral de Monitoreo y Gestión del Cuidado del Paciente**
 
 ---
 
@@ -4034,7 +4051,7 @@ Añadir etiquetas accesibles en todos los elementos interactivos según las buen
 
 ##### **Conclusión General**
 
-Los hallazgos obtenidos confirman que la aplicación **Vitalia** mantiene una base sólida de usabilidad y coherencia visual, destacando en la simplicidad de navegación y claridad de información.  
+Los hallazgos obtenidos confirman que la aplicación **CareLink** mantiene una base sólida de usabilidad y coherencia visual, destacando en la simplicidad de navegación y claridad de información.  
 No obstante, los problemas identificados —principalmente relacionados con accesibilidad, retroalimentación del sistema y confirmaciones de acción— deberán abordarse en la siguiente iteración para optimizar la experiencia inclusiva y segura del usuario final.
 
 
