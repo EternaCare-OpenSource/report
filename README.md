@@ -118,6 +118,7 @@ Agosto 2025
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 | **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
 | **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
+| **Deploy Backend**        | `https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#/`         |
 
 
 
@@ -2906,6 +2907,1159 @@ Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de E
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
 
+
+
+
+#### 5.2.3. Sprint 3
+
+##### 5.2.3.1. Sprint Planning 3 
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-11-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>13:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td> Reunión virtual en Discord </td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Josue Antonio Flores Apaico</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 3 Goal</th>
+    <td>El objetivo de este sprint es desarrollar y consolidar las funcionalidades del backend asignando a cada integrante las tareas correspondientes al bounded context que elija, asegurando la correcta implementación de la lógica de negocio y finalizando con un informe técnico que describa detalladamente los aportes y desarrollos realizados por cada miembro.</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Velocity</th>
+    <td>33 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33 puntos</td>
+  </tr>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Esta sección detalla la distribución de responsabilidades técnicas dentro del equipo de desarrollo, enfocada principalmente en los bounded contexts del backend del sistema. Cada integrante asume el rol de leader (L) o collaborator (C) en función de su especialización y del dominio funcional asignado.
+El propósito de esta estructura es garantizar una implementación coherente y eficiente de la lógica de negocio, promover la autonomía técnica y facilitar la integración modular entre los distintos contextos: IAM, Appointments, Messaging y Health Monitoring.
+La siguiente tabla resume los roles y responsabilidades específicas de cada miembro del equipo en relación con estos bounded contexts.
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>IAM BC</th>
+      <th>Appointments BC</th>
+      <th>Messaging BC</th>
+      <th>Health Monitoring BC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+
+En este apartado se describe el Sprint Backlog correspondiente al tercer sprint del proyecto, incorporando elementos como el ID, la historia de usuario, los work items o tareas, su descripción, estimación, responsable y estado.
+
+Seguidamente, se expone un resumen detallado de las historias de usuario desarrolladas durante el Sprint 3. La tabla presentada refleja el avance de cada historia, mostrando su estado actual, las evidencias de su culminación y cualquier observación pertinente.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 3</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Id</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Estimation(Hours)</strong></td>
+    <td><strong>Assigned To</strong></td>
+    <td><strong>Status</strong></td>
+  </tr>
+
+  <tr>
+    <td>US-01</td>
+    <td>Ver estado de salud del residente</td>
+    <td>TS-001</td>
+    <td>Obtener usuario por ID</td>
+    <td>Crear endpoint de Users GET /api/v1/users/{userId}</td>
+    <td>2</td>
+    <td>José Antonio Alejo Cardenas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-02</td>
+    <td>Registrar signos vitales</td>
+    <td>TS-002</td>
+    <td>Actualizar usuario</td>
+    <td>Crear endpoint de Users PUT /api/v1/users/{userId}</td>
+    <td>2</td>
+    <td>José Antonio Alejo Cardenas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-03</td>
+    <td>Recibir alertas críticas</td>
+    <td>TS-003</td>
+    <td>Eliminar usuario</td>
+    <td>Crear endpoint de Users DELETE /api/v1/users/{userId}</td>
+    <td>1</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-04</td>
+    <td>Ver actividades diarias</td>
+    <td>TS-004</td>
+    <td>Obtener todos los usuarios</td>
+    <td>Crear endpoint de Users GET /api/v1/users</td>
+    <td>1</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-05</td>
+    <td>Registrar actividad del residente</td>
+    <td>TS-005</td>
+    <td>Crear nuevo usuario</td>
+    <td>Crear endpoint de Users POST /api/v1/users</td>
+    <td>2</td>
+    <td>José Antonio Alejo Cardenas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-06</td>
+    <td>Evaluar estado emocional del residente</td>
+    <td>TS-006</td>
+    <td>Obtener entrega por ID</td>
+    <td>Crear endpoint de Submissions GET /api/v1/submissions/{submissionId}</td>
+    <td>1</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-07</td>
+    <td>Monitoreo con dispositivos IoT</td>
+    <td>TS-007</td>
+    <td>Actualizar entrega</td>
+    <td>Crear endpoint de Submissions PUT /api/v1/submissions/{submissionId}</td>
+    <td>2</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-08</td>
+    <td>Alertas de emergencia por sensores</td>
+    <td>TS-008</td>
+    <td>Eliminar entrega</td>
+    <td>Crear endpoint de Submissions DELETE /api/v1/submissions/{submissionId}</td>
+    <td>1</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-09</td>
+    <td>Enviar mensajes al personal</td>
+    <td>TS-009</td>
+    <td>Obtener todas las entregas</td>
+    <td>Crear endpoint de Submissions GET /api/v1/submissions</td>
+    <td>1</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-10</td>
+    <td>Ver respuestas del personal</td>
+    <td>TS-010</td>
+    <td>Crear nueva entrega</td>
+    <td>Crear endpoint de Submissions POST /api/v1/submissions</td>
+    <td>2</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-11</td>
+    <td>Programar visitas</td>
+    <td>TS-011</td>
+    <td>Obtener entregas por estudiante</td>
+    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/submissions</td>
+    <td>1</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-12</td>
+    <td>Videollamadas integradas</td>
+    <td>TS-012</td>
+    <td>Obtener entregas por estudiante y reto</td>
+    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/challenges/{challengeId}</td>
+    <td>1</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-13</td>
+    <td>Evaluar la calidad del servicio</td>
+    <td>TS-013</td>
+    <td>Obtener entregas por reto</td>
+    <td>Crear endpoint de Submissions GET /api/v1/submissions/challenges/{challengeId}/submissions</td>
+    <td>1</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-14</td>
+    <td>Recibir notificaciones de cambios</td>
+    <td>TS-014</td>
+    <td>Obtener grupo por ID</td>
+    <td>Crear endpoint de Groups GET /api/v1/groups/{id}</td>
+    <td>1</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-15</td>
+    <td>Compartir fotos y mensajes motivacionales</td>
+    <td>TS-015</td>
+    <td>Actualizar grupo</td>
+    <td>Crear endpoint de Groups PUT /api/v1/groups/{id}</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-16</td>
+    <td>Coordinar cuidadores informales</td>
+    <td>TS-016</td>
+    <td>Eliminar grupo</td>
+    <td>Crear endpoint de Groups DELETE /api/v1/groups/{id}</td>
+    <td>1</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-17</td>
+    <td>Registro de cuidado domiciliario</td>
+    <td>TS-017</td>
+    <td>Obtener código de unión de grupo</td>
+    <td>Crear endpoint de Groups GET /api/v1/groups/{groupId}/groupJoinCodes</td>
+    <td>1</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-18</td>
+    <td>Monitoreo ambiental del hogar</td>
+    <td>TS-018</td>
+    <td>Establecer código de unión de grupo</td>
+    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes</td>
+    <td>2</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-19</td>
+    <td>Coordinar con servicios médicos externos</td>
+    <td>TS-019</td>
+    <td>Restablecer código de unión de grupo</td>
+    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes/reset</td>
+    <td>2</td>
+    <td>Josue Antonio Flores Apaico</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-20</td>
+    <td>Gestión de emergencias domiciliarias</td>
+    <td>TS-020</td>
+    <td>Obtener todos los grupos</td>
+    <td>Crear endpoint de Groups GET /api/v1/groups</td>
+    <td>1</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-21</td>
+    <td>Ver reporte semanal de estado del residente</td>
+    <td>TS-021</td>
+    <td>Crear nuevo grupo</td>
+    <td>Crear endpoint de Groups POST /api/v1/groups</td>
+    <td>2</td>
+    <td>Omar Luquillas Asto</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-22</td>
+    <td>Descargar reporte en PDF</td>
+    <td>TS-022</td>
+    <td>Unirse a grupo con código</td>
+    <td>Crear endpoint de Groups POST /api/v1/groups/join</td>
+    <td>2</td>
+    <td>José Antonio Alejo Cardenas</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-23</td>
+    <td>Ver tendencias de salud por categoría</td>
+    <td>TS-023</td>
+    <td>Obtener reto por ID</td>
+    <td>Crear endpoint de Challenges GET /api/v1/challenges/{challengeId}</td>
+    <td>1</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-24</td>
+    <td>Recibir recordatorios para revisar informes</td>
+    <td>TS-024</td>
+    <td>Actualizar reto</td>
+    <td>Crear endpoint de Challenges PUT /api/v1/challenges/{challengeId}</td>
+    <td>2</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-25</td>
+    <td>Generar reportes personalizados</td>
+    <td>TS-025</td>
+    <td>Eliminar reto</td>
+    <td>Crear endpoint de Challenges DELETE /api/v1/challenges/{challengeId}</td>
+    <td>1</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-26</td>
+    <td>Comparar períodos de tiempo</td>
+    <td>TS-026</td>
+    <td>Obtener todos los retos</td>
+    <td>Crear endpoint de Challenges GET /api/v1/challenges</td>
+    <td>1</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-27</td>
+    <td>Registrar medicamento</td>
+    <td>TS-027</td>
+    <td>Crear nuevo reto</td>
+    <td>Crear endpoint de Challenges POST /api/v1/challenges</td>
+    <td>2</td>
+    <td>Alejandro Franklin Mendoza Vergara</td>
+    <td>Done</td>
+  </tr>
+
+  <tr>
+    <td>US-28</td>
+    <td>Eliminar medicina caducada</td>
+    <td>TS-028</td>
+    <td>Obtener retos por grupo</td>
+    <td>Crear endpoint de Challenges GET /api/v1/challenges/groups/{groupId}/challenges</td>
+    <td>1</td>
+    <td>Sebastián Omar Real Calderón</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+
+En esta sección se presenta la evidencia del trabajo de desarrollo realizado durante el sprint, sustentado en los commits del repositorio oficial del proyecto **EternaCare-OpenSource/backend**. La actividad registrada refleja la construcción progresiva de los bounded contexts, la implementación de las capas arquitectónicas, las mejoras de seguridad, el soporte de persistencia y la preparación del backend para su despliegue en Azure.
+
+La evidencia incluye contribuciones provenientes de todos los integrantes que participaron en el desarrollo técnico del sprint.
+
+---
+
+### **Evidencias de Desarrollo (Commits Relevantes)**
+
+A continuación se listan los principales aportes realizados durante el sprint, organizados por fecha:
+
+---
+
+### ** 16 de noviembre de 2025 – Integración final, correcciones y preparación para deployment**
+- **Fix Name** — Ajustes finales de nomenclatura interna para estandarización del proyecto.  
+- **Fix authorize button** — Corrección de flujos de autorización en la UI de Swagger.  
+- **Fix application.properties encoding filter** — Ajuste del encode UTF-8 para compatibilidad con Azure y Postgres.  
+- **Set UTF-8 encoding for build and resources** — Configuración del build system para asegurar codificación uniforme.  
+- **Add or update the Azure App Service build and deployment workflow config** — Adición del workflow de GitHub Actions para CI/CD.  
+- **Fix auth security + added db remote** — Integración con base de datos remota en Azure y correcciones de seguridad.  
+- **feat: add bounded context appointments** — Implementación del bounded context de *Appointments*.  
+- **feat: add bounded context health monitoring** — Implementación del bounded context de *Health Monitoring*.
+
+---
+
+### ** 12 de noviembre de 2025 – Construcción completa de arquitectura hexagonal (layers y BCs)**
+- **feat: add interfaces layer for authentication** — Creación de la capa de interfaces para autenticación y punto de entrada.  
+- **feat: add domain layer** — Implementación del Dominio con entidades, value objects y agregados.  
+- **feat: add Application Layer** — Construcción de la capa de aplicación con casos de uso.  
+- **feat: add functionality of persistence in bc** — Implementación de puertos, adapters, repositorios y persistencia.  
+- **feat: add bounded context IAM** — Desarrollo del bounded context de *Identity and Access Management*.  
+- **feat: add messaging bc** — Adición del bounded context de *Messaging*.
+
+---
+
+### ** 13 de octubre de 2025 – Inicio del proyecto**
+- **Initial commit** — Estructura base del proyecto incluyendo configuración inicial de Gradle/Maven, API skeleton, y archivos básicos.
+
+---
+
+<img width="1094" height="971" alt="image" src="https://github.com/user-attachments/assets/f8b7bf97-e82c-4f72-a50e-a286c8b8d063" />
+
+
+### **Resumen del Trabajo de Desarrollo**
+
+Durante este sprint se logró implementar:
+
+- La estructura completa del backend bajo arquitectura **DDD + Hexagonal Architecture**.  
+- Cuatro bounded contexts íntegramente funcionales:  
+  - Identity and Access Management  
+  - Appointments  
+  - Health Monitoring  
+  - Messaging  
+- Configuración completa de autenticación, casos de uso y lógica de dominio.  
+- Implementación de repositorios, adaptadores y comunicación con la base de datos remota.  
+- Estándar de codificación unificado (UTF-8) para despliegue en Azure.  
+- Preparación del backend para CI/CD mediante GitHub Actions.  
+
+El progreso evidencia que las funcionalidades principales del backend fueron implementadas y estabilizadas durante el sprint, permitiendo su integración directa con la infraestructura cloud del proyecto.
+
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Esta sección presenta la evidencia de ejecución del sprint correspondiente al backend de **CareLink**, validada a través del entorno de pruebas de **Swagger UI**.  
+Durante el proceso, se comprobó el correcto funcionamiento de los controladores (controllers) asociados a cada dominio del sistema, garantizando que todas las operaciones CRUD (Create, Read, Update, Delete) y las funciones complementarias se ejecuten conforme a los requerimientos establecidos en el backlog de producto.  
+
+Las siguientes capturas muestran la estructura final de endpoints disponibles por módulo, evidenciando la correcta integración del sistema bajo los principios de arquitectura **DDD (Domain-Driven Design)** y la separación de responsabilidades entre capas de dominio, aplicación e infraestructura.
+
+##### **SchedulesController**
+<img width="1438" height="331" alt="image" src="https://github.com/user-attachments/assets/1fbf0ac0-f7b3-4dec-92f6-9673ddbdd9df" />
+
+El **SchedulesController** maneja la gestión de horarios médicos.  
+Incluye endpoints CRUD que permiten registrar nuevos horarios (`POST`), consultarlos (`GET`), modificarlos (`PUT`) o eliminarlos (`DELETE`).  
+Su implementación garantiza la disponibilidad horaria de los doctores, permitiendo planificar de forma dinámica la asignación de citas.
+
+
+##### **PatientsController**
+<img width="1441" height="429" alt="image" src="https://github.com/user-attachments/assets/2cb7f5b0-4423-44b6-aa3b-ab00a0340b74" />
+
+El **PatientsController** gestiona la información de los pacientes registrados.  
+Incluye endpoints para CRUD completo de pacientes, junto con funciones específicas para la **asignación de doctores**, tanto de manera individual (`/assign-doctor/{doctorId}`) como múltiple (`/assignments`).  
+De esta forma, se facilita la relación médico-paciente y la coordinación de cuidados desde el backend.
+
+
+##### **MessagesController**
+<img width="1436" height="425" alt="image" src="https://github.com/user-attachments/assets/f7882be9-ff8e-41cc-bc6b-8665b5c4b4f5" />
+
+El **MessagesController** centraliza la gestión de mensajes dentro de cada conversación.  
+Permite enviar (`POST`), leer (`GET`), actualizar (`PUT`), eliminar (`DELETE`) y marcar mensajes como leídos (`PATCH /mark-as-read`).  
+Además, cuenta con un endpoint dedicado para obtener todos los mensajes asociados a una conversación (`/conversation/{conversationId}`).  
+Este módulo fue clave para validar la comunicación bidireccional entre doctores y pacientes.
+
+
+##### **DoctorsController**
+<img width="1437" height="324" alt="image" src="https://github.com/user-attachments/assets/8f9a182b-8358-471f-aed1-d28c3cc1c8e1" />
+
+El **DoctorsController** permite la administración de los perfiles de los doctores del sistema.  
+A través de sus endpoints, es posible registrar nuevos doctores (`POST`), consultar su información (`GET`), actualizar sus datos (`PUT`) o eliminarlos (`DELETE`).  
+Este módulo forma parte del núcleo de gestión de personal médico dentro del ecosistema de CareLink.
+
+
+##### **ConversationsController**
+<img width="1441" height="318" alt="image" src="https://github.com/user-attachments/assets/8d95fab1-17de-4740-a31e-d8a23e21ee20" />
+El **ConversationsController** se encarga de manejar las conversaciones entre pacientes y doctores.  
+Sus endpoints permiten crear (`POST`), listar (`GET`), actualizar (`PUT`) o eliminar (`DELETE`) conversaciones, manteniendo un registro ordenado de las interacciones y vínculos entre usuarios del sistema.
+
+
+##### **AppointmentsController**
+<img width="1439" height="321" alt="image" src="https://github.com/user-attachments/assets/88e43792-6bab-4426-82d1-208e89cc2041" />
+
+El **AppointmentsController** administra las operaciones relacionadas con las citas médicas. Contiene endpoints para listar (`GET`), crear (`POST`), actualizar (`PUT`) y eliminar (`DELETE`) citas.  
+Estas operaciones permiten que doctores y pacientes gestionen sus citas programadas, verificando la disponibilidad y manteniendo un registro histórico dentro del sistema.
+
+
+##### **AuthController**
+<img width="1455" height="165" alt="image" src="https://github.com/user-attachments/assets/ea72dcd3-d7dd-463c-9f63-e1c07a3c9e49" />
+
+El **AuthController** gestiona los procesos de autenticación y registro de usuarios. Incluye los endpoints `/api/v1/auth/register` y `/api/v1/auth/login`, que permiten crear nuevos usuarios e iniciar sesión mediante credenciales válidas, generando tokens JWT para el control de acceso seguro al resto de los servicios del sistema.
+
+##### **Conclusión**
+
+La evidencia de ejecución demuestra que todos los controladores fueron implementados e integrados correctamente dentro del sistema, cumpliendo con los objetivos funcionales del sprint.  
+Cada módulo opera de forma independiente pero coherente dentro del ecosistema, garantizando seguridad (JWT), trazabilidad de datos y disponibilidad de servicios en tiempo real.
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación completa de los servicios backend implementados durante el sprint.
+El objetivo de esta evidencia es demostrar la integralidad, funcionalidad y accesibilidad de cada endpoint del sistema CareLink Backend.
+
+Cada servicio se describe detalladamente en función de su propósito, método HTTP, parámetros de entrada y respuestas esperadas, acompañados de evidencia visual obtenida desde Swagger UI y los módulos integrados del frontend.
+
+Los endpoints documentados abarcan los dominios centrales del sistema — IAM (Autenticación y Roles), Citas Médicas (Appointments), Horarios (Schedules), Gestión de Doctores y Pacientes, y Mensajería (Messaging) — garantizando la coherencia entre los servicios desarrollados y los requerimientos funcionales definidos para la revisión del sprint.
+
+##### Endpoints Documentados - CareLink Backend
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/auth/login` | POST | Autenticación de usuario | `email`, `password` | **200 OK:** Token JWT generado<br>**401 Unauthorized:** Credenciales inválidas | Figura 1 - Pantalla de inicio de sesión |
+| `/api/v1/auth/register` | POST | Registro de nuevo usuario | `email`, `password`, `role`, `firstName`, `lastName` | **201 Created:** Usuario creado<br>**400 Bad Request:** Datos inválidos o usuario existente | Figura 2 - Registro de usuario |
+| `/api/v1/users/profile` | GET | Obtener información del perfil autenticado | Token JWT (header `Authorization`) | **200 OK:** Datos de perfil del usuario logueado | Figura 3 - Perfil de usuario |
+
+---
+
+##### Doctors & Patients
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/doctors` | GET | Listar todos los doctores | - | **200 OK:** Array de doctores registrados | Figura 4 - Lista de doctores |
+| `/api/v1/doctors/{id}` | GET | Obtener doctor por ID | `id` (path) | **200 OK:** Datos del doctor<br>**404 Not Found:** No existe | Figura 5 - Perfil de doctor |
+| `/api/v1/doctors` | POST | Registrar nuevo doctor | `firstName`, `lastName`, `email`, `specialization`, `cmpCode`, `studyCentre`, `phoneNumber` | **201 Created:** Doctor creado | Figura 6 - Formulario de registro |
+| `/api/v1/doctors/{id}` | PUT | Actualizar información del doctor | `id` (path), campos editables | **200 OK:** Doctor actualizado | Figura 7 - Edición de perfil |
+| `/api/v1/doctors/{id}` | DELETE | Eliminar doctor | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/patients` | GET | Listar todos los pacientes | - | **200 OK:** Array de pacientes | Figura 8 - Lista de pacientes |
+| `/api/v1/patients/{id}` | GET | Obtener paciente por ID | `id` (path) | **200 OK:** Datos del paciente | Figura 9 - Perfil del paciente |
+| `/api/v1/patients` | POST | Registrar nuevo paciente | `firstName`, `lastName`, `email`, `age`, `sex`, `bloodType`, `healthInsurance`, etc. | **201 Created:** Paciente creado | Figura 10 - Registro de paciente |
+| `/api/v1/patients/{id}` | PUT | Actualizar datos del paciente | `id` (path), campos editables | **200 OK:** Paciente actualizado | Figura 11 - Edición de paciente |
+| `/api/v1/patients/{id}` | DELETE | Eliminar paciente | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/doctors/assign` | POST | Asignar doctor a paciente | `doctorId`, `patientId` | **200 OK:** Asignación exitosa | Figura 12 - Asignación de doctor |
+| `/api/v1/doctors/assign-multiple` | POST | Asignar múltiples pacientes a un doctor | `doctorId`, `patientIds[]` | **200 OK:** Asignaciones completadas | Figura 13 - Asignaciones múltiples |
+
+---
+
+##### Appointments (Citas Médicas)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/appointments` | GET | Listar todas las citas | - | **200 OK:** Array de citas | Figura 14 - Calendario de citas |
+| `/api/v1/appointments/{id}` | GET | Obtener cita por ID | `id` (path) | **200 OK:** Detalle de cita | Figura 15 - Detalle de cita |
+| `/api/v1/appointments` | POST | Crear nueva cita | `patientId`, `doctorId`, `appointmentDate`, `appointmentTime`, `reason`, `status`, `notes` | **201 Created:** Cita creada | Figura 16 - Creación de cita |
+| `/api/v1/appointments/{id}` | PUT | Actualizar cita | `id` (path) + body editable | **200 OK:** Cita actualizada | Figura 17 - Edición de cita |
+| `/api/v1/appointments/{id}` | DELETE | Eliminar cita | `id` (path) | **204 No Content:** Cita eliminada | - |
+
+---
+
+##### Schedules (Horarios Médicos)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/schedules` | GET | Listar todos los horarios | - | **200 OK:** Array de horarios disponibles | Figura 18 - Lista de horarios |
+| `/api/v1/schedules/{id}` | GET | Obtener horario por ID | `id` (path) | **200 OK:** Datos del horario | Figura 19 - Detalle del horario |
+| `/api/v1/schedules` | POST | Crear nuevo horario | `doctorId`, `dayOfWeek`, `startTime`, `endTime`, `isAvailable` | **201 Created:** Horario creado | Figura 20 - Registro de horario |
+| `/api/v1/schedules/{id}` | PUT | Actualizar horario | `id` (path) + campos editables | **200 OK:** Horario actualizado | Figura 21 - Edición de horario |
+| `/api/v1/schedules/{id}` | DELETE | Eliminar horario | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+
+---
+
+##### Messaging (Mensajes y Conversaciones)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/conversations` | GET | Listar todas las conversaciones | - | **200 OK:** Array de conversaciones | Figura 22 - Bandeja de mensajes |
+| `/api/v1/conversations/{id}` | GET | Obtener conversación por ID | `id` (path) | **200 OK:** Detalle de conversación | Figura 23 - Conversación abierta |
+| `/api/v1/conversations` | POST | Crear nueva conversación entre doctor y paciente | `doctorId`, `patientId` | **201 Created:** Conversación creada | Figura 24 - Nueva conversación |
+| `/api/v1/messages` | GET | Listar todos los mensajes | - | **200 OK:** Array de mensajes | Figura 25 - Historial de mensajes |
+| `/api/v1/messages/{id}` | GET | Obtener mensaje por ID | `id` (path) | **200 OK:** Detalle de mensaje | Figura 26 - Mensaje seleccionado |
+| `/api/v1/messages/conversation/{conversationId}` | GET | Listar mensajes por conversación | `conversationId` (path) | **200 OK:** Array de mensajes filtrados | Figura 27 - Conversación activa |
+| `/api/v1/messages` | POST | Enviar nuevo mensaje | `conversationId`, `senderId`, `receiverId`, `content` | **201 Created:** Mensaje enviado | Figura 28 - Envío de mensaje |
+| `/api/v1/messages/{id}` | PUT | Actualizar mensaje | `id` (path), campos editables | **200 OK:** Mensaje actualizado | Figura 29 - Edición de mensaje |
+| `/api/v1/messages/{id}` | DELETE | Eliminar mensaje | `id` (path) | **204 No Content:** Mensaje eliminado | Figura 30 - Mensaje eliminado |
+| `/api/v1/messages/{id}/mark-as-read` | PATCH | Marcar mensaje como leído | `id` (path) | **200 OK:** Estado actualizado | Figura 31 - Lectura de mensaje |
+
+---
+
+##### Administración
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/users` | GET | Listar todos los usuarios del sistema | - | **200 OK:** Array de usuarios | Figura 32 - Panel de administración |
+| `/api/v1/users/{id}` | DELETE | Eliminar usuario del sistema | `id` (path) | **204 No Content:** Usuario eliminado | - |
+
+
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En este apartado se presenta la evidencia del despliegue de software realizado durante el sprint, específicamente la creación y configuración del servicio de base de datos PostgreSQL en Microsoft Azure. Este despliegue permitió habilitar la infraestructura necesaria para el funcionamiento del backend del proyecto CareLink, asegurando un entorno estable, seguro y accesible para el equipo de desarrollo.
+
+
+##### **Creación del Servidor Flexible de PostgreSQL en Azure**
+
+Se implementó un nuevo servidor PostgreSQL Flexible Server utilizando la suscripción *Azure for Students* y el grupo de recursos `CareLink_group`.
+
+**Configuración principal:**
+- **Nombre del servidor:** `carelink`
+- **Ubicación:** Central US / Canada Central
+- **Versión de PostgreSQL:** 17 / 17.6
+- **Plan de tarifa:** Standard_B1ms (1 vCore, 2 GiB RAM)
+- **Almacenamiento asignado:** 32 GiB
+- **Redundancia geográfica:** No habilitada
+- **Resistencia zonal:** Deshabilitada
+- **Crecimiento automático del almacenamiento:** Deshabilitado
+- **Periodo de retención de backups:** 7 días
+
+**Autenticación configurada:**
+- Método de autenticación: PostgreSQL
+- Usuario administrador: `admin_carelink`
+
+**Evidencia:**
+
+- Configuración inicial del servidor  
+<img width="881" height="998" alt="image" src="https://github.com/user-attachments/assets/23e4d5d3-d6f4-4daf-89ca-c1610f128bfd" />
+
+- Configuración de redes y firewall  
+  - Acceso público habilitado  
+  - Regla de firewall creada para permitir acceso desde la IP local  
+<img width="986" height="954" alt="image" src="https://github.com/user-attachments/assets/5311bb04-5c66-4eab-96a5-c6c9624f84d1" />
+
+- Configuración de autenticación  
+<img width="912" height="843" alt="image" src="https://github.com/user-attachments/assets/ad5567a0-236e-4459-a2f2-bcba4bda93eb" />
+
+- Pantalla de revisión final antes del despliegue  
+<img width="827" height="957" alt="image" src="https://github.com/user-attachments/assets/9f3cd0d4-8d03-4f06-aa7a-fdca2a87a9be" />
+
+- Evidencia del recurso ya desplegado y operativo  
+<img width="1844" height="750" alt="image" src="https://github.com/user-attachments/assets/905be4b1-1836-48c1-bf06-d24ba0b25314" />
+<img width="716" height="553" alt="image" src="https://github.com/user-attachments/assets/f81a4aba-723e-42e0-8ada-e9b6903c2945" />
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e2c695a0-a2a5-45b9-9e47-549030ce184f" />
+<img width="349" height="201" alt="image" src="https://github.com/user-attachments/assets/056f5f0d-72e7-4a8b-a167-37b482589899" />
+
+---
+
+###### **Resultado del Despliegue**
+
+La base de datos quedó correctamente provisionada, accesible y lista para ser integrada con el backend del proyecto. El despliegue cumple con los requisitos del sprint, proporcionando:
+
+- Un entorno de desarrollo real montado sobre infraestructura cloud.  
+- Configuración segura del acceso mediante reglas de firewall.  
+- Versionamiento actualizado de PostgreSQL (17.x).  
+- Costos optimizados bajo el plan de estudiante.  
+
+Este despliegue representa el primer hito de infraestructura del sistema CareLink para su funcionamiento en producción futura.
+
+
+
+##### **Despliegue del Backend en Azure App Service**
+
+Además del aprovisionamiento de la base de datos, durante este sprint se realizó el despliegue completo del backend del proyecto en **Azure App Service**, utilizando integración continua con GitHub Actions. Este proceso permite que cada cambio realizado en la rama `main` del repositorio oficial se compile, construya y despliegue automáticamente en la aplicación web alojada en Azure.
+
+---
+
+### **Creación del Azure App Service**
+
+El despliegue inició seleccionando la suscripción *Azure for Students* y utilizando el mismo grupo de recursos del proyecto (`CareLink_group`) para mantener una arquitectura organizada.
+
+**Configuración principal del servicio:**
+- **Nombre de la aplicación:** `care-link`
+- **Modelo de publicación:** Código
+- **Lenguaje y runtime:** Java 21  
+- **Servidor web Java:** Java SE (Embedded Web Server)
+- **Sistema operativo:** Windows
+- **Región:** East US 2
+- **Plan de precios:** Gratis F1 (infraestructura compartida)
+- **Plan de App Service creado:** `ASP-CareLinkgroup-aas5d`
+
+*Evidencia:*  
+<img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
+<img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
+
+---
+
+### **Configuración de Implementación Continua**
+
+Con el objetivo de garantizar un flujo de despliegue automatizado y profesional, se habilitó **GitHub Actions** como método de CI/CD.
+
+**Parámetros configurados:**
+- **Cuenta de GitHub:** MauricioMVlicapoma
+- **Organización:** `EternaCare-OpenSource`
+- **Repositorio:** `backend`
+- **Rama:** `main`
+- **Implementación continua:** Habilitada
+- **Autenticación básica:** Deshabilitada
+
+Esta configuración genera automáticamente un archivo de workflow en GitHub Actions que compila el proyecto Java, ejecuta la construcción del artifact y lo despliega hacia Azure App Service.
+
+*Evidencia:*  
+<img width="1465" height="569" alt="image" src="https://github.com/user-attachments/assets/bc6ad233-84d6-4bbe-820c-5609a666733d" />
+<img width="1831" height="642" alt="image" src="https://github.com/user-attachments/assets/f8b13a0f-6eb9-4feb-aa2c-a9c342973bbe" />
+
+---
+
+### **Validación y Revisión Final del Despliegue**
+
+Antes de iniciar el aprovisionamiento, se revisaron los parámetros de creación del servicio. La pantalla de “Revisar y crear” confirmó:
+
+- Selección de suscripción y grupo de recursos correcto  
+- Configuración del runtime Java  
+- Plan de precios gratuito  
+- Integración con GitHub  
+- Sistema operativo Windows  
+
+*Evidencia:*  
+<img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
+
+---
+
+### **Ejecución del Despliegue en Azure**
+
+Una vez iniciado el despliegue, Azure generó múltiples recursos asociados al App Service:
+
+- Identidades administradas  
+- Sitio web principal  
+- Sitio `scm` para herramientas de desarrollo  
+- Configuraciones FTP  
+- Plan de App Service  
+- Registros del flujo de implementación  
+
+El panel mostró todos los recursos como **Created** u **OK**, confirmando una implementación exitosa.
+
+*Evidencia:*  
+<img width="1858" height="548" alt="image" src="https://github.com/user-attachments/assets/f6968360-9295-416f-bc6d-bbc70222a751" />
+
+Posteriormente, Azure notificó:  
+**“Se completó la implementación”**  
+indicando que el backend quedó completamente habilitado.
+
+---
+
+### **Aplicación Web en Ejecución**
+
+Una vez finalizada la implementación, se accedió al recurso `care-link` dentro del portal de Azure.
+
+**Propiedades verificadas:**
+- Dominio predeterminado operativo  
+- Runtime Java 21 activo  
+- Plan gratuito en funcionamiento  
+- Registros de implementación generados por GitHub Actions  
+- Dirección IP pública asignada  
+- Estado del recurso: Running
+
+*Evidencia:*  
+<img width="1857" height="758" alt="image" src="https://github.com/user-attachments/assets/cbec95e1-e01d-451f-af77-e9f5da35cf73" />
+
+---
+
+### **Validación del Backend mediante Swagger (API Running in Azure)**
+
+Con el despliegue completado, se accedió a la URL pública generada: https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+<img width="1854" height="1039" alt="image" src="https://github.com/user-attachments/assets/a2026495-b9a9-40f8-b06d-7e958040e376" />
+
+
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Eterna Care, implementando
+la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el
+frontend, actualizaciones en el reporte y se mejoró la calidad de las User Stories y Technical Stories, eliminando
+referencias a UI y reescribiéndolas con formato API REST (endpoints específicos, códigos HTTP, estructura
+Given-When-Then).
+
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una
+versión estable del backend con los bounded contexts de Schedules, Patients, Messages, Doctors, Conversations,
+Appointments y Auth, optimizar el frontend y fortalecer la calidad general del proyecto.
+
+Acciones de colaboración destacadas
+Se utilizó GitHub como herramienta central para coordinar el trabajo, gestionar versiones y mantener un registro
+ordenado de los avances.
+Se reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y corrección del
+frontend.
+Cada miembro realizó commits documentados detallando la implementación de funcionalidades en el backend, mejoras en el
+frontend y correcciones en el reporte.
+Se realizó una revisión y mejora completa de las User Stories y Technical Stories, eliminando referencias a UI y
+reescribiéndolas con formato API REST según estándares de calidad.
+Se realizaron pull requests y revisiones de código en equipo para validar la lógica del backend, verificar la
+configuración de base de datos y asegurar la corrección del frontend y reporte.
+Se utilizó Trello para la gestión visual de tareas y seguimiento del Sprint Backlog.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando
+un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
+
+##### Evidencia de colaboración
+
+###### Commits realizados durante el Sprint 3:
+
+![commit - 1.png](images/chapter-5/commit%20-%201.png)
+
+![commit - 2.png.png](images/chapter-5/commit%20-%202.png.png)
+
+![commit - 3.png.png](images/chapter-5/commit%20-%203.png.png)
+
+![commit - 4.png](images/chapter-5/commit%20-%204.png)
+
+![commit - 5.png](images/chapter-5/commit%20-%205.png)
+
+![commit - 6.png](images/chapter-5/commit%20-%206.png)
+
+![commit - 7.png](images/chapter-5/commit%20-%207.png)
+
+![commit - 8.png](images/chapter-5/commit%20-%208.png)
+
+![commit - 9.png](images/chapter-5/commit%20-%209.png)
+
+#### 5.3. Validation Interviews.
+
+#### 5.3.1. Diseño de Entrevistas.
+
+El objetivo de las entrevistas fue validar la facilidad de uso, utilidad y percepción general del sistema **CareLink**, considerando las experiencias de dos grupos principales de usuarios:  
+la **Red de Apoyo Familiar** y el **Personal Sanitario y de Cuidado**.  
+
+Se realizaron entrevistas semiestructuradas centradas en las tareas que cada grupo realiza con mayor frecuencia, y en cómo la plataforma facilita la comunicación, organización y seguimiento del cuidado del paciente.
+
+---
+
+
+##### **Segmento 1: Red de Apoyo Familiar**
+
+**Objetivo:** Comprender la experiencia de los familiares al acceder a la información del paciente y comunicarse con el personal de salud mediante la plataforma CareLink.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su relación con el paciente y con qué frecuencia consulta su estado o citas?  
+2. ¿Cómo describiría su experiencia general al usar CareLink por primera vez?  
+3. ¿Pudo acceder fácilmente a la información del paciente y entender los datos mostrados?  
+4. ¿Le resultó útil la posibilidad de comunicarse con el personal médico a través de mensajes o notificaciones?  
+5. ¿Qué aspectos del sistema le parecen más útiles o qué mejoraría para facilitar su uso?
+
+##### **Segmento 2: Personal Sanitario y de Cuidado**
+
+**Objetivo:** Evaluar la facilidad con la que el personal médico utiliza CareLink para gestionar pacientes, citas y comunicación con familiares.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su función dentro del centro y cuántos pacientes gestiona habitualmente?  
+2. ¿Qué tan fácil le resultó aprender a usar CareLink y registrar información médica o citas?  
+3. ¿Ha notado mejoras en la coordinación o comunicación con otros profesionales o familiares gracias al sistema?  
+4. ¿Qué tan útil le resulta la mensajería interna o el calendario para su trabajo diario?  
+5. ¿Qué funcionalidades considera más valiosas y qué mejoraría para optimizar su labor?
+
+---
+
+##### **Síntesis del Enfoque**
+
+Las entrevistas se diseñaron para vincular la experiencia de uso con los principales módulos del backend de CareLink:
+- **Autenticación y acceso:** registro e inicio de sesión.  
+- **Gestión de pacientes y citas:** consulta y actualización de información médica.  
+- **Comunicación:** mensajería y notificaciones.  
+- **Organización:** planificación de horarios y tareas.  
+
+Este formato permitió recopilar información cualitativa clara y concisa sobre cómo cada usuario percibe la utilidad y eficiencia del sistema.
+
+
+#### 5.3.2. Registro de Entrevistas.
+
+##### Entrevista – Segmento 1: Red de Apoyo Familiar
+
+###### Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Sebastian Omar Real Calderon
+- Edad: 29
+- Ciudad: Lima, callao
+- Duración: 4:07 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Red%20de%20Apoyo%20Familiar%20-%20Entrevista%201.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQAfwpNv0FLxS7QJWjvICWH3AQR-pvEhPePSiFWO9EmmCWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SyMihM)
+
+En la entrevista, Sebastián Real, quien actúa como red de apoyo para su abuela, afirmó que revisa la aplicación web
+diariamente junto a su familia para gestionar citas y el estado de la paciente. Describió la plataforma como "cómoda"
+y "fácil de navegar", destacando que su diseño bien señalizado reduce la preocupación al manejar un tema tan delicado
+como la salud. Identificó la mensajería integrada con los doctores como la característica más útil, permitiéndole un
+intercambio de información constante. Aunque se mostró muy satisfecho con el sistema, sugirió como mejora la inclusión
+de un número de contacto directo para soporte técnico, expresando su preferencia por hablar con un ser humano en lugar
+de interactuar con chatbots al resolver problemas.
+
+###### Entrevista 2
+
+- Datos del entrevistado:
+- Nombre completo: Melina Orderique
+- Edad: 22
+- Ciudad: Lima, callao
+- Duración: 5:18 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Melina-Entrevista2.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1](https://drive.google.com/file/d/1QkHY2km7vSFMWlOpcC-HrVBsem9Q03W8/view?usp=sharing)
+
+En la entrevista que realicé a Melina, ella comentó que la página web le resultó bastante interesante y útil, especialmente por las diferentes funcionalidades que ofrece para el cuidado de un adulto mayor en casa. Me explicó que actualmente cuida a su abuela y que varias de las herramientas presentadas podrían ayudarla en su día a día. Una de las funciones que más valoró fue el chat directo con el doctor, ya que considera que tener un canal inmediato para resolver dudas o inquietudes le daría mucha tranquilidad y le permitiría actuar con mayor seguridad ante cualquier situación. Melina destacó que, a diferencia de otras plataformas, esta opción le facilitaría obtener apoyo médico sin necesidad de llevar a su abuela a consulta por cada duda menor, lo cual representa una mejora importante en la calidad del cuidado que puede brindarle. En general, su opinión fue positiva y señaló que la web aporta soluciones prácticas que realmente responden a las necesidades de quienes son responsables del cuidado de un familiar mayor.
+
+##### Entrevista – Segmento 2: Personal Sanitario y de Cuidado
+
+Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Gonzalo Aliaga
+- Edad: 32
+- Ciudad: Lima, pueblo libre
+- Duración: 3:05 minutos
+
+Evidencia:
+
+![Personal Sanitario y de Cuidado - Entrevista 2.png](images/chapter-5/Personal%20Sanitario%20y%20de%20Cuidado%20-%20Entrevista%202.png)
+
+- URL del
+  video: [Personal Sanitario y de Cuidado - Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQCiigRv6g1vTazhX4Eg-kN5AXTz62CLmfBg6ymJ1-_V0Lo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gbRnDw)
+
+En una entrevista con el Dr. Gonzalo Aliaga, quien gestiona la recepción y derivación de un gran volumen de pacientes,
+este evaluó una nueva aplicación web médica. El doctor destacó que la herramienta es extremadamente intuitiva y fácil de
+usar, en claro contraste con sistemas anteriores que requerían una alta curva de aprendizaje. Subrayó que la aplicación
+ha generado mejoras significativas en la comunicación, facilitando el acceso a la información de contacto de pacientes y
+otros doctores, así como la gestión de citas y mensajes, resolviendo la dificultad que antes tenía para rastrear datos o
+recetas de días previos.
+
+#### 5.3.3. Evaluaciones según heurísticas.
+
+
+Esta sección presenta el proceso de evaluación de la experiencia de usuario realizado durante las sesiones de validación, aplicando los principios de **Usabilidad**, **Arquitectura de la Información** e **Inclusive Design** sobre la interfaz y los flujos funcionales de la aplicación **CareLink**.  
+
+El objetivo de esta evaluación fue identificar posibles mejoras en la interacción del usuario con el sistema, garantizar la accesibilidad de las funciones críticas y validar la coherencia del diseño respecto a los estándares heurísticos de **Nielsen**, **Shneiderman** y principios de diseño inclusivo.  
+
+Las evaluaciones se realizaron siguiendo la estructura del formato oficial indicado en el **Anexo D: Formato para Evaluación de User Experience según Heurísticas**, detallando las tareas críticas a revisar y los criterios aplicados durante la sesión.
+
+---
+
+##### **Formato de Evaluación Heurística Aplicado**
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Profesores:** Todos  
+**Auditor:** Equipo de CareLink Backend & Frontend Integration  
+**Cliente(s):** Usuarios finales: *Red de Apoyo Familiar* y *Personal Sanitario*  
+
+---
+
+##### **SITE O APP A EVALUAR:**
+**CareLink – Plataforma Integral de Monitoreo y Gestión del Cuidado del Paciente**
+
+---
+
+##### **TAREAS A EVALUAR:**
+
+El alcance de la evaluación incluyó la revisión de la usabilidad y accesibilidad en las siguientes tareas clave:
+
+1. Registro e inicio de sesión de un usuario (segmentos familiar y médico).  
+2. Visualización de citas médicas y horarios disponibles.  
+3. Registro de una nueva cita médica (por parte del médico).  
+4. Consulta del historial médico y reportes del paciente.  
+5. Comunicación mediante mensajería interna entre médico y paciente.  
+6. Visualización de notificaciones o alertas del sistema.  
+7. Edición de perfil y actualización de datos personales.  
+8. Cierre de sesión y persistencia de autenticación segura.
+
+---
+
+##### **TAREAS NO INCLUIDAS EN ESTA EVALUACIÓN:**
+
+1. Modificación avanzada de configuraciones del sistema (panel administrativo).  
+2. Módulos de monitoreo en tiempo real (en desarrollo).  
+3. Integración con sistemas externos de salud (API externas).  
+4. Análisis estadístico avanzado y reportes dinámicos.  
+5. Funcionalidades de auditoría o administración multiusuario.
+
+---
+
+##### **Escala de Severidad**
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| **Nivel** | **Descripción** |
+|------------|-----------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata. |
+| **2** | Problema menor: ocurre ocasionalmente y puede generar confusión leve. Se recomienda corregir en próximas iteraciones. |
+| **3** | Problema mayor: ocurre con frecuencia o impide completar una tarea sin ayuda. Requiere corrección prioritaria. |
+| **4** | Problema muy grave: bloquea el flujo de uso o impide el funcionamiento correcto del sistema. Debe corregirse antes del despliegue. |
+
+---
+
+##### **Tabla Resumen de Problemas Detectados**
+
+| # | **Problema** | **Escala de Severidad** | **Heurística / Principio Violado** |
+|---|---------------|--------------------------|------------------------------------|
+| 1 | El botón *“Iniciar sesión”* no proporciona retroalimentación visual inmediata al hacer clic. | 2 | **Usabilidad:** Visibilidad del estado del sistema |
+| 2 | Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema. | 3 | **Usabilidad:** Prevención y recuperación de errores |
+| 3 | El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida. | 3 | **Inclusive Design:** Accesibilidad visual y legibilidad |
+| 4 | En el módulo de mensajería, el orden de los mensajes no siempre refleja la hora más reciente. | 2 | **Information Architecture:** Consistencia temporal y jerarquía informativa |
+| 5 | No existe una opción para cancelar la creación de una cita antes de guardarla. | 3 | **Usabilidad:** Control y libertad del usuario |
+| 6 | En la vista de horarios, la información del día no se muestra completa en pantallas pequeñas. | 2 | **Inclusive Design:** Diseño adaptable y responsivo |
+| 7 | El sistema no muestra confirmación al eliminar un mensaje o conversación. | 4 | **Usabilidad:** Prevención de errores graves |
+| 8 | Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla. | 3 | **Inclusive Design:** Proporcionar experiencias comparables |
+| 9 | El campo “Notas” en el registro de cita no cuenta con un límite visual o aviso de caracteres. | 1 | **Usabilidad:** Visibilidad del estado del sistema |
+| 10 | No se muestra un mensaje claro tras la actualización del perfil del paciente. | 2 | **Usabilidad:** Retroalimentación del sistema |
+
+---
+
+##### **Descripción de Problemas**
+
+#### **PROBLEMA #1:**  
+**El botón “Iniciar sesión” no proporciona retroalimentación visual inmediata al hacer clic.**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+
+**Descripción:**  
+Al presionar el botón de inicio de sesión, la interfaz no muestra una animación, carga o confirmación de procesamiento inmediato, lo cual puede generar confusión en usuarios que no saben si la acción fue ejecutada o no.  
+
+**Recomendación:**  
+Implementar un indicador visual o spinner de carga que informe al usuario que el sistema está procesando sus credenciales.
+
+---
+
+#### **PROBLEMA #2:**  
+**Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema.**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención y recuperación de errores  
+
+**Descripción:**  
+Al ingresar datos inválidos durante el registro (por ejemplo, un correo sin formato válido), el sistema muestra un error genérico sin identificar el campo exacto, dificultando la corrección por parte del usuario.  
+
+**Recomendación:**  
+Agregar validaciones específicas en cada campo y mensajes contextuales que indiquen claramente el tipo de error detectado.
+
+---
+
+#### **PROBLEMA #3:**  
+**El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Accesibilidad visual y legibilidad  
+
+**Descripción:**  
+En secciones como el registro o la creación de citas, los campos de texto presentan un contraste insuficiente, dificultando la lectura en pantallas con brillo reducido o para usuarios con baja visión.  
+
+**Recomendación:**  
+Aplicar los estándares WCAG 2.1, nivel AA, garantizando un contraste mínimo de 4.5:1 entre texto y fondo.
+
+---
+
+#### **PROBLEMA #4:**  
+**El sistema no muestra confirmación al eliminar un mensaje o conversación.**  
+**Severidad:** 4  
+**Heurística violada:** Usabilidad – Prevención de errores graves  
+
+**Descripción:**  
+La acción de eliminar un mensaje se ejecuta inmediatamente sin confirmación previa, lo que puede ocasionar pérdidas de información accidental.  
+
+**Recomendación:**  
+Incluir un cuadro de diálogo de confirmación (“¿Desea eliminar este mensaje?”) antes de ejecutar la acción.
+
+---
+
+#### **PROBLEMA #5:**  
+**Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporcionar experiencias comparables  
+
+**Descripción:**  
+Los iconos de acciones principales (como editar o eliminar) no incluyen atributos alternativos (`aria-label` o `alt`), limitando el acceso a usuarios que utilizan tecnologías asistivas.  
+
+**Recomendación:**  
+Añadir etiquetas accesibles en todos los elementos interactivos según las buenas prácticas de accesibilidad WAI-ARIA.
+
+---
+
+##### **Conclusión General**
+
+Los hallazgos obtenidos confirman que la aplicación **CareLink** mantiene una base sólida de usabilidad y coherencia visual, destacando en la simplicidad de navegación y claridad de información.  
+No obstante, los problemas identificados —principalmente relacionados con accesibilidad, retroalimentación del sistema y confirmaciones de acción— deberán abordarse en la siguiente iteración para optimizar la experiencia inclusiva y segura del usuario final.
+
+
+#### 5.4. Video About-the-Product
+
+
+
 ## Conclusiones
 
 1. **Problema vigente y relevante:**  
@@ -2987,6 +4141,8 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 **Anexo A:**  
 [Deployment Landing Page](https://eternacare-opensource.github.io/landing-page/)  
 
+[About The Team](https://drive.google.com/file/d/1u4GDkbiPDVXsD26y5VMz8XPCc9fQE7_m/view?usp=sharing)  
+
 **Anexo B:**  
 [Wireframe Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
 
@@ -3020,4 +4176,6 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 **Anexo L:**  
 [Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
 
+**Anexo M:**  
+[Deploymento Backend (Swagger)](https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#): https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
 
