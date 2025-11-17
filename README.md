@@ -4173,4 +4173,6 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 **Anexo L:**  
 [Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
 
+**Anexo M:**  
+[Deploymento Backend (Swagger)](https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#): https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
 
