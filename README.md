@@ -4073,61 +4073,67 @@ Añadir etiquetas accesibles en todos los elementos interactivos según las buen
 
 
 
-
 ## Conclusiones
 
-1. **Problema vigente y relevante:**  
-   La falta de comunicación efectiva y de acceso inmediato a la información entre familiares y centros geriátricos constituye una dificultad crítica en Lima, considerando el aumento constante de adultos mayores y la creciente demanda de servicios de cuidado.  
 
-2. **Solución centrada en los usuarios:**  
-   La propuesta responde de manera precisa a los requerimientos de los tres actores principales: familiares, profesionales de la salud y administradores. Cada uno cuenta con funcionalidades específicas que atienden directamente sus necesidades y puntos de dolor.  
+La presente sección integra los principales hallazgos y resultados obtenidos durante el desarrollo del Trabajo Final (TF), en el cual se consolidó la implementación técnica y funcional de la plataforma EternaCare. A lo largo de esta etapa se completaron los módulos centrales del sistema, se fortaleció la arquitectura backend y frontend, se efectuó el despliegue en la nube y se validaron las capacidades del proyecto para responder a las necesidades identificadas en los centros geriátricos de Lima.  
 
-3. **Alta factibilidad tecnológica:**  
-   El acceso a Internet y el uso cotidiano de herramientas digitales en Lima son lo suficientemente amplios como para garantizar la adopción temprana de la plataforma, tanto por parte de las familias como del personal de atención.  
+Las conclusiones expuestas a continuación sintetizan el impacto, la pertinencia y la solidez tecnológica lograda en el TF, mientras que las recomendaciones plantean las líneas de mejora y crecimiento futuro que permitirán continuar la evolución del sistema hacia un entorno más robusto, accesible y escalable.
 
-4. **Alto impacto esperado:**  
-   La aplicación tiene el potencial de elevar la calidad de vida de los residentes, disminuir la incertidumbre de los familiares y optimizar el desempeño del personal, promoviendo mejoras significativas en la gestión geriátrica.  
 
-5. **Fundamentos para escalabilidad futura:**  
-   La implementación de los CRUDs establece una arquitectura sólida que permite conectar el backend con interfaces web y móviles, habilitando integraciones posteriores con módulos de notificaciones, mensajería y análisis de datos.  
+1. **Confirmación del problema y su relevancia social:**  
+   El análisis realizado en el Trabajo Final reafirma que la falta de comunicación fluida entre familiares y centros geriátricos constituye una problemática vigente en Lima. La creciente población adulta mayor y la demanda por un seguimiento más cercano evidencian la necesidad de soluciones digitales que faciliten la interacción, la supervisión y el acceso oportuno a la información.
 
-6. **Gestión responsable de datos sensibles:**  
-   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.
-   
-7. **Impacto positivo en la gestión del cuidado geriátrico:**  
-   EternaCare tiene el potencial de optimizar la coordinación entre familiares, personal médico y administradores, reduciendo errores de comunicación y mejorando el bienestar emocional de los adultos mayores bajo cuidado institucional.
-8. **Implementación modular con visión de crecimiento:**
-   La estructura del proyecto permite añadir nuevas funcionalidades sin afectar las ya existentes. Esto crea un entorno flexible para futuras expansiones como aplicaciones móviles, analítica avanzada y automatización de alertas. 
-9. **Fortalecimiento de competencias profesionales:**  
-   El desarrollo del proyecto permitió a los integrantes aplicar conocimientos técnicos en un contexto real, reforzando habilidades en diseño de interfaces, programación, gestión de bases de datos y documentación técnica, alineadas a los resultados de aprendizaje del programa.
-10. **Contribución al desarrollo tecnológico social:**
-   EternaCare representa un ejemplo de cómo la tecnología puede generar impacto social positivo cuando se diseña con propósito. El sistema no solo ofrece soluciones digitales, sino también esperanza y acompañamiento a las familias y adultos mayores.  
+2. **Solución técnicamente consolidada y orientada a los usuarios:**  
+   La plataforma desarrollada en el TF presenta una arquitectura completa y funcional, capaz de responder a las necesidades de los tres actores principales: familiares, personal de salud y administradores. Los flujos diseñados permiten una gestión clara de la información y favorecen una interacción más efectiva entre los involucrados, reforzando el enfoque centrado en el usuario.
+
+3. **Avances sustanciales en infraestructura y despliegue tecnológico:**  
+   La implementación final de los módulos backend, acompañada del despliegue en Azure y la integración de los CRUD correspondientes, demuestra la factibilidad tecnológica del sistema. Esta base técnica garantiza estabilidad, disponibilidad y capacidad de integración con futuras interfaces web y móviles.
+
+4. **Impacto positivo esperado en la gestión del cuidado geriátrico:**  
+   Los resultados del TF evidencian que la plataforma tiene el potencial de mejorar significativamente la organización del trabajo del personal de cuidado, reducir errores de comunicación y fortalecer el vínculo emocional entre las familias y los residentes. Ello contribuye a elevar la calidad del servicio y a optimizar la gestión interna de los centros geriátricos.
+
+5. **Base sólida para el crecimiento y la escalabilidad futura:**  
+   La arquitectura modular implementada permite ampliar funcionalidades sin comprometer la estabilidad del sistema existente. Este diseño abre la posibilidad de integrar en etapas posteriores módulos de mensajería, notificaciones avanzadas, analítica de datos y aplicaciones móviles, asegurando sostenibilidad tecnológica a largo plazo.
+
+6. **Compromiso con la gestión ética y segura de la información:**  
+   Durante el desarrollo del TF se garantizó un tratamiento responsable de datos sensibles, priorizando la integridad, disponibilidad y confidencialidad de la información asociada a los pacientes. Esto reafirma la importancia del cumplimiento de buenas prácticas en seguridad digital y gestión de información durante todo el ciclo de vida del sistema.
+
+7. **Aporte académico, profesional y social del proyecto:**  
+   El trabajo final representó una oportunidad para aplicar conocimientos de diseño, programación, arquitectura de software y despliegue en la nube en un contexto real. Asimismo, el sistema constituye una contribución significativa al ámbito social, al ofrecer una herramienta que fortalece la comunicación y el acompañamiento de adultos mayores en instituciones geriátricas.
 
 ---
 
-* **Recomendaciones:**
-1. **Incorporar un módulo de accesibilidad y soporte:**  
-   Se debe prever que algunos usuarios enfrenten barreras tecnológicas o limitaciones físicas. Por ello, resulta conveniente añadir opciones como lectura simplificada, notificaciones vía WhatsApp y un canal básico de asistencia.  
+## Recomendaciones
 
-2. **Fomentar el uso por parte del personal:**  
-   Integrar incentivos, logros o reconocimientos internos puede aumentar la motivación del personal para utilizar la plataforma de forma continua y contribuir a mantener la calidad de los datos registrados.  
+1. **Integración de funcionalidades de accesibilidad:**  
+   Se recomienda incorporar opciones como lectura simplificada, asistentes visuales y canales de soporte accesibles para usuarios con limitaciones físicas o cognitivas, con el fin de garantizar una experiencia inclusiva.
 
-3. **Escalar de manera gradual:**  
-   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.
+2. **Fomento del uso por parte del personal de atención:**  
+   La adopción del sistema puede fortalecerse mediante incentivos internos, capacitaciones periódicas y mecanismos de retroalimentación que motiven al personal a utilizar la plataforma de manera continua.
 
-4. **Implementar un módulo de analítica:**
-   Desarrollar un sistema de métricas que permita evaluar el estado general de los residentes, tiempos de respuesta del personal y nivel de interacción familiar. Esta información serviría para optimizar la toma de decisiones y generar reportes automáticos de impacto.
+3. **Escalamiento progresivo del sistema:**  
+   Se sugiere implementar la plataforma inicialmente en instituciones con alta infraestructura tecnológica y, posteriormente, expandir el proyecto hacia zonas con menor conectividad, apoyándose en alianzas estratégicas para asegurar su operatividad.
 
-5. **Integrar autenticación avanzada:**
-   Incorporar autenticación de dos factores (2FA) o validación biométrica para fortalecer la seguridad de los usuarios y garantizar el acceso legítimo a información médica sensible.
-6. **Optimizar el flujo de comunicación:**
-   Desarrollar una bandeja centralizada de notificaciones que unifique alertas, mensajes y recordatorios en un solo espacio visual, mejorando la organización del usuario y la interacción con el sistema.
-7. **Validar la experiencia del usuario:**
-   Realizar pruebas de usabilidad con usuarios reales (familiares y cuidadores) para ajustar los flujos de navegación, lenguaje visual y tiempos de respuesta, asegurando una experiencia accesible y empática.
-8. **Escalar hacia un modelo móvil progresivo (PWA):**
-   Adaptar la plataforma web para funcionar como aplicación progresiva (PWA), garantizando un acceso rápido y fluido en dispositivos móviles, incluso con conexión limitada.
-9. **Establecer monitoreo de mantenimiento:**
-   Definir un cronograma de mantenimiento y respaldo de datos, junto con un panel de control interno que muestre el estado del sistema, métricas de uso y reportes de errores en tiempo real.
+4. **Desarrollo futuro de un módulo de analítica avanzada:**  
+   Incorporar un panel de métricas permitiría evaluar indicadores clave del estado de los residentes, tiempos de respuesta del personal y niveles de interacción familiar. Esto facilitaría la toma de decisiones basadas en datos.
+
+5. **Fortalecimiento de la seguridad mediante autenticación avanzada:**  
+   Resulta pertinente integrar mecanismos como autenticación de dos factores (2FA) o biometría para reforzar la protección de los usuarios y asegurar un acceso legítimo a información médica sensible.
+
+6. **Optimización del flujo interno de comunicación:**  
+   Se recomienda consolidar en un único módulo todas las notificaciones, recordatorios y mensajes, lo que facilitaría la navegación y permitiría una gestión unificada de alertas importantes.
+
+7. **Validación continua de la experiencia del usuario:**  
+   Es necesario realizar pruebas de usabilidad con familiares y cuidadores para identificar puntos de fricción, mejorar los flujos de navegación y garantizar una experiencia intuitiva y empática.
+
+8. **Evolución hacia un modelo móvil progresivo (PWA):**  
+   Adaptar la plataforma a un formato PWA permitirá un acceso más rápido desde dispositivos móviles y un funcionamiento estable incluso con conectividad limitada, incrementando la accesibilidad del sistema.
+
+9. **Implementación de un sistema formal de mantenimiento y monitoreo:**  
+   Se sugiere establecer un cronograma de mantenimiento preventivo, así como un panel de control interno que muestre métricas del sistema, uso de los servicios y reporte automático de incidentes, asegurando la continuidad operativa del sistema.
+
+ 
 
 
 ## Bibliografía
