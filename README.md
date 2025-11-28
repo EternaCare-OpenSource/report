@@ -3838,7 +3838,64 @@ un resultado consistente. La implementación del backend siguiendo DDD permitió
 
 
 
-#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+En el Sprint 4, las responsabilidades del equipo se orientaron hacia la integración final del sistema, la estabilización del backend con el frontend, el despliegue en la nube y la elaboración de la documentación correspondiente al Trabajo Final (TF).  
+A diferencia del Sprint 3 —en el cual los roles se asignaron por bounded contexts del backend— esta etapa se centró en aspectos globales del proyecto, con el fin de garantizar un producto funcional, documentado y preparado para su presentación final.
+
+La siguiente tabla resume los roles asumidos por cada integrante como líderes (L) o colaboradores (C) en los aspectos clave del Sprint 4.
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Backend/Frontend Final Integration</th>
+      <th>Deployment & Azure Infrastructure</th>
+      <th>Technical Documentation (TF)</th>
+      <th>Frontend / UX Alignment</th>
+      <th>System Testing & Validation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
