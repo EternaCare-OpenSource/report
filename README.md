@@ -3790,7 +3790,60 @@ un resultado consistente. La implementación del backend siguiendo DDD permitió
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4.
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-11-28</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>13:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual en Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 4 Goal</th>
+    <td>El objetivo de este sprint es completar la integración final del backend con el frontend, garantizar la estabilidad y despliegue del sistema, consolidar el informe del Trabajo Final (TF) y preparar la documentación técnica final que evidencie el funcionamiento completo de la plataforma EternaCare.</td>
+  </tr>
+  <tr>
+    <th>Sprint 4 Velocity</th>
+    <td>34 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>34 puntos</td>
+  </tr>
+</table>
+
+
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+
+
+
+
 #### 5.2.4.3. Sprint Backlog 4.
 #### 5.2.4.4. Development Evidence for Sprint Review.
 #### 5.2.4.5. Execution Evidence for Sprint Review.
