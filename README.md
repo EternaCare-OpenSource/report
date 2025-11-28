@@ -261,7 +261,7 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico. <br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico. <br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.|
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. <br><br>**Fiorella Angela Vilca Valverde (TP):** Redacté la documentación correspondiente a la sección de diseño UI/UX de la plataforma web, explicando las decisiones visuales y su impacto en la experiencia del usuario. Además, participé en la revisión ortográfica y en la redacción del capítulo de implementación de la interfaz.<br><br>**Italo Sebastian Verona Flores (TP):** Elaboré el apartado técnico sobre la estructura y componentes del frontend, detallando el proceso de maquetación y validando la coherencia entre los módulos de navegación y presentación. También revisé la redacción del informe técnico y las secciones de desarrollo del Sprint 2.<br><br>**Josue Antonio Flores Apaico (TP):** Redacté los apartados relacionados con el desarrollo funcional de la plataforma, los módulos de reportes y monitoreo, y la documentación de la planificación Sprint 2. Participé en la corrección de estilo y en la unificación del formato del documento final.<br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP):** Me encargué de redactar las secciones técnicas, describiendo la arquitectura, la gestión de datos y la integración de los módulos funcionales. Además, colaboré en la revisión del informe final para mantener la consistencia técnica y el lenguaje profesional en todo el documento.| **TB1**<br>El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. <br><br>**TP**<br>La redacción conjunta permitió generar un informe claro, coherente y estructurado, adaptado tanto a lectores técnicos como a un público académico. El trabajo en equipo se reflejó en un documento bien fundamentado, con lenguaje profesional, ortografía revisada y coherencia global en todos los capítulos del Sprint 2.|
 
 
@@ -4048,12 +4048,7 @@ Los iconos de acciones principales (como editar o eliminar) no incluyen atributo
 **Recomendación:**  
 Añadir etiquetas accesibles en todos los elementos interactivos según las buenas prácticas de accesibilidad WAI-ARIA.
 
----
 
-##### **Conclusión General**
-
-Los hallazgos obtenidos confirman que la aplicación **CareLink** mantiene una base sólida de usabilidad y coherencia visual, destacando en la simplicidad de navegación y claridad de información.  
-No obstante, los problemas identificados —principalmente relacionados con accesibilidad, retroalimentación del sistema y confirmaciones de acción— deberán abordarse en la siguiente iteración para optimizar la experiencia inclusiva y segura del usuario final.
 
 
 #### 5.4. Video About-the-Product
@@ -4139,43 +4134,47 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 ## Anexos
 
 **Anexo A:**  
-[Deployment Landing Page](https://eternacare-opensource.github.io/landing-page/)  
-
-[About The Team](https://drive.google.com/file/d/1u4GDkbiPDVXsD26y5VMz8XPCc9fQE7_m/view?usp=sharing)  
+[Deployment Landing Page] https://eternacare-opensource.github.io/landing-page/
 
 **Anexo B:**  
-[Wireframe Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+[Wireframe Landing Page] https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1 
 
 **Anexo C:**  
-[Mock-ups Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=1-1518&t=wJLnuHin59MbfCfY-1)  
+[Mock-ups Landing Page] https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=1-1518&t=wJLnuHin59MbfCfY-1  
 
 **Anexo D:**  
-[Web Applications Wireframes](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+[Web Applications Wireframes] https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=0-1&t=wJLnuHin59MbfCfY-1 
 
 **Anexo E:**  
-[Web Applications Mock-up](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=1-2&t=wJLnuHin59MbfCfY-1)  
+[Web Applications Mock-up] https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=1-2&t=wJLnuHin59MbfCfY-1
 
 **Anexo F:**  
-[Actividades en Trello](https://trello.com/b/v1O6kRjA/sprint-1)  
+[Actividades en Trello] https://trello.com/b/v1O6kRjA/sprint-1
 
 **Anexo G:**  
-[User Flow Diagrams en Miro](https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426)  
+[User Flow Diagrams en Miro] https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426  
 
 **Anexo H:**  
-[Repositorio Report](https://github.com/EternaCare-OpenSource/report.git)  
+[Repositorio Report] https://github.com/EternaCare-OpenSource/report.git 
 
 **Anexo I:**  
-[Organización GitHub EternaCare](https://github.com/EternaCare-OpenSource)  
+[Organización GitHub EternaCare] https://github.com/EternaCare-OpenSource  
 
 **Anexo J:**  
-[Repositorio Landing Page](https://github.com/EternaCare-OpenSource/landing-page.git)  
+[Repositorio Landing Page] https://github.com/EternaCare-OpenSource/landing-page.git  
 
 **Anexo K:**  
-[Deploymento Landing Page (GitHub Pages)](https://eternacare-opensource.github.io/landing-page/)  
+[Deploymento Landing Page (GitHub Pages) (https://eternacare-opensource.github.io/landing-page/  
 
 **Anexo L:**  
-[Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
+[Deploymento Fronted (Firebase)] https://carlink-bb7c8.web.app 
 
 **Anexo M:**  
-[Deploymento Backend (Swagger)](https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#): https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+[Deploymento Backend (Swagger)]: https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+
+
+**VIDEOS:**
+
+[About The Team] https://drive.google.com/file/d/1u4GDkbiPDVXsD26y5VMz8XPCc9fQE7_m/view?usp=sharing 
+
 
