@@ -3026,327 +3026,328 @@ Seguidamente, se expone un resumen detallado de las historias de usuario desarro
   </tr>
   <tr>
     <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item/task</strong></td>
+    <td colspan="6"><strong>Work-Item/task (Engineering Task)</strong></td>
   </tr>
   <tr>
-    <td><strong>Id</strong></td>
-    <td><strong>Title</strong></td>
-    <td><strong>Id</strong></td>
-    <td><strong>Title</strong></td>
-    <td><strong>Description</strong></td>
-    <td><strong>Estimation(Hours)</strong></td>
-    <td><strong>Assigned To</strong></td>
-    <td><strong>Status</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation(Hours)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status</strong></td>
   </tr>
 
   <tr>
-    <td>US-01</td>
-    <td>Ver estado de salud del residente</td>
     <td>TS-001</td>
     <td>Obtener usuario por ID</td>
+    <td>T01</td>
+    <td>Crear getUserById</td>
     <td>Crear endpoint de Users GET /api/v1/users/{userId}</td>
-    <td>2</td>
+    <td>4</td>
     <td>José Antonio Alejo Cardenas</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-02</td>
-    <td>Registrar signos vitales</td>
     <td>TS-002</td>
     <td>Actualizar usuario</td>
+    <td>T02</td>
+    <td>Crear updateUser</td>
     <td>Crear endpoint de Users PUT /api/v1/users/{userId}</td>
-    <td>2</td>
+    <td>6</td>
     <td>José Antonio Alejo Cardenas</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-03</td>
-    <td>Recibir alertas críticas</td>
     <td>TS-003</td>
     <td>Eliminar usuario</td>
+    <td>T03</td>
+    <td>Crear deleteUser</td>
     <td>Crear endpoint de Users DELETE /api/v1/users/{userId}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-04</td>
-    <td>Ver actividades diarias</td>
     <td>TS-004</td>
     <td>Obtener todos los usuarios</td>
+    <td>T04</td>
+    <td>Crear getAllUsers</td>
     <td>Crear endpoint de Users GET /api/v1/users</td>
-    <td>1</td>
+    <td>4</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-05</td>
-    <td>Registrar actividad del residente</td>
     <td>TS-005</td>
     <td>Crear nuevo usuario</td>
+    <td>T05</td>
+    <td>Crear createUser</td>
     <td>Crear endpoint de Users POST /api/v1/users</td>
-    <td>2</td>
+    <td>6</td>
     <td>José Antonio Alejo Cardenas</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-06</td>
-    <td>Evaluar estado emocional del residente</td>
     <td>TS-006</td>
     <td>Obtener entrega por ID</td>
+    <td>T06</td>
+    <td>Crear getSubmissionById</td>
     <td>Crear endpoint de Submissions GET /api/v1/submissions/{submissionId}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-07</td>
-    <td>Monitoreo con dispositivos IoT</td>
     <td>TS-007</td>
     <td>Actualizar entrega</td>
+    <td>T07</td>
+    <td>Crear updateSubmission</td>
     <td>Crear endpoint de Submissions PUT /api/v1/submissions/{submissionId}</td>
-    <td>2</td>
+    <td>6</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-08</td>
-    <td>Alertas de emergencia por sensores</td>
     <td>TS-008</td>
     <td>Eliminar entrega</td>
+    <td>T08</td>
+    <td>Crear deleteSubmission</td>
     <td>Crear endpoint de Submissions DELETE /api/v1/submissions/{submissionId}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-09</td>
-    <td>Enviar mensajes al personal</td>
     <td>TS-009</td>
     <td>Obtener todas las entregas</td>
+    <td>T09</td>
+    <td>Crear getAllSubmissions</td>
     <td>Crear endpoint de Submissions GET /api/v1/submissions</td>
-    <td>1</td>
+    <td>4</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-10</td>
-    <td>Ver respuestas del personal</td>
     <td>TS-010</td>
     <td>Crear nueva entrega</td>
+    <td>T10</td>
+    <td>Crear createSubmission</td>
     <td>Crear endpoint de Submissions POST /api/v1/submissions</td>
-    <td>2</td>
+    <td>6</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-11</td>
-    <td>Programar visitas</td>
     <td>TS-011</td>
     <td>Obtener entregas por estudiante</td>
+    <td>T11</td>
+    <td>Crear getSubmissionsByStudent</td>
     <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/submissions</td>
-    <td>1</td>
+    <td>5</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-12</td>
-    <td>Videollamadas integradas</td>
     <td>TS-012</td>
     <td>Obtener entregas por estudiante y reto</td>
+    <td>T12</td>
+    <td>Crear getSubmissionsByStudentAndChallenge</td>
     <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/challenges/{challengeId}</td>
-    <td>1</td>
+    <td>5</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-13</td>
-    <td>Evaluar la calidad del servicio</td>
     <td>TS-013</td>
     <td>Obtener entregas por reto</td>
+    <td>T13</td>
+    <td>Crear getSubmissionsByChallenge</td>
     <td>Crear endpoint de Submissions GET /api/v1/submissions/challenges/{challengeId}/submissions</td>
-    <td>1</td>
+    <td>5</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-14</td>
-    <td>Recibir notificaciones de cambios</td>
     <td>TS-014</td>
     <td>Obtener grupo por ID</td>
+    <td>T14</td>
+    <td>Crear getGroupById</td>
     <td>Crear endpoint de Groups GET /api/v1/groups/{id}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-15</td>
-    <td>Compartir fotos y mensajes motivacionales</td>
     <td>TS-015</td>
     <td>Actualizar grupo</td>
+    <td>T15</td>
+    <td>Crear updateGroup</td>
     <td>Crear endpoint de Groups PUT /api/v1/groups/{id}</td>
-    <td>2</td>
+    <td>6</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-16</td>
-    <td>Coordinar cuidadores informales</td>
     <td>TS-016</td>
     <td>Eliminar grupo</td>
+    <td>T16</td>
+    <td>Crear deleteGroup</td>
     <td>Crear endpoint de Groups DELETE /api/v1/groups/{id}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-17</td>
-    <td>Registro de cuidado domiciliario</td>
     <td>TS-017</td>
     <td>Obtener código de unión de grupo</td>
+    <td>T17</td>
+    <td>Crear getGroupJoinCode</td>
     <td>Crear endpoint de Groups GET /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>1</td>
+    <td>4</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-18</td>
-    <td>Monitoreo ambiental del hogar</td>
     <td>TS-018</td>
     <td>Establecer código de unión de grupo</td>
+    <td>T18</td>
+    <td>Crear setGroupJoinCode</td>
     <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>2</td>
+    <td>6</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-19</td>
-    <td>Coordinar con servicios médicos externos</td>
     <td>TS-019</td>
     <td>Restablecer código de unión de grupo</td>
+    <td>T19</td>
+    <td>Crear resetGroupJoinCode</td>
     <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes/reset</td>
-    <td>2</td>
+    <td>5</td>
     <td>Josue Antonio Flores Apaico</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-20</td>
-    <td>Gestión de emergencias domiciliarias</td>
     <td>TS-020</td>
     <td>Obtener todos los grupos</td>
+    <td>T20</td>
+    <td>Crear getAllGroups</td>
     <td>Crear endpoint de Groups GET /api/v1/groups</td>
-    <td>1</td>
+    <td>4</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-21</td>
-    <td>Ver reporte semanal de estado del residente</td>
     <td>TS-021</td>
     <td>Crear nuevo grupo</td>
+    <td>T21</td>
+    <td>Crear createGroup</td>
     <td>Crear endpoint de Groups POST /api/v1/groups</td>
-    <td>2</td>
+    <td>6</td>
     <td>Omar Luquillas Asto</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-22</td>
-    <td>Descargar reporte en PDF</td>
     <td>TS-022</td>
     <td>Unirse a grupo con código</td>
+    <td>T22</td>
+    <td>Crear joinGroupWithCode</td>
     <td>Crear endpoint de Groups POST /api/v1/groups/join</td>
-    <td>2</td>
+    <td>5</td>
     <td>José Antonio Alejo Cardenas</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-23</td>
-    <td>Ver tendencias de salud por categoría</td>
     <td>TS-023</td>
     <td>Obtener reto por ID</td>
+    <td>T23</td>
+    <td>Crear getChallengeById</td>
     <td>Crear endpoint de Challenges GET /api/v1/challenges/{challengeId}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-24</td>
-    <td>Recibir recordatorios para revisar informes</td>
     <td>TS-024</td>
     <td>Actualizar reto</td>
+    <td>T24</td>
+    <td>Crear updateChallenge</td>
     <td>Crear endpoint de Challenges PUT /api/v1/challenges/{challengeId}</td>
-    <td>2</td>
+    <td>6</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-25</td>
-    <td>Generar reportes personalizados</td>
     <td>TS-025</td>
     <td>Eliminar reto</td>
+    <td>T25</td>
+    <td>Crear deleteChallenge</td>
     <td>Crear endpoint de Challenges DELETE /api/v1/challenges/{challengeId}</td>
-    <td>1</td>
+    <td>4</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-26</td>
-    <td>Comparar períodos de tiempo</td>
     <td>TS-026</td>
     <td>Obtener todos los retos</td>
+    <td>T26</td>
+    <td>Crear getAllChallenges</td>
     <td>Crear endpoint de Challenges GET /api/v1/challenges</td>
-    <td>1</td>
+    <td>4</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-27</td>
-    <td>Registrar medicamento</td>
     <td>TS-027</td>
     <td>Crear nuevo reto</td>
+    <td>T27</td>
+    <td>Crear createChallenge</td>
     <td>Crear endpoint de Challenges POST /api/v1/challenges</td>
-    <td>2</td>
+    <td>6</td>
     <td>Alejandro Franklin Mendoza Vergara</td>
     <td>Done</td>
   </tr>
 
   <tr>
-    <td>US-28</td>
-    <td>Eliminar medicina caducada</td>
     <td>TS-028</td>
     <td>Obtener retos por grupo</td>
+    <td>T28</td>
+    <td>Crear getChallengesByGroup</td>
     <td>Crear endpoint de Challenges GET /api/v1/challenges/groups/{groupId}/challenges</td>
-    <td>1</td>
+    <td>5</td>
     <td>Sebastián Omar Real Calderón</td>
     <td>Done</td>
   </tr>
 </table>
+
 
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
