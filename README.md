@@ -2525,226 +2525,30 @@ Asimismo, se efectuó una actualización en la **landing page**.
 
 Trello Sprint 2: https://trello.com/invite/b/68e8866039dabe1a99f4d3ec/ATTI9c9751dfca09a7363cc67550cbe6cc8c43BF7008/sprint-2
 
-<table>
-<tr>
-<th colspan="8">Sprint #2 – EternaCare Web Platform</th>
-</tr>
-<tr>
-<th colspan="2">User Story</th>
-<th colspan="6">Work-Item / Task</th>
-</tr>
-<tr>
-<th>Id</th>
-<th>Title</th>
-<th>Id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Estimation (Hours)</th>
-<th>Assigned To</th>
-<th>Status (To-do / In-Process / To-Review / Done)</th>
-</tr>
+Sprint #2 – EternaCare Web Platform
 
-<!-- US-001 -->
-<tr>
-<td rowspan="2">US-001</td>
-<td rowspan="2">Ver estado de salud del residente</td>
-<td>T01</td>
-<td>Implementar panel de monitoreo web</td>
-<td>Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T02</td>
-<td>Conectar panel con base de datos</td>
-<td>Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-
-<!-- US-009 -->
-<tr>
-<td rowspan="2">US-009</td>
-<td rowspan="2">Enviar mensajes al personal</td>
-<td>T03</td>
-<td>Desarrollar módulo de mensajería interna</td>
-<td>Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real.</td>
-<td>5</td>
-<td>Luquillas Asto Omar</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T04</td>
-<td>Guardar historial de mensajes</td>
-<td>Registrar los mensajes enviados en la base de datos con fecha, hora y usuario.</td>
-<td>2</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-012 -->
-<tr>
-<td rowspan="2">US-012</td>
-<td rowspan="2">Videollamadas integradas</td>
-<td>T05</td>
-<td>Crear interfaz de videollamadas</td>
-<td>Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-<tr>
-<td>T06</td>
-<td>Integrar servicio de videollamada WebRTC</td>
-<td>Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente.</td>
-<td>5</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-014 -->
-<tr>
-<td rowspan="2">US-014</td>
-<td rowspan="2">Recibir notificaciones de cambios</td>
-<td>T07</td>
-<td>Configurar sistema de notificaciones web</td>
-<td>Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente.</td>
-<td>3</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T08</td>
-<td>Crear historial de notificaciones</td>
-<td>Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-021 -->
-<tr>
-<td rowspan="2">US-021</td>
-<td rowspan="2">Ver reporte semanal de estado</td>
-<td>T09</td>
-<td>Generar reportes en PDF</td>
-<td>Compilar los datos del residente y generar un reporte semanal descargable en PDF.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T10</td>
-<td>Visualizar métricas de progreso</td>
-<td>Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Review</td>
-</tr>
-
-<!-- US-025 -->
-<tr>
-<td rowspan="2">US-025</td>
-<td rowspan="2">Reportes personalizados</td>
-<td>T11</td>
-<td>Implementar filtros dinámicos</td>
-<td>Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Do</td>
-</tr>
-<tr>
-<td>T12</td>
-<td>Exportar reportes filtrados</td>
-<td>Permitir la descarga de los reportes personalizados en formato PDF o Excel.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>To-Do</td>
-</tr>
-
-<!-- US-045 -->
-<tr>
-<td rowspan="2">US-045</td>
-<td rowspan="2">Ver testimonios y casos de éxito</td>
-<td>T13</td>
-<td>Diseñar sección de testimonios</td>
-<td>Implementar módulo con experiencias reales de usuarios dentro de la página principal.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T14</td>
-<td>Integrar contenido de testimonios</td>
-<td>Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-
-<!-- US-046 -->
-<tr>
-<td rowspan="2">US-046</td>
-<td rowspan="2">Solicitar información personalizada</td>
-<td>T15</td>
-<td>Diseñar formulario de contacto</td>
-<td>Crear los campos para nombre, correo y mensaje en la sección de contacto.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T16</td>
-<td>Implementar formulario con validaciones</td>
-<td>Maquetar el formulario e implementar validaciones básicas con JavaScript.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-049 -->
-<tr>
-<td rowspan="2">US-049</td>
-<td rowspan="2">Acceder a recursos educativos</td>
-<td>T17</td>
-<td>Crear sección de recursos y guías</td>
-<td>Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T18</td>
-<td>Integrar material educativo</td>
-<td>Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-050 -->
-<tr>
-<td rowspan="2">US-050</td>
-<td rowspan="2">Comparar con competidores</td>
-<td>T19</td>
-<td>Implementar tabla comparativa</td>
-<td>Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T20</td>
-<td>Optimizar diseño de la tabla</td>
-<td>Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-
-</table>
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-001 | Ver estado de salud del residente | T01 | Implementar panel de monitoreo web | Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente. | 4 | Josue Flores | Done |
+| US-001 | Ver estado de salud del residente | T02 | Conectar panel con base de datos | Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real. | 3 | Italo Verona | Done |
+| US-009 | Enviar mensajes al personal | T03 | Desarrollar módulo de mensajería interna | Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real. | 5 | Mauricio Vilcapoma | Done |
+| US-009 | Enviar mensajes al personal | T04 | Guardar historial de mensajes | Registrar los mensajes enviados en la base de datos con fecha, hora y usuario. | 2 | Fiorella Vilca | Done |
+| US-012 | Videollamadas integradas | T05 | Crear interfaz de videollamadas | Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono. | 4 | Josue Flores | To-Review |
+| US-012 | Videollamadas integradas | T06 | Integrar servicio de videollamada WebRTC | Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente. | 5 | Italo Verona | In-Process |
+| US-014 | Recibir notificaciones de cambios | T07 | Configurar sistema de notificaciones web | Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente. | 3 | Josue Flores | Done |
+| US-014 | Recibir notificaciones de cambios | T08 | Crear historial de notificaciones | Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline. | 3 | Italo Verona | In-Process |
+| US-021 | Ver reporte semanal de estado | T09 | Generar reportes en PDF | Compilar los datos del residente y generar un reporte semanal descargable en PDF. | 4 | Josue Flores | Done |
+| US-021 | Ver reporte semanal de estado | T10 | Visualizar métricas de progreso | Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente. | 3 | Fiorella Vilca | To-Review |
+| US-025 | Reportes personalizados | T11 | Implementar filtros dinámicos | Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados. | 3 | Fiorella Vilca | To-Do |
+| US-025 | Reportes personalizados | T12 | Exportar reportes filtrados | Permitir la descarga de los reportes personalizados en formato PDF o Excel. | 2 | Italo Verona | To-Do |
+| US-045 | Ver testimonios y casos de éxito | T13 | Diseñar sección de testimonios | Implementar módulo con experiencias reales de usuarios dentro de la página principal. | 3 | Italo Verona | Done |
+| US-045 | Ver testimonios y casos de éxito | T14 | Integrar contenido de testimonios | Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive. | 2 | Josue Flores | Done |
+| US-046 | Solicitar información personalizada | T15 | Diseñar formulario de contacto | Crear los campos para nombre, correo y mensaje en la sección de contacto. | 2 | Italo Verona | Done |
+| US-046 | Solicitar información personalizada | T16 | Implementar formulario con validaciones | Maquetar el formulario e implementar validaciones básicas con JavaScript. | 3 | Fiorella Vilca | Done |
+| US-049 | Acceder a recursos educativos | T17 | Crear sección de recursos y guías | Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores. | 4 | Josue Flores | In-Process |
+| US-049 | Acceder a recursos educativos | T18 | Integrar material educativo | Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T19 | Implementar tabla comparativa | Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T20 | Optimizar diseño de la tabla | Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles. | 2 | Josue Flores | To-Review |
 
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
@@ -3014,340 +2818,40 @@ La siguiente tabla resume los roles y responsabilidades específicas de cada mie
 
 #### 5.2.3.3.Sprint Backlog 3.
 
+En el Sprint 3, el propósito principal fue cumplir el objetivo de establecer la infraestructura funcional de la plataforma CareLink, desarrollando y consolidando la API RESTful del sistema. Esto se logró mediante la implementación de la lógica de negocio, la validación de la Arquitectura Hexagonal (DDD), y la preparación del ambiente de producción en Azure.
 
-En este apartado se describe el Sprint Backlog correspondiente al tercer sprint del proyecto, incorporando elementos como el ID, la historia de usuario, los work items o tareas, su descripción, estimación, responsable y estado.
+Para cumplir con este objetivo, la implementación de la API se organizó en los siguientes Bounded Contexts (BC) (dominios del negocio), donde cada integrante lideró la creación de los endpoints necesarios para soportar las funcionalidades clave de la aplicación web:
 
-Seguidamente, se expone un resumen detallado de las historias de usuario desarrolladas durante el Sprint 3. La tabla presentada refleja el avance de cada historia, mostrando su estado actual, las evidencias de su culminación y cualquier observación pertinente.
+* IAM (Identity & Access Management): Cubriendo la Autenticación y Registro de usuarios para el acceso seguro.
 
-<table>
-  <tr>
-    <td colspan="1"><strong>Sprint #</strong></td>
-    <td colspan="7"><strong>Sprint 3</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item/task</strong></td>
-  </tr>
-  <tr>
-    <td><strong>Id</strong></td>
-    <td><strong>Title</strong></td>
-    <td><strong>Id</strong></td>
-    <td><strong>Title</strong></td>
-    <td><strong>Description</strong></td>
-    <td><strong>Estimation(Hours)</strong></td>
-    <td><strong>Assigned To</strong></td>
-    <td><strong>Status</strong></td>
-  </tr>
+* Doctor Management: Cubriendo la gestión de Personal Médico y Horarios de atención.
 
-  <tr>
-    <td>US-01</td>
-    <td>Ver estado de salud del residente</td>
-    <td>TS-001</td>
-    <td>Obtener usuario por ID</td>
-    <td>Crear endpoint de Users GET /api/v1/users/{userId}</td>
-    <td>2</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+* Patient Management & Health Monitoring: Cubriendo la gestión de Pacientes y los endpoints base para el Monitoreo de Salud.
 
-  <tr>
-    <td>US-02</td>
-    <td>Registrar signos vitales</td>
-    <td>TS-002</td>
-    <td>Actualizar usuario</td>
-    <td>Crear endpoint de Users PUT /api/v1/users/{userId}</td>
-    <td>2</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+* Messaging & Appointments: Cubriendo la funcionalidad de Comunicaciones internas y la gestión de Citas Médicas.
 
-  <tr>
-    <td>US-03</td>
-    <td>Recibir alertas críticas</td>
-    <td>TS-003</td>
-    <td>Eliminar usuario</td>
-    <td>Crear endpoint de Users DELETE /api/v1/users/{userId}</td>
-    <td>1</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
+El sprint se enfocó en asegurar que todos los controllers (Auth, Doctors, Patients, Schedules, Appointments, Conversations y Messages) se integraran correctamente, culminando con el despliegue exitoso del backend en Azure App Service y PostgreSQL.
 
-  <tr>
-    <td>US-04</td>
-    <td>Ver actividades diarias</td>
-    <td>TS-004</td>
-    <td>Obtener todos los usuarios</td>
-    <td>Crear endpoint de Users GET /api/v1/users</td>
-    <td>1</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
+<img width="" height="" alt="image" src="./images/chapter-5/Sprint Backlog 3.jpeg" />
 
-  <tr>
-    <td>US-05</td>
-    <td>Registrar actividad del residente</td>
-    <td>TS-005</td>
-    <td>Crear nuevo usuario</td>
-    <td>Crear endpoint de Users POST /api/v1/users</td>
-    <td>2</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+Trello Sprint 3:
+https://trello.com/invite/b/69310b612d4c60619cf06e12/ATTIad7edce4776a7b725cca9186f8be43853038232D/sprint-3 
 
-  <tr>
-    <td>US-06</td>
-    <td>Evaluar estado emocional del residente</td>
-    <td>TS-006</td>
-    <td>Obtener entrega por ID</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/{submissionId}</td>
-    <td>1</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
 
-  <tr>
-    <td>US-07</td>
-    <td>Monitoreo con dispositivos IoT</td>
-    <td>TS-007</td>
-    <td>Actualizar entrega</td>
-    <td>Crear endpoint de Submissions PUT /api/v1/submissions/{submissionId}</td>
-    <td>2</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-08</td>
-    <td>Alertas de emergencia por sensores</td>
-    <td>TS-008</td>
-    <td>Eliminar entrega</td>
-    <td>Crear endpoint de Submissions DELETE /api/v1/submissions/{submissionId}</td>
-    <td>1</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-09</td>
-    <td>Enviar mensajes al personal</td>
-    <td>TS-009</td>
-    <td>Obtener todas las entregas</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions</td>
-    <td>1</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-10</td>
-    <td>Ver respuestas del personal</td>
-    <td>TS-010</td>
-    <td>Crear nueva entrega</td>
-    <td>Crear endpoint de Submissions POST /api/v1/submissions</td>
-    <td>2</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-11</td>
-    <td>Programar visitas</td>
-    <td>TS-011</td>
-    <td>Obtener entregas por estudiante</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/submissions</td>
-    <td>1</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-12</td>
-    <td>Videollamadas integradas</td>
-    <td>TS-012</td>
-    <td>Obtener entregas por estudiante y reto</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/challenges/{challengeId}</td>
-    <td>1</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-13</td>
-    <td>Evaluar la calidad del servicio</td>
-    <td>TS-013</td>
-    <td>Obtener entregas por reto</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/challenges/{challengeId}/submissions</td>
-    <td>1</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-14</td>
-    <td>Recibir notificaciones de cambios</td>
-    <td>TS-014</td>
-    <td>Obtener grupo por ID</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups/{id}</td>
-    <td>1</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-15</td>
-    <td>Compartir fotos y mensajes motivacionales</td>
-    <td>TS-015</td>
-    <td>Actualizar grupo</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{id}</td>
-    <td>2</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-16</td>
-    <td>Coordinar cuidadores informales</td>
-    <td>TS-016</td>
-    <td>Eliminar grupo</td>
-    <td>Crear endpoint de Groups DELETE /api/v1/groups/{id}</td>
-    <td>1</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-17</td>
-    <td>Registro de cuidado domiciliario</td>
-    <td>TS-017</td>
-    <td>Obtener código de unión de grupo</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>1</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-18</td>
-    <td>Monitoreo ambiental del hogar</td>
-    <td>TS-018</td>
-    <td>Establecer código de unión de grupo</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>2</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-19</td>
-    <td>Coordinar con servicios médicos externos</td>
-    <td>TS-019</td>
-    <td>Restablecer código de unión de grupo</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes/reset</td>
-    <td>2</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-20</td>
-    <td>Gestión de emergencias domiciliarias</td>
-    <td>TS-020</td>
-    <td>Obtener todos los grupos</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups</td>
-    <td>1</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-21</td>
-    <td>Ver reporte semanal de estado del residente</td>
-    <td>TS-021</td>
-    <td>Crear nuevo grupo</td>
-    <td>Crear endpoint de Groups POST /api/v1/groups</td>
-    <td>2</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-22</td>
-    <td>Descargar reporte en PDF</td>
-    <td>TS-022</td>
-    <td>Unirse a grupo con código</td>
-    <td>Crear endpoint de Groups POST /api/v1/groups/join</td>
-    <td>2</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-23</td>
-    <td>Ver tendencias de salud por categoría</td>
-    <td>TS-023</td>
-    <td>Obtener reto por ID</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges/{challengeId}</td>
-    <td>1</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-24</td>
-    <td>Recibir recordatorios para revisar informes</td>
-    <td>TS-024</td>
-    <td>Actualizar reto</td>
-    <td>Crear endpoint de Challenges PUT /api/v1/challenges/{challengeId}</td>
-    <td>2</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-25</td>
-    <td>Generar reportes personalizados</td>
-    <td>TS-025</td>
-    <td>Eliminar reto</td>
-    <td>Crear endpoint de Challenges DELETE /api/v1/challenges/{challengeId}</td>
-    <td>1</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-26</td>
-    <td>Comparar períodos de tiempo</td>
-    <td>TS-026</td>
-    <td>Obtener todos los retos</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges</td>
-    <td>1</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-27</td>
-    <td>Registrar medicamento</td>
-    <td>TS-027</td>
-    <td>Crear nuevo reto</td>
-    <td>Crear endpoint de Challenges POST /api/v1/challenges</td>
-    <td>2</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>US-28</td>
-    <td>Eliminar medicina caducada</td>
-    <td>TS-028</td>
-    <td>Obtener retos por grupo</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges/groups/{groupId}/challenges</td>
-    <td>1</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-</table>
-
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description (Endpoint / Function) | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-03 | Recibir alertas críticas | **T01** | Implementar `POST /auth/register` | Registro de nuevos usuarios y roles. (Auth-Controller) | 3 | **Italo Verona** | Done |
+| US-38 | Validar credenciales del API | **T02** | Implementar `POST /auth/login` | Autenticación de usuarios y generación de JWT. (Auth-Controller) | 2 | **Italo Verona** | Done |
+| US-32 | Registrar doctor | **T03** | Implementar CRUD: `doctors-controller` | GET, PUT, DELETE, POST para Doctores. | 4 | **Fiorella Vilca** | Done |
+| US-35 | Asignar personal a turnos | **T04** | Implementar CRUD: `schedules-controller` | GET, PUT, DELETE, POST para Horarios Médicos. | 3 | **Fiorella Vilca** | Done |
+| US-39 | Registrar nuevo residente (API) | **T05** | Implementar CRUD: `patients-controller` | GET, PUT, DELETE, POST para Pacientes. | 4 | **Josue Flores** | Done |
+| US-32 | Registrar doctor | **T06** | Implementar Asignación de Doctor | `POST /patients/{patientId}/assign-doctor/{doctorId}` | 2 | **Josue Flores** | Done |
+| US-35 | Asignar personal a turnos | **T07** | Implementar Asignación Múltiple | `POST /patients/assignments` | 2 | **Josue Flores** | Done |
+| US-11 | Programar visitas | **T08** | Implementar CRUD: `appointments-controller` | GET, PUT, DELETE, POST para Citas. | 4 | **Josue Flores** | Done |
+| US-09 | Enviar mensajes al personal | **T09** | Implementar CRUD: `conversations-controller` | GET, PUT, DELETE, POST para Conversaciones. | 3 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T10** | Implementar CRUD: `messages-controller` | GET, PUT, DELETE, POST para Mensajes. | 4 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T11** | Implementar PATCH /mark-as-read | Marcar mensajes como leídos. | 1 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T12** | Obtener Mensajes por Conversación | GET /messages/conversation/{conversationId} | 2 | **Mauricio Vilcapoma** | Done |
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
