@@ -118,6 +118,7 @@ Agosto 2025
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 | **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
 | **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
+| **Deploy Backend**        | `https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#/`         |
 
 
 
@@ -244,6 +245,29 @@ Distribución de commits:
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
         - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
         - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint) 
+    - [5.3. Validation Interviews](#53-Validation-Interviews)
+      - [5.3.1 Diseño de Entrevistas](#5.3.1-Diseño-de-Entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-Registro-de-Entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-Evaluaciones-segun-heuristicas)
+    - [5.4. Video About-the-product](#54-Video-about-the-product)
+      - [5.2.4. Sprint 4](#524-sprint-4)
+        - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+        - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+        - [5.2.4.3. Sprint Backlog 4](#5233-sprint-backlog-4)
+        - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+        - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+        - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.4.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint) 
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -260,8 +284,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico. <br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.|
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. <br><br>**Fiorella Angela Vilca Valverde (TP):** Redacté la documentación correspondiente a la sección de diseño UI/UX de la plataforma web, explicando las decisiones visuales y su impacto en la experiencia del usuario. Además, participé en la revisión ortográfica y en la redacción del capítulo de implementación de la interfaz.<br><br>**Italo Sebastian Verona Flores (TP):** Elaboré el apartado técnico sobre la estructura y componentes del frontend, detallando el proceso de maquetación y validando la coherencia entre los módulos de navegación y presentación. También revisé la redacción del informe técnico y las secciones de desarrollo del Sprint 2.<br><br>**Josue Antonio Flores Apaico (TP):** Redacté los apartados relacionados con el desarrollo funcional de la plataforma, los módulos de reportes y monitoreo, y la documentación de la planificación Sprint 2. Participé en la corrección de estilo y en la unificación del formato del documento final.<br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP):** Me encargué de redactar las secciones técnicas, describiendo la arquitectura, la gestión de datos y la integración de los módulos funcionales. Además, colaboré en la revisión del informe final para mantener la consistencia técnica y el lenguaje profesional en todo el documento.| **TB1**<br>El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. <br><br>**TP**<br>La redacción conjunta permitió generar un informe claro, coherente y estructurado, adaptado tanto a lectores técnicos como a un público académico. El trabajo en equipo se reflejó en un documento bien fundamentado, con lenguaje profesional, ortografía revisada y coherencia global en todos los capítulos del Sprint 2.|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo presenté de manera clara los objetivos de la investigación, expliqué en detalle la metodología aplicada durante el desarrollo del trabajo y participé en la introducción oral del informe, procurando transmitir las ideas con orden y precisión.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo expuse los objetivos de la investigación con un enfoque estructurado, desarrollé la explicación de la metodología frente a la clase y reforcé la presentación de la introducción, contribuyendo a la coherencia general de la exposición oral.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo comuniqué los objetivos principales del proyecto, expliqué la metodología ante la audiencia y participé en la exposición de la introducción del informe, asegurando que el mensaje se transmitiera de forma clara y entendible.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema. <br><br>**Fiorella Angela Vilca Valverde (TP):** Expliqué de manera clara las funcionalidades visuales desarrolladas para la interfaz de EternaCare, detallando el proceso de diseño y la estructura de las secciones informativas de la plataforma. Presenté la lógica de navegación y su coherencia con la experiencia del usuario. <br><br>**Italo Sebastian Verona Flores (TP):** Expuse la implementación técnica del frontend y la integración de los componentes interactivos en la landing page. Describí cómo se aplicaron los principios de usabilidad y accesibilidad durante el desarrollo de la interfaz principal. <br><br>**Josue Antonio Flores Apaico (TP):** Presenté la estructura funcional del sistema de reportes, el módulo de monitoreo y la gestión de notificaciones, explicando su integración dentro del flujo web. Además, coordiné la exposición general del Sprint 2 y el proceso de despliegue técnico. <br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP1):** Yo me encargué de exponer los objetivos de la investigación, brindar una explicación detallada de la metodología utilizada y presentar parte de la introducción del informe, demostrando seguridad y dominio del tema.  <br><br> **Fiorella Angela Vilca Valverde (TB2 – Sprint 3):** Presenté las funcionalidades desarrolladas durante el Sprint 3, detallando los avances en el diseño UI/UX y explicando la coherencia entre las vistas implementadas y la experiencia del usuario. Participé en la exposición general del progreso técnico y visual.<br><br>**Italo Sebastian Verona Flores (TB2 – Sprint 3):** Expliqué la integración del frontend con los servicios actualizados, la implementación de nuevas vistas y la lógica de navegación del sistema. Mostré claridad técnica al detallar la interacción entre componentes.<br><br>**Josue Antonio Flores Apaico (TB2 – Sprint 3):** Presenté los avances del sistema de reportes y la mejora en los flujos funcionales, explicando su impacto dentro del Sprint 3. Además, coordiné la exposición grupal y el orden de presentación de módulos.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB2 – Sprint 3):** Expuse el progreso del backend, los endpoints completados y su integración con la base de datos, además del proceso de despliegue en Azure. Detallé claramente la lógica interna implementada durante el Sprint 3. <br><br>**Fiorella Angela Vilca Valverde (TF – Sprint 4):** Presenté las mejoras finales en la experiencia visual, la optimización de las interfaces y el diseño coherente del prototipo final. Expliqué la iteración de los componentes y su refinamiento según retroalimentación del Sprint anterior.<br><br>**Italo Sebastian Verona Flores (TF – Sprint 4):** Expuse la estructura técnica final del frontend, explicando la integración completa entre vistas, componentes y estados. Mostré claridad al describir el producto funcional y las mejoras aplicadas al terminar el proyecto.<br><br>**Josue Antonio Flores Apaico (TF – Sprint 4):** Presenté la arquitectura funcional final, explicando cómo los módulos se integraron para formar un sistema estable. Lideré la presentación del TF, asegurando la fluidez de la exposición final.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TF – Sprint 4):** Expliqué el estado final del backend, la implementación completa de los endpoints, la integración con Azure y el despliegue final del sistema. Mostré dominio técnico durante la sustentación del trabajo final.| **TB1**<br>En conjunto, nuestras presentaciones orales permitieron transmitir los resultados con claridad tanto a un público técnico como no técnico. Supimos adaptar el discurso según la audiencia, lo que facilitó la comprensión del tema y generó confianza en la exposición. La comunicación oral fortaleció el impacto del proyecto y consolidó nuestro trabajo en equipo. <br><br>**TP** <br>Cada integrante demostró claridad y dominio técnico al comunicar los avances de su módulo durante la exposición del Sprint 2. Se logró transmitir de manera efectiva tanto la funcionalidad de la plataforma EternaCare como la coherencia del desarrollo colaborativo ante diferentes públicos.  <br><br> **TB2 – Sprint 3**<br>Las presentaciones permitieron comunicar de manera clara y directa los avances del Sprint 3. Cada miembro expuso con seguridad su módulo, mostrando progreso técnico y habilidad para adaptar el mensaje según la audiencia. Esto fortaleció la comprensión del estado del producto y la cohesión del equipo.<br><br>**TF – Sprint 4**<br>Se logró transmitir con claridad el producto final, demostrando madurez comunicativa y dominio del proyecto. La exposición mostró coordinación, claridad técnica y capacidad para presentar resultados a diferentes públicos, consolidando todo el proceso desarrollado en ciclos anteriores. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Fiorella Angela Vilca Valverde (TB1):** Yo elaboré la introducción del informe con un estilo claro y organizado, participé en la redacción de la metodología y estructuré los objetivos de manera comprensible para distintos lectores.<br><br>**Italo Sebastian Verona Flores (TB1):** Yo redacté apartados del informe vinculados a la metodología, colaboré en la presentación escrita de los objetivos y revisé la introducción para asegurar la coherencia del documento.<br><br>**Josue Antonio Flores Apaico (TB1):** Yo trabajé en la redacción de la introducción, formulé los objetivos por escrito con precisión y colaboré en la explicación de la metodología dentro del informe, cuidando la claridad de la redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB1):** Yo me encargué de la redacción de la metodología, participé en la presentación escrita de los objetivos y ayudé en la organización de la introducción, procurando la cohesión y el estilo del informe. <br><br>**Fiorella Angela Vilca Valverde (TP):** Redacté la documentación correspondiente a la sección de diseño UI/UX de la plataforma web, explicando las decisiones visuales y su impacto en la experiencia del usuario. Además, participé en la revisión ortográfica y en la redacción del capítulo de implementación de la interfaz.<br><br>**Italo Sebastian Verona Flores (TP):** Elaboré el apartado técnico sobre la estructura y componentes del frontend, detallando el proceso de maquetación y validando la coherencia entre los módulos de navegación y presentación. También revisé la redacción del informe técnico y las secciones de desarrollo del Sprint 2.<br><br>**Josue Antonio Flores Apaico (TP):** Redacté los apartados relacionados con el desarrollo funcional de la plataforma, los módulos de reportes y monitoreo, y la documentación de la planificación Sprint 2. Participé en la corrección de estilo y en la unificación del formato del documento final.<br><br> **Mauricio Rigoberto Muñoz Vilcapoma (TP):** Me encargué de redactar las secciones técnicas, describiendo la arquitectura, la gestión de datos y la integración de los módulos funcionales. Además, colaboré en la revisión del informe final para mantener la consistencia técnica y el lenguaje profesional en todo el documento. <br><br> **Fiorella Angela Vilca Valverde (TB2 – Sprint 3):** Redacté la documentación del diseño UI/UX correspondiente al Sprint 3, explicando los cambios realizados y la justificación visual. Además, participé en la revisión general del documento del sprint.<br><br>**Italo Sebastian Verona Flores (TB2 – Sprint 3):** Redacté la descripción de los nuevos componentes del frontend, explicando la estructura interna y la interacción entre módulos. Revisé la coherencia técnica y el detalle de la sección del Sprint 3.<br><br>**Josue Antonio Flores Apaico (TB2 – Sprint 3):** Redacté los apartados funcionales del sistema, documentando el flujo de reportes y las mejoras implementadas. Trabajé en la corrección de estilo y la unificación del lenguaje técnico.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TB2 – Sprint 3):** Documenté el backend del Sprint 3, especificando endpoints, lógica interna y procesos de despliegue. Realicé la revisión técnica general del documento. <br><br>**Fiorella Angela Vilca Valverde (TF – Sprint 4):** Redacté las conclusiones de diseño y documenté la versión final del prototipo UI/UX, explicando las mejoras implementadas. Apoyé en la revisión final del informe del TF.<br><br>**Italo Sebastian Verona Flores (TF – Sprint 4):** Redacté la documentación técnica del frontend final, explicando la estructura integrada del sistema y validando la consistencia entre módulos. Realicé revisiones ortográficas y de formato.<br><br>**Josue Antonio Flores Apaico (TF – Sprint 4):** Redacté los apartados funcionales del producto final, estructurando la explicación del sistema completo y asegurando claridad en el documento del TF. Participé activamente en la unificación del estilo de redacción.<br><br>**Mauricio Rigoberto Muñoz Vilcapoma (TF – Sprint 4):** Documenté el backend final, detallando servicios, endpoints, procesos de despliegue y arquitectura completa. Revisé la consistencia técnica del informe y su presentación final.| **TB1**<br>El trabajo escrito reflejó la participación activa de todos los integrantes y dio como resultado un documento bien estructurado y coherente. Logramos transmitir nuestras ideas de forma clara y adaptarlas a distintos públicos, desde lectores especializados hasta no técnicos. El informe final consolidó nuestras conclusiones y mostró la efectividad de nuestra comunicación escrita. <br><br>**TP**<br>La redacción conjunta permitió generar un informe claro, coherente y estructurado, adaptado tanto a lectores técnicos como a un público académico. El trabajo en equipo se reflejó en un documento bien fundamentado, con lenguaje profesional, ortografía revisada y coherencia global en todos los capítulos del Sprint 2. <br><br> **TB2 – Sprint 3**<br>El informe del Sprint 3 alcanzó un estilo claro, organizado y técnico. La colaboración en la redacción permitió presentar los avances con coherencia, facilitando la comprensión del progreso del proyecto para cualquier tipo de lector. <br><br>**TF – Sprint 4**<br>La calidad del informe final reflejó el trabajo de todo el equipo. Se logró un documento profesional, bien estructurado y adaptado a lectores técnicos y académicos. El TF consolidó la capacidad del grupo para comunicar por escrito de manera clara, completa y consistente. |
 
 
 ## Capitulo I
@@ -2524,226 +2548,30 @@ Asimismo, se efectuó una actualización en la **landing page**.
 
 Trello Sprint 2: https://trello.com/invite/b/68e8866039dabe1a99f4d3ec/ATTI9c9751dfca09a7363cc67550cbe6cc8c43BF7008/sprint-2
 
-<table>
-<tr>
-<th colspan="8">Sprint #2 – EternaCare Web Platform</th>
-</tr>
-<tr>
-<th colspan="2">User Story</th>
-<th colspan="6">Work-Item / Task</th>
-</tr>
-<tr>
-<th>Id</th>
-<th>Title</th>
-<th>Id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Estimation (Hours)</th>
-<th>Assigned To</th>
-<th>Status (To-do / In-Process / To-Review / Done)</th>
-</tr>
+Sprint #2 – EternaCare Web Platform
 
-<!-- US-001 -->
-<tr>
-<td rowspan="2">US-001</td>
-<td rowspan="2">Ver estado de salud del residente</td>
-<td>T01</td>
-<td>Implementar panel de monitoreo web</td>
-<td>Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T02</td>
-<td>Conectar panel con base de datos</td>
-<td>Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-
-<!-- US-009 -->
-<tr>
-<td rowspan="2">US-009</td>
-<td rowspan="2">Enviar mensajes al personal</td>
-<td>T03</td>
-<td>Desarrollar módulo de mensajería interna</td>
-<td>Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real.</td>
-<td>5</td>
-<td>Luquillas Asto Omar</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T04</td>
-<td>Guardar historial de mensajes</td>
-<td>Registrar los mensajes enviados en la base de datos con fecha, hora y usuario.</td>
-<td>2</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-012 -->
-<tr>
-<td rowspan="2">US-012</td>
-<td rowspan="2">Videollamadas integradas</td>
-<td>T05</td>
-<td>Crear interfaz de videollamadas</td>
-<td>Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-<tr>
-<td>T06</td>
-<td>Integrar servicio de videollamada WebRTC</td>
-<td>Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente.</td>
-<td>5</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-014 -->
-<tr>
-<td rowspan="2">US-014</td>
-<td rowspan="2">Recibir notificaciones de cambios</td>
-<td>T07</td>
-<td>Configurar sistema de notificaciones web</td>
-<td>Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente.</td>
-<td>3</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T08</td>
-<td>Crear historial de notificaciones</td>
-<td>Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-021 -->
-<tr>
-<td rowspan="2">US-021</td>
-<td rowspan="2">Ver reporte semanal de estado</td>
-<td>T09</td>
-<td>Generar reportes en PDF</td>
-<td>Compilar los datos del residente y generar un reporte semanal descargable en PDF.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T10</td>
-<td>Visualizar métricas de progreso</td>
-<td>Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Review</td>
-</tr>
-
-<!-- US-025 -->
-<tr>
-<td rowspan="2">US-025</td>
-<td rowspan="2">Reportes personalizados</td>
-<td>T11</td>
-<td>Implementar filtros dinámicos</td>
-<td>Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Do</td>
-</tr>
-<tr>
-<td>T12</td>
-<td>Exportar reportes filtrados</td>
-<td>Permitir la descarga de los reportes personalizados en formato PDF o Excel.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>To-Do</td>
-</tr>
-
-<!-- US-045 -->
-<tr>
-<td rowspan="2">US-045</td>
-<td rowspan="2">Ver testimonios y casos de éxito</td>
-<td>T13</td>
-<td>Diseñar sección de testimonios</td>
-<td>Implementar módulo con experiencias reales de usuarios dentro de la página principal.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T14</td>
-<td>Integrar contenido de testimonios</td>
-<td>Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-
-<!-- US-046 -->
-<tr>
-<td rowspan="2">US-046</td>
-<td rowspan="2">Solicitar información personalizada</td>
-<td>T15</td>
-<td>Diseñar formulario de contacto</td>
-<td>Crear los campos para nombre, correo y mensaje en la sección de contacto.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T16</td>
-<td>Implementar formulario con validaciones</td>
-<td>Maquetar el formulario e implementar validaciones básicas con JavaScript.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-049 -->
-<tr>
-<td rowspan="2">US-049</td>
-<td rowspan="2">Acceder a recursos educativos</td>
-<td>T17</td>
-<td>Crear sección de recursos y guías</td>
-<td>Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T18</td>
-<td>Integrar material educativo</td>
-<td>Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-050 -->
-<tr>
-<td rowspan="2">US-050</td>
-<td rowspan="2">Comparar con competidores</td>
-<td>T19</td>
-<td>Implementar tabla comparativa</td>
-<td>Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T20</td>
-<td>Optimizar diseño de la tabla</td>
-<td>Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-
-</table>
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-001 | Ver estado de salud del residente | T01 | Implementar panel de monitoreo web | Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente. | 4 | Josue Flores | Done |
+| US-001 | Ver estado de salud del residente | T02 | Conectar panel con base de datos | Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real. | 3 | Italo Verona | Done |
+| US-009 | Enviar mensajes al personal | T03 | Desarrollar módulo de mensajería interna | Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real. | 5 | Mauricio Vilcapoma | Done |
+| US-009 | Enviar mensajes al personal | T04 | Guardar historial de mensajes | Registrar los mensajes enviados en la base de datos con fecha, hora y usuario. | 2 | Fiorella Vilca | Done |
+| US-012 | Videollamadas integradas | T05 | Crear interfaz de videollamadas | Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono. | 4 | Josue Flores | To-Review |
+| US-012 | Videollamadas integradas | T06 | Integrar servicio de videollamada WebRTC | Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente. | 5 | Italo Verona | In-Process |
+| US-014 | Recibir notificaciones de cambios | T07 | Configurar sistema de notificaciones web | Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente. | 3 | Josue Flores | Done |
+| US-014 | Recibir notificaciones de cambios | T08 | Crear historial de notificaciones | Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline. | 3 | Italo Verona | In-Process |
+| US-021 | Ver reporte semanal de estado | T09 | Generar reportes en PDF | Compilar los datos del residente y generar un reporte semanal descargable en PDF. | 4 | Josue Flores | Done |
+| US-021 | Ver reporte semanal de estado | T10 | Visualizar métricas de progreso | Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente. | 3 | Fiorella Vilca | To-Review |
+| US-025 | Reportes personalizados | T11 | Implementar filtros dinámicos | Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados. | 3 | Fiorella Vilca | To-Do |
+| US-025 | Reportes personalizados | T12 | Exportar reportes filtrados | Permitir la descarga de los reportes personalizados en formato PDF o Excel. | 2 | Italo Verona | To-Do |
+| US-045 | Ver testimonios y casos de éxito | T13 | Diseñar sección de testimonios | Implementar módulo con experiencias reales de usuarios dentro de la página principal. | 3 | Italo Verona | Done |
+| US-045 | Ver testimonios y casos de éxito | T14 | Integrar contenido de testimonios | Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive. | 2 | Josue Flores | Done |
+| US-046 | Solicitar información personalizada | T15 | Diseñar formulario de contacto | Crear los campos para nombre, correo y mensaje en la sección de contacto. | 2 | Italo Verona | Done |
+| US-046 | Solicitar información personalizada | T16 | Implementar formulario con validaciones | Maquetar el formulario e implementar validaciones básicas con JavaScript. | 3 | Fiorella Vilca | Done |
+| US-049 | Acceder a recursos educativos | T17 | Crear sección de recursos y guías | Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores. | 4 | Josue Flores | In-Process |
+| US-049 | Acceder a recursos educativos | T18 | Integrar material educativo | Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T19 | Implementar tabla comparativa | Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T20 | Optimizar diseño de la tabla | Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles. | 2 | Josue Flores | To-Review |
 
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
@@ -2906,60 +2734,1043 @@ Se adjuntan las evidencias de colaboración del equipo durante el Sprint #2 de E
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
 <img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
 
-## Conclusiones
 
-1. **Problema vigente y relevante:**  
-   La falta de comunicación efectiva y de acceso inmediato a la información entre familiares y centros geriátricos constituye una dificultad crítica en Lima, considerando el aumento constante de adultos mayores y la creciente demanda de servicios de cuidado.  
 
-2. **Solución centrada en los usuarios:**  
-   La propuesta responde de manera precisa a los requerimientos de los tres actores principales: familiares, profesionales de la salud y administradores. Cada uno cuenta con funcionalidades específicas que atienden directamente sus necesidades y puntos de dolor.  
 
-3. **Alta factibilidad tecnológica:**  
-   El acceso a Internet y el uso cotidiano de herramientas digitales en Lima son lo suficientemente amplios como para garantizar la adopción temprana de la plataforma, tanto por parte de las familias como del personal de atención.  
+#### 5.2.3. Sprint 3
 
-4. **Alto impacto esperado:**  
-   La aplicación tiene el potencial de elevar la calidad de vida de los residentes, disminuir la incertidumbre de los familiares y optimizar el desempeño del personal, promoviendo mejoras significativas en la gestión geriátrica.  
+##### 5.2.3.1. Sprint Planning 3 
 
-5. **Fundamentos para escalabilidad futura:**  
-   La implementación de los CRUDs establece una arquitectura sólida que permite conectar el backend con interfaces web y móviles, habilitando integraciones posteriores con módulos de notificaciones, mensajería y análisis de datos.  
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-11-05</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>13:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td> Reunión virtual en Discord </td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Josue Antonio Flores Apaico</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 3 Goal</th>
+    <td>El objetivo de este sprint es desarrollar y consolidar las funcionalidades del backend asignando a cada integrante las tareas correspondientes al bounded context que elija, asegurando la correcta implementación de la lógica de negocio y finalizando con un informe técnico que describa detalladamente los aportes y desarrollos realizados por cada miembro.</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Velocity</th>
+    <td>33 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>33 puntos</td>
+  </tr>
+</table>
 
-6. **Gestión responsable de datos sensibles:**  
-   Al garantizar operaciones seguras de creación, consulta, actualización y eliminación de registros, se refuerza la protección de información sensible relacionada con la salud, alineándose con buenas prácticas en seguridad y confidencialidad.
-   
-7. **Impacto positivo en la gestión del cuidado geriátrico:**  
-   EternaCare tiene el potencial de optimizar la coordinación entre familiares, personal médico y administradores, reduciendo errores de comunicación y mejorando el bienestar emocional de los adultos mayores bajo cuidado institucional.
-8. **Implementación modular con visión de crecimiento:**
-   La estructura del proyecto permite añadir nuevas funcionalidades sin afectar las ya existentes. Esto crea un entorno flexible para futuras expansiones como aplicaciones móviles, analítica avanzada y automatización de alertas. 
-9. **Fortalecimiento de competencias profesionales:**  
-   El desarrollo del proyecto permitió a los integrantes aplicar conocimientos técnicos en un contexto real, reforzando habilidades en diseño de interfaces, programación, gestión de bases de datos y documentación técnica, alineadas a los resultados de aprendizaje del programa.
-10. **Contribución al desarrollo tecnológico social:**
-   EternaCare representa un ejemplo de cómo la tecnología puede generar impacto social positivo cuando se diseña con propósito. El sistema no solo ofrece soluciones digitales, sino también esperanza y acompañamiento a las familias y adultos mayores.  
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+Esta sección detalla la distribución de responsabilidades técnicas dentro del equipo de desarrollo, enfocada principalmente en los bounded contexts del backend del sistema. Cada integrante asume el rol de leader (L) o collaborator (C) en función de su especialización y del dominio funcional asignado.
+El propósito de esta estructura es garantizar una implementación coherente y eficiente de la lógica de negocio, promover la autonomía técnica y facilitar la integración modular entre los distintos contextos: IAM, Appointments, Messaging y Health Monitoring.
+La siguiente tabla resume los roles y responsabilidades específicas de cada miembro del equipo en relación con estos bounded contexts.
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>IAM BC</th>
+      <th>Appointments BC</th>
+      <th>Messaging BC</th>
+      <th>Health Monitoring BC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.3.Sprint Backlog 3.
+
+En el Sprint 3, el propósito principal fue cumplir el objetivo de establecer la infraestructura funcional de la plataforma CareLink, desarrollando y consolidando la API RESTful del sistema. Esto se logró mediante la implementación de la lógica de negocio, la validación de la Arquitectura Hexagonal (DDD), y la preparación del ambiente de producción en Azure.
+
+Para cumplir con este objetivo, la implementación de la API se organizó en los siguientes Bounded Contexts (BC) (dominios del negocio), donde cada integrante lideró la creación de los endpoints necesarios para soportar las funcionalidades clave de la aplicación web:
+
+* IAM (Identity & Access Management): Cubriendo la Autenticación y Registro de usuarios para el acceso seguro.
+
+* Doctor Management: Cubriendo la gestión de Personal Médico y Horarios de atención.
+
+* Patient Management & Health Monitoring: Cubriendo la gestión de Pacientes y los endpoints base para el Monitoreo de Salud.
+
+* Messaging & Appointments: Cubriendo la funcionalidad de Comunicaciones internas y la gestión de Citas Médicas.
+
+El sprint se enfocó en asegurar que todos los controllers (Auth, Doctors, Patients, Schedules, Appointments, Conversations y Messages) se integraran correctamente, culminando con el despliegue exitoso del backend en Azure App Service y PostgreSQL.
+
+<img width="" height="" alt="image" src="./images/chapter-5/Sprint Backlog 3.jpeg" />
+
+Trello Sprint 3:
+https://trello.com/invite/b/69310b612d4c60619cf06e12/ATTIad7edce4776a7b725cca9186f8be43853038232D/sprint-3 
+
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description (Endpoint / Function) | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-03 | Recibir alertas críticas | **T01** | Implementar `POST /auth/register` | Registro de nuevos usuarios y roles. (Auth-Controller) | 3 | **Italo Verona** | Done |
+| US-38 | Validar credenciales del API | **T02** | Implementar `POST /auth/login` | Autenticación de usuarios y generación de JWT. (Auth-Controller) | 2 | **Italo Verona** | Done |
+| US-32 | Registrar doctor | **T03** | Implementar CRUD: `doctors-controller` | GET, PUT, DELETE, POST para Doctores. | 4 | **Fiorella Vilca** | Done |
+| US-35 | Asignar personal a turnos | **T04** | Implementar CRUD: `schedules-controller` | GET, PUT, DELETE, POST para Horarios Médicos. | 3 | **Fiorella Vilca** | Done |
+| US-39 | Registrar nuevo residente (API) | **T05** | Implementar CRUD: `patients-controller` | GET, PUT, DELETE, POST para Pacientes. | 4 | **Josue Flores** | Done |
+| US-32 | Registrar doctor | **T06** | Implementar Asignación de Doctor | `POST /patients/{patientId}/assign-doctor/{doctorId}` | 2 | **Josue Flores** | Done |
+| US-35 | Asignar personal a turnos | **T07** | Implementar Asignación Múltiple | `POST /patients/assignments` | 2 | **Josue Flores** | Done |
+| US-11 | Programar visitas | **T08** | Implementar CRUD: `appointments-controller` | GET, PUT, DELETE, POST para Citas. | 4 | **Josue Flores** | Done |
+| US-09 | Enviar mensajes al personal | **T09** | Implementar CRUD: `conversations-controller` | GET, PUT, DELETE, POST para Conversaciones. | 3 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T10** | Implementar CRUD: `messages-controller` | GET, PUT, DELETE, POST para Mensajes. | 4 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T11** | Implementar PATCH /mark-as-read | Marcar mensajes como leídos. | 1 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T12** | Obtener Mensajes por Conversación | GET /messages/conversation/{conversationId} | 2 | **Mauricio Vilcapoma** | Done |
+
+#### 5.2.3.4.Development Evidence for Sprint Review.
+
+
+En esta sección se presenta la evidencia del trabajo de desarrollo realizado durante el sprint, sustentado en los commits del repositorio oficial del proyecto **EternaCare-OpenSource/backend**. La actividad registrada refleja la construcción progresiva de los bounded contexts, la implementación de las capas arquitectónicas, las mejoras de seguridad, el soporte de persistencia y la preparación del backend para su despliegue en Azure.
+
+La evidencia incluye contribuciones provenientes de todos los integrantes que participaron en el desarrollo técnico del sprint.
 
 ---
 
-* **Recomendaciones:**
-1. **Incorporar un módulo de accesibilidad y soporte:**  
-   Se debe prever que algunos usuarios enfrenten barreras tecnológicas o limitaciones físicas. Por ello, resulta conveniente añadir opciones como lectura simplificada, notificaciones vía WhatsApp y un canal básico de asistencia.  
+### **Evidencias de Desarrollo (Commits Relevantes)**
 
-2. **Fomentar el uso por parte del personal:**  
-   Integrar incentivos, logros o reconocimientos internos puede aumentar la motivación del personal para utilizar la plataforma de forma continua y contribuir a mantener la calidad de los datos registrados.  
+A continuación se listan los principales aportes realizados durante el sprint, organizados por fecha:
 
-3. **Escalar de manera gradual:**  
-   Iniciar la expansión con instituciones de mayor reconocimiento y, posteriormente, extender el alcance hacia zonas rurales con baja conectividad, apoyándose en alianzas con estas entidades para garantizar la operatividad.
+---
 
-4. **Implementar un módulo de analítica:**
-   Desarrollar un sistema de métricas que permita evaluar el estado general de los residentes, tiempos de respuesta del personal y nivel de interacción familiar. Esta información serviría para optimizar la toma de decisiones y generar reportes automáticos de impacto.
+### ** 16 de noviembre de 2025 – Integración final, correcciones y preparación para deployment**
+- **Fix Name** — Ajustes finales de nomenclatura interna para estandarización del proyecto.  
+- **Fix authorize button** — Corrección de flujos de autorización en la UI de Swagger.  
+- **Fix application.properties encoding filter** — Ajuste del encode UTF-8 para compatibilidad con Azure y Postgres.  
+- **Set UTF-8 encoding for build and resources** — Configuración del build system para asegurar codificación uniforme.  
+- **Add or update the Azure App Service build and deployment workflow config** — Adición del workflow de GitHub Actions para CI/CD.  
+- **Fix auth security + added db remote** — Integración con base de datos remota en Azure y correcciones de seguridad.  
+- **feat: add bounded context appointments** — Implementación del bounded context de *Appointments*.  
+- **feat: add bounded context health monitoring** — Implementación del bounded context de *Health Monitoring*.
 
-5. **Integrar autenticación avanzada:**
-   Incorporar autenticación de dos factores (2FA) o validación biométrica para fortalecer la seguridad de los usuarios y garantizar el acceso legítimo a información médica sensible.
-6. **Optimizar el flujo de comunicación:**
-   Desarrollar una bandeja centralizada de notificaciones que unifique alertas, mensajes y recordatorios en un solo espacio visual, mejorando la organización del usuario y la interacción con el sistema.
-7. **Validar la experiencia del usuario:**
-   Realizar pruebas de usabilidad con usuarios reales (familiares y cuidadores) para ajustar los flujos de navegación, lenguaje visual y tiempos de respuesta, asegurando una experiencia accesible y empática.
-8. **Escalar hacia un modelo móvil progresivo (PWA):**
-   Adaptar la plataforma web para funcionar como aplicación progresiva (PWA), garantizando un acceso rápido y fluido en dispositivos móviles, incluso con conexión limitada.
-9. **Establecer monitoreo de mantenimiento:**
-   Definir un cronograma de mantenimiento y respaldo de datos, junto con un panel de control interno que muestre el estado del sistema, métricas de uso y reportes de errores en tiempo real.
+---
+
+### ** 12 de noviembre de 2025 – Construcción completa de arquitectura hexagonal (layers y BCs)**
+- **feat: add interfaces layer for authentication** — Creación de la capa de interfaces para autenticación y punto de entrada.  
+- **feat: add domain layer** — Implementación del Dominio con entidades, value objects y agregados.  
+- **feat: add Application Layer** — Construcción de la capa de aplicación con casos de uso.  
+- **feat: add functionality of persistence in bc** — Implementación de puertos, adapters, repositorios y persistencia.  
+- **feat: add bounded context IAM** — Desarrollo del bounded context de *Identity and Access Management*.  
+- **feat: add messaging bc** — Adición del bounded context de *Messaging*.
+
+---
+
+### ** 13 de octubre de 2025 – Inicio del proyecto**
+- **Initial commit** — Estructura base del proyecto incluyendo configuración inicial de Gradle/Maven, API skeleton, y archivos básicos.
+
+---
+
+<img width="1094" height="971" alt="image" src="https://github.com/user-attachments/assets/f8b7bf97-e82c-4f72-a50e-a286c8b8d063" />
+
+
+### **Resumen del Trabajo de Desarrollo**
+
+Durante este sprint se logró implementar:
+
+- La estructura completa del backend bajo arquitectura **DDD + Hexagonal Architecture**.  
+- Cuatro bounded contexts íntegramente funcionales:  
+  - Identity and Access Management  
+  - Appointments  
+  - Health Monitoring  
+  - Messaging  
+- Configuración completa de autenticación, casos de uso y lógica de dominio.  
+- Implementación de repositorios, adaptadores y comunicación con la base de datos remota.  
+- Estándar de codificación unificado (UTF-8) para despliegue en Azure.  
+- Preparación del backend para CI/CD mediante GitHub Actions.  
+
+El progreso evidencia que las funcionalidades principales del backend fueron implementadas y estabilizadas durante el sprint, permitiendo su integración directa con la infraestructura cloud del proyecto.
+
+
+
+
+#### 5.2.3.5.Execution Evidence for Sprint Review.
+
+Esta sección presenta la evidencia de ejecución del sprint correspondiente al backend de **CareLink**, validada a través del entorno de pruebas de **Swagger UI**.  
+Durante el proceso, se comprobó el correcto funcionamiento de los controladores (controllers) asociados a cada dominio del sistema, garantizando que todas las operaciones CRUD (Create, Read, Update, Delete) y las funciones complementarias se ejecuten conforme a los requerimientos establecidos en el backlog de producto.  
+
+Las siguientes capturas muestran la estructura final de endpoints disponibles por módulo, evidenciando la correcta integración del sistema bajo los principios de arquitectura **DDD (Domain-Driven Design)** y la separación de responsabilidades entre capas de dominio, aplicación e infraestructura.
+
+##### **SchedulesController**
+<img width="1438" height="331" alt="image" src="https://github.com/user-attachments/assets/1fbf0ac0-f7b3-4dec-92f6-9673ddbdd9df" />
+
+El **SchedulesController** maneja la gestión de horarios médicos.  
+Incluye endpoints CRUD que permiten registrar nuevos horarios (`POST`), consultarlos (`GET`), modificarlos (`PUT`) o eliminarlos (`DELETE`).  
+Su implementación garantiza la disponibilidad horaria de los doctores, permitiendo planificar de forma dinámica la asignación de citas.
+
+
+##### **PatientsController**
+<img width="1441" height="429" alt="image" src="https://github.com/user-attachments/assets/2cb7f5b0-4423-44b6-aa3b-ab00a0340b74" />
+
+El **PatientsController** gestiona la información de los pacientes registrados.  
+Incluye endpoints para CRUD completo de pacientes, junto con funciones específicas para la **asignación de doctores**, tanto de manera individual (`/assign-doctor/{doctorId}`) como múltiple (`/assignments`).  
+De esta forma, se facilita la relación médico-paciente y la coordinación de cuidados desde el backend.
+
+
+##### **MessagesController**
+<img width="1436" height="425" alt="image" src="https://github.com/user-attachments/assets/f7882be9-ff8e-41cc-bc6b-8665b5c4b4f5" />
+
+El **MessagesController** centraliza la gestión de mensajes dentro de cada conversación.  
+Permite enviar (`POST`), leer (`GET`), actualizar (`PUT`), eliminar (`DELETE`) y marcar mensajes como leídos (`PATCH /mark-as-read`).  
+Además, cuenta con un endpoint dedicado para obtener todos los mensajes asociados a una conversación (`/conversation/{conversationId}`).  
+Este módulo fue clave para validar la comunicación bidireccional entre doctores y pacientes.
+
+
+##### **DoctorsController**
+<img width="1437" height="324" alt="image" src="https://github.com/user-attachments/assets/8f9a182b-8358-471f-aed1-d28c3cc1c8e1" />
+
+El **DoctorsController** permite la administración de los perfiles de los doctores del sistema.  
+A través de sus endpoints, es posible registrar nuevos doctores (`POST`), consultar su información (`GET`), actualizar sus datos (`PUT`) o eliminarlos (`DELETE`).  
+Este módulo forma parte del núcleo de gestión de personal médico dentro del ecosistema de CareLink.
+
+
+##### **ConversationsController**
+<img width="1441" height="318" alt="image" src="https://github.com/user-attachments/assets/8d95fab1-17de-4740-a31e-d8a23e21ee20" />
+El **ConversationsController** se encarga de manejar las conversaciones entre pacientes y doctores.  
+Sus endpoints permiten crear (`POST`), listar (`GET`), actualizar (`PUT`) o eliminar (`DELETE`) conversaciones, manteniendo un registro ordenado de las interacciones y vínculos entre usuarios del sistema.
+
+
+##### **AppointmentsController**
+<img width="1439" height="321" alt="image" src="https://github.com/user-attachments/assets/88e43792-6bab-4426-82d1-208e89cc2041" />
+
+El **AppointmentsController** administra las operaciones relacionadas con las citas médicas. Contiene endpoints para listar (`GET`), crear (`POST`), actualizar (`PUT`) y eliminar (`DELETE`) citas.  
+Estas operaciones permiten que doctores y pacientes gestionen sus citas programadas, verificando la disponibilidad y manteniendo un registro histórico dentro del sistema.
+
+
+##### **AuthController**
+<img width="1455" height="165" alt="image" src="https://github.com/user-attachments/assets/ea72dcd3-d7dd-463c-9f63-e1c07a3c9e49" />
+
+El **AuthController** gestiona los procesos de autenticación y registro de usuarios. Incluye los endpoints `/api/v1/auth/register` y `/api/v1/auth/login`, que permiten crear nuevos usuarios e iniciar sesión mediante credenciales válidas, generando tokens JWT para el control de acceso seguro al resto de los servicios del sistema.
+
+##### **Conclusión**
+
+La evidencia de ejecución demuestra que todos los controladores fueron implementados e integrados correctamente dentro del sistema, cumpliendo con los objetivos funcionales del sprint.  
+Cada módulo opera de forma independiente pero coherente dentro del ecosistema, garantizando seguridad (JWT), trazabilidad de datos y disponibilidad de servicios en tiempo real.
+
+#### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación completa de los servicios backend implementados durante el sprint.
+El objetivo de esta evidencia es demostrar la integralidad, funcionalidad y accesibilidad de cada endpoint del sistema CareLink Backend.
+
+Cada servicio se describe detalladamente en función de su propósito, método HTTP, parámetros de entrada y respuestas esperadas, acompañados de evidencia visual obtenida desde Swagger UI y los módulos integrados del frontend.
+
+Los endpoints documentados abarcan los dominios centrales del sistema — IAM (Autenticación y Roles), Citas Médicas (Appointments), Horarios (Schedules), Gestión de Doctores y Pacientes, y Mensajería (Messaging) — garantizando la coherencia entre los servicios desarrollados y los requerimientos funcionales definidos para la revisión del sprint.
+
+##### Endpoints Documentados - CareLink Backend
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/auth/login` | POST | Autenticación de usuario | `email`, `password` | **200 OK:** Token JWT generado<br>**401 Unauthorized:** Credenciales inválidas | Figura 1 - Pantalla de inicio de sesión |
+| `/api/v1/auth/register` | POST | Registro de nuevo usuario | `email`, `password`, `role`, `firstName`, `lastName` | **201 Created:** Usuario creado<br>**400 Bad Request:** Datos inválidos o usuario existente | Figura 2 - Registro de usuario |
+| `/api/v1/users/profile` | GET | Obtener información del perfil autenticado | Token JWT (header `Authorization`) | **200 OK:** Datos de perfil del usuario logueado | Figura 3 - Perfil de usuario |
+
+---
+
+##### Doctors & Patients
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/doctors` | GET | Listar todos los doctores | - | **200 OK:** Array de doctores registrados | Figura 4 - Lista de doctores |
+| `/api/v1/doctors/{id}` | GET | Obtener doctor por ID | `id` (path) | **200 OK:** Datos del doctor<br>**404 Not Found:** No existe | Figura 5 - Perfil de doctor |
+| `/api/v1/doctors` | POST | Registrar nuevo doctor | `firstName`, `lastName`, `email`, `specialization`, `cmpCode`, `studyCentre`, `phoneNumber` | **201 Created:** Doctor creado | Figura 6 - Formulario de registro |
+| `/api/v1/doctors/{id}` | PUT | Actualizar información del doctor | `id` (path), campos editables | **200 OK:** Doctor actualizado | Figura 7 - Edición de perfil |
+| `/api/v1/doctors/{id}` | DELETE | Eliminar doctor | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/patients` | GET | Listar todos los pacientes | - | **200 OK:** Array de pacientes | Figura 8 - Lista de pacientes |
+| `/api/v1/patients/{id}` | GET | Obtener paciente por ID | `id` (path) | **200 OK:** Datos del paciente | Figura 9 - Perfil del paciente |
+| `/api/v1/patients` | POST | Registrar nuevo paciente | `firstName`, `lastName`, `email`, `age`, `sex`, `bloodType`, `healthInsurance`, etc. | **201 Created:** Paciente creado | Figura 10 - Registro de paciente |
+| `/api/v1/patients/{id}` | PUT | Actualizar datos del paciente | `id` (path), campos editables | **200 OK:** Paciente actualizado | Figura 11 - Edición de paciente |
+| `/api/v1/patients/{id}` | DELETE | Eliminar paciente | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+| `/api/v1/doctors/assign` | POST | Asignar doctor a paciente | `doctorId`, `patientId` | **200 OK:** Asignación exitosa | Figura 12 - Asignación de doctor |
+| `/api/v1/doctors/assign-multiple` | POST | Asignar múltiples pacientes a un doctor | `doctorId`, `patientIds[]` | **200 OK:** Asignaciones completadas | Figura 13 - Asignaciones múltiples |
+
+---
+
+##### Appointments (Citas Médicas)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/appointments` | GET | Listar todas las citas | - | **200 OK:** Array de citas | Figura 14 - Calendario de citas |
+| `/api/v1/appointments/{id}` | GET | Obtener cita por ID | `id` (path) | **200 OK:** Detalle de cita | Figura 15 - Detalle de cita |
+| `/api/v1/appointments` | POST | Crear nueva cita | `patientId`, `doctorId`, `appointmentDate`, `appointmentTime`, `reason`, `status`, `notes` | **201 Created:** Cita creada | Figura 16 - Creación de cita |
+| `/api/v1/appointments/{id}` | PUT | Actualizar cita | `id` (path) + body editable | **200 OK:** Cita actualizada | Figura 17 - Edición de cita |
+| `/api/v1/appointments/{id}` | DELETE | Eliminar cita | `id` (path) | **204 No Content:** Cita eliminada | - |
+
+---
+
+##### Schedules (Horarios Médicos)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/schedules` | GET | Listar todos los horarios | - | **200 OK:** Array de horarios disponibles | Figura 18 - Lista de horarios |
+| `/api/v1/schedules/{id}` | GET | Obtener horario por ID | `id` (path) | **200 OK:** Datos del horario | Figura 19 - Detalle del horario |
+| `/api/v1/schedules` | POST | Crear nuevo horario | `doctorId`, `dayOfWeek`, `startTime`, `endTime`, `isAvailable` | **201 Created:** Horario creado | Figura 20 - Registro de horario |
+| `/api/v1/schedules/{id}` | PUT | Actualizar horario | `id` (path) + campos editables | **200 OK:** Horario actualizado | Figura 21 - Edición de horario |
+| `/api/v1/schedules/{id}` | DELETE | Eliminar horario | `id` (path) | **204 No Content:** Eliminado correctamente | - |
+
+---
+
+##### Messaging (Mensajes y Conversaciones)
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/conversations` | GET | Listar todas las conversaciones | - | **200 OK:** Array de conversaciones | Figura 22 - Bandeja de mensajes |
+| `/api/v1/conversations/{id}` | GET | Obtener conversación por ID | `id` (path) | **200 OK:** Detalle de conversación | Figura 23 - Conversación abierta |
+| `/api/v1/conversations` | POST | Crear nueva conversación entre doctor y paciente | `doctorId`, `patientId` | **201 Created:** Conversación creada | Figura 24 - Nueva conversación |
+| `/api/v1/messages` | GET | Listar todos los mensajes | - | **200 OK:** Array de mensajes | Figura 25 - Historial de mensajes |
+| `/api/v1/messages/{id}` | GET | Obtener mensaje por ID | `id` (path) | **200 OK:** Detalle de mensaje | Figura 26 - Mensaje seleccionado |
+| `/api/v1/messages/conversation/{conversationId}` | GET | Listar mensajes por conversación | `conversationId` (path) | **200 OK:** Array de mensajes filtrados | Figura 27 - Conversación activa |
+| `/api/v1/messages` | POST | Enviar nuevo mensaje | `conversationId`, `senderId`, `receiverId`, `content` | **201 Created:** Mensaje enviado | Figura 28 - Envío de mensaje |
+| `/api/v1/messages/{id}` | PUT | Actualizar mensaje | `id` (path), campos editables | **200 OK:** Mensaje actualizado | Figura 29 - Edición de mensaje |
+| `/api/v1/messages/{id}` | DELETE | Eliminar mensaje | `id` (path) | **204 No Content:** Mensaje eliminado | Figura 30 - Mensaje eliminado |
+| `/api/v1/messages/{id}/mark-as-read` | PATCH | Marcar mensaje como leído | `id` (path) | **200 OK:** Estado actualizado | Figura 31 - Lectura de mensaje |
+
+---
+
+##### Administración
+
+| Endpoint | Método HTTP | Descripción | Parámetros | Respuesta | Evidencia Visual |
+|-----------|--------------|--------------|-------------|-------------|------------------|
+| `/api/v1/users` | GET | Listar todos los usuarios del sistema | - | **200 OK:** Array de usuarios | Figura 32 - Panel de administración |
+| `/api/v1/users/{id}` | DELETE | Eliminar usuario del sistema | `id` (path) | **204 No Content:** Usuario eliminado | - |
+
+
+
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En este apartado se presenta la evidencia del despliegue de software realizado durante el sprint, específicamente la creación y configuración del servicio de base de datos PostgreSQL en Microsoft Azure. Este despliegue permitió habilitar la infraestructura necesaria para el funcionamiento del backend del proyecto CareLink, asegurando un entorno estable, seguro y accesible para el equipo de desarrollo.
+
+
+##### **Creación del Servidor Flexible de PostgreSQL en Azure**
+
+Se implementó un nuevo servidor PostgreSQL Flexible Server utilizando la suscripción *Azure for Students* y el grupo de recursos `CareLink_group`.
+
+**Configuración principal:**
+- **Nombre del servidor:** `carelink`
+- **Ubicación:** Central US / Canada Central
+- **Versión de PostgreSQL:** 17 / 17.6
+- **Plan de tarifa:** Standard_B1ms (1 vCore, 2 GiB RAM)
+- **Almacenamiento asignado:** 32 GiB
+- **Redundancia geográfica:** No habilitada
+- **Resistencia zonal:** Deshabilitada
+- **Crecimiento automático del almacenamiento:** Deshabilitado
+- **Periodo de retención de backups:** 7 días
+
+**Autenticación configurada:**
+- Método de autenticación: PostgreSQL
+- Usuario administrador: `admin_carelink`
+
+**Evidencia:**
+
+- Configuración inicial del servidor  
+<img width="881" height="998" alt="image" src="https://github.com/user-attachments/assets/23e4d5d3-d6f4-4daf-89ca-c1610f128bfd" />
+
+- Configuración de redes y firewall  
+  - Acceso público habilitado  
+  - Regla de firewall creada para permitir acceso desde la IP local  
+<img width="986" height="954" alt="image" src="https://github.com/user-attachments/assets/5311bb04-5c66-4eab-96a5-c6c9624f84d1" />
+
+- Configuración de autenticación  
+<img width="912" height="843" alt="image" src="https://github.com/user-attachments/assets/ad5567a0-236e-4459-a2f2-bcba4bda93eb" />
+
+- Pantalla de revisión final antes del despliegue  
+<img width="827" height="957" alt="image" src="https://github.com/user-attachments/assets/9f3cd0d4-8d03-4f06-aa7a-fdca2a87a9be" />
+
+- Evidencia del recurso ya desplegado y operativo  
+<img width="1844" height="750" alt="image" src="https://github.com/user-attachments/assets/905be4b1-1836-48c1-bf06-d24ba0b25314" />
+<img width="716" height="553" alt="image" src="https://github.com/user-attachments/assets/f81a4aba-723e-42e0-8ada-e9b6903c2945" />
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e2c695a0-a2a5-45b9-9e47-549030ce184f" />
+<img width="349" height="201" alt="image" src="https://github.com/user-attachments/assets/056f5f0d-72e7-4a8b-a167-37b482589899" />
+
+---
+
+###### **Resultado del Despliegue**
+
+La base de datos quedó correctamente provisionada, accesible y lista para ser integrada con el backend del proyecto. El despliegue cumple con los requisitos del sprint, proporcionando:
+
+- Un entorno de desarrollo real montado sobre infraestructura cloud.  
+- Configuración segura del acceso mediante reglas de firewall.  
+- Versionamiento actualizado de PostgreSQL (17.x).  
+- Costos optimizados bajo el plan de estudiante.  
+
+Este despliegue representa el primer hito de infraestructura del sistema CareLink para su funcionamiento en producción futura.
+
+
+
+##### **Despliegue del Backend en Azure App Service**
+
+Además del aprovisionamiento de la base de datos, durante este sprint se realizó el despliegue completo del backend del proyecto en **Azure App Service**, utilizando integración continua con GitHub Actions. Este proceso permite que cada cambio realizado en la rama `main` del repositorio oficial se compile, construya y despliegue automáticamente en la aplicación web alojada en Azure.
+
+---
+
+### **Creación del Azure App Service**
+
+El despliegue inició seleccionando la suscripción *Azure for Students* y utilizando el mismo grupo de recursos del proyecto (`CareLink_group`) para mantener una arquitectura organizada.
+
+**Configuración principal del servicio:**
+- **Nombre de la aplicación:** `care-link`
+- **Modelo de publicación:** Código
+- **Lenguaje y runtime:** Java 21  
+- **Servidor web Java:** Java SE (Embedded Web Server)
+- **Sistema operativo:** Windows
+- **Región:** East US 2
+- **Plan de precios:** Gratis F1 (infraestructura compartida)
+- **Plan de App Service creado:** `ASP-CareLinkgroup-aas5d`
+
+*Evidencia:*  
+<img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
+<img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
+
+---
+
+### **Configuración de Implementación Continua**
+
+Con el objetivo de garantizar un flujo de despliegue automatizado y profesional, se habilitó **GitHub Actions** como método de CI/CD.
+
+**Parámetros configurados:**
+- **Cuenta de GitHub:** MauricioMVlicapoma
+- **Organización:** `EternaCare-OpenSource`
+- **Repositorio:** `backend`
+- **Rama:** `main`
+- **Implementación continua:** Habilitada
+- **Autenticación básica:** Deshabilitada
+
+Esta configuración genera automáticamente un archivo de workflow en GitHub Actions que compila el proyecto Java, ejecuta la construcción del artifact y lo despliega hacia Azure App Service.
+
+*Evidencia:*  
+<img width="1465" height="569" alt="image" src="https://github.com/user-attachments/assets/bc6ad233-84d6-4bbe-820c-5609a666733d" />
+<img width="1831" height="642" alt="image" src="https://github.com/user-attachments/assets/f8b13a0f-6eb9-4feb-aa2c-a9c342973bbe" />
+
+---
+
+### **Validación y Revisión Final del Despliegue**
+
+Antes de iniciar el aprovisionamiento, se revisaron los parámetros de creación del servicio. La pantalla de “Revisar y crear” confirmó:
+
+- Selección de suscripción y grupo de recursos correcto  
+- Configuración del runtime Java  
+- Plan de precios gratuito  
+- Integración con GitHub  
+- Sistema operativo Windows  
+
+*Evidencia:*  
+<img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
+
+---
+
+### **Ejecución del Despliegue en Azure**
+
+Una vez iniciado el despliegue, Azure generó múltiples recursos asociados al App Service:
+
+- Identidades administradas  
+- Sitio web principal  
+- Sitio `scm` para herramientas de desarrollo  
+- Configuraciones FTP  
+- Plan de App Service  
+- Registros del flujo de implementación  
+
+El panel mostró todos los recursos como **Created** u **OK**, confirmando una implementación exitosa.
+
+*Evidencia:*  
+<img width="1858" height="548" alt="image" src="https://github.com/user-attachments/assets/f6968360-9295-416f-bc6d-bbc70222a751" />
+
+Posteriormente, Azure notificó:  
+**“Se completó la implementación”**  
+indicando que el backend quedó completamente habilitado.
+
+---
+
+### **Aplicación Web en Ejecución**
+
+Una vez finalizada la implementación, se accedió al recurso `care-link` dentro del portal de Azure.
+
+**Propiedades verificadas:**
+- Dominio predeterminado operativo  
+- Runtime Java 21 activo  
+- Plan gratuito en funcionamiento  
+- Registros de implementación generados por GitHub Actions  
+- Dirección IP pública asignada  
+- Estado del recurso: Running
+
+*Evidencia:*  
+<img width="1857" height="758" alt="image" src="https://github.com/user-attachments/assets/cbec95e1-e01d-451f-af77-e9f5da35cf73" />
+
+---
+
+### **Validación del Backend mediante Swagger (API Running in Azure)**
+
+Con el despliegue completado, se accedió a la URL pública generada: https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+<img width="1854" height="1039" alt="image" src="https://github.com/user-attachments/assets/a2026495-b9a9-40f8-b06d-7e958040e376" />
+
+
+
+
+#### 5.2.3.8.Team Collaboration Insights during Sprint.
+
+Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Eterna Care, implementando
+la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el
+frontend, actualizaciones en el reporte y se mejoró la calidad de las User Stories y Technical Stories, eliminando
+referencias a UI y reescribiéndolas con formato API REST (endpoints específicos, códigos HTTP, estructura
+Given-When-Then).
+
+Aunque surgieron limitaciones relacionadas con el tiempo y la experiencia técnica, el equipo logró consolidar una
+versión estable del backend con los bounded contexts de Schedules, Patients, Messages, Doctors, Conversations,
+Appointments y Auth, optimizar el frontend y fortalecer la calidad general del proyecto.
+
+Acciones de colaboración destacadas
+Se utilizó GitHub como herramienta central para coordinar el trabajo, gestionar versiones y mantener un registro
+ordenado de los avances.
+Se reorganizó la estructura del repositorio, creando ramas específicas para el desarrollo del backend y corrección del
+frontend.
+Cada miembro realizó commits documentados detallando la implementación de funcionalidades en el backend, mejoras en el
+frontend y correcciones en el reporte.
+Se realizó una revisión y mejora completa de las User Stories y Technical Stories, eliminando referencias a UI y
+reescribiéndolas con formato API REST según estándares de calidad.
+Se realizaron pull requests y revisiones de código en equipo para validar la lógica del backend, verificar la
+configuración de base de datos y asegurar la corrección del frontend y reporte.
+Se utilizó Trello para la gestión visual de tareas y seguimiento del Sprint Backlog.
+Gracias a este flujo de trabajo, el equipo pudo avanzar de forma paralela y ordenada, evitando conflictos y asegurando
+un resultado consistente. La implementación del backend siguiendo DDD permitió una arquitectura escalable y mantenible.
+
+##### Evidencia de colaboración
+
+###### Commits realizados durante el Sprint 3:
+
+![commit - 1.png](images/chapter-5/commit%20-%201.png)
+
+![commit - 2.png.png](images/chapter-5/commit%20-%202.png.png)
+
+![commit - 3.png.png](images/chapter-5/commit%20-%203.png.png)
+
+![commit - 4.png](images/chapter-5/commit%20-%204.png)
+
+![commit - 5.png](images/chapter-5/commit%20-%205.png)
+
+![commit - 6.png](images/chapter-5/commit%20-%206.png)
+
+![commit - 7.png](images/chapter-5/commit%20-%207.png)
+
+![commit - 8.png](images/chapter-5/commit%20-%208.png)
+
+![commit - 9.png](images/chapter-5/commit%20-%209.png)
+
+
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4.
+
+<table >
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Planning Background</b></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-11-28</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>13:30 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Reunión virtual en Discord</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td>Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde, Italo Sebastian Verona Flores y Mauricio Rigoberto Muñoz Vilcapoma</td>
+  </tr>
+  <tr>
+    <th colspan="2"><b>Sprint Goal & User Stories</b></th>
+  </tr>
+  <tr>
+    <th>Sprint 4 Goal</th>
+    <td>El objetivo de este sprint es completar la integración final del backend con el frontend, garantizar la estabilidad y despliegue del sistema, consolidar el informe del Trabajo Final (TF) y preparar la documentación técnica final que evidencie el funcionamiento completo de la plataforma EternaCare.</td>
+  </tr>
+  <tr>
+    <th>Sprint 4 Velocity</th>
+    <td>34 puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>34 puntos</td>
+  </tr>
+</table>
+
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+En el Sprint 4, las responsabilidades del equipo se orientaron hacia la integración final del sistema, la estabilización del backend con el frontend, el despliegue en la nube y la elaboración de la documentación correspondiente al Trabajo Final (TF).  
+A diferencia del Sprint 3 —en el cual los roles se asignaron por bounded contexts del backend— esta etapa se centró en aspectos globales del proyecto, con el fin de garantizar un producto funcional, documentado y preparado para su presentación final.
+
+La siguiente tabla resume los roles asumidos por cada integrante como líderes (L) o colaboradores (C) en los aspectos clave del Sprint 4.
+
+<table  cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Team Member (Last Name, First Name)</th>
+      <th>GitHub Username</th>
+      <th>Backend/Frontend Final Integration</th>
+      <th>Deployment & Azure Infrastructure</th>
+      <th>Technical Documentation (TF)</th>
+      <th>Frontend / UX Alignment</th>
+      <th>System Testing & Validation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Italo Sebastian Verona Flores</td>
+      <td>atomdragon1318</td>
+      <td>C</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Fiorella Angela Vilca Valverde</td>
+      <td>FiorellaVilca</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>Mauricio Muñoz Vilcapoma</td>
+      <td>MauricioMVilcapoma</td>
+      <td>L</td>
+      <td>L</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+    <tr>
+      <td>Flores Apaico Josue Antonio</td>
+      <td>JosueFloresAp</td>
+      <td>C</td>
+      <td>C</td>
+      <td>L</td>
+      <td>C</td>
+      <td>L</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+#### 5.2.4.3. Sprint Backlog 4.
+#### 5.2.4.4. Development Evidence for Sprint Review.
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+
+
+#### 5.3. Validation Interviews.
+
+#### 5.3.1. Diseño de Entrevistas.
+
+El objetivo de las entrevistas fue validar la facilidad de uso, utilidad y percepción general del sistema **CareLink**, considerando las experiencias de dos grupos principales de usuarios:  
+la **Red de Apoyo Familiar** y el **Personal Sanitario y de Cuidado**.  
+
+Se realizaron entrevistas semiestructuradas centradas en las tareas que cada grupo realiza con mayor frecuencia, y en cómo la plataforma facilita la comunicación, organización y seguimiento del cuidado del paciente.
+
+---
+
+
+##### **Segmento 1: Red de Apoyo Familiar**
+
+**Objetivo:** Comprender la experiencia de los familiares al acceder a la información del paciente y comunicarse con el personal de salud mediante la plataforma CareLink.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su relación con el paciente y con qué frecuencia consulta su estado o citas?  
+2. ¿Cómo describiría su experiencia general al usar CareLink por primera vez?  
+3. ¿Pudo acceder fácilmente a la información del paciente y entender los datos mostrados?  
+4. ¿Le resultó útil la posibilidad de comunicarse con el personal médico a través de mensajes o notificaciones?  
+5. ¿Qué aspectos del sistema le parecen más útiles o qué mejoraría para facilitar su uso?
+
+##### **Segmento 2: Personal Sanitario y de Cuidado**
+
+**Objetivo:** Evaluar la facilidad con la que el personal médico utiliza CareLink para gestionar pacientes, citas y comunicación con familiares.
+
+###### **Preguntas de la Entrevista**
+
+1. ¿Cuál es su función dentro del centro y cuántos pacientes gestiona habitualmente?  
+2. ¿Qué tan fácil le resultó aprender a usar CareLink y registrar información médica o citas?  
+3. ¿Ha notado mejoras en la coordinación o comunicación con otros profesionales o familiares gracias al sistema?  
+4. ¿Qué tan útil le resulta la mensajería interna o el calendario para su trabajo diario?  
+5. ¿Qué funcionalidades considera más valiosas y qué mejoraría para optimizar su labor?
+
+---
+
+##### **Síntesis del Enfoque**
+
+Las entrevistas se diseñaron para vincular la experiencia de uso con los principales módulos del backend de CareLink:
+- **Autenticación y acceso:** registro e inicio de sesión.  
+- **Gestión de pacientes y citas:** consulta y actualización de información médica.  
+- **Comunicación:** mensajería y notificaciones.  
+- **Organización:** planificación de horarios y tareas.  
+
+Este formato permitió recopilar información cualitativa clara y concisa sobre cómo cada usuario percibe la utilidad y eficiencia del sistema.
+
+
+#### 5.3.2. Registro de Entrevistas.
+
+##### Entrevista – Segmento 1: Red de Apoyo Familiar
+
+###### Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Sebastian Omar Real Calderon
+- Edad: 29
+- Ciudad: Lima, callao
+- Duración: 4:07 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Red%20de%20Apoyo%20Familiar%20-%20Entrevista%201.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1] https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQAfwpNv0FLxS7QJWjvICWH3AQR-pvEhPePSiFWO9EmmCWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SyMihM
+
+En la entrevista, Sebastián Real, quien actúa como red de apoyo para su abuela, afirmó que revisa la aplicación web
+diariamente junto a su familia para gestionar citas y el estado de la paciente. Describió la plataforma como "cómoda"
+y "fácil de navegar", destacando que su diseño bien señalizado reduce la preocupación al manejar un tema tan delicado
+como la salud. Identificó la mensajería integrada con los doctores como la característica más útil, permitiéndole un
+intercambio de información constante. Aunque se mostró muy satisfecho con el sistema, sugirió como mejora la inclusión
+de un número de contacto directo para soporte técnico, expresando su preferencia por hablar con un ser humano en lugar
+de interactuar con chatbots al resolver problemas.
+
+###### Entrevista 2
+
+- Datos del entrevistado:
+- Nombre completo: Melina Orderique
+- Edad: 22
+- Ciudad: Lima, callao
+- Duración: 5:18 minutos
+
+Evidencia:
+
+![Red de Apoyo Familiar - Entrevista 1.png](images/chapter-5/Melina-Entrevista2.png)
+
+- URL del
+  video: [Red de Apoyo Familiar - Entrevista 1] https://drive.google.com/file/d/1QkHY2km7vSFMWlOpcC-HrVBsem9Q03W8/view?usp=sharing
+
+En la entrevista que realicé a Melina, ella comentó que la página web le resultó bastante interesante y útil, especialmente por las diferentes funcionalidades que ofrece para el cuidado de un adulto mayor en casa. Me explicó que actualmente cuida a su abuela y que varias de las herramientas presentadas podrían ayudarla en su día a día. Una de las funciones que más valoró fue el chat directo con el doctor, ya que considera que tener un canal inmediato para resolver dudas o inquietudes le daría mucha tranquilidad y le permitiría actuar con mayor seguridad ante cualquier situación. Melina destacó que, a diferencia de otras plataformas, esta opción le facilitaría obtener apoyo médico sin necesidad de llevar a su abuela a consulta por cada duda menor, lo cual representa una mejora importante en la calidad del cuidado que puede brindarle. En general, su opinión fue positiva y señaló que la web aporta soluciones prácticas que realmente responden a las necesidades de quienes son responsables del cuidado de un familiar mayor.
+
+##### Entrevista – Segmento 2: Personal Sanitario y de Cuidado
+
+Entrevista 1
+
+- Datos del entrevistado:
+- Nombre completo: Gonzalo Aliaga
+- Edad: 32
+- Ciudad: Lima, pueblo libre
+- Duración: 3:05 minutos
+
+Evidencia:
+
+![Personal Sanitario y de Cuidado - Entrevista 2.png](images/chapter-5/Personal%20Sanitario%20y%20de%20Cuidado%20-%20Entrevista%202.png)
+
+- URL del
+  video: [Personal Sanitario y de Cuidado - Entrevista 2] https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221e617_upc_edu_pe/IQCiigRv6g1vTazhX4Eg-kN5AXTz62CLmfBg6ymJ1-_V0Lo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gbRnDw
+
+En una entrevista con el Dr. Gonzalo Aliaga, quien gestiona la recepción y derivación de un gran volumen de pacientes,
+este evaluó una nueva aplicación web médica. El doctor destacó que la herramienta es extremadamente intuitiva y fácil de
+usar, en claro contraste con sistemas anteriores que requerían una alta curva de aprendizaje. Subrayó que la aplicación
+ha generado mejoras significativas en la comunicación, facilitando el acceso a la información de contacto de pacientes y
+otros doctores, así como la gestión de citas y mensajes, resolviendo la dificultad que antes tenía para rastrear datos o
+recetas de días previos.
+
+#### 5.3.3. Evaluaciones según heurísticas.
+
+
+Esta sección presenta el proceso de evaluación de la experiencia de usuario realizado durante las sesiones de validación, aplicando los principios de **Usabilidad**, **Arquitectura de la Información** e **Inclusive Design** sobre la interfaz y los flujos funcionales de la aplicación **CareLink**.  
+
+El objetivo de esta evaluación fue identificar posibles mejoras en la interacción del usuario con el sistema, garantizar la accesibilidad de las funciones críticas y validar la coherencia del diseño respecto a los estándares heurísticos de **Nielsen**, **Shneiderman** y principios de diseño inclusivo.  
+
+Las evaluaciones se realizaron siguiendo la estructura del formato oficial indicado en el **Anexo D: Formato para Evaluación de User Experience según Heurísticas**, detallando las tareas críticas a revisar y los criterios aplicados durante la sesión.
+
+---
+
+##### **Formato de Evaluación Heurística Aplicado**
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Aplicaciones Open Source  
+**Profesores:** Todos  
+**Auditor:** Equipo de CareLink Backend & Frontend Integration  
+**Cliente(s):** Usuarios finales: *Red de Apoyo Familiar* y *Personal Sanitario*  
+
+---
+
+##### **SITE O APP A EVALUAR:**
+**CareLink – Plataforma Integral de Monitoreo y Gestión del Cuidado del Paciente**
+
+---
+
+##### **TAREAS A EVALUAR:**
+
+El alcance de la evaluación incluyó la revisión de la usabilidad y accesibilidad en las siguientes tareas clave:
+
+1. Registro e inicio de sesión de un usuario (segmentos familiar y médico).  
+2. Visualización de citas médicas y horarios disponibles.  
+3. Registro de una nueva cita médica (por parte del médico).  
+4. Consulta del historial médico y reportes del paciente.  
+5. Comunicación mediante mensajería interna entre médico y paciente.  
+6. Visualización de notificaciones o alertas del sistema.  
+7. Edición de perfil y actualización de datos personales.  
+8. Cierre de sesión y persistencia de autenticación segura.
+
+---
+
+##### **TAREAS NO INCLUIDAS EN ESTA EVALUACIÓN:**
+
+1. Modificación avanzada de configuraciones del sistema (panel administrativo).  
+2. Módulos de monitoreo en tiempo real (en desarrollo).  
+3. Integración con sistemas externos de salud (API externas).  
+4. Análisis estadístico avanzado y reportes dinámicos.  
+5. Funcionalidades de auditoría o administración multiusuario.
+
+---
+
+##### **Escala de Severidad**
+
+Los errores fueron puntuados tomando en cuenta la siguiente escala de severidad:
+
+| **Nivel** | **Descripción** |
+|------------|-----------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No requiere corrección inmediata. |
+| **2** | Problema menor: ocurre ocasionalmente y puede generar confusión leve. Se recomienda corregir en próximas iteraciones. |
+| **3** | Problema mayor: ocurre con frecuencia o impide completar una tarea sin ayuda. Requiere corrección prioritaria. |
+| **4** | Problema muy grave: bloquea el flujo de uso o impide el funcionamiento correcto del sistema. Debe corregirse antes del despliegue. |
+
+---
+
+##### **Tabla Resumen de Problemas Detectados**
+
+| # | **Problema** | **Escala de Severidad** | **Heurística / Principio Violado** |
+|---|---------------|--------------------------|------------------------------------|
+| 1 | El botón *“Iniciar sesión”* no proporciona retroalimentación visual inmediata al hacer clic. | 2 | **Usabilidad:** Visibilidad del estado del sistema |
+| 2 | Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema. | 3 | **Usabilidad:** Prevención y recuperación de errores |
+| 3 | El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida. | 3 | **Inclusive Design:** Accesibilidad visual y legibilidad |
+| 4 | En el módulo de mensajería, el orden de los mensajes no siempre refleja la hora más reciente. | 2 | **Information Architecture:** Consistencia temporal y jerarquía informativa |
+| 5 | No existe una opción para cancelar la creación de una cita antes de guardarla. | 3 | **Usabilidad:** Control y libertad del usuario |
+| 6 | En la vista de horarios, la información del día no se muestra completa en pantallas pequeñas. | 2 | **Inclusive Design:** Diseño adaptable y responsivo |
+| 7 | El sistema no muestra confirmación al eliminar un mensaje o conversación. | 4 | **Usabilidad:** Prevención de errores graves |
+| 8 | Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla. | 3 | **Inclusive Design:** Proporcionar experiencias comparables |
+| 9 | El campo “Notas” en el registro de cita no cuenta con un límite visual o aviso de caracteres. | 1 | **Usabilidad:** Visibilidad del estado del sistema |
+| 10 | No se muestra un mensaje claro tras la actualización del perfil del paciente. | 2 | **Usabilidad:** Retroalimentación del sistema |
+
+---
+
+##### **Descripción de Problemas**
+
+#### **PROBLEMA #1:**  
+**El botón “Iniciar sesión” no proporciona retroalimentación visual inmediata al hacer clic.**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+
+**Descripción:**  
+Al presionar el botón de inicio de sesión, la interfaz no muestra una animación, carga o confirmación de procesamiento inmediato, lo cual puede generar confusión en usuarios que no saben si la acción fue ejecutada o no.  
+
+**Recomendación:**  
+Implementar un indicador visual o spinner de carga que informe al usuario que el sistema está procesando sus credenciales.
+
+---
+
+#### **PROBLEMA #2:**  
+**Los mensajes de error en el registro de usuario no indican claramente el campo que causa el problema.**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención y recuperación de errores  
+
+**Descripción:**  
+Al ingresar datos inválidos durante el registro (por ejemplo, un correo sin formato válido), el sistema muestra un error genérico sin identificar el campo exacto, dificultando la corrección por parte del usuario.  
+
+**Recomendación:**  
+Agregar validaciones específicas en cada campo y mensajes contextuales que indiquen claramente el tipo de error detectado.
+
+---
+
+#### **PROBLEMA #3:**  
+**El contraste de color entre texto y fondo en los formularios es bajo para usuarios con visión reducida.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Accesibilidad visual y legibilidad  
+
+**Descripción:**  
+En secciones como el registro o la creación de citas, los campos de texto presentan un contraste insuficiente, dificultando la lectura en pantallas con brillo reducido o para usuarios con baja visión.  
+
+**Recomendación:**  
+Aplicar los estándares WCAG 2.1, nivel AA, garantizando un contraste mínimo de 4.5:1 entre texto y fondo.
+
+---
+
+#### **PROBLEMA #4:**  
+**El sistema no muestra confirmación al eliminar un mensaje o conversación.**  
+**Severidad:** 4  
+**Heurística violada:** Usabilidad – Prevención de errores graves  
+
+**Descripción:**  
+La acción de eliminar un mensaje se ejecuta inmediatamente sin confirmación previa, lo que puede ocasionar pérdidas de información accidental.  
+
+**Recomendación:**  
+Incluir un cuadro de diálogo de confirmación (“¿Desea eliminar este mensaje?”) antes de ejecutar la acción.
+
+---
+
+#### **PROBLEMA #5:**  
+**Algunos iconos carecen de etiquetas descriptivas para lectores de pantalla.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design – Proporcionar experiencias comparables  
+
+**Descripción:**  
+Los iconos de acciones principales (como editar o eliminar) no incluyen atributos alternativos (`aria-label` o `alt`), limitando el acceso a usuarios que utilizan tecnologías asistivas.  
+
+**Recomendación:**  
+Añadir etiquetas accesibles en todos los elementos interactivos según las buenas prácticas de accesibilidad WAI-ARIA.
+
+
+
+
+#### 5.4. Video About-the-Product
+
+
+
+
+
+
+## Conclusiones
+
+
+La presente sección integra los principales hallazgos y resultados obtenidos durante el desarrollo del Trabajo Final (TF), en el cual se consolidó la implementación técnica y funcional de la plataforma EternaCare. A lo largo de esta etapa se completaron los módulos centrales del sistema, se fortaleció la arquitectura backend y frontend, se efectuó el despliegue en la nube y se validaron las capacidades del proyecto para responder a las necesidades identificadas en los centros geriátricos de Lima.  
+
+Las conclusiones expuestas a continuación sintetizan el impacto, la pertinencia y la solidez tecnológica lograda en el TF, mientras que las recomendaciones plantean las líneas de mejora y crecimiento futuro que permitirán continuar la evolución del sistema hacia un entorno más robusto, accesible y escalable.
+
+
+1. **Confirmación del problema y su relevancia social:**  
+   El análisis realizado en el Trabajo Final reafirma que la falta de comunicación fluida entre familiares y centros geriátricos constituye una problemática vigente en Lima. La creciente población adulta mayor y la demanda por un seguimiento más cercano evidencian la necesidad de soluciones digitales que faciliten la interacción, la supervisión y el acceso oportuno a la información.
+
+2. **Solución técnicamente consolidada y orientada a los usuarios:**  
+   La plataforma desarrollada en el TF presenta una arquitectura completa y funcional, capaz de responder a las necesidades de los tres actores principales: familiares, personal de salud y administradores. Los flujos diseñados permiten una gestión clara de la información y favorecen una interacción más efectiva entre los involucrados, reforzando el enfoque centrado en el usuario.
+
+3. **Avances sustanciales en infraestructura y despliegue tecnológico:**  
+   La implementación final de los módulos backend, acompañada del despliegue en Azure y la integración de los CRUD correspondientes, demuestra la factibilidad tecnológica del sistema. Esta base técnica garantiza estabilidad, disponibilidad y capacidad de integración con futuras interfaces web y móviles.
+
+4. **Impacto positivo esperado en la gestión del cuidado geriátrico:**  
+   Los resultados del TF evidencian que la plataforma tiene el potencial de mejorar significativamente la organización del trabajo del personal de cuidado, reducir errores de comunicación y fortalecer el vínculo emocional entre las familias y los residentes. Ello contribuye a elevar la calidad del servicio y a optimizar la gestión interna de los centros geriátricos.
+
+5. **Base sólida para el crecimiento y la escalabilidad futura:**  
+   La arquitectura modular implementada permite ampliar funcionalidades sin comprometer la estabilidad del sistema existente. Este diseño abre la posibilidad de integrar en etapas posteriores módulos de mensajería, notificaciones avanzadas, analítica de datos y aplicaciones móviles, asegurando sostenibilidad tecnológica a largo plazo.
+
+6. **Compromiso con la gestión ética y segura de la información:**  
+   Durante el desarrollo del TF se garantizó un tratamiento responsable de datos sensibles, priorizando la integridad, disponibilidad y confidencialidad de la información asociada a los pacientes. Esto reafirma la importancia del cumplimiento de buenas prácticas en seguridad digital y gestión de información durante todo el ciclo de vida del sistema.
+
+7. **Aporte académico, profesional y social del proyecto:**  
+   El trabajo final representó una oportunidad para aplicar conocimientos de diseño, programación, arquitectura de software y despliegue en la nube en un contexto real. Asimismo, el sistema constituye una contribución significativa al ámbito social, al ofrecer una herramienta que fortalece la comunicación y el acompañamiento de adultos mayores en instituciones geriátricas.
+
+---
+
+## Recomendaciones
+
+1. **Integración de funcionalidades de accesibilidad:**  
+   Se recomienda incorporar opciones como lectura simplificada, asistentes visuales y canales de soporte accesibles para usuarios con limitaciones físicas o cognitivas, con el fin de garantizar una experiencia inclusiva.
+
+2. **Fomento del uso por parte del personal de atención:**  
+   La adopción del sistema puede fortalecerse mediante incentivos internos, capacitaciones periódicas y mecanismos de retroalimentación que motiven al personal a utilizar la plataforma de manera continua.
+
+3. **Escalamiento progresivo del sistema:**  
+   Se sugiere implementar la plataforma inicialmente en instituciones con alta infraestructura tecnológica y, posteriormente, expandir el proyecto hacia zonas con menor conectividad, apoyándose en alianzas estratégicas para asegurar su operatividad.
+
+4. **Desarrollo futuro de un módulo de analítica avanzada:**  
+   Incorporar un panel de métricas permitiría evaluar indicadores clave del estado de los residentes, tiempos de respuesta del personal y niveles de interacción familiar. Esto facilitaría la toma de decisiones basadas en datos.
+
+5. **Fortalecimiento de la seguridad mediante autenticación avanzada:**  
+   Resulta pertinente integrar mecanismos como autenticación de dos factores (2FA) o biometría para reforzar la protección de los usuarios y asegurar un acceso legítimo a información médica sensible.
+
+6. **Optimización del flujo interno de comunicación:**  
+   Se recomienda consolidar en un único módulo todas las notificaciones, recordatorios y mensajes, lo que facilitaría la navegación y permitiría una gestión unificada de alertas importantes.
+
+7. **Validación continua de la experiencia del usuario:**  
+   Es necesario realizar pruebas de usabilidad con familiares y cuidadores para identificar puntos de fricción, mejorar los flujos de navegación y garantizar una experiencia intuitiva y empática.
+
+8. **Evolución hacia un modelo móvil progresivo (PWA):**  
+   Adaptar la plataforma a un formato PWA permitirá un acceso más rápido desde dispositivos móviles y un funcionamiento estable incluso con conectividad limitada, incrementando la accesibilidad del sistema.
+
+9. **Implementación de un sistema formal de mantenimiento y monitoreo:**  
+   Se sugiere establecer un cronograma de mantenimiento preventivo, así como un panel de control interno que muestre métricas del sistema, uso de los servicios y reporte automático de incidentes, asegurando la continuidad operativa del sistema.
+
+ 
 
 
 ## Bibliografía
@@ -2985,39 +3796,47 @@ Huang, X., Zhang, Z., Guo, F., Chi, K., Wu, K., et al. (2024). Research on Older
 ## Anexos
 
 **Anexo A:**  
-[Deployment Landing Page](https://eternacare-opensource.github.io/landing-page/)  
+[Deployment Landing Page] https://eternacare-opensource.github.io/landing-page/
 
 **Anexo B:**  
-[Wireframe Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+[Wireframe Landing Page] https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=0-1&t=wJLnuHin59MbfCfY-1 
 
 **Anexo C:**  
-[Mock-ups Landing Page](https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=1-1518&t=wJLnuHin59MbfCfY-1)  
+[Mock-ups Landing Page] https://www.figma.com/design/o9q4FYW8ruHEVnadEglzq8/Landing-Page-Eterna-Care?node-id=1-1518&t=wJLnuHin59MbfCfY-1  
 
 **Anexo D:**  
-[Web Applications Wireframes](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=0-1&t=wJLnuHin59MbfCfY-1)  
+[Web Applications Wireframes] https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=0-1&t=wJLnuHin59MbfCfY-1 
 
 **Anexo E:**  
-[Web Applications Mock-up](https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=1-2&t=wJLnuHin59MbfCfY-1)  
+[Web Applications Mock-up] https://www.figma.com/design/PikxEPgoDyGof9mZzFaIkh/Web-Applications-UX-UI-Design---EternaCare?node-id=1-2&t=wJLnuHin59MbfCfY-1
 
 **Anexo F:**  
-[Actividades en Trello](https://trello.com/b/v1O6kRjA/sprint-1)  
+[Actividades en Trello] https://trello.com/b/v1O6kRjA/sprint-1
 
 **Anexo G:**  
-[User Flow Diagrams en Miro](https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426)  
+[User Flow Diagrams en Miro] https://miro.com/app/board/uXjVJFJAPbo=/?share_link_id=145716992426  
 
 **Anexo H:**  
-[Repositorio Report](https://github.com/EternaCare-OpenSource/report.git)  
+[Repositorio Report] https://github.com/EternaCare-OpenSource/report.git 
 
 **Anexo I:**  
-[Organización GitHub EternaCare](https://github.com/EternaCare-OpenSource)  
+[Organización GitHub EternaCare] https://github.com/EternaCare-OpenSource  
 
 **Anexo J:**  
-[Repositorio Landing Page](https://github.com/EternaCare-OpenSource/landing-page.git)  
+[Repositorio Landing Page] https://github.com/EternaCare-OpenSource/landing-page.git  
 
 **Anexo K:**  
-[Deploymento Landing Page (GitHub Pages)](https://eternacare-opensource.github.io/landing-page/)  
+[Deploymento Landing Page (GitHub Pages) (https://eternacare-opensource.github.io/landing-page/  
 
 **Anexo L:**  
-[Deploymento Fronted (Firebase)](https://carlink-bb7c8.web.app)  
+[Deploymento Fronted (Firebase)] https://carlink-bb7c8.web.app 
+
+**Anexo M:**  
+[Deploymento Backend (Swagger)]: https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#
+
+
+**VIDEOS:**
+
+[About The Team] https://drive.google.com/file/d/1u4GDkbiPDVXsD26y5VMz8XPCc9fQE7_m/view?usp=sharing 
 
 
