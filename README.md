@@ -2861,6 +2861,7 @@ Trello Sprint 3:
 https://trello.com/invite/b/69310b612d4c60619cf06e12/ATTIad7edce4776a7b725cca9186f8be43853038232D/sprint-3 
 
 
+
 | User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description (Endpoint / Function) | Estimation (Hours) | Assigned To | Status |
 | :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
 | US-03 | Recibir alertas críticas | **T01** | Implementar `POST /auth/register` | Registro de nuevos usuarios y roles. (Auth-Controller) | 3 | **Italo Verona** | Done |
@@ -2875,6 +2876,7 @@ https://trello.com/invite/b/69310b612d4c60619cf06e12/ATTIad7edce4776a7b725cca918
 | US-10 | Ver respuestas del personal | **T10** | Implementar CRUD: `messages-controller` | GET, PUT, DELETE, POST para Mensajes. | 4 | **Mauricio Vilcapoma** | Done |
 | US-10 | Ver respuestas del personal | **T11** | Implementar PATCH /mark-as-read | Marcar mensajes como leídos. | 1 | **Mauricio Vilcapoma** | Done |
 | US-10 | Ver respuestas del personal | **T12** | Obtener Mensajes por Conversación | GET /messages/conversation/{conversationId} | 2 | **Mauricio Vilcapoma** | Done |
+
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
 
