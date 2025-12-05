@@ -3454,6 +3454,59 @@ https://trello.com/invite/b/69325195bcda5aae9398e0a6/ATTI5756ccea9aba4efc8e79fc1
 
 #### 5.2.4.4. Development Evidence for Sprint Review.
 
+En esta sección se muestran los commits realizados en los repositorios de backend y frontend correspondientes al Sprint 3.
+
+**Commits registrados en el repositorio de la Landing Page durante el Sprint 4:**
+A continuación se incluye un listado de las actualizaciones efectuadas en la interfaz de la Landing Page. Cada commit refleja los ajustes aplicados al diseño, la estructura y el comportamiento de los elementos visuales desarrollados en este sprint.
+
+
+| Repository                       | Branch                | Commit Id | Commit Message                                                                       | Commit Message Body (Ejemplo Ilustrativo)                                                                                                                            | Commited on (Date) |
+|:---------------------------------|:----------------------|:----------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
+| EternaCare/carelink-landing-page | feature/i18n          | `37a148e` | Create es.js                                                                         | Añade el archivo de traducciones para el idioma español (es.js), siguiendo la estructura de claves definida. Separa las traducciones para mejorar la mantenibilidad. | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/i18n          | `288092f` | Create en.js                                                                         | Crea el archivo de traducciones para el idioma inglés (en.js) que servirá como idioma por defecto para la internacionalización de la página.                         | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/interactivity | `91246d5` | feat(landing-page): add interactive features to landing page                         | Implementa la lógica JavaScript para el carrusel de testimonios, el menú de navegación móvil y el selector de idioma. Añade los scripts al archivo HTML.             | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/styles        | `2ad9e35` | feat(landing-page): Landing page styles folder added                                 | Añade el archivo `styles.css` con todas las guías de estilo, paleta de colores, tipografía y diseño responsivo para la landing page, siguiendo el diseño de Figma.   | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | main                  | `e1d905e` | chore: initialize landing page project with HTML structure and package configuration | Configura el proyecto inicial con el archivo `index.html` base, `package.json` y las dependencias de desarrollo necesarias como linters y formateadores de código.   | Sep 20, 2025       |
+
+**Commits realizados en el repositorio de frontend durante el Sprint 4:** 
+A continuación se muestra el registro de las actualizaciones aplicadas a la interfaz de la aplicación. Cada commit refleja los ajustes realizados en el diseño, la organización de los componentes y el comportamiento interactivo implementado durante este sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:-----------|:-------|:----------|:---------------|:--------------------|:-------------------|
+| EternaCare/front-end | feature/iam-bc | `a3b4c5d` | feat(iam): implement user authentication module | Implementa el módulo de autenticación con login, registro y recuperación de contraseña. Incluye validación de formularios y manejo de tokens JWT. | Oct 10, 2025 |
+| EternaCare/front-end | feature/iam-bc | `e6f7g8h` | feat(iam): add user profile management | Añade funcionalidad para gestión de perfiles de usuario con actualización de datos personales y cambio de contraseña. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `i9j0k1l` | feat(groups): implement resident management interface | Crea interfaz para gestión de residentes incluyendo listado, creación, edición y eliminación de perfiles. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `m2n3o4p` | feat(groups): add caregiver assignment functionality | Implementa asignación de cuidadores a residentes con visualización de relaciones y gestión de turnos. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `q5r6s7t` | feat(challenges): create health monitoring dashboard | Desarrolla dashboard para monitoreo de signos vitales con gráficos interactivos y alertas visuales. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `u8v9w0x` | feat(challenges): implement medication tracking system | Añade sistema de seguimiento de medicamentos con recordatorios y registro de administración. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `y1z2a3b` | feat(analytics): build reporting interface | Construye interfaz de reportes con filtros personalizables y exportación a PDF. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `c4d5e6f` | feat(analytics): add statistical visualization components | Implementa componentes de visualización estadística con gráficos de tendencias y comparativas. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `g7h8i9j` | feat(api): implement RESTful endpoints for residents | Crea endpoints CRUD para gestión de residentes con validaciones y manejo de errores. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `k0l1m2n` | feat(api): add authentication middleware | Implementa middleware de autenticación JWT para proteger rutas sensibles. | Oct 10, 2025 |
+
+**Commits realizados en el repositorio de backend durante el Sprint 4:**
+A continuación se muestra un registro detallado de los commits correspondientes al backend. Cada entrada incluye el identificador único del commit y una descripción de las modificaciones efectuadas durante su implementación.
+
+| Repository          | Branch | Commit Id  | Commit Message                                      | Commit Message Body                                                                                     | Committed on (Date) |
+|--------------------|--------|-------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------|
+| CareLink/backend   | main   | `4714d8e`   | Fix Name                                             | Ajustes finales de nomenclatura interna para estandarizar el proyecto.                                   | Nov 16, 2025         |
+| CareLink/backend   | main   | `0bd9b2d`   | Fix authorize button                                 | Corrección en el flujo de autorización de Swagger y ajustes menores en la UI de documentación.           | Nov 16, 2025         |
+| CareLink/backend   | main   | `b877fb7`   | Fix application.properties encoding filter           | Ajuste del filtro de codificación UTF-8 para compatibilidad con Azure y PostgreSQL.                      | Nov 16, 2025         |
+| CareLink/backend   | main   | `600abd0`   | Set UTF-8 encoding for build and resources           | Configuración del sistema de compilación para asegurar codificación uniforme en todos los recursos.      | Nov 16, 2025         |
+| CareLink/backend   | main   | `1a37fb6`   | Add or update Azure App Service workflow config      | Adición del workflow de GitHub Actions para CI/CD y despliegue automatizado en Azure App Service.        | Nov 16, 2025         |
+| CareLink/backend   | main   | `9d10aff`   | Fix auth security + added db remote                  | Integración con base de datos remota en Azure y mejoras en el sistema de autenticación JWT.              | Nov 16, 2025         |
+| CareLink/backend   | main   | `d4ed286`   | feat: add bounded context appointments               | Implementación del bounded context **Appointments**, incluyendo entidades, puertos y servicios.          | Nov 16, 2025         |
+| CareLink/backend   | main   | `5edf67a`   | feat: add bounded context health monitoring          | Desarrollo del bounded context **Health Monitoring**, con soporte para indicadores de salud.             | Nov 16, 2025         |
+| CareLink/backend   | main   | `a7151f2`   | feat: add interfaces layer for authentication         | Creación de la capa de interfaces para autenticación y punto de entrada.                                 | Nov 12, 2025         |
+| CareLink/backend   | main   | `4febb47`   | feat: add domain layer                               | Implementación de la capa de dominio con entidades, value objects y agregados.                           | Nov 12, 2025         |
+| CareLink/backend   | main   | `eb62464`   | feat: add Application Layer                          | Construcción de la capa de aplicación con casos de uso para los diferentes módulos.                      | Nov 12, 2025         |
+| CareLink/backend   | main   | `11d86d3`   | feat: add functionality of persistence in bc         | Implementación de puertos, adaptadores y repositorios para la persistencia.                              | Nov 12, 2025         |
+| CareLink/backend   | main   | `538ae63`   | feat: add bounded context IAM                        | Desarrollo del bounded context **Identity and Access Management (IAM)**.                                  | Nov 12, 2025         |
+| CareLink/backend   | main   | `34a24ba`   | feat: add messaging bc                               | Implementación del bounded context **Messaging**, responsable de conversaciones y mensajes.              | Nov 12, 2025         |
+ 
+
+
+
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review.
