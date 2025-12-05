@@ -104,6 +104,41 @@ Agosto 2025
       <td>Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Italo Sebastian Verona Flores</td>
       <td>Revisión completa del capítulo 5, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+    <tr>
+      <td>2.2</td>
+      <td>2025-10-20</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>5.2.3. Sprint 3, 5.2.3.1. Sprint Planning 3., 5.2.3.2. Aspect Leaders and Collaborators., 5.2.3.3. Sprint Backlog 3., 5.2.3.4. Development Evidence for Sprint Review., 5.2.3.5. Execution Evidence for Sprint Review., 5.2.3.6. Services Documentation Evidence for Sprint Review., 5.2.3.7. Software Deployment Evidence for Sprint Review., 5.2.3.8. Team Collaboration Insights during Sprint. </td>
+    </tr>
+    <tr>
+      <td>3.0</td>
+      <td>2025-10-22</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>5.3. Validation Interviews., 5.3.1. Diseño de Entrevistas., 5.3.2. Registro de Entrevistas., 5.3.3. Evaluaciones según heurísticas., 5.4. Video About-the-Product.</td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>2025-11-09</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>Correción y mejoras del informe general hasta el capitulo 5</td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>2025-11-22</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>Correción y mejoras de las Validation Interviews</td>
+    </tr>
+    <tr>
+      <td>3.3</td>
+      <td>2025-12-01</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>5.2.4. Sprint 4, 5.2.4.2. Aspect Leaders and Collaborators., 5.2.4.3. Sprint Backlog 4., 5.2.4.4. Development Evidence for Sprint Review., 5.2.4.5. Execution Evidence for Sprint Review, 5.2.4.6. Services Documentation Evidence for Sprint Review, 5.2.4.7. Software Deployment Evidence for Sprint Review, 5.2.4.8. Team Collaboration Insights during Sprint</td>
+    </tr><tr>
+      <td>4.0</td>
+      <td>2025-12-05</td>
+      <td>Italo Sebastian Verona Flores, Josue Antonio Flores Apaico, Fiorella Angela Vilca Valverde y Mauricio Rigoberto Muñoz Vilcapoma</td>
+      <td>Revisión y corrección final del informe. Se agregaron las conclusiones finales.</td>
+    </tr>
   </tbody>
 </table>
 
