@@ -245,6 +245,29 @@ Distribución de commits:
         - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
         - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
         - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+        - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint) 
+    - [5.3. Validation Interviews](#53-Validation-Interviews)
+      - [5.3.1 Diseño de Entrevistas](#5.3.1-Diseño-de-Entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-Registro-de-Entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-Evaluaciones-segun-heuristicas)
+    - [5.4. Video About-the-product](#54-Video-about-the-product)
+      - [5.2.4. Sprint 4](#524-sprint-4)
+        - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+        - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+        - [5.2.4.3. Sprint Backlog 4](#5233-sprint-backlog-4)
+        - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+        - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+        - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+        - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.4.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint) 
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -2525,226 +2548,30 @@ Asimismo, se efectuó una actualización en la **landing page**.
 
 Trello Sprint 2: https://trello.com/invite/b/68e8866039dabe1a99f4d3ec/ATTI9c9751dfca09a7363cc67550cbe6cc8c43BF7008/sprint-2
 
-<table>
-<tr>
-<th colspan="8">Sprint #2 – EternaCare Web Platform</th>
-</tr>
-<tr>
-<th colspan="2">User Story</th>
-<th colspan="6">Work-Item / Task</th>
-</tr>
-<tr>
-<th>Id</th>
-<th>Title</th>
-<th>Id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Estimation (Hours)</th>
-<th>Assigned To</th>
-<th>Status (To-do / In-Process / To-Review / Done)</th>
-</tr>
+Sprint #2 – EternaCare Web Platform
 
-<!-- US-001 -->
-<tr>
-<td rowspan="2">US-001</td>
-<td rowspan="2">Ver estado de salud del residente</td>
-<td>T01</td>
-<td>Implementar panel de monitoreo web</td>
-<td>Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T02</td>
-<td>Conectar panel con base de datos</td>
-<td>Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-
-<!-- US-009 -->
-<tr>
-<td rowspan="2">US-009</td>
-<td rowspan="2">Enviar mensajes al personal</td>
-<td>T03</td>
-<td>Desarrollar módulo de mensajería interna</td>
-<td>Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real.</td>
-<td>5</td>
-<td>Luquillas Asto Omar</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T04</td>
-<td>Guardar historial de mensajes</td>
-<td>Registrar los mensajes enviados en la base de datos con fecha, hora y usuario.</td>
-<td>2</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-012 -->
-<tr>
-<td rowspan="2">US-012</td>
-<td rowspan="2">Videollamadas integradas</td>
-<td>T05</td>
-<td>Crear interfaz de videollamadas</td>
-<td>Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-<tr>
-<td>T06</td>
-<td>Integrar servicio de videollamada WebRTC</td>
-<td>Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente.</td>
-<td>5</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-014 -->
-<tr>
-<td rowspan="2">US-014</td>
-<td rowspan="2">Recibir notificaciones de cambios</td>
-<td>T07</td>
-<td>Configurar sistema de notificaciones web</td>
-<td>Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente.</td>
-<td>3</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T08</td>
-<td>Crear historial de notificaciones</td>
-<td>Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-021 -->
-<tr>
-<td rowspan="2">US-021</td>
-<td rowspan="2">Ver reporte semanal de estado</td>
-<td>T09</td>
-<td>Generar reportes en PDF</td>
-<td>Compilar los datos del residente y generar un reporte semanal descargable en PDF.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T10</td>
-<td>Visualizar métricas de progreso</td>
-<td>Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Review</td>
-</tr>
-
-<!-- US-025 -->
-<tr>
-<td rowspan="2">US-025</td>
-<td rowspan="2">Reportes personalizados</td>
-<td>T11</td>
-<td>Implementar filtros dinámicos</td>
-<td>Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>To-Do</td>
-</tr>
-<tr>
-<td>T12</td>
-<td>Exportar reportes filtrados</td>
-<td>Permitir la descarga de los reportes personalizados en formato PDF o Excel.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>To-Do</td>
-</tr>
-
-<!-- US-045 -->
-<tr>
-<td rowspan="2">US-045</td>
-<td rowspan="2">Ver testimonios y casos de éxito</td>
-<td>T13</td>
-<td>Diseñar sección de testimonios</td>
-<td>Implementar módulo con experiencias reales de usuarios dentro de la página principal.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T14</td>
-<td>Integrar contenido de testimonios</td>
-<td>Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>Done</td>
-</tr>
-
-<!-- US-046 -->
-<tr>
-<td rowspan="2">US-046</td>
-<td rowspan="2">Solicitar información personalizada</td>
-<td>T15</td>
-<td>Diseñar formulario de contacto</td>
-<td>Crear los campos para nombre, correo y mensaje en la sección de contacto.</td>
-<td>2</td>
-<td>Italo Verona</td>
-<td>Done</td>
-</tr>
-<tr>
-<td>T16</td>
-<td>Implementar formulario con validaciones</td>
-<td>Maquetar el formulario e implementar validaciones básicas con JavaScript.</td>
-<td>3</td>
-<td>Fiorella Vilca</td>
-<td>Done</td>
-</tr>
-
-<!-- US-049 -->
-<tr>
-<td rowspan="2">US-049</td>
-<td rowspan="2">Acceder a recursos educativos</td>
-<td>T17</td>
-<td>Crear sección de recursos y guías</td>
-<td>Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores.</td>
-<td>4</td>
-<td>Josue Flores</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T18</td>
-<td>Integrar material educativo</td>
-<td>Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-
-<!-- US-050 -->
-<tr>
-<td rowspan="2">US-050</td>
-<td rowspan="2">Comparar con competidores</td>
-<td>T19</td>
-<td>Implementar tabla comparativa</td>
-<td>Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas.</td>
-<td>3</td>
-<td>Italo Verona</td>
-<td>In-Process</td>
-</tr>
-<tr>
-<td>T20</td>
-<td>Optimizar diseño de la tabla</td>
-<td>Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles.</td>
-<td>2</td>
-<td>Josue Flores</td>
-<td>To-Review</td>
-</tr>
-
-</table>
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-001 | Ver estado de salud del residente | T01 | Implementar panel de monitoreo web | Crear una vista donde el familiar pueda visualizar información de salud, actividad y estado emocional del residente. | 4 | Josue Flores | Done |
+| US-001 | Ver estado de salud del residente | T02 | Conectar panel con base de datos | Integrar datos médicos del residente desde la base de datos para visualización actualizada en tiempo real. | 3 | Italo Verona | Done |
+| US-009 | Enviar mensajes al personal | T03 | Desarrollar módulo de mensajería interna | Implementar chat entre familiares y cuidadores con envío y recepción de mensajes en tiempo real. | 5 | Mauricio Vilcapoma | Done |
+| US-009 | Enviar mensajes al personal | T04 | Guardar historial de mensajes | Registrar los mensajes enviados en la base de datos con fecha, hora y usuario. | 2 | Fiorella Vilca | Done |
+| US-012 | Videollamadas integradas | T05 | Crear interfaz de videollamadas | Diseñar y maquetar la vista para realizar videollamadas con controles de cámara y micrófono. | 4 | Josue Flores | To-Review |
+| US-012 | Videollamadas integradas | T06 | Integrar servicio de videollamada WebRTC | Implementar la conexión segura entre el familiar y el residente mediante WebRTC o API equivalente. | 5 | Italo Verona | In-Process |
+| US-014 | Recibir notificaciones de cambios | T07 | Configurar sistema de notificaciones web | Mostrar alertas automáticas cuando haya cambios importantes en el estado del residente. | 3 | Josue Flores | Done |
+| US-014 | Recibir notificaciones de cambios | T08 | Crear historial de notificaciones | Almacenar las notificaciones recibidas y mostrarlas en una vista tipo timeline. | 3 | Italo Verona | In-Process |
+| US-021 | Ver reporte semanal de estado | T09 | Generar reportes en PDF | Compilar los datos del residente y generar un reporte semanal descargable en PDF. | 4 | Josue Flores | Done |
+| US-021 | Ver reporte semanal de estado | T10 | Visualizar métricas de progreso | Mostrar gráficos con la evolución de la salud, el ánimo y la actividad del residente. | 3 | Fiorella Vilca | To-Review |
+| US-025 | Reportes personalizados | T11 | Implementar filtros dinámicos | Permitir al usuario seleccionar rangos de fechas o categorías específicas para generar reportes personalizados. | 3 | Fiorella Vilca | To-Do |
+| US-025 | Reportes personalizados | T12 | Exportar reportes filtrados | Permitir la descarga de los reportes personalizados en formato PDF o Excel. | 2 | Italo Verona | To-Do |
+| US-045 | Ver testimonios y casos de éxito | T13 | Diseñar sección de testimonios | Implementar módulo con experiencias reales de usuarios dentro de la página principal. | 3 | Italo Verona | Done |
+| US-045 | Ver testimonios y casos de éxito | T14 | Integrar contenido de testimonios | Añadir los textos e imágenes de usuarios a la sección de testimonios con diseño responsive. | 2 | Josue Flores | Done |
+| US-046 | Solicitar información personalizada | T15 | Diseñar formulario de contacto | Crear los campos para nombre, correo y mensaje en la sección de contacto. | 2 | Italo Verona | Done |
+| US-046 | Solicitar información personalizada | T16 | Implementar formulario con validaciones | Maquetar el formulario e implementar validaciones básicas con JavaScript. | 3 | Fiorella Vilca | Done |
+| US-049 | Acceder a recursos educativos | T17 | Crear sección de recursos y guías | Diseñar módulo educativo con guías y artículos sobre cuidado de adultos mayores. | 4 | Josue Flores | In-Process |
+| US-049 | Acceder a recursos educativos | T18 | Integrar material educativo | Añadir los recursos informativos (textos y enlaces) al sistema de contenido de la web. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T19 | Implementar tabla comparativa | Mostrar una tabla visual comparando los servicios de EternaCare con otras plataformas. | 3 | Italo Verona | In-Process |
+| US-050 | Comparar con competidores | T20 | Optimizar diseño de la tabla | Ajustar estilos para mantener la legibilidad y el diseño responsive en dispositivos móviles. | 2 | Josue Flores | To-Review |
 
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
@@ -3014,340 +2841,41 @@ La siguiente tabla resume los roles y responsabilidades específicas de cada mie
 
 #### 5.2.3.3.Sprint Backlog 3.
 
+En el Sprint 3, el propósito principal fue cumplir el objetivo de establecer la infraestructura funcional de la plataforma CareLink, desarrollando y consolidando la API RESTful del sistema. Esto se logró mediante la implementación de la lógica de negocio, la validación de la Arquitectura Hexagonal (DDD), y la preparación del ambiente de producción en Azure.
 
-En este apartado se describe el Sprint Backlog correspondiente al tercer sprint del proyecto, incorporando elementos como el ID, la historia de usuario, los work items o tareas, su descripción, estimación, responsable y estado.
+Para cumplir con este objetivo, la implementación de la API se organizó en los siguientes Bounded Contexts (BC) (dominios del negocio), donde cada integrante lideró la creación de los endpoints necesarios para soportar las funcionalidades clave de la aplicación web:
 
-Seguidamente, se expone un resumen detallado de las historias de usuario desarrolladas durante el Sprint 3. La tabla presentada refleja el avance de cada historia, mostrando su estado actual, las evidencias de su culminación y cualquier observación pertinente.
+* IAM (Identity & Access Management): Cubriendo la Autenticación y Registro de usuarios para el acceso seguro.
 
-<table>
-  <tr>
-    <td colspan="1"><strong>Sprint #</strong></td>
-    <td colspan="7"><strong>Sprint 3</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item/task (Engineering Task)</strong></td>
-  </tr>
-  <tr>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Id</strong></td>
-    <td colspan="1"><strong>Title</strong></td>
-    <td colspan="1"><strong>Description</strong></td>
-    <td colspan="1"><strong>Estimation(Hours)</strong></td>
-    <td colspan="1"><strong>Assigned To</strong></td>
-    <td colspan="1"><strong>Status</strong></td>
-  </tr>
+* Doctor Management: Cubriendo la gestión de Personal Médico y Horarios de atención.
 
-  <tr>
-    <td>TS-001</td>
-    <td>Obtener usuario por ID</td>
-    <td>T01</td>
-    <td>Crear getUserById</td>
-    <td>Crear endpoint de Users GET /api/v1/users/{userId}</td>
-    <td>4</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+* Patient Management & Health Monitoring: Cubriendo la gestión de Pacientes y los endpoints base para el Monitoreo de Salud.
 
-  <tr>
-    <td>TS-002</td>
-    <td>Actualizar usuario</td>
-    <td>T02</td>
-    <td>Crear updateUser</td>
-    <td>Crear endpoint de Users PUT /api/v1/users/{userId}</td>
-    <td>6</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+* Messaging & Appointments: Cubriendo la funcionalidad de Comunicaciones internas y la gestión de Citas Médicas.
 
-  <tr>
-    <td>TS-003</td>
-    <td>Eliminar usuario</td>
-    <td>T03</td>
-    <td>Crear deleteUser</td>
-    <td>Crear endpoint de Users DELETE /api/v1/users/{userId}</td>
-    <td>4</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
+El sprint se enfocó en asegurar que todos los controllers (Auth, Doctors, Patients, Schedules, Appointments, Conversations y Messages) se integraran correctamente, culminando con el despliegue exitoso del backend en Azure App Service y PostgreSQL.
 
-  <tr>
-    <td>TS-004</td>
-    <td>Obtener todos los usuarios</td>
-    <td>T04</td>
-    <td>Crear getAllUsers</td>
-    <td>Crear endpoint de Users GET /api/v1/users</td>
-    <td>4</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
+<img width="" height="" alt="image" src="./images/chapter-5/Sprint Backlog 3.jpeg" />
 
-  <tr>
-    <td>TS-005</td>
-    <td>Crear nuevo usuario</td>
-    <td>T05</td>
-    <td>Crear createUser</td>
-    <td>Crear endpoint de Users POST /api/v1/users</td>
-    <td>6</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
+Trello Sprint 3:
+https://trello.com/invite/b/69310b612d4c60619cf06e12/ATTIad7edce4776a7b725cca9186f8be43853038232D/sprint-3 
 
-  <tr>
-    <td>TS-006</td>
-    <td>Obtener entrega por ID</td>
-    <td>T06</td>
-    <td>Crear getSubmissionById</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/{submissionId}</td>
-    <td>4</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
 
-  <tr>
-    <td>TS-007</td>
-    <td>Actualizar entrega</td>
-    <td>T07</td>
-    <td>Crear updateSubmission</td>
-    <td>Crear endpoint de Submissions PUT /api/v1/submissions/{submissionId}</td>
-    <td>6</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
 
-  <tr>
-    <td>TS-008</td>
-    <td>Eliminar entrega</td>
-    <td>T08</td>
-    <td>Crear deleteSubmission</td>
-    <td>Crear endpoint de Submissions DELETE /api/v1/submissions/{submissionId}</td>
-    <td>4</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-009</td>
-    <td>Obtener todas las entregas</td>
-    <td>T09</td>
-    <td>Crear getAllSubmissions</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions</td>
-    <td>4</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-010</td>
-    <td>Crear nueva entrega</td>
-    <td>T10</td>
-    <td>Crear createSubmission</td>
-    <td>Crear endpoint de Submissions POST /api/v1/submissions</td>
-    <td>6</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-011</td>
-    <td>Obtener entregas por estudiante</td>
-    <td>T11</td>
-    <td>Crear getSubmissionsByStudent</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/submissions</td>
-    <td>5</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-012</td>
-    <td>Obtener entregas por estudiante y reto</td>
-    <td>T12</td>
-    <td>Crear getSubmissionsByStudentAndChallenge</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/students/{studentId}/challenges/{challengeId}</td>
-    <td>5</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-013</td>
-    <td>Obtener entregas por reto</td>
-    <td>T13</td>
-    <td>Crear getSubmissionsByChallenge</td>
-    <td>Crear endpoint de Submissions GET /api/v1/submissions/challenges/{challengeId}/submissions</td>
-    <td>5</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-014</td>
-    <td>Obtener grupo por ID</td>
-    <td>T14</td>
-    <td>Crear getGroupById</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups/{id}</td>
-    <td>4</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-015</td>
-    <td>Actualizar grupo</td>
-    <td>T15</td>
-    <td>Crear updateGroup</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{id}</td>
-    <td>6</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-016</td>
-    <td>Eliminar grupo</td>
-    <td>T16</td>
-    <td>Crear deleteGroup</td>
-    <td>Crear endpoint de Groups DELETE /api/v1/groups/{id}</td>
-    <td>4</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-017</td>
-    <td>Obtener código de unión de grupo</td>
-    <td>T17</td>
-    <td>Crear getGroupJoinCode</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>4</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-018</td>
-    <td>Establecer código de unión de grupo</td>
-    <td>T18</td>
-    <td>Crear setGroupJoinCode</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes</td>
-    <td>6</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-019</td>
-    <td>Restablecer código de unión de grupo</td>
-    <td>T19</td>
-    <td>Crear resetGroupJoinCode</td>
-    <td>Crear endpoint de Groups PUT /api/v1/groups/{groupId}/groupJoinCodes/reset</td>
-    <td>5</td>
-    <td>Josue Antonio Flores Apaico</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-020</td>
-    <td>Obtener todos los grupos</td>
-    <td>T20</td>
-    <td>Crear getAllGroups</td>
-    <td>Crear endpoint de Groups GET /api/v1/groups</td>
-    <td>4</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-021</td>
-    <td>Crear nuevo grupo</td>
-    <td>T21</td>
-    <td>Crear createGroup</td>
-    <td>Crear endpoint de Groups POST /api/v1/groups</td>
-    <td>6</td>
-    <td>Omar Luquillas Asto</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-022</td>
-    <td>Unirse a grupo con código</td>
-    <td>T22</td>
-    <td>Crear joinGroupWithCode</td>
-    <td>Crear endpoint de Groups POST /api/v1/groups/join</td>
-    <td>5</td>
-    <td>José Antonio Alejo Cardenas</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-023</td>
-    <td>Obtener reto por ID</td>
-    <td>T23</td>
-    <td>Crear getChallengeById</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges/{challengeId}</td>
-    <td>4</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-024</td>
-    <td>Actualizar reto</td>
-    <td>T24</td>
-    <td>Crear updateChallenge</td>
-    <td>Crear endpoint de Challenges PUT /api/v1/challenges/{challengeId}</td>
-    <td>6</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-025</td>
-    <td>Eliminar reto</td>
-    <td>T25</td>
-    <td>Crear deleteChallenge</td>
-    <td>Crear endpoint de Challenges DELETE /api/v1/challenges/{challengeId}</td>
-    <td>4</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-026</td>
-    <td>Obtener todos los retos</td>
-    <td>T26</td>
-    <td>Crear getAllChallenges</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges</td>
-    <td>4</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-027</td>
-    <td>Crear nuevo reto</td>
-    <td>T27</td>
-    <td>Crear createChallenge</td>
-    <td>Crear endpoint de Challenges POST /api/v1/challenges</td>
-    <td>6</td>
-    <td>Alejandro Franklin Mendoza Vergara</td>
-    <td>Done</td>
-  </tr>
-
-  <tr>
-    <td>TS-028</td>
-    <td>Obtener retos por grupo</td>
-    <td>T28</td>
-    <td>Crear getChallengesByGroup</td>
-    <td>Crear endpoint de Challenges GET /api/v1/challenges/groups/{groupId}/challenges</td>
-    <td>5</td>
-    <td>Sebastián Omar Real Calderón</td>
-    <td>Done</td>
-  </tr>
-</table>
-
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description (Endpoint / Function) | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-03 | Recibir alertas críticas | **T01** | Implementar `POST /auth/register` | Registro de nuevos usuarios y roles. (Auth-Controller) | 3 | **Italo Verona** | Done |
+| US-38 | Validar credenciales del API | **T02** | Implementar `POST /auth/login` | Autenticación de usuarios y generación de JWT. (Auth-Controller) | 2 | **Italo Verona** | Done |
+| US-32 | Registrar doctor | **T03** | Implementar CRUD: `doctors-controller` | GET, PUT, DELETE, POST para Doctores. | 4 | **Fiorella Vilca** | Done |
+| US-35 | Asignar personal a turnos | **T04** | Implementar CRUD: `schedules-controller` | GET, PUT, DELETE, POST para Horarios Médicos. | 3 | **Fiorella Vilca** | Done |
+| US-39 | Registrar nuevo residente (API) | **T05** | Implementar CRUD: `patients-controller` | GET, PUT, DELETE, POST para Pacientes. | 4 | **Josue Flores** | Done |
+| US-32 | Registrar doctor | **T06** | Implementar Asignación de Doctor | `POST /patients/{patientId}/assign-doctor/{doctorId}` | 2 | **Josue Flores** | Done |
+| US-35 | Asignar personal a turnos | **T07** | Implementar Asignación Múltiple | `POST /patients/assignments` | 2 | **Josue Flores** | Done |
+| US-11 | Programar visitas | **T08** | Implementar CRUD: `appointments-controller` | GET, PUT, DELETE, POST para Citas. | 4 | **Josue Flores** | Done |
+| US-09 | Enviar mensajes al personal | **T09** | Implementar CRUD: `conversations-controller` | GET, PUT, DELETE, POST para Conversaciones. | 3 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T10** | Implementar CRUD: `messages-controller` | GET, PUT, DELETE, POST para Mensajes. | 4 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T11** | Implementar PATCH /mark-as-read | Marcar mensajes como leídos. | 1 | **Mauricio Vilcapoma** | Done |
+| US-10 | Ver respuestas del personal | **T12** | Obtener Mensajes por Conversación | GET /messages/conversation/{conversationId} | 2 | **Mauricio Vilcapoma** | Done |
 
 
 #### 5.2.3.4.Development Evidence for Sprint Review.
@@ -3903,11 +3431,792 @@ La siguiente tabla resume los roles asumidos por cada integrante como líderes (
 
 
 #### 5.2.4.3. Sprint Backlog 4.
+
+En el Sprint 4, el enfoque principal fue integrar el frontend con la API RESTful desarrollada en el Sprint 3, permitiendo que todas las funcionalidades del sistema operen de manera unificada. Para ello, se configuraron los servicios de Angular, interceptores y consumo de endpoints, asegurando la comunicación correcta entre las capas.
+
+Asimismo, se realizaron pruebas funcionales end-to-end y se corrigieron errores derivados de la integración. Se optimizó la landing page y se incorporó al flujo principal de la aplicación, mejorando navegación, diseño y experiencia de usuario.
+
+Este sprint consolidó la plataforma CareLink en una versión completamente funcional y lista para su demostración final.
+
+<img width="" height="" alt="image" src="./images/chapter-5/Sprint4.png" />
+
+Trello Sprint 4:
+https://trello.com/invite/b/69325195bcda5aae9398e0a6/ATTI5756ccea9aba4efc8e79fc172414b91f324C342D/sprint-4 
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-01 | Integración Frontend–Backend | T01 | Configurar servicios Angular | Implementar servicios para consumir los endpoints de doctores, pacientes, horarios, mensajes y citas. | 6 | Josue Flores | Done |
+| US-01 | Integración Frontend–Backend | T02 | Configurar interceptores y tokens | Implementar manejo de Authorization Header, JWT e interceptores de error. | 5 | Mauricio Vilcapoma | Done |
+| US-01 | Integración Frontend–Backend | T03 | Conectar vistas con API REST | Integrar formularios, listados, detalle y flujos del usuario con los endpoints backend. | 6 | Mauricio Vilcapoma | Done |
+| US-01 | Mejorar landing page | T04 | Integrar landing al frontend principal | Ajustar navegación, rutas y componentes para unir la landing con la aplicación SPA. | 4 | Italo Verona | Done |
+| US-01 | Mejorar landing page | T05 | Mejorar UI/UX final | Ajustes visuales, tipografía, espaciado, responsividad y optimización general de la landing. | 5 | Italo Verona | Done |
+| US-02 | Validar funcionamiento del sistema | T06 | Pruebas de integración FE–BE | Realizar pruebas completas de login, mensajes, citas, asignaciones y CRUDs vinculados. | 6 | Fiorella Vilca | Done |
+| US-02 | Validar funcionamiento del sistema | T07 | Corrección de bugs de integración | Resolver errores encontrados al conectar el frontend con el backend y ajustar flujos. | 6 | Fiorella Vilca | Done |
+| US-01 | Preparación para despliegue | T08 | Configuración de build y deploy | Ajustar variables de entorno, rutas y dependencias necesarias para el despliegue final. | 4 | Josue Flores | Done |
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+
+En esta sección se muestran los commits realizados en los repositorios de backend y frontend correspondientes al Sprint 3.
+
+**Commits registrados en el repositorio de la Landing Page durante el Sprint 4:**
+A continuación se incluye un listado de las actualizaciones efectuadas en la interfaz de la Landing Page. Cada commit refleja los ajustes aplicados al diseño, la estructura y el comportamiento de los elementos visuales desarrollados en este sprint.
+
+
+| Repository                       | Branch                | Commit Id | Commit Message                                                                       | Commit Message Body (Ejemplo Ilustrativo)                                                                                                                            | Commited on (Date) |
+|:---------------------------------|:----------------------|:----------|:-------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|
+| EternaCare/carelink-landing-page | feature/i18n          | `37a148e` | Create es.js                                                                         | Añade el archivo de traducciones para el idioma español (es.js), siguiendo la estructura de claves definida. Separa las traducciones para mejorar la mantenibilidad. | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/i18n          | `288092f` | Create en.js                                                                         | Crea el archivo de traducciones para el idioma inglés (en.js) que servirá como idioma por defecto para la internacionalización de la página.                         | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/interactivity | `91246d5` | feat(landing-page): add interactive features to landing page                         | Implementa la lógica JavaScript para el carrusel de testimonios, el menú de navegación móvil y el selector de idioma. Añade los scripts al archivo HTML.             | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | feature/styles        | `2ad9e35` | feat(landing-page): Landing page styles folder added                                 | Añade el archivo `styles.css` con todas las guías de estilo, paleta de colores, tipografía y diseño responsivo para la landing page, siguiendo el diseño de Figma.   | Sep 21, 2025       |
+| EternaCare/carelink-landing-page | main                  | `e1d905e` | chore: initialize landing page project with HTML structure and package configuration | Configura el proyecto inicial con el archivo `index.html` base, `package.json` y las dependencias de desarrollo necesarias como linters y formateadores de código.   | Sep 20, 2025       |
+
+**Commits realizados en el repositorio de frontend durante el Sprint 4:** 
+A continuación se muestra el registro de las actualizaciones aplicadas a la interfaz de la aplicación. Cada commit refleja los ajustes realizados en el diseño, la organización de los componentes y el comportamiento interactivo implementado durante este sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:-----------|:-------|:----------|:---------------|:--------------------|:-------------------|
+| EternaCare/front-end | feature/iam-bc | `a3b4c5d` | feat(iam): implement user authentication module | Implementa el módulo de autenticación con login, registro y recuperación de contraseña. Incluye validación de formularios y manejo de tokens JWT. | Oct 10, 2025 |
+| EternaCare/front-end | feature/iam-bc | `e6f7g8h` | feat(iam): add user profile management | Añade funcionalidad para gestión de perfiles de usuario con actualización de datos personales y cambio de contraseña. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `i9j0k1l` | feat(groups): implement resident management interface | Crea interfaz para gestión de residentes incluyendo listado, creación, edición y eliminación de perfiles. | Oct 10, 2025 |
+| EternaCare/front-end | feature/group-management | `m2n3o4p` | feat(groups): add caregiver assignment functionality | Implementa asignación de cuidadores a residentes con visualización de relaciones y gestión de turnos. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `q5r6s7t` | feat(challenges): create health monitoring dashboard | Desarrolla dashboard para monitoreo de signos vitales con gráficos interactivos y alertas visuales. | Oct 10, 2025 |
+| EternaCare/front-end | feature/challenges-bc | `u8v9w0x` | feat(challenges): implement medication tracking system | Añade sistema de seguimiento de medicamentos con recordatorios y registro de administración. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `y1z2a3b` | feat(analytics): build reporting interface | Construye interfaz de reportes con filtros personalizables y exportación a PDF. | Oct 10, 2025 |
+| EternaCare/front-end | feature/analytics-bc | `c4d5e6f` | feat(analytics): add statistical visualization components | Implementa componentes de visualización estadística con gráficos de tendencias y comparativas. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `g7h8i9j` | feat(api): implement RESTful endpoints for residents | Crea endpoints CRUD para gestión de residentes con validaciones y manejo de errores. | Oct 10, 2025 |
+| EternaCare/backend | feature/api-endpoints | `k0l1m2n` | feat(api): add authentication middleware | Implementa middleware de autenticación JWT para proteger rutas sensibles. | Oct 10, 2025 |
+
+**Commits realizados en el repositorio de backend durante el Sprint 4:**
+A continuación se muestra un registro detallado de los commits correspondientes al backend. Cada entrada incluye el identificador único del commit y una descripción de las modificaciones efectuadas durante su implementación.
+
+| Repository          | Branch | Commit Id  | Commit Message                                      | Commit Message Body                                                                                     | Committed on (Date) |
+|--------------------|--------|-------------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|----------------------|
+| CareLink/backend   | main   | `4714d8e`   | Fix Name                                             | Ajustes finales de nomenclatura interna para estandarizar el proyecto.                                   | Nov 16, 2025         |
+| CareLink/backend   | main   | `0bd9b2d`   | Fix authorize button                                 | Corrección en el flujo de autorización de Swagger y ajustes menores en la UI de documentación.           | Nov 16, 2025         |
+| CareLink/backend   | main   | `b877fb7`   | Fix application.properties encoding filter           | Ajuste del filtro de codificación UTF-8 para compatibilidad con Azure y PostgreSQL.                      | Nov 16, 2025         |
+| CareLink/backend   | main   | `600abd0`   | Set UTF-8 encoding for build and resources           | Configuración del sistema de compilación para asegurar codificación uniforme en todos los recursos.      | Nov 16, 2025         |
+| CareLink/backend   | main   | `1a37fb6`   | Add or update Azure App Service workflow config      | Adición del workflow de GitHub Actions para CI/CD y despliegue automatizado en Azure App Service.        | Nov 16, 2025         |
+| CareLink/backend   | main   | `9d10aff`   | Fix auth security + added db remote                  | Integración con base de datos remota en Azure y mejoras en el sistema de autenticación JWT.              | Nov 16, 2025         |
+| CareLink/backend   | main   | `d4ed286`   | feat: add bounded context appointments               | Implementación del bounded context **Appointments**, incluyendo entidades, puertos y servicios.          | Nov 16, 2025         |
+| CareLink/backend   | main   | `5edf67a`   | feat: add bounded context health monitoring          | Desarrollo del bounded context **Health Monitoring**, con soporte para indicadores de salud.             | Nov 16, 2025         |
+| CareLink/backend   | main   | `a7151f2`   | feat: add interfaces layer for authentication         | Creación de la capa de interfaces para autenticación y punto de entrada.                                 | Nov 12, 2025         |
+| CareLink/backend   | main   | `4febb47`   | feat: add domain layer                               | Implementación de la capa de dominio con entidades, value objects y agregados.                           | Nov 12, 2025         |
+| CareLink/backend   | main   | `eb62464`   | feat: add Application Layer                          | Construcción de la capa de aplicación con casos de uso para los diferentes módulos.                      | Nov 12, 2025         |
+| CareLink/backend   | main   | `11d86d3`   | feat: add functionality of persistence in bc         | Implementación de puertos, adaptadores y repositorios para la persistencia.                              | Nov 12, 2025         |
+| CareLink/backend   | main   | `538ae63`   | feat: add bounded context IAM                        | Desarrollo del bounded context **Identity and Access Management (IAM)**.                                  | Nov 12, 2025         |
+| CareLink/backend   | main   | `34a24ba`   | feat: add messaging bc                               | Implementación del bounded context **Messaging**, responsable de conversaciones y mensajes.              | Nov 12, 2025         |
+ 
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias visuales que reflejan el avance logrado durante el Sprint 4. A través de capturas de pantalla y un video demostrativo, se muestran de manera clara las funcionalidades implementadas y el estado actual del producto.
+
+**Landing Page:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/Landing1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing3.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing4.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing5.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing6.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing7.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing8.png" />
+
+**Frontend:**
+
+
+*Figura 1:* Vista de Login y Registro de usuarios del sistema CareLink.
+
+<img src="images/chapter-5/iniciar-sesion.jpeg" alt="" width=""/>
+<img src="images/chapter-5/crear-cuenta.jpeg" alt="" width=""/>
+
+*Figura 2:* Dashboard principal mostrando resumen de residentes y alertas activas.
+
+<img src="images/chapter-5/dashboard.jpeg" alt="" width=""/>
+
+*Figura 3:*  Panel de estadísticas del paciente, incluyendo monitoreo de signos vitales en tiempo real, lista de actividades médicas y control de medicación. 
+
+<img src="images/chapter-5/stats.jpeg" alt="" width=""/>
+
+*Figura 4:* Reportes con mas detalles
+
+<img src="images/chapter-5/reports.jpeg" alt="" width=""/>
+
+*Figura 5:* Sistema de mensajería entre paciente y profesionales de salud mostrando conversaciones activas y chat en tiempo real.
+
+<img src="images/chapter-5/messages.jpeg" alt="" width=""/>
+
+*Figura 6:*  Calendario de citas médicas mostrando programación mensual y lista de próximas consultas agendadas.
+
+<img src="images/chapter-5/appointments-calendar.jpeg" alt="" width=""/>
+
+*Figura 7:* Perfil del paciente mostrando resumen de actividad y configuración de información personal.
+
+<img src="images/chapter-5/profile.jpeg" alt="" width=""/>
+
+
+**Backend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/Backend1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend3.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend4.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend5.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend6.png" />
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint Review se reunió y estructuró toda la evidencia correspondiente a los servicios desarrollados en el proyecto, especificando cada endpoint, el verbo HTTP utilizado, sus parámetros, cuerpos de solicitud y las respuestas esperadas. Esta documentación permite visualizar de forma ordenada la arquitectura, las operaciones y los flujos principales de los módulos fundamentales del sistema.
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Verbo http</th>
+      <th>Endpoint</th>
+      <th>Summary</th>
+      <th>Description</th>
+      <th>OperationId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Schedules -->
+    <tr>
+      <td>Schedules</td>
+      <td>GET</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Get</td>
+      <td>Get schedule by ID</td>
+      <td>schedules_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>PUT</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Update</td>
+      <td>Update an existing schedule</td>
+      <td>schedules_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>DELETE</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Delete</td>
+      <td>Delete schedule by ID</td>
+      <td>schedules_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>GET</td>
+      <td>/api/v1/schedules</td>
+      <td>List</td>
+      <td>Get all schedules</td>
+      <td>schedules_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>POST</td>
+      <td>/api/v1/schedules</td>
+      <td>Create</td>
+      <td>Create a new schedule</td>
+      <td>schedules_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Patients -->
+    <tr>
+      <td>Patients</td>
+      <td>GET</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Get</td>
+      <td>Get patient by ID</td>
+      <td>patients_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>PUT</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Update</td>
+      <td>Update an existing patient</td>
+      <td>patients_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>DELETE</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Delete</td>
+      <td>Delete patient by ID</td>
+      <td>patients_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>GET</td>
+      <td>/api/v1/patients</td>
+      <td>List</td>
+      <td>Get all patients</td>
+      <td>patients_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients</td>
+      <td>Create</td>
+      <td>Create a new patient</td>
+      <td>patients_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients/{patientId}/assign-doctor/{doctorId}</td>
+      <td>Create</td>
+      <td>Assign a doctor to a patient</td>
+      <td>patients_assign_doctor</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{patientId}, {doctorId}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients/assignments</td>
+      <td>Create</td>
+      <td>Create multiple patient–doctor assignments</td>
+      <td>patients_create_assignments</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Messages -->
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Get</td>
+      <td>Get message by ID</td>
+      <td>messages_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>PUT</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Update</td>
+      <td>Update an existing message</td>
+      <td>messages_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>DELETE</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Delete</td>
+      <td>Delete message by ID</td>
+      <td>messages_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages</td>
+      <td>List</td>
+      <td>Get all messages</td>
+      <td>messages_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>POST</td>
+      <td>/api/v1/messages</td>
+      <td>Create</td>
+      <td>Create a new message</td>
+      <td>messages_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>PATCH</td>
+      <td>/api/v1/messages/{id}/mark-as-read</td>
+      <td>Update</td>
+      <td>Mark message as read</td>
+      <td>messages_mark_as_read</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages/conversation/{conversationId}</td>
+      <td>Get</td>
+      <td>Get messages by conversation ID</td>
+      <td>messages_get_by_conversation</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{conversationId}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <!-- Doctors -->
+    <tr>
+      <td>Doctors</td>
+      <td>GET</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Get</td>
+      <td>Get doctor by ID</td>
+      <td>doctors_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>PUT</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Update</td>
+      <td>Update an existing doctor</td>
+      <td>doctors_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>DELETE</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Delete</td>
+      <td>Delete doctor by ID</td>
+      <td>doctors_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>GET</td>
+      <td>/api/v1/doctors</td>
+      <td>List</td>
+      <td>Get all doctors</td>
+      <td>doctors_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>POST</td>
+      <td>/api/v1/doctors</td>
+      <td>Create</td>
+      <td>Create a new doctor</td>
+      <td>doctors_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Conversations -->
+    <tr>
+      <td>Conversations</td>
+      <td>GET</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Get</td>
+      <td>Get conversation by ID</td>
+      <td>conversations_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>PUT</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Update</td>
+      <td>Update an existing conversation</td>
+      <td>conversations_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>DELETE</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Delete</td>
+      <td>Delete conversation by ID</td>
+      <td>conversations_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>GET</td>
+      <td>/api/v1/conversations</td>
+      <td>List</td>
+      <td>Get all conversations</td>
+      <td>conversations_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>POST</td>
+      <td>/api/v1/conversations</td>
+      <td>Create</td>
+      <td>Create a new conversation</td>
+      <td>conversations_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Appointments -->
+    <tr>
+      <td>Appointments</td>
+      <td>GET</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Get</td>
+      <td>Get appointment by ID</td>
+      <td>appointments_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>PUT</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Update</td>
+      <td>Update an existing appointment</td>
+      <td>appointments_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>DELETE</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Delete</td>
+      <td>Delete appointment by ID</td>
+      <td>appointments_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>GET</td>
+      <td>/api/v1/appointments</td>
+      <td>List</td>
+      <td>Get all appointments</td>
+      <td>appointments_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>POST</td>
+      <td>/api/v1/appointments</td>
+      <td>Create</td>
+      <td>Create a new appointment</td>
+      <td>appointments_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Authentication -->
+    <tr>
+      <td>Authentication</td>
+      <td>POST</td>
+      <td>/api/v1/auth/register</td>
+      <td>Create</td>
+      <td>Register a new user account</td>
+      <td>auth_register</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Authentication</td>
+      <td>POST</td>
+      <td>/api/v1/auth/login</td>
+      <td>Create</td>
+      <td>Authenticate user and return JWT</td>
+      <td>auth_login</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+**Landing Page:**
+
+Para llevar a cabo el despliegue de la landing page se empleó GitHub Pages, una herramienta gratuita que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. El procedimiento consiste en cargar el código del proyecto en el repositorio y verificar que el archivo index.html esté ubicado en la raíz o en la rama designada para la publicación (usualmente main o gh-pages).
+Posteriormente, desde la sección de configuración del repositorio, se habilita GitHub Pages seleccionando la rama que servirá como fuente del sitio. Una vez activado el servicio, GitHub genera automáticamente una URL pública donde el sitio queda disponible para su visualización. En este caso, la landing page puede accederse mediante el siguiente enlace:
+
+https://eternacare-opensource.github.io/landing-page/ 
+
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.  
+  * Se creó un repositorio público dentro de la organización para alojar la landing page.  
+  * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
+
+<img width="1048" height="749" alt="image" src="https://github.com/user-attachments/assets/5f5ca98e-7f1f-4c4a-9595-4a8b959104ac" />
+
+* Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
+  * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+ 
+  <img width="976" height="787" alt="image" src="https://github.com/user-attachments/assets/02b86157-3528-4361-8cd6-a3fb79e124da" />
+
+
+**Frontend:**
+El despliegue del frontend se llevó a cabo mediante Firebase Hosting, una plataforma que permite publicar aplicaciones web de forma rápida y segura. Para ello, se vinculó el proyecto desarrollado en Angular y TypeScript con Firebase, configurando el archivo de distribución generado por el comando de compilación (ng build).
+Una vez generado el contenido en la carpeta dist/, se utilizó la herramienta de Firebase CLI para inicializar el hosting, seleccionar el directorio de salida y proceder con la publicación. Firebase se encargó de generar automáticamente una URL pública donde la aplicación quedó disponible, permitiendo además realizar actualizaciones de forma sencilla cada vez que se ejecuta un nuevo despliegue.
+
+<img width="" height="" alt="image" src="./images/chapter-5/firebase.jpeg" />
+
+* Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado CareLink
+
+<img width="" height="" alt="image" src="./images/chapter-5/inicio-sesion-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/crear-proyecto-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink-1.jpeg" />
+
+A continuación, se desplegó el proyecto ejecutando los siguientes comandos en el terminal del entorno de desarrollo:
+
+**npm install -g firebase tools**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-firebase.jpeg" />
+
+**firebase init**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-init.jpeg" />
+
+**firebase deploy**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy.jpeg" />
+
+**Api-fake deplo**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake3.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake4.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake5.jpeg" />
+
+Por último, el frontend de *CareLink* fue desplegada exitosamente:
+<img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
+Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
+
+
+**Backend:**
+En este apartado se presenta la evidencia del despliegue del backend realizada durante el sprint, correspondiente a la creación, configuración y publicación del servicio en Azure App Service. Este proceso permitió alojar la API RESTful desarrollada para CareLink en un entorno en la nube totalmente operativo, asegurando disponibilidad, escalabilidad y acceso externo para pruebas e integración con el frontend.
+
+<img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
+<img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
+
+<img width="1465" height="569" alt="image" src="https://github.com/user-attachments/assets/bc6ad233-84d6-4bbe-820c-5609a666733d" />
+<img width="1831" height="642" alt="image" src="https://github.com/user-attachments/assets/f8b13a0f-6eb9-4feb-aa2c-a9c342973bbe" />
+
+<img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
+
+**Database:**
+En este apartado se documenta la evidencia del despliegue de la base de datos realizado durante el sprint, correspondiente a la creación y configuración del servicio PostgreSQL en Microsoft Azure. Este despliegue estableció la infraestructura esencial para el correcto funcionamiento del backend de CareLink, brindando un entorno seguro, estable y totalmente accesible para el equipo de desarrollo.
+
+
+**Evidencia:**
+
+- Configuración inicial del servidor  
+<img width="881" height="998" alt="image" src="https://github.com/user-attachments/assets/23e4d5d3-d6f4-4daf-89ca-c1610f128bfd" />
+
+- Configuración de redes y firewall  
+  - Acceso público habilitado  
+  - Regla de firewall creada para permitir acceso desde la IP local  
+<img width="986" height="954" alt="image" src="https://github.com/user-attachments/assets/5311bb04-5c66-4eab-96a5-c6c9624f84d1" />
+
+- Configuración de autenticación  
+<img width="912" height="843" alt="image" src="https://github.com/user-attachments/assets/ad5567a0-236e-4459-a2f2-bcba4bda93eb" />
+
+- Pantalla de revisión final antes del despliegue  
+<img width="827" height="957" alt="image" src="https://github.com/user-attachments/assets/9f3cd0d4-8d03-4f06-aa7a-fdca2a87a9be" />
+
+- Evidencia del recurso ya desplegado y operativo  
+<img width="1844" height="750" alt="image" src="https://github.com/user-attachments/assets/905be4b1-1836-48c1-bf06-d24ba0b25314" />
+<img width="716" height="553" alt="image" src="https://github.com/user-attachments/assets/f81a4aba-723e-42e0-8ada-e9b6903c2945" />
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e2c695a0-a2a5-45b9-9e47-549030ce184f" />
+<img width="349" height="201" alt="image" src="https://github.com/user-attachments/assets/056f5f0d-72e7-4a8b-a167-37b482589899" />
+
+---
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+**Landing Page:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.3.jpeg" />
+
+**Frontend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
+
+**Backend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit3.png" />
 
 
 
