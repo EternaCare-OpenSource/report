@@ -4156,7 +4156,7 @@ Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome
 
 
 **Backend:**
-En este apartado se detalla la evidencia correspondiente al despliegue del backend realizado durante el sprint, centrándose en la creación y configuración del servicio de base de datos PostgreSQL en Microsoft Azure. Este despliegue fue fundamental para habilitar la infraestructura necesaria que soporta la API de CareLink, garantizando un entorno seguro, estable y accesible para el desarrollo y consumo de los servicios del sistema.
+En este apartado se presenta la evidencia del despliegue del backend realizada durante el sprint, correspondiente a la creación, configuración y publicación del servicio en Azure App Service. Este proceso permitió alojar la API RESTful desarrollada para CareLink en un entorno en la nube totalmente operativo, asegurando disponibilidad, escalabilidad y acceso externo para pruebas e integración con el frontend.
 
 <img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
 <img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
@@ -4166,7 +4166,55 @@ En este apartado se detalla la evidencia correspondiente al despliegue del backe
 
 <img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
 
+**Database:**
+En este apartado se documenta la evidencia del despliegue de la base de datos realizado durante el sprint, correspondiente a la creación y configuración del servicio PostgreSQL en Microsoft Azure. Este despliegue estableció la infraestructura esencial para el correcto funcionamiento del backend de CareLink, brindando un entorno seguro, estable y totalmente accesible para el equipo de desarrollo.
+
+
+**Evidencia:**
+
+- Configuración inicial del servidor  
+<img width="881" height="998" alt="image" src="https://github.com/user-attachments/assets/23e4d5d3-d6f4-4daf-89ca-c1610f128bfd" />
+
+- Configuración de redes y firewall  
+  - Acceso público habilitado  
+  - Regla de firewall creada para permitir acceso desde la IP local  
+<img width="986" height="954" alt="image" src="https://github.com/user-attachments/assets/5311bb04-5c66-4eab-96a5-c6c9624f84d1" />
+
+- Configuración de autenticación  
+<img width="912" height="843" alt="image" src="https://github.com/user-attachments/assets/ad5567a0-236e-4459-a2f2-bcba4bda93eb" />
+
+- Pantalla de revisión final antes del despliegue  
+<img width="827" height="957" alt="image" src="https://github.com/user-attachments/assets/9f3cd0d4-8d03-4f06-aa7a-fdca2a87a9be" />
+
+- Evidencia del recurso ya desplegado y operativo  
+<img width="1844" height="750" alt="image" src="https://github.com/user-attachments/assets/905be4b1-1836-48c1-bf06-d24ba0b25314" />
+<img width="716" height="553" alt="image" src="https://github.com/user-attachments/assets/f81a4aba-723e-42e0-8ada-e9b6903c2945" />
+<img width="705" height="559" alt="image" src="https://github.com/user-attachments/assets/e2c695a0-a2a5-45b9-9e47-549030ce184f" />
+<img width="349" height="201" alt="image" src="https://github.com/user-attachments/assets/056f5f0d-72e7-4a8b-a167-37b482589899" />
+
+---
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+**Landing Page:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint1.3.jpeg" />
+
+**Frontend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/team-sprint2.2.jpeg" />
+
+**Backend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/back-commit3.png" />
 
 
 
