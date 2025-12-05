@@ -4523,6 +4523,11 @@ Añadir etiquetas accesibles en todos los elementos interactivos según las buen
 
 #### 5.4. Video About-the-Product
 
+| **Sección**                          | **Descripción**                                                                              |
+|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del Video**                | Se presenta una visión general del modelo de negocio de CareLink junto con sus características principales. Además, se incluye un recorrido por la aplicación, destacando las funcionalidades disponibles y las acciones que el usuario puede realizar dentro de ella.                                                                                |
+| **URL del Video**                    | `https://drive.google.com/file/d/19aAEzSXxNeJiON2_EKc7ahj2fy-t5gGB/view?usp=sharing` |
+
 
 
 
