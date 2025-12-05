@@ -3429,7 +3429,33 @@ La siguiente tabla resume los roles asumidos por cada integrante como líderes (
 
 
 #### 5.2.4.3. Sprint Backlog 4.
+
+En el Sprint 4, el enfoque principal fue integrar el frontend con la API RESTful desarrollada en el Sprint 3, permitiendo que todas las funcionalidades del sistema operen de manera unificada. Para ello, se configuraron los servicios de Angular, interceptores y consumo de endpoints, asegurando la comunicación correcta entre las capas.
+
+Asimismo, se realizaron pruebas funcionales end-to-end y se corrigieron errores derivados de la integración. Se optimizó la landing page y se incorporó al flujo principal de la aplicación, mejorando navegación, diseño y experiencia de usuario.
+
+Este sprint consolidó la plataforma CareLink en una versión completamente funcional y lista para su demostración final.
+
+<img width="" height="" alt="image" src="./images/chapter-5/Sprint4.png" />
+
+Trello Sprint 4:
+https://trello.com/invite/b/69325195bcda5aae9398e0a6/ATTI5756ccea9aba4efc8e79fc172414b91f324C342D/sprint-4 
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :--- | :---: | :--- | :--- | :---: | :---: | :---: |
+| US-01 | Integración Frontend–Backend | T01 | Configurar servicios Angular | Implementar servicios para consumir los endpoints de doctores, pacientes, horarios, mensajes y citas. | 6 | Josue Flores | Done |
+| US-01 | Integración Frontend–Backend | T02 | Configurar interceptores y tokens | Implementar manejo de Authorization Header, JWT e interceptores de error. | 5 | Mauricio Vilcapoma | Done |
+| US-01 | Integración Frontend–Backend | T03 | Conectar vistas con API REST | Integrar formularios, listados, detalle y flujos del usuario con los endpoints backend. | 6 | Mauricio Vilcapoma | Done |
+| US-01 | Mejorar landing page | T04 | Integrar landing al frontend principal | Ajustar navegación, rutas y componentes para unir la landing con la aplicación SPA. | 4 | Italo Verona | Done |
+| US-01 | Mejorar landing page | T05 | Mejorar UI/UX final | Ajustes visuales, tipografía, espaciado, responsividad y optimización general de la landing. | 5 | Italo Verona | Done |
+| US-02 | Validar funcionamiento del sistema | T06 | Pruebas de integración FE–BE | Realizar pruebas completas de login, mensajes, citas, asignaciones y CRUDs vinculados. | 6 | Fiorella Vilca | Done |
+| US-02 | Validar funcionamiento del sistema | T07 | Corrección de bugs de integración | Resolver errores encontrados al conectar el frontend con el backend y ajustar flujos. | 6 | Fiorella Vilca | Done |
+| US-01 | Preparación para despliegue | T08 | Configuración de build y deploy | Ajustar variables de entorno, rutas y dependencias necesarias para el despliegue final. | 4 | Josue Flores | Done |
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
