@@ -3505,12 +3505,595 @@ A continuación se muestra un registro detallado de los commits correspondientes
 | CareLink/backend   | main   | `34a24ba`   | feat: add messaging bc                               | Implementación del bounded context **Messaging**, responsable de conversaciones y mensajes.              | Nov 12, 2025         |
  
 
-
-
-
-
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias visuales que reflejan el avance logrado durante el Sprint 4. A través de capturas de pantalla y un video demostrativo, se muestran de manera clara las funcionalidades implementadas y el estado actual del producto.
+
+**Landing Page:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/Landing1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing3.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing4.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing5.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing6.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing7.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Landing8.png" />
+
+**Frontend:**
+
+
+*Figura 1:* Vista de Login y Registro de usuarios del sistema CareLink.
+
+<img src="images/chapter-5/iniciar-sesion.jpeg" alt="" width=""/>
+<img src="images/chapter-5/crear-cuenta.jpeg" alt="" width=""/>
+
+*Figura 2:* Dashboard principal mostrando resumen de residentes y alertas activas.
+
+<img src="images/chapter-5/dashboard.jpeg" alt="" width=""/>
+
+*Figura 3:*  Panel de estadísticas del paciente, incluyendo monitoreo de signos vitales en tiempo real, lista de actividades médicas y control de medicación. 
+
+<img src="images/chapter-5/stats.jpeg" alt="" width=""/>
+
+*Figura 4:* Reportes con mas detalles
+
+<img src="images/chapter-5/reports.jpeg" alt="" width=""/>
+
+*Figura 5:* Sistema de mensajería entre paciente y profesionales de salud mostrando conversaciones activas y chat en tiempo real.
+
+<img src="images/chapter-5/messages.jpeg" alt="" width=""/>
+
+*Figura 6:*  Calendario de citas médicas mostrando programación mensual y lista de próximas consultas agendadas.
+
+<img src="images/chapter-5/appointments-calendar.jpeg" alt="" width=""/>
+
+*Figura 7:* Perfil del paciente mostrando resumen de actividad y configuración de información personal.
+
+<img src="images/chapter-5/profile.jpeg" alt="" width=""/>
+
+
+**Backend:**
+
+<img width="" height="" alt="image" src="./images/chapter-5/Backend1.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend2.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend3.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend4.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend5.png" />
+<img width="" height="" alt="image" src="./images/chapter-5/Backend6.png" />
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint Review se reunió y estructuró toda la evidencia correspondiente a los servicios desarrollados en el proyecto, especificando cada endpoint, el verbo HTTP utilizado, sus parámetros, cuerpos de solicitud y las respuestas esperadas. Esta documentación permite visualizar de forma ordenada la arquitectura, las operaciones y los flujos principales de los módulos fundamentales del sistema.
+
+<table>
+  <thead>
+    <tr>
+      <th>Tag</th>
+      <th>Verbo http</th>
+      <th>Endpoint</th>
+      <th>Summary</th>
+      <th>Description</th>
+      <th>OperationId</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Schedules -->
+    <tr>
+      <td>Schedules</td>
+      <td>GET</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Get</td>
+      <td>Get schedule by ID</td>
+      <td>schedules_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>PUT</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Update</td>
+      <td>Update an existing schedule</td>
+      <td>schedules_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>DELETE</td>
+      <td>/api/v1/schedules/{id}</td>
+      <td>Delete</td>
+      <td>Delete schedule by ID</td>
+      <td>schedules_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>GET</td>
+      <td>/api/v1/schedules</td>
+      <td>List</td>
+      <td>Get all schedules</td>
+      <td>schedules_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Schedules</td>
+      <td>POST</td>
+      <td>/api/v1/schedules</td>
+      <td>Create</td>
+      <td>Create a new schedule</td>
+      <td>schedules_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Patients -->
+    <tr>
+      <td>Patients</td>
+      <td>GET</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Get</td>
+      <td>Get patient by ID</td>
+      <td>patients_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>PUT</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Update</td>
+      <td>Update an existing patient</td>
+      <td>patients_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>DELETE</td>
+      <td>/api/v1/patients/{id}</td>
+      <td>Delete</td>
+      <td>Delete patient by ID</td>
+      <td>patients_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>GET</td>
+      <td>/api/v1/patients</td>
+      <td>List</td>
+      <td>Get all patients</td>
+      <td>patients_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients</td>
+      <td>Create</td>
+      <td>Create a new patient</td>
+      <td>patients_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients/{patientId}/assign-doctor/{doctorId}</td>
+      <td>Create</td>
+      <td>Assign a doctor to a patient</td>
+      <td>patients_assign_doctor</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{patientId}, {doctorId}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Patients</td>
+      <td>POST</td>
+      <td>/api/v1/patients/assignments</td>
+      <td>Create</td>
+      <td>Create multiple patient–doctor assignments</td>
+      <td>patients_create_assignments</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Messages -->
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Get</td>
+      <td>Get message by ID</td>
+      <td>messages_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>PUT</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Update</td>
+      <td>Update an existing message</td>
+      <td>messages_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>DELETE</td>
+      <td>/api/v1/messages/{id}</td>
+      <td>Delete</td>
+      <td>Delete message by ID</td>
+      <td>messages_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages</td>
+      <td>List</td>
+      <td>Get all messages</td>
+      <td>messages_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>POST</td>
+      <td>/api/v1/messages</td>
+      <td>Create</td>
+      <td>Create a new message</td>
+      <td>messages_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>PATCH</td>
+      <td>/api/v1/messages/{id}/mark-as-read</td>
+      <td>Update</td>
+      <td>Mark message as read</td>
+      <td>messages_mark_as_read</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Messages</td>
+      <td>GET</td>
+      <td>/api/v1/messages/conversation/{conversationId}</td>
+      <td>Get</td>
+      <td>Get messages by conversation ID</td>
+      <td>messages_get_by_conversation</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{conversationId}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <!-- Doctors -->
+    <tr>
+      <td>Doctors</td>
+      <td>GET</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Get</td>
+      <td>Get doctor by ID</td>
+      <td>doctors_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>PUT</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Update</td>
+      <td>Update an existing doctor</td>
+      <td>doctors_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>DELETE</td>
+      <td>/api/v1/doctors/{id}</td>
+      <td>Delete</td>
+      <td>Delete doctor by ID</td>
+      <td>doctors_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>GET</td>
+      <td>/api/v1/doctors</td>
+      <td>List</td>
+      <td>Get all doctors</td>
+      <td>doctors_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Doctors</td>
+      <td>POST</td>
+      <td>/api/v1/doctors</td>
+      <td>Create</td>
+      <td>Create a new doctor</td>
+      <td>doctors_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Conversations -->
+    <tr>
+      <td>Conversations</td>
+      <td>GET</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Get</td>
+      <td>Get conversation by ID</td>
+      <td>conversations_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>PUT</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Update</td>
+      <td>Update an existing conversation</td>
+      <td>conversations_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>DELETE</td>
+      <td>/api/v1/conversations/{id}</td>
+      <td>Delete</td>
+      <td>Delete conversation by ID</td>
+      <td>conversations_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>GET</td>
+      <td>/api/v1/conversations</td>
+      <td>List</td>
+      <td>Get all conversations</td>
+      <td>conversations_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Conversations</td>
+      <td>POST</td>
+      <td>/api/v1/conversations</td>
+      <td>Create</td>
+      <td>Create a new conversation</td>
+      <td>conversations_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Appointments -->
+    <tr>
+      <td>Appointments</td>
+      <td>GET</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Get</td>
+      <td>Get appointment by ID</td>
+      <td>appointments_get_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>PUT</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Update</td>
+      <td>Update an existing appointment</td>
+      <td>appointments_update_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>DELETE</td>
+      <td>/api/v1/appointments/{id}</td>
+      <td>Delete</td>
+      <td>Delete appointment by ID</td>
+      <td>appointments_delete_by_id</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">{id}</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>GET</td>
+      <td>/api/v1/appointments</td>
+      <td>List</td>
+      <td>Get all appointments</td>
+      <td>appointments_list</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">no</td>
+    </tr>
+    <tr>
+      <td>Appointments</td>
+      <td>POST</td>
+      <td>/api/v1/appointments</td>
+      <td>Create</td>
+      <td>Create a new appointment</td>
+      <td>appointments_create</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <!-- Authentication -->
+    <tr>
+      <td>Authentication</td>
+      <td>POST</td>
+      <td>/api/v1/auth/register</td>
+      <td>Create</td>
+      <td>Register a new user account</td>
+      <td>auth_register</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+    <tr>
+      <td>Authentication</td>
+      <td>POST</td>
+      <td>/api/v1/auth/login</td>
+      <td>Create</td>
+      <td>Authenticate user and return JWT</td>
+      <td>auth_login</td>
+    </tr>
+    <tr>
+      <td>Parameters</td>
+      <td colspan="2">–</td>
+      <td>Request body</td>
+      <td colspan="2">yes</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
