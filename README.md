@@ -4093,8 +4093,79 @@ Durante el Sprint Review se reunió y estructuró toda la evidencia correspondie
 </table>
 
 
-
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+**Landing Page:**
+
+Para llevar a cabo el despliegue de la landing page se empleó GitHub Pages, una herramienta gratuita que permite publicar sitios web estáticos directamente desde un repositorio de GitHub. El procedimiento consiste en cargar el código del proyecto en el repositorio y verificar que el archivo index.html esté ubicado en la raíz o en la rama designada para la publicación (usualmente main o gh-pages).
+Posteriormente, desde la sección de configuración del repositorio, se habilita GitHub Pages seleccionando la rama que servirá como fuente del sitio. Una vez activado el servicio, GitHub genera automáticamente una URL pública donde el sitio queda disponible para su visualización. En este caso, la landing page puede accederse mediante el siguiente enlace:
+
+https://eternacare-opensource.github.io/landing-page/ 
+
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.  
+  * Se creó un repositorio público dentro de la organización para alojar la landing page.  
+  * Posteriormente, se copió la dirección HTTPS del repositorio y se clonó en el entorno local mediante `git clone`. En el equipo de desarrollo se estableció una estructura de carpetas similar a la proyectada.  
+
+<img width="1048" height="749" alt="image" src="https://github.com/user-attachments/assets/5f5ca98e-7f1f-4c4a-9595-4a8b959104ac" />
+
+* Activación de GitHub Pages como servicio de despliegue estático apuntando a la rama *main*.  
+  * Dentro de la configuración del repositorio se seleccionó la rama *main* como fuente para GitHub Pages, a través de la sección **Settings > Pages**.  
+  * Finalmente, se comprobó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+ 
+  <img width="976" height="787" alt="image" src="https://github.com/user-attachments/assets/02b86157-3528-4361-8cd6-a3fb79e124da" />
+
+
+**Frontend:**
+El despliegue del frontend se llevó a cabo mediante Firebase Hosting, una plataforma que permite publicar aplicaciones web de forma rápida y segura. Para ello, se vinculó el proyecto desarrollado en Angular y TypeScript con Firebase, configurando el archivo de distribución generado por el comando de compilación (ng build).
+Una vez generado el contenido en la carpeta dist/, se utilizó la herramienta de Firebase CLI para inicializar el hosting, seleccionar el directorio de salida y proceder con la publicación. Firebase se encargó de generar automáticamente una URL pública donde la aplicación quedó disponible, permitiendo además realizar actualizaciones de forma sencilla cada vez que se ejecuta un nuevo despliegue.
+
+<img width="" height="" alt="image" src="./images/chapter-5/firebase.jpeg" />
+
+* Ingresamos a Firebase desde el navegador, iniciamos sesión y creamos un nuevo proyecto llamado CareLink
+
+<img width="" height="" alt="image" src="./images/chapter-5/inicio-sesion-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/crear-proyecto-firebase.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink.jpeg" />
+
+<img width="" height="" alt="image" src="./images/chapter-5/proyecto-carelink-1.jpeg" />
+
+A continuación, se desplegó el proyecto ejecutando los siguientes comandos en el terminal del entorno de desarrollo:
+
+**npm install -g firebase tools**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-firebase.jpeg" />
+
+**firebase init**
+<img width="" height="" alt="image" src="./images/chapter-5/comando-init.jpeg" />
+
+**firebase deploy**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy.jpeg" />
+
+**Api-fake deplo**
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake1.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake2.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake3.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake4.jpeg" />
+<img width="" height="" alt="image" src="./images/chapter-5/deploy-api-fake5.jpeg" />
+
+Por último, el frontend de *CareLink* fue desplegada exitosamente:
+<img width="" height="" alt="image" src="./images/chapter-5/frontend-deploy.jpeg" />
+Link de frontend: https://carlink-bb7c8.web.app/iam/login?returnUrl=%2Fhome 
+
+
+**Backend:**
+En este apartado se detalla la evidencia correspondiente al despliegue del backend realizado durante el sprint, centrándose en la creación y configuración del servicio de base de datos PostgreSQL en Microsoft Azure. Este despliegue fue fundamental para habilitar la infraestructura necesaria que soporta la API de CareLink, garantizando un entorno seguro, estable y accesible para el desarrollo y consumo de los servicios del sistema.
+
+<img width="685" height="959" alt="image" src="https://github.com/user-attachments/assets/9bf9310e-0ae5-452d-bda5-3152782faa30" />
+<img width="708" height="970" alt="image" src="https://github.com/user-attachments/assets/36a477ca-4c21-4e65-b040-0a58abf1ddbf" />
+
+<img width="1465" height="569" alt="image" src="https://github.com/user-attachments/assets/bc6ad233-84d6-4bbe-820c-5609a666733d" />
+<img width="1831" height="642" alt="image" src="https://github.com/user-attachments/assets/f8b13a0f-6eb9-4feb-aa2c-a9c342973bbe" />
+
+<img width="606" height="964" alt="image" src="https://github.com/user-attachments/assets/0cea943f-6443-47f1-b092-25cd3aa7bda1" />
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
 
 
