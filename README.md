@@ -118,7 +118,7 @@ Agosto 2025
 | **Repositorio del reporte**        | `https://github.com/EternaCare-OpenSource/report.git`         |
 | **Frontend**        | `https://github.com/EternaCare-OpenSource/frontend.git`         |
 | **Deploy Frontend**        | `https://carlink-bb7c8.web.app`         |
-| **Deploy Backend**        | `https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#/`         |
+| **Deploy Backend**        | `https://care-link-exhpd6dmbsg9etar.eastus2-01.azurewebsites.net/swagger-ui/index.html#`         |
 
 
 
@@ -3265,7 +3265,7 @@ Con el despliegue completado, se accedió a la URL pública generada: https://ca
 
 
 
-#### 5.2.3.8.Team Collaboration Insights during Sprint.
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante este Sprint, el equipo trabajó de manera colaborativa en el desarrollo del backend de Eterna Care, implementando
 la API RESTful siguiendo los principios de Domain-Driven Design (DDD). Además, se realizaron correcciones en el
